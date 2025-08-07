@@ -1,0 +1,52 @@
+{
+    "id": "love-me-do-the-beatles",
+    "title": "Love Me Do",
+    "artist": [],
+    "band": [
+        "The Beatles"
+    ],
+    "originalKey": "E",
+    "capo": 0,
+    "lyrics": [
+        {
+            "chords": "    E            A       E         A",
+            "text": "R: Love love me do you know I love you "
+        },
+        {
+            "chords": "        E           A",
+            "text": "   I'll always be true "
+        },
+        {
+            "chords": "                      E",
+            "text": "   so please love me do whoa love me do. "
+        },
+        {
+            "chords": "",
+            "text": "R: "
+        },
+        {
+            "chords": "    H7              A        E",
+            "text": "*: Someone to love somebody new "
+        },
+        {
+            "chords": "    H7              A           E",
+            "text": "   someone to love someone like you. "
+        },
+        {
+            "chords": "",
+            "text": "R: "
+        },
+        {
+            "chords": "           E",
+            "text": "R: + yeah love me do whoa oh love me do ... "
+        },
+        {
+            "chords": "",
+            "text": " "
+        },
+        {
+            "chords": "",
+            "text": ""
+        }
+    ]
+}

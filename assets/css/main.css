@@ -1,0 +1,203 @@
+/* ================================================= */
+/* === FINÁLNÍ VERZE SOUBORU assets/css/main.css === */
+/* ================================================= */
+
+/* --- 1. ZÁKLADNÍ NASTAVENÍ A PROMĚNNÉ --- */
+:root {
+	--bg-color: #f8f9fa; --text-color: #212529; --primary-color: #c67701; --primary-hover-color: #a16101;
+	--border-color: #dee2e6; --header-bg: #ffffff; --font-main: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+body.dark-mode {
+	--bg-color: #212529; --text-color: #f8f9fa; --border-color: #495057; --header-bg: #343a40;
+}
+
+/* --- 2. ZÁKLADNÍ RESETY A GLOBÁLNÍ STYLY --- */
+html { height: 100%; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { min-height: 100%; font-family: var(--font-main); background-color: var(--bg-color); color: var(--text-color); line-height: 1.6; transition: background-color 0.3s, color 0.3s; }
+
+/* --- 3. SPOLEČNÉ KOMPONENTY (HLAVIČKA, PATIČKA, TLAČÍTKA) --- */
+header { background-color: var(--header-bg); border-bottom: 1px solid var(--border-color); box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); padding: 0 2rem; position: sticky; top: 0; z-index: 1000; }
+.main-nav { display: flex; justify-content: space-between; align-items: center; height: 60px; max-width: 1600px; margin: auto; }
+.nav-brand { font-size: 1.5rem; font-weight: bold; color: var(--primary-color); text-decoration: none; }
+.main-nav ul { display: flex; list-style-type: none; align-items: center; }
+.main-nav ul li a { padding: 0 1rem; height: 60px; display: flex; align-items: center; text-decoration: none; color: var(--text-color); transition: background-color 0.2s; }
+.main-nav ul li a:hover { background-color: rgba(0, 0, 0, 0.05); }
+.theme-toggle-button { background: none; border: none; cursor: pointer; color: var(--text-color); padding: 0.5rem; border-radius: 50%; display: flex; align-items: center; justify-content: center; }
+.theme-toggle-button:hover { background-color: rgba(0, 0, 0, 0.1); }
+.container { max-width: 1100px; margin: 2rem auto; padding: 0 1rem; }
+footer { text-align: center; padding: 1.5rem; margin-top: 2rem; font-size: 0.9rem; color: #6c757d; border-top: 1px solid var(--border-color); }
+.btn { display: inline-block; padding: 0.8rem 1.5rem; background-color: var(--primary-color); color: white; text-decoration: none; border-radius: 5px; margin: 0 10px; transition: background-color 0.2s; }
+.btn:hover { background-color: var(--primary-hover-color); }
+
+/* --- 4. STYLY PRO KONKRÉTNÍ STRÁNKY --- */
+
+/* A. Úvodní stránka (index.php) */
+body.homepage-body { height: 100vh; margin: 0; overflow: hidden; background-color: var(--bg-color); }
+body.homepage-body .container { max-width: none; margin: 0; padding: 0; width: 100%; height: 100%; }
+body.homepage-body header, body.homepage-body footer { display: none; }
+.search-wrapper { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; background-image: url('../img/background.jpg'); background-size: cover; background-position: center; text-align: center; padding: 2rem; color: white; }
+.homepage-title { font-size: 4rem; margin-bottom: 1.5rem; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); }
+.search-box { position: relative; width: 50vw; max-width: 800px; margin: auto; }
+#search-input { width: 100%; padding: 1rem; font-size: 1.2rem; background-color: #cbcbcb; border-radius: 50px; border: 2px solid transparent; outline: none; transition: border-color 0.2s; color: #333; }
+#search-input:focus { border-color: var(--primary-color); }
+.search-results-dropdown { display: none; position: absolute; width: 100%; top: 100%; left: 0; background-color: white; border-radius: 10px; margin-top: 5px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); max-height: 300px; overflow-y: auto; text-align: left; z-index: 1001; }
+.search-results-dropdown ul { list-style-type: none; }
+.search-results-dropdown li a { display: block; padding: 0.8rem 1.2rem; color: #333; text-decoration: none; transition: background-color 0.2s; }
+.search-results-dropdown li a:hover { background-color: #f1f1f1; }
+.search-results-dropdown li.active a { background-color: var(--primary-color); color: white; }
+.search-results-dropdown .no-results { padding: 0.8rem 1.2rem; color: #888; }
+.homepage-links { margin-top: 2rem; }
+.homepage-links a {margin-bottom: 1rem}
+
+/* B. Seznamy (list.php & interpreti) */
+.filter-box { margin: 2rem 0; }
+.filter-box input { width: 100%; padding: 0.8rem; font-size: 1rem; border-radius: 5px; border: 1px solid var(--border-color); }
+.song-list { margin-top: 1rem; border: 1px solid var(--border-color); border-radius: 8px; overflow: hidden; }
+.song-list-item-wrapper { display: flex; align-items: stretch; border-bottom: 1px solid var(--border-color); }
+.song-list-item-wrapper:last-child { border-bottom: none; }
+.song-list-item { flex-grow: 1; display: flex; justify-content: space-between; align-items: center; padding: 0.7rem 1.5rem; text-decoration: none; color: var(--text-color); transition: background-color 0.2s; }
+.edit-link { flex-shrink: 0; display: flex; justify-content: center; align-items: center; padding: 0 1.5rem; text-decoration: none; color: #aaa; border-left: 1px solid var(--border-color); transition: background-color 0.2s, color 0.2s; }
+.song-title { font-weight: bold; }
+.song-artist { font-size: 0.9em; color: #6c757d; }
+body.dark-mode .song-list-item:hover, body.dark-mode .edit-link:hover { background-color: rgba(255, 255, 255, 0.05); }
+.sort-options { margin-bottom: 0rem; text-align: right; }
+.sort-options form { display: inline-block; }
+.sort-options label { margin-left: 1rem; cursor: pointer; }
+
+/* C. Rejstřík (list.php) */
+.alphabet-filter { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; margin-bottom: 2rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border-color); }
+.alpha-btn { background-color: #f1f1f1; border: 1px solid #ddd; color: #333; padding: 8px 12px; cursor: pointer; border-radius: 5px; font-size: 0.9rem; transition: all 0.2s; }
+.alpha-btn:hover { background-color: #ddd; }
+.alpha-btn.active { background-color: var(--primary-color); color: white; border-color: var(--primary-color); font-weight: bold; }
+body.dark-mode .alpha-btn { background-color: #444; border-color: #666; color: #eee; }
+body.dark-mode .alpha-btn:hover { background-color: #555; }
+body.dark-mode .alpha-btn.active { background-color: var(--primary-color); color: white; }
+.letter-heading { margin-top: 2rem; margin-bottom: 1rem; padding-bottom: 0.5rem; border-bottom: 2px solid var(--primary-color); }
+.song-group:first-child .letter-heading { margin-top: 0; }
+
+/* D. Interpreti (interprets.php) */
+.interprets-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1.5rem; }
+.interpret-card { background-color: white; display: block; position: relative; height: 180px; border-radius: 8px; overflow: hidden; color: white; text-decoration: none; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out; }
+.interpret-card:hover { transform: scale(1.05); box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); }
+.interpret-card.active { outline: 3px solid var(--primary-color); transform: scale(1.05); }
+.interpret-card img { width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease; filter: grayscale(100%); opacity: 0.85; }
+.interpret-card:hover img { transform: scale(1.1); opacity: 1; }
+.interpret-card .card-overlay { position: absolute; bottom: 0; left: 0; width: 100%; padding: 2rem 1rem 1rem 1rem; background: linear-gradient(to top, rgba(0, 0, 0, 0.9) 10%, rgba(0, 0, 0, 0)); }
+.interpret-card h3 { margin: 0; font-size: 1.1rem; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); }
+.interpret-card h3 span { font-weight: normal; font-size: 0.9rem; opacity: 0.8; }
+
+/* === STYLY PRO MODÁLNÍ OKNO INTERPRETA (OPRAVENÁ A SJEDNOCENÁ VERZE) === */
+.artist-songs-modal-content {
+    width: 90%;
+    max-width: 800px;
+    display: flex;
+    flex-direction: column; /* Uspořádání prvků pod sebe */
+    max-height: 85vh; /* Maximální výška okna */
+    background-color: var(--bg-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+#modal-artist-name {
+    margin-top: 0;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border-color);
+    margin-bottom: 1rem;
+    flex-shrink: 0; /* Zabrání smrštění nadpisu */
+}
+#modal-song-list {
+    flex-grow: 1; /* Klíčové: Kontejner se seznamem vyplní dostupné místo */
+    overflow-y: auto; /* Klíčové: Povolí vertikální rolování, když je obsah delší */
+    min-height: 0; /* Důležitý fix pro správné fungování overflow ve flexboxu */
+    text-align: left;
+}
+/* JavaScript generuje vnitřní kontejner .song-list, který dále stylujeme */
+#modal-song-list .song-list {
+    border: none;
+    padding: 0;
+}
+/* Vzhled jednotlivé položky se seznamu písní v modalu */
+.modal-song-list .song-list-item-wrapper {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--header-bg);
+    display: flex;
+    align-items: stretch;
+    break-inside: avoid; /* Zabrání "rozlomení" položky ve vícesloupcovém layoutu */
+}
+/* Mezery mezi položkami na mobilu (pro desktop to řeší 'gap' v gridu) */
+@media (max-width: 768px) {
+    .modal-song-list .song-list-item-wrapper {
+        margin-bottom: 10px;
+    }
+}
+/* Dvousloupcový layout pro desktop */
+@media (min-width: 769px) {
+    #modal-song-list .song-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px; /* Mezery mezi položkami (řádky i sloupce) */
+    }
+}
+.btn-close-modal {
+    background-color: #6c757d;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    flex-shrink: 0; /* Zabrání smrštění tlačítka */
+}
+
+/* E. Konverze a Editor (formuláře) */
+.form-section { border: 1px solid var(--border-color); padding: 1.5rem; border-radius: 8px; margin-bottom: 1.5rem; }
+.form-section legend { font-size: 1.2rem; font-weight: bold; padding: 0 10px; margin-left: -10px; }
+.form-section label { font-weight: bold; display: block; margin-top: 1rem; margin-bottom: 0.5rem; }
+.form-section input[type="url"], .form-section input[type="text"], .form-section input[type="number"] { width: 100%; padding: 10px; border: 1px solid var(--border-color); border-radius: 5px; font-size: 1rem; box-sizing: border-box; }
+.form-section button { font-size: 1rem; padding: 10px 20px; border: none; background-color: var(--primary-color); color: white; border-radius: 5px; cursor: pointer; margin-top: 1.5rem; }
+.form-section button:hover { background-color: var(--primary-hover-color); }
+fieldset { border: none; padding: 0; margin: 0;}
+fieldset:disabled { opacity: 0.5; }
+.form-section textarea { width: 100%; height: 150px; font-family: monospace; background-color: #eee; padding: 15px; }
+.editor-page textarea { height: 50vh; font-family: 'Martian Mono', 'Courier New', Courier, monospace; font-size: 14px; line-height: 1.5; background-color: #fff; color: #333; }
+body.dark-mode .form-section textarea, body.dark-mode .editor-page textarea { background-color: #333; color: #eee; }
+.message { padding: 15px; margin-bottom: 20px; border-radius: 4px; }
+.message.success { background-color: #d4edda; color: #155724; }
+.message.error { background-color: #f8d7da; color: #721c24; }
+
+/* --- 5. RESPONZIVNÍ STYLY PRO MOBILNÍ ZAŘÍZENÍ --- */
+@media (max-width: 991px) { /* Zvýšil jsem breakpoint pro lepší chování na tabletech */
+    .interprets-layout { grid-template-columns: 1fr; }
+    .song-results-column { margin-top: 2rem; }
+}
+@media (max-width: 768px) {
+    .main-nav ul { display: none; position: absolute; top: 60px; left: 0; width: 100%; background-color: var(--header-bg); box-shadow: 0 4px 8px rgba(0,0,0,0.1); flex-direction: column; align-items: flex-start; z-index: 1100; }
+    .main-nav ul.is-open { display: flex; }
+    .main-nav ul li { width: 100%; border-bottom: 1px solid var(--border-color); }
+    .main-nav ul li a { width: 100%; padding: 1rem 1.5rem; }
+    .main-nav ul li:last-child { padding: 0.5rem 1.5rem; border-bottom: none; }
+    .mobile-menu-button { display: block; background: none; border: none; color: var(--text-color); font-size: 2rem; cursor: pointer; padding: 0.5rem; }
+}
+@media (min-width: 769px) {
+    .mobile-menu-button { display: none; }
+}
+
+/* === Doplňkové styly pro mazání písní === */
+.delete-link {
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1.5rem;
+    text-decoration: none;
+    color: #aaa;
+    border-left: 1px solid var(--border-color);
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.delete-link:hover {
+    background-color: #f8d7da; /* Světle červené pozadí */
+    color: #721c24; /* Tmavě červená ikonka */
+}

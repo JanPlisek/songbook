@@ -1,0 +1,138 @@
+{
+    "id": "imagine-john-lennon",
+    "title": "Imagine",
+    "artist": [
+        "John Lennon"
+    ],
+    "band": [
+        "The Beatles"
+    ],
+    "originalKey": "C",
+    "capo": 0,
+    "lyrics": [
+        {
+            "chords": "C            Cmaj7       F",
+            "text": "Imagine there's no heaven "
+        },
+        {
+            "chords": "C          Cmaj7    F",
+            "text": "It's easy if you try "
+        },
+        {
+            "chords": "C       Cmaj7  F",
+            "text": "No hell below us "
+        },
+        {
+            "chords": "C       Cmaj7   F",
+            "text": "Above us only sky "
+        },
+        {
+            "chords": "",
+            "text": " "
+        },
+        {
+            "chords": "F       Am     Dm7  F7",
+            "text": "Imagine all the people "
+        },
+        {
+            "chords": "G          G7",
+            "text": "living for today "
+        },
+        {
+            "chords": "",
+            "text": " "
+        },
+        {
+            "chords": "",
+            "text": "Imagine there's no countries  "
+        },
+        {
+            "chords": "",
+            "text": "It isnt hard to do "
+        },
+        {
+            "chords": "",
+            "text": "Nothing to kill or die for "
+        },
+        {
+            "chords": "",
+            "text": "No religion too "
+        },
+        {
+            "chords": "",
+            "text": " "
+        },
+        {
+            "chords": "F       Am      Dm7  F7",
+            "text": "Imagine all the people "
+        },
+        {
+            "chords": "G\/B           G7",
+            "text": "living life in peace "
+        },
+        {
+            "chords": "",
+            "text": " "
+        },
+        {
+            "chords": "      F       G        C        E7",
+            "text": "Ref.: You may say I'm a dreamer "
+        },
+        {
+            "chords": "      F            G       C   E7",
+            "text": "      but I'm not the only one "
+        },
+        {
+            "chords": "      F          G            C        E7",
+            "text": "      I hope some day you'll join us  "
+        },
+        {
+            "chords": "      F            G             C  Cmaj7   F",
+            "text": "      And the world will live as one"
+        },
+        {
+            "chords": "",
+            "text": ""
+        },
+        {
+            "chords": "C          Cmaj7   F",
+            "text": "Imagine no possesions "
+        },
+        {
+            "chords": "C            Cmaj7 F",
+            "text": "I wonder if you can "
+        },
+        {
+            "chords": "C               Cmaj7    F",
+            "text": "No need for greed or hunger "
+        },
+        {
+            "chords": "C           Cmaj7  F",
+            "text": "A brotherhood of man "
+        },
+        {
+            "chords": "",
+            "text": " "
+        },
+        {
+            "chords": "F       Am      Dm7  Dm7\/C",
+            "text": "Imagine all the people  "
+        },
+        {
+            "chords": "G \/ B      G7",
+            "text": "Sharing all the world "
+        },
+        {
+            "chords": "",
+            "text": ""
+        },
+        {
+            "chords": "",
+            "text": "Ref."
+        },
+        {
+            "chords": "",
+            "text": ""
+        }
+    ]
+}

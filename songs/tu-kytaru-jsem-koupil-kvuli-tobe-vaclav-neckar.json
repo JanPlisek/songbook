@@ -1,0 +1,76 @@
+{
+    "id": "tu-kytaru-jsem-koupil-kvuli-tobe-vaclav-neckar",
+    "title": "Tu kytaru jsem koupil kvůli tobě",
+    "artist": [
+        "Václav Neckář"
+    ],
+    "band": [],
+    "originalKey": "E",
+    "capo": 0,
+    "lyrics": [
+        {
+            "chords": "E               C#7",
+            "text": "Jak můžeš být tak krutá,"
+        },
+        {
+            "chords": "F#mi                     H6",
+            "text": "copak nemáš kouska citu v těle?"
+        },
+        {
+            "chords": "E6  E6  E  E6  E  E6  E6  E  E6  E",
+            "text": ""
+        },
+        {
+            "chords": "E E6     E    E6  E  E6  E E6 E",
+            "text": "Tu kytáru jsem koupil kvůli Tobě,"
+        },
+        {
+            "chords": " E6          E  E6 E  E6 E  H7",
+            "text": "a dal jsem za ní celej tátův plat,"
+        },
+        {
+            "chords": "   E    H7     E9        A",
+            "text": "ta, dávno ještě byla ve výrobě"
+        },
+        {
+            "chords": "Ami    E      H7         E   H7",
+            "text": " a Já už věděl, co Ti budu hrát."
+        },
+        {
+            "chords": "",
+            "text": "To ještě rostla v javorovém lese"
+        },
+        {
+            "chords": "",
+            "text": "a jenom vítr na to dřevo hrál,"
+        },
+        {
+            "chords": "",
+            "text": "a já už trnul, jestli někdy snese,"
+        },
+        {
+            "chords": "Ami      E       H7         E",
+            "text": "žár, který ve mně denně narů stal."
+        },
+        {
+            "chords": "    C#mi                          G#mi",
+            "text": "S tou kytarou teď stojím před tvým domem,"
+        },
+        {
+            "chords": "   A                       H   H7",
+            "text": "měj soucit aspoň k tomu javoru,"
+        },
+        {
+            "chords": "   E          E7           A        Ami",
+            "text": "jen kvůli Tobě přestal býti stromem,"
+        },
+        {
+            "chords": "Ami       E   H7        E",
+            "text": "tak už nás oba pozvi nahoru,"
+        },
+        {
+            "chords": "H7       E   D     D#  E",
+            "text": "pozvi nahoru, pozvi nahoru."
+        }
+    ]
+}

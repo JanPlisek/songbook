@@ -1,0 +1,68 @@
+{
+    "id": "hello-mary-lou-ricky-nelson",
+    "title": "Hello, Mary Lou",
+    "artist": [
+        "Ricky Nelson"
+    ],
+    "band": [],
+    "originalKey": "A",
+    "capo": 0,
+    "lyrics": [
+        {
+            "chords": "A                D",
+            "text": "Hello Mary Lou, goodbye heart,"
+        },
+        {
+            "chords": "A                                    E7",
+            "text": "Sweet Mary Lou I,m so in love with You,"
+        },
+        {
+            "chords": "A              C7         Fmi",
+            "text": "I know Mary Lou, we,d never part,"
+        },
+        {
+            "chords": "      A         E7            A",
+            "text": "So Hello Mary Lou,goodbye heart"
+        },
+        {
+            "chords": "A",
+            "text": "Passed me by one sunny day,"
+        },
+        {
+            "chords": "D",
+            "text": "Flashed those big brown eyes my way,"
+        },
+        {
+            "chords": "A                               E7",
+            "text": "And ooh I wanted you forever more,"
+        },
+        {
+            "chords": "A",
+            "text": "Now I,m not one who gets around,"
+        },
+        {
+            "chords": "D",
+            "text": "Swear my feet stuck to the ground,"
+        },
+        {
+            "chords": "A                                  E7",
+            "text": "And though I never did see you before"
+        },
+        {
+            "chords": "",
+            "text": "I said Hello Mary Lou, goodbye heart,"
+        },
+        {
+            "chords": "",
+            "text": "Sweet Mary Lou I,m sa in love with you,"
+        },
+        {
+            "chords": "",
+            "text": "I knew Mary Lou we,d never part,"
+        },
+        {
+            "chords": "",
+            "text": "So hello Mary Lou, goodbye heart."
+        }
+    ]
+}

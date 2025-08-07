@@ -1,0 +1,45 @@
+{
+    "id": "pisen-proti-trudnomyslnosti-zdenek-sverak",
+    "title": "Píseň proti trudnomyslnosti",
+    "artist": [
+        "Zdeněk Svěrák",
+        "Jaroslav Uhlíř"
+    ],
+    "band": [],
+    "originalKey": "D",
+    "capo": 0,
+    "lyrics": [
+        {
+            "chords": "    D                                                A7",
+            "text": "   Polární noc má zvláštní moc, každého přepadne smutek,"
+        },
+        {
+            "chords": "                                                     D",
+            "text": "   Němec i Brit, křesťan i Žid, každý by nejraději utek',"
+        },
+        {
+            "chords": "            G            D         E7            A7",
+            "text": "   ba i ti šikovní Žaponci se silami jsou na konci,"
+        },
+        {
+            "chords": "                D           G           D            A7  D",
+            "text": "   jen jeden z národů neskoná, hrůzy severu slavně překoná!"
+        },
+        {
+            "chords": "                                             A7",
+            "text": "   Tam, kde hy-, tam, kde hy-, kde hynuli vlci,"
+        },
+        {
+            "chords": "                                             D",
+            "text": "   tam, kde hy-, tam, kde hy-, kde hynuli vlci,"
+        },
+        {
+            "chords": "                                             G",
+            "text": "   tam, kde hy-, tam, kde hy-, kde hynuli sobi,"
+        },
+        {
+            "chords": "    A7              D    A7              D A7 D",
+            "text": "   Čech se přizpůsobil, Čech se přizpůsobil!"
+        }
+    ]
+}

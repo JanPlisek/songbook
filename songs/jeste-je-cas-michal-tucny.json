@@ -1,0 +1,71 @@
+{
+    "id": "jeste-je-cas-michal-tucny",
+    "title": "Ještě je čas",
+    "artist": [
+        "Michal Tučný",
+        "Jan Vyčítal"
+    ],
+    "band": [
+        "Greenhorns"
+    ],
+    "originalKey": "G",
+    "capo": 0,
+    "lyrics": [
+        {
+            "chords": "    G       Ami  D7             G",
+            "text": "1. Dobře to vím, všim' jsem si ovšem"
+        },
+        {
+            "chords": "           Ami    D              G",
+            "text": "   láska bejvá někdy moc divnej kočí,"
+        },
+        {
+            "chords": "   G7       C              D           G",
+            "text": "   tak nemusíš mi vlastně říkat, že je po všem,"
+        },
+        {
+            "chords": "   Emi     Ami                          D",
+            "text": "   vždyť život jde dál a svět se pořád točí."
+        },
+        {
+            "chords": "             G                 D",
+            "text": "R. Ve snech mých jseš dál mou milou,"
+        },
+        {
+            "chords": "                      D7           G",
+            "text": "   vlasy tvý mi svítí jako zlatej pás,"
+        },
+        {
+            "chords": "                       G7          C",
+            "text": "   zapomínám, že jseš jiná, zdá se mi,"
+        },
+        {
+            "chords": "                      Ami",
+            "text": "   že vše začíná a že zítra budu číst zas"
+        },
+        {
+            "chords": "             D             G",
+            "text": "   ze tvých řas: ještě je čas."
+        },
+        {
+            "chords": "",
+            "text": "2. Nebuď smutná a nic neříkej,"
+        },
+        {
+            "chords": "",
+            "text": "   neposlouchám, když mluvíš o věčnosti"
+        },
+        {
+            "chords": "",
+            "text": "   a času, dost na smutek zbude, až mě opustíš"
+        },
+        {
+            "chords": "",
+            "text": "   a až zítra mezi nám shoří mosty."
+        },
+        {
+            "chords": "",
+            "text": "R."
+        }
+    ]
+}

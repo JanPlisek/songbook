@@ -1,0 +1,1744 @@
+[
+    {
+        "id": "sanson-kapitan-kid",
+        "title": "Šanson",
+        "artist": [
+            "Kapitán Kid"
+        ],
+        "band": []
+    },
+    {
+        "id": "variace-na-renesancni-tema-vladimir-misik",
+        "title": "Variace na renesanční téma",
+        "artist": [
+            "Vladimír Mišík"
+        ],
+        "band": [
+            "ETC"
+        ]
+    },
+    {
+        "id": "kohout-jan-nedved",
+        "title": "Kohout",
+        "artist": [
+            "Jan Nedvěd",
+            "František Nedvěd"
+        ],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "s-cizi-zenou-v-cizim-pokoji-michael-kocab",
+        "title": "S cizí ženou v cizím pokoji",
+        "artist": [
+            "Michael Kocáb",
+            "Petr Hapka"
+        ],
+        "band": []
+    },
+    {
+        "id": "amazonka-hop-trop",
+        "title": "Amazonka",
+        "artist": [],
+        "band": [
+            "Hop Trop"
+        ]
+    },
+    {
+        "id": "alenka-v-risi-divu-karel-zich",
+        "title": "Alenka v říší divů",
+        "artist": [
+            "Karel Zich"
+        ],
+        "band": []
+    },
+    {
+        "id": "fajn-dzob-hop-trop",
+        "title": "Fajn džob",
+        "artist": [],
+        "band": [
+            "Hop Trop"
+        ]
+    },
+    {
+        "id": "blues-na-cestu-posledni-jiri-suchy",
+        "title": "Blues na cestu poslední",
+        "artist": [
+            "Jiří Suchý",
+            "Jiří Šlitr"
+        ],
+        "band": []
+    },
+    {
+        "id": "bajecna-zenska-michal-tucny",
+        "title": "Báječná ženská",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "batalion-spiritual-kvintet",
+        "title": "Batalion",
+        "artist": [],
+        "band": [
+            "Spirituál kvintet"
+        ]
+    },
+    {
+        "id": "kometa-jarek-nohavica",
+        "title": "Kometa",
+        "artist": [
+            "Jarek Nohavica"
+        ],
+        "band": []
+    },
+    {
+        "id": "kdyz-me-brali-za-vojaka-jarek-nohavica",
+        "title": "Když mě brali za vojáka",
+        "artist": [
+            "Jarek Nohavica"
+        ],
+        "band": []
+    },
+    {
+        "id": "slunovrat-brontosauri",
+        "title": "Slunovrat",
+        "artist": [],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "kdo-vchazi-do-tvych-snu-vaclav-neckar",
+        "title": "Kdo vchází do tvých snů",
+        "artist": [
+            "Václav Neckář"
+        ],
+        "band": []
+    },
+    {
+        "id": "slzy-tvy-mamy-olympic",
+        "title": "Slzy tvý mámy",
+        "artist": [],
+        "band": [
+            "Olympic"
+        ]
+    },
+    {
+        "id": "andel-karel-kryl",
+        "title": "Anděl",
+        "artist": [
+            "Karel Kryl"
+        ],
+        "band": []
+    },
+    {
+        "id": "bratricku-zavirej-vratka-karel-kryl",
+        "title": "Bratříčku, zavírej vrátka",
+        "artist": [
+            "Karel Kryl"
+        ],
+        "band": []
+    },
+    {
+        "id": "karavana-mraku-karel-kryl",
+        "title": "Karavana mraků",
+        "artist": [
+            "Karel Kryl"
+        ],
+        "band": []
+    },
+    {
+        "id": "kral-a-klaun-karel-kryl",
+        "title": "Král a klaun",
+        "artist": [
+            "Karel Kryl"
+        ],
+        "band": []
+    },
+    {
+        "id": "morituri-te-salutant-karel-kryl",
+        "title": "Morituri te salutant",
+        "artist": [
+            "Karel Kryl"
+        ],
+        "band": []
+    },
+    {
+        "id": "nevidoma-divka-karel-kryl",
+        "title": "Nevidomá dívka",
+        "artist": [
+            "Karel Kryl"
+        ],
+        "band": []
+    },
+    {
+        "id": "uz-to-nenapravim-jaroslav-samson-lenk",
+        "title": "Už to nenapravím",
+        "artist": [
+            "Jaroslav Samson Lenk"
+        ],
+        "band": []
+    },
+    {
+        "id": "laciny-vino-jaroslav-samson-lenk",
+        "title": "Laciný víno",
+        "artist": [
+            "Jaroslav Samson Lenk"
+        ],
+        "band": []
+    },
+    {
+        "id": "michaluv-song-michal-tucny",
+        "title": "Michalův song",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "milenci-v-texaskach-josef-zima",
+        "title": "Milenci v texaskách",
+        "artist": [
+            "Josef Zíma",
+            "Karel Štědrý"
+        ],
+        "band": []
+    },
+    {
+        "id": "vsichni-jsou-uz-v-mexiku-michal-tucny",
+        "title": "Všichni jsou už v Mexiku",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "jeste-jedno-kafe-robert-krestan",
+        "title": "Ještě jedno kafe",
+        "artist": [
+            "Robert Křesťan"
+        ],
+        "band": [
+            "Druhá tráva"
+        ]
+    },
+    {
+        "id": "rano-bylo-stejny-pavel-lohonka-zalman",
+        "title": "Ráno bylo stejný",
+        "artist": [
+            "Pavel Lohonka Žalman"
+        ],
+        "band": [
+            "Nezmaři"
+        ]
+    },
+    {
+        "id": "jdem-zpatky-do-lesu-pavel-lohonka-zalman",
+        "title": "Jdem zpátky do lesů",
+        "artist": [
+            "Pavel Lohonka Žalman"
+        ],
+        "band": []
+    },
+    {
+        "id": "tennessee-waltz-robert-krestan",
+        "title": "Tennessee waltz",
+        "artist": [
+            "Robert Křesťan"
+        ],
+        "band": [
+            "Druhá tráva"
+        ]
+    },
+    {
+        "id": "rehradice-vlasta-redl",
+        "title": "Rehradice",
+        "artist": [
+            "Vlasta Redl"
+        ],
+        "band": [
+            "AG Flek"
+        ]
+    },
+    {
+        "id": "pochod-marodu-jarek-nohavica",
+        "title": "Pochod marodů",
+        "artist": [
+            "Jarek Nohavica"
+        ],
+        "band": []
+    },
+    {
+        "id": "pisen-co-me-ucil-listopad-wabi-danek",
+        "title": "Píseň, co mě učil listopad",
+        "artist": [
+            "Wabi Daněk"
+        ],
+        "band": []
+    },
+    {
+        "id": "rosa-na-kolejich-wabi-danek",
+        "title": "Rosa na kolejích",
+        "artist": [
+            "Wabi Daněk"
+        ],
+        "band": []
+    },
+    {
+        "id": "franky-dlouhan-jan-nedved",
+        "title": "Franky Dlouhán",
+        "artist": [
+            "Jan Nedvěd",
+            "František Nedvěd"
+        ],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "jarni-kuryr-miki-ryvola",
+        "title": "Jarní kurýr",
+        "artist": [
+            "Miki Ryvola",
+            "Wabi Ryvola"
+        ],
+        "band": []
+    },
+    {
+        "id": "tereza-osamely-mesto-miki-ryvola",
+        "title": "Tereza (Osamělý město)",
+        "artist": [
+            "Miki Ryvola",
+            "Wabi Ryvola"
+        ],
+        "band": []
+    },
+    {
+        "id": "promeny-cechomor",
+        "title": "Proměny",
+        "artist": [],
+        "band": [
+            "Čechomor"
+        ]
+    },
+    {
+        "id": "mezi-horami-cechomor",
+        "title": "Mezi horami",
+        "artist": [],
+        "band": [
+            "Čechomor"
+        ]
+    },
+    {
+        "id": "lod-john-b-rangers",
+        "title": "Loď John B.",
+        "artist": [],
+        "band": [
+            "Rangers"
+        ]
+    },
+    {
+        "id": "praminek-vlasu-jiri-suchy",
+        "title": "Pramínek vlasů",
+        "artist": [
+            "Jiří Suchý",
+            "Jiří Šlitr"
+        ],
+        "band": []
+    },
+    {
+        "id": "sbohem-galanecko-vlasta-redl",
+        "title": "Sbohem, galánečko",
+        "artist": [
+            "Vlasta Redl"
+        ],
+        "band": [
+            "Fleret"
+        ]
+    },
+    {
+        "id": "slavici-z-madridu-waldemar-matuska",
+        "title": "Slavíci z Madridu",
+        "artist": [
+            "Waldemar Matuška"
+        ],
+        "band": []
+    },
+    {
+        "id": "saskove-pocmarani-petr-hapka",
+        "title": "Šaškové počmáraní",
+        "artist": [
+            "Petr Hapka"
+        ],
+        "band": []
+    },
+    {
+        "id": "panenka-poutnici",
+        "title": "Panenka",
+        "artist": [],
+        "band": [
+            "Poutníci"
+        ]
+    },
+    {
+        "id": "mosty-lenka-filipova",
+        "title": "Mosty",
+        "artist": [
+            "Lenka Filipová"
+        ],
+        "band": []
+    },
+    {
+        "id": "dedeckovy-hodiny-taxmeni",
+        "title": "Dědečkovy hodiny",
+        "artist": [],
+        "band": [
+            "Taxmeni"
+        ]
+    },
+    {
+        "id": "poutnik-a-divka-spiritual-kvintet",
+        "title": "Poutník a dívka",
+        "artist": [],
+        "band": [
+            "Spirituál kvintet"
+        ]
+    },
+    {
+        "id": "na-vanoce-rano-greenhorns",
+        "title": "Na Vánoce ráno",
+        "artist": [],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "tam-u-nebeskych-bran-michal-tucny",
+        "title": "Tam u nebeských bran",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "pani-ma-se-ma-michal-tucny",
+        "title": "Paní má se má",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "imagine-john-lennon",
+        "title": "Imagine",
+        "artist": [
+            "John Lennon"
+        ],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "pry-se-tomu-rika-laska-lenka-filipova",
+        "title": "Prý se tomu říká láska",
+        "artist": [
+            "Lenka Filipová"
+        ],
+        "band": []
+    },
+    {
+        "id": "eight-days-a-week-the-beatles",
+        "title": "Eight Days a Week",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "here-comes-the-sun-the-beatles",
+        "title": "Here Comes The Sun",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "hey-jude-the-beatles",
+        "title": "Hey Jude",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "i-want-to-hold-your-hand-the-beatles",
+        "title": "I Want To Hold Your Hand",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "a-hard-day-s-night-the-beatles",
+        "title": "A Hard Day's Night",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "can-t-buy-me-love-the-beatles",
+        "title": "Can't Buy Me Love",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "come-together-the-beatles",
+        "title": "Come Together",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "let-it-be-the-beatles",
+        "title": "Let It Be",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "love-me-do-the-beatles",
+        "title": "Love Me Do",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "michelle-the-beatles",
+        "title": "Michelle",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "penny-lane-the-beatles",
+        "title": "Penny Lane",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "while-my-guitar-gently-weeps-the-beatles",
+        "title": "While My Guitar Gently Weeps",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "yellow-submarine-the-beatles",
+        "title": "Yellow Submarine",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "yesterday-the-beatles",
+        "title": "Yesterday",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "you-ve-got-to-hide-your-love-away-the-beatles",
+        "title": "You've Got To Hide Your Love Away",
+        "artist": [],
+        "band": [
+            "The Beatles"
+        ]
+    },
+    {
+        "id": "amerika-lucie",
+        "title": "Amerika",
+        "artist": [],
+        "band": [
+            "Lucie"
+        ]
+    },
+    {
+        "id": "a-pak-tomas-klus",
+        "title": "A pak",
+        "artist": [
+            "Tomáš Klus"
+        ],
+        "band": []
+    },
+    {
+        "id": "az-na-vrcholky-hor-vera-martinova",
+        "title": "Až na vrcholky hor",
+        "artist": [
+            "Věra Martinová"
+        ],
+        "band": []
+    },
+    {
+        "id": "az-se-k-nam-pravo-vrati-spiritual-kvintet",
+        "title": "Až se k nám právo vrátí",
+        "artist": [],
+        "band": [
+            "Spirituál kvintet"
+        ]
+    },
+    {
+        "id": "az-se-ti-jednou-bude-zdat-jakub-smolik",
+        "title": "Až se ti jednou bude zdát",
+        "artist": [
+            "Jakub Smolík"
+        ],
+        "band": []
+    },
+    {
+        "id": "az-si-jednou-sundam-klise-robert-krestan",
+        "title": "Až si jednou (sundám klišé)",
+        "artist": [
+            "Robert Křesťan"
+        ],
+        "band": [
+            "Druhá tráva"
+        ]
+    },
+    {
+        "id": "balada-o-kornetovi-a-divce-marta-kubisova",
+        "title": "Balada o kornetovi a dívce",
+        "artist": [
+            "Marta Kubišová"
+        ],
+        "band": [
+            "Golden Kids"
+        ]
+    },
+    {
+        "id": "bara-kabat",
+        "title": "Bára",
+        "artist": [],
+        "band": [
+            "Kabát"
+        ]
+    },
+    {
+        "id": "bedna-vod-whisky-miki-ryvola",
+        "title": "Bedna vod whisky",
+        "artist": [
+            "Miki Ryvola",
+            "Wabi Ryvola"
+        ],
+        "band": []
+    },
+    {
+        "id": "beranek-a-vlk-spiritual-kvintet",
+        "title": "Beránek a vlk",
+        "artist": [],
+        "band": [
+            "Spirituál kvintet"
+        ]
+    },
+    {
+        "id": "blizko-little-big-hornu-michal-tucny",
+        "title": "Blízko Little Big Hornu",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "blizzard-jiri-grossmann",
+        "title": "Blizzard",
+        "artist": [
+            "Jiří Grossmann"
+        ],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "blues-folsomske-veznice-greenhorns",
+        "title": "Blues folsomské věznice",
+        "artist": [],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "blues-pro-tebe-jiri-suchy",
+        "title": "Blues pro tebe",
+        "artist": [
+            "Jiří Suchý",
+            "Jiří Šlitr"
+        ],
+        "band": []
+    },
+    {
+        "id": "bonsoir-mademoiselle-paris-olympic",
+        "title": "Bonsoir, mademoiselle Paris",
+        "artist": [],
+        "band": [
+            "Olympic"
+        ]
+    },
+    {
+        "id": "boty-z-kuze-toulavejch-psu-michal-tucny",
+        "title": "Boty z kůže toulavejch psů",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "cesta-tomas-klus",
+        "title": "Cesta",
+        "artist": [
+            "Tomáš Klus"
+        ],
+        "band": [
+            "Kryštof"
+        ]
+    },
+    {
+        "id": "cesta-na-island-miki-ryvola",
+        "title": "Cesta na Island",
+        "artist": [
+            "Miki Ryvola",
+            "Wabi Ryvola"
+        ],
+        "band": []
+    },
+    {
+        "id": "cesty-toulavy-michal-tucny",
+        "title": "Cesty toulavý",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "clementine-jiri-suchy",
+        "title": "Clementine",
+        "artist": [
+            "Jiří Suchý",
+            "Jiří Šlitr"
+        ],
+        "band": []
+    },
+    {
+        "id": "co-bylo-dal-jelen",
+        "title": "Co bylo dál",
+        "artist": [],
+        "band": [
+            "Jelen"
+        ]
+    },
+    {
+        "id": "colorado-kabat",
+        "title": "Colorado",
+        "artist": [],
+        "band": [
+            "Kabát"
+        ]
+    },
+    {
+        "id": "cudzinka-v-tvojej-zemi-xindl-x",
+        "title": "Cudzinka v tvojej zemi",
+        "artist": [
+            "Xindl X"
+        ],
+        "band": []
+    },
+    {
+        "id": "cerna-jessie-hana-hegerova",
+        "title": "Černá Jessie",
+        "artist": [
+            "Hana Hegerová"
+        ],
+        "band": []
+    },
+    {
+        "id": "cervena-reka-michal-tucny",
+        "title": "Červená řeka",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "dal-dal-tou-vodou-spiritual-kvintet",
+        "title": "Dál, dál tou vodou",
+        "artist": [],
+        "band": [
+            "Spirituál kvintet"
+        ]
+    },
+    {
+        "id": "dej-mi-par-okovu-karel-hala",
+        "title": "Dej mi pár okovů",
+        "artist": [
+            "Karel Hála"
+        ],
+        "band": []
+    },
+    {
+        "id": "dej-mi-vic-sve-lasky-olympic",
+        "title": "Dej mi víc své lásky",
+        "artist": [],
+        "band": [
+            "Olympic"
+        ]
+    },
+    {
+        "id": "dite-skolou-povinne-jiri-suchy",
+        "title": "Dítě školou povinné",
+        "artist": [
+            "Jiří Suchý",
+            "Jiří Šlitr"
+        ],
+        "band": []
+    },
+    {
+        "id": "divokej-horskej-tymian-pavel-lohonka-zalman",
+        "title": "Divokej horskej tymián",
+        "artist": [
+            "Pavel Lohonka Žalman"
+        ],
+        "band": []
+    },
+    {
+        "id": "dlouhej-kour-chinaski",
+        "title": "Dlouhej kouř",
+        "artist": [],
+        "band": [
+            "Chinaski"
+        ]
+    },
+    {
+        "id": "dobrodruzstvi-s-bohem-panem-marta-kubisova",
+        "title": "Dobrodružství s bohem Panem",
+        "artist": [
+            "Marta Kubišová"
+        ],
+        "band": [
+            "Golden Kids"
+        ]
+    },
+    {
+        "id": "dobry-buh-to-vi-lenka-filipova",
+        "title": "Dobrý Bůh to ví",
+        "artist": [
+            "Lenka Filipová"
+        ],
+        "band": []
+    },
+    {
+        "id": "dokud-se-zpiva-jarek-nohavica",
+        "title": "Dokud se zpívá",
+        "artist": [
+            "Jarek Nohavica"
+        ],
+        "band": []
+    },
+    {
+        "id": "doney-gal-spiritual-kvintet",
+        "title": "Doney Gal",
+        "artist": [],
+        "band": [
+            "Spirituál kvintet"
+        ]
+    },
+    {
+        "id": "down-under-man-at-work",
+        "title": "Down Under",
+        "artist": [],
+        "band": [
+            "Man At Work"
+        ]
+    },
+    {
+        "id": "drnova-chajda-greenhorns",
+        "title": "Drnová chajda",
+        "artist": [],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "drobna-paralela-chinaski",
+        "title": "Drobná paralela",
+        "artist": [],
+        "band": [
+            "Chinaski"
+        ]
+    },
+    {
+        "id": "dzinova-laska-pacifik",
+        "title": "Džínová láska",
+        "artist": [],
+        "band": [
+            "Pacifik"
+        ]
+    },
+    {
+        "id": "el-paso-michal-tucny",
+        "title": "El Paso",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "frantisek-buty",
+        "title": "František",
+        "artist": [],
+        "band": [
+            "Buty"
+        ]
+    },
+    {
+        "id": "generacni-brontosauri",
+        "title": "Generační",
+        "artist": [],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "hajny-je-lesa-pan-jaroslav-uhlir",
+        "title": "Hajný je lesa pán",
+        "artist": [
+            "Jaroslav Uhlíř",
+            "Josef Bek"
+        ],
+        "band": []
+    },
+    {
+        "id": "hejna-vcel-jan-nedved",
+        "title": "Hejna včel",
+        "artist": [
+            "Jan Nedvěd",
+            "František Nedvěd"
+        ],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "hello-mary-lou-ricky-nelson",
+        "title": "Hello, Mary Lou",
+        "artist": [
+            "Ricky Nelson"
+        ],
+        "band": []
+    },
+    {
+        "id": "hlidac-krav-jarek-nohavica",
+        "title": "Hlídač krav",
+        "artist": [
+            "Jarek Nohavica"
+        ],
+        "band": []
+    },
+    {
+        "id": "hlidej-lasku-skalo-ma-jan-nedved",
+        "title": "Hlídej lásku, skálo má",
+        "artist": [
+            "Jan Nedvěd",
+            "František Nedvěd"
+        ],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "hluboka-vraska-naraz-si-bourku-jiri-suchy",
+        "title": "Hluboká vráska (Naraž si bouřku)",
+        "artist": [
+            "Jiří Suchý",
+            "Jiří Šlitr"
+        ],
+        "band": []
+    },
+    {
+        "id": "hodinovy-hotel-mnaga-a-zdorp",
+        "title": "Hodinový hotel",
+        "artist": [],
+        "band": [
+            "Mňága a Žďorp"
+        ]
+    },
+    {
+        "id": "holubi-dum-zdenek-sverak",
+        "title": "Holubí dům",
+        "artist": [
+            "Zdeněk Svěrák",
+            "Jaroslav Uhlíř",
+            "Jiří Schellinger"
+        ],
+        "band": []
+    },
+    {
+        "id": "honky-tonky-blues-jiri-suchy",
+        "title": "Honky tonky blues",
+        "artist": [
+            "Jiří Suchý",
+            "Jiří Šlitr"
+        ],
+        "band": []
+    },
+    {
+        "id": "houston-pavel-bobek",
+        "title": "Houston",
+        "artist": [
+            "Pavel Bobek"
+        ],
+        "band": []
+    },
+    {
+        "id": "hraz-brontosauri",
+        "title": "Hráz",
+        "artist": [],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "hribe-vaclav-neckar",
+        "title": "Hříbě",
+        "artist": [
+            "Václav Neckář"
+        ],
+        "band": []
+    },
+    {
+        "id": "lekorice-vaclav-neckar",
+        "title": "Lékořice",
+        "artist": [
+            "Václav Neckář"
+        ],
+        "band": []
+    },
+    {
+        "id": "pulnocni-vaclav-neckar",
+        "title": "Půlnoční",
+        "artist": [
+            "Václav Neckář"
+        ],
+        "band": [
+            "Umakart"
+        ]
+    },
+    {
+        "id": "tu-kytaru-jsem-koupil-kvuli-tobe-vaclav-neckar",
+        "title": "Tu kytaru jsem koupil kvůli tobě",
+        "artist": [
+            "Václav Neckář"
+        ],
+        "band": []
+    },
+    {
+        "id": "hudsonsky-sify-wabi-danek",
+        "title": "Hudsonský šífy",
+        "artist": [
+            "Wabi Daněk"
+        ],
+        "band": []
+    },
+    {
+        "id": "hvezda-na-vrbe-olympic",
+        "title": "Hvězda na vrbě",
+        "artist": [],
+        "band": [
+            "Olympic"
+        ]
+    },
+    {
+        "id": "chci-zas-v-tobe-spat-lucie",
+        "title": "Chci zas v tobě spát",
+        "artist": [],
+        "band": [
+            "Lucie"
+        ]
+    },
+    {
+        "id": "ja-budu-chodit-po-spickach-petr-novak",
+        "title": "Já budu chodit po špičkách",
+        "artist": [
+            "Petr Novák"
+        ],
+        "band": []
+    },
+    {
+        "id": "down-under-men-at-work",
+        "title": "Down Under",
+        "artist": [],
+        "band": [
+            "Men At Work"
+        ]
+    },
+    {
+        "id": "ja-pisnicka-pavel-lohonka-zalman",
+        "title": "Já, písnička",
+        "artist": [
+            "Pavel Lohonka Žalman",
+            "Pavlína Jíšová"
+        ],
+        "band": []
+    },
+    {
+        "id": "jarni-tani-jan-nedved",
+        "title": "Jarní tání",
+        "artist": [
+            "Jan Nedvěd",
+            "František Nedvěd"
+        ],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "ja-s-tebou-zit-nebudu-zuzana-navarova",
+        "title": "Já s tebou žít nebudu",
+        "artist": [
+            "Zuzana Navarová"
+        ],
+        "band": [
+            "Nerez"
+        ]
+    },
+    {
+        "id": "ja-tajne-cvicim-michal-tucny",
+        "title": "Já tajně cvičím",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "jdou-po-mne-jdou-jarek-nohavica",
+        "title": "Jdou po mně, jdou",
+        "artist": [
+            "Jarek Nohavica"
+        ],
+        "band": []
+    },
+    {
+        "id": "jednoho-dne-se-vratis-den-se-v-ruzi-skryl-vera-spinarova",
+        "title": "Jednoho dne se vrátíš (Den se v růži skryl)",
+        "artist": [
+            "Věra Špinarová"
+        ],
+        "band": []
+    },
+    {
+        "id": "jednou-budem-dal-spiritual-kvintet",
+        "title": "Jednou budem dál",
+        "artist": [],
+        "band": [
+            "Spirituál kvintet"
+        ]
+    },
+    {
+        "id": "jerabiny-karel-kryl",
+        "title": "Jeřabiny",
+        "artist": [
+            "Karel Kryl"
+        ],
+        "band": []
+    },
+    {
+        "id": "jesitnej-chlap-brontosauri",
+        "title": "Ješitnej chlap",
+        "artist": [],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "jeste-je-cas-michal-tucny",
+        "title": "Ještě je čas",
+        "artist": [
+            "Michal Tučný",
+            "Jan Vyčítal"
+        ],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "jeste-spi-a-spi-a-spi-sipkova-ruzenka-jiri-schelinger",
+        "title": "Ještě spí a spí a spí (Šípková Růženka)",
+        "artist": [
+            "Jiří Schelinger"
+        ],
+        "band": []
+    },
+    {
+        "id": "johanka-brontosauri",
+        "title": "Johanka",
+        "artist": [],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "jo-to-jsem-jeste-zil-jiri-suchy",
+        "title": "Jó, to jsem ještě žil",
+        "artist": [
+            "Jiří Suchý",
+            "Jiří Šlitr"
+        ],
+        "band": []
+    },
+    {
+        "id": "jupi-certe-greenhorns",
+        "title": "Jupí, čerte",
+        "artist": [],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "karlinsky-nabrezi-pacifik",
+        "title": "Karlínský nábřeží",
+        "artist": [],
+        "band": [
+            "Pacifik"
+        ]
+    },
+    {
+        "id": "kdyby-tady-byla-takova-panenka-pavel-lohonka-zalman",
+        "title": "Kdyby tady byla taková panenka",
+        "artist": [
+            "Pavel Lohonka Žalman"
+        ],
+        "band": []
+    },
+    {
+        "id": "kdyz-je-v-praze-hic-ivan-mladek",
+        "title": "Když je v Praze hic",
+        "artist": [
+            "Ivan Mládek"
+        ],
+        "band": []
+    },
+    {
+        "id": "kdyz-nas-tata-hral-greenhorns",
+        "title": "Když náš táta hrál",
+        "artist": [],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "klaunova-zpoved-petr-novak",
+        "title": "Klaunova zpověď",
+        "artist": [
+            "Petr Novák"
+        ],
+        "band": []
+    },
+    {
+        "id": "kluziste-karel-plihal",
+        "title": "Kluziště",
+        "artist": [
+            "Karel Plíhal"
+        ],
+        "band": []
+    },
+    {
+        "id": "kocky-nerez",
+        "title": "Kočky",
+        "artist": [],
+        "band": [
+            "Nerez"
+        ]
+    },
+    {
+        "id": "koukam-jak-cela-zeme-vstava-michal-tucny",
+        "title": "Koukám, jak celá země vstává",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "koukejte-vycouvat-ivan-mladek",
+        "title": "Koukejte vycouvat",
+        "artist": [
+            "Ivan Mládek"
+        ],
+        "band": []
+    },
+    {
+        "id": "krinolina-kapitan-kid",
+        "title": "Krinolína",
+        "artist": [
+            "Kapitán Kid"
+        ],
+        "band": []
+    },
+    {
+        "id": "kristynka-peter-nagy",
+        "title": "Kristynka",
+        "artist": [
+            "Peter Nagy"
+        ],
+        "band": []
+    },
+    {
+        "id": "krouzek-jan-nedved",
+        "title": "Kroužek",
+        "artist": [
+            "Jan Nedvěd",
+            "František Nedvěd"
+        ],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "laska-je-tu-s-nami-peter-nagy",
+        "title": "Láska je tu s nami",
+        "artist": [
+            "Peter Nagy"
+        ],
+        "band": []
+    },
+    {
+        "id": "lasko-karel-kryl",
+        "title": "Lásko!",
+        "artist": [
+            "Karel Kryl"
+        ],
+        "band": []
+    },
+    {
+        "id": "lasko-mne-ubyva-sil-pavel-bobek",
+        "title": "Lásko, mně ubývá sil",
+        "artist": [
+            "Pavel Bobek"
+        ],
+        "band": []
+    },
+    {
+        "id": "muz-na-konci-sveta-pavel-bobek",
+        "title": "Muž na konci světa",
+        "artist": [
+            "Pavel Bobek"
+        ],
+        "band": []
+    },
+    {
+        "id": "lemon-tree-fool-s-garden",
+        "title": "Lemon Tree",
+        "artist": [],
+        "band": [
+            "Fool's Garden"
+        ]
+    },
+    {
+        "id": "mam-jednu-ruku-dlouhou-buty",
+        "title": "Mám jednu ruku dlouhou",
+        "artist": [],
+        "band": [
+            "Buty"
+        ]
+    },
+    {
+        "id": "man-of-constant-sorrow-soggy-bottom-boys",
+        "title": "Man Of Constant Sorrow",
+        "artist": [],
+        "band": [
+            "Soggy Bottom Boys"
+        ]
+    },
+    {
+        "id": "mas-chut-majoranky-karel-zich",
+        "title": "Máš chuť majoránky",
+        "artist": [
+            "Karel Zich"
+        ],
+        "band": []
+    },
+    {
+        "id": "mavej-wabi-danek",
+        "title": "Mávej",
+        "artist": [
+            "Wabi Daněk"
+        ],
+        "band": []
+    },
+    {
+        "id": "medvidek-lucie",
+        "title": "Medvídek",
+        "artist": [],
+        "band": [
+            "Lucie"
+        ]
+    },
+    {
+        "id": "mississippi-blues-pacifik",
+        "title": "Mississippi blues",
+        "artist": [],
+        "band": [
+            "Pacifik"
+        ]
+    },
+    {
+        "id": "mlyny-spiritual-kvintet",
+        "title": "Mlýny",
+        "artist": [],
+        "band": [
+            "Spirituál kvintet"
+        ]
+    },
+    {
+        "id": "nadherna-pavel-novak",
+        "title": "Nádherná",
+        "artist": [
+            "Pavel Novák"
+        ],
+        "band": []
+    },
+    {
+        "id": "nahy-richard-m-ller",
+        "title": "Nahý",
+        "artist": [
+            "Richard Müller"
+        ],
+        "band": []
+    },
+    {
+        "id": "na-kameni-kamen-brontosauri",
+        "title": "Na kameni kámen",
+        "artist": [],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "napsal-jsem-jmeno-svy-na-zdi-poutnici",
+        "title": "Napsal jsem jméno svý na zdi",
+        "artist": [],
+        "band": [
+            "Poutníci"
+        ]
+    },
+    {
+        "id": "nebude-to-ahke-richard-m-ller",
+        "title": "Nebude to ľahké",
+        "artist": [
+            "Richard Müller"
+        ],
+        "band": []
+    },
+    {
+        "id": "neco-o-lasce-pavel-dobes",
+        "title": "Něco o lásce",
+        "artist": [
+            "Pavel Dobeš"
+        ],
+        "band": []
+    },
+    {
+        "id": "necekej-uz-dal-michal-tucny",
+        "title": "Nečekej už dál",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "nechte-zvony-znit-marta-kubisova",
+        "title": "Nechte zvony znít",
+        "artist": [
+            "Marta Kubišová"
+        ],
+        "band": [
+            "Golden Kids"
+        ]
+    },
+    {
+        "id": "neni-vsechno-parada-karel-zich",
+        "title": "Není všechno paráda",
+        "artist": [
+            "Karel Zich"
+        ],
+        "band": []
+    },
+    {
+        "id": "nevadi-wabi-danek",
+        "title": "Nevadí",
+        "artist": [
+            "Wabi Daněk"
+        ],
+        "band": []
+    },
+    {
+        "id": "obcanka-jan-nedved",
+        "title": "Občanka",
+        "artist": [
+            "Jan Nedvěd",
+            "František Nedvěd"
+        ],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "outsider-waltz-wabi-danek",
+        "title": "Outsider waltz",
+        "artist": [
+            "Wabi Daněk"
+        ],
+        "band": []
+    },
+    {
+        "id": "pane-muj-michal-tucny",
+        "title": "Pane můj",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "panubohu-do-oken-tomas-klus",
+        "title": "Pánubohu do oken",
+        "artist": [
+            "Tomáš Klus"
+        ],
+        "band": []
+    },
+    {
+        "id": "parada-karel-zich",
+        "title": "Paráda",
+        "artist": [
+            "Karel Zich"
+        ],
+        "band": []
+    },
+    {
+        "id": "pata-helena-vondrackova",
+        "title": "Pátá",
+        "artist": [
+            "Helena Vondráčková"
+        ],
+        "band": []
+    },
+    {
+        "id": "pisen-proti-trudnomyslnosti-zdenek-sverak",
+        "title": "Píseň proti trudnomyslnosti",
+        "artist": [
+            "Zdeněk Svěrák",
+            "Jaroslav Uhlíř"
+        ],
+        "band": []
+    },
+    {
+        "id": "pocestny-spiritual-kvintet",
+        "title": "Pocestný",
+        "artist": [],
+        "band": [
+            "Spirituál kvintet"
+        ]
+    },
+    {
+        "id": "podvod-jan-nedved",
+        "title": "Podvod",
+        "artist": [
+            "Jan Nedvěd"
+        ],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "pojd-dal-a-zpivej-pavel-bobek",
+        "title": "Pojď dál a zpívej",
+        "artist": [
+            "Pavel Bobek"
+        ],
+        "band": []
+    },
+    {
+        "id": "po-schodoch-richard-m-ller",
+        "title": "Po schodoch",
+        "artist": [
+            "Richard Müller"
+        ],
+        "band": []
+    },
+    {
+        "id": "posledni-kovboj-michal-tucny",
+        "title": "Poslední kovboj",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "poutnik-poupata",
+        "title": "Poutník",
+        "artist": [],
+        "band": [
+            "Poupata"
+        ]
+    },
+    {
+        "id": "poveste-ho-vejs-michal-tucny",
+        "title": "Pověste ho vejš",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "pracloveci-hustej-wimpy",
+        "title": "Pračlověci",
+        "artist": [
+            "Hustej Wimpy"
+        ],
+        "band": []
+    },
+    {
+        "id": "prazce-pavel-dobes",
+        "title": "Pražce",
+        "artist": [
+            "Pavel Dobeš"
+        ],
+        "band": []
+    },
+    {
+        "id": "prodavac-michal-tucny",
+        "title": "Prodavač",
+        "artist": [
+            "Michal Tučný"
+        ],
+        "band": [
+            "Fešáci"
+        ]
+    },
+    {
+        "id": "prvni-signalni-chinaski",
+        "title": "První signální",
+        "artist": [],
+        "band": [
+            "Chinaski"
+        ]
+    },
+    {
+        "id": "ranni-vlak-greenhorns",
+        "title": "Ranní vlak",
+        "artist": [],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "rocnik-47-wabi-danek",
+        "title": "Ročník 47",
+        "artist": [
+            "Wabi Daněk"
+        ],
+        "band": []
+    },
+    {
+        "id": "oh-ruby-nechtej-mi-lasku-brat-pavel-bobek",
+        "title": "Oh, Ruby, nechtěj mi lásku brát",
+        "artist": [
+            "Pavel Bobek"
+        ],
+        "band": []
+    },
+    {
+        "id": "ruze-z-papiru-brontosauri",
+        "title": "Růže z papíru",
+        "artist": [],
+        "band": [
+            "Brontosauři"
+        ]
+    },
+    {
+        "id": "ruzicka-spiritual-kvintet",
+        "title": "Růžička",
+        "artist": [],
+        "band": [
+            "Spirituál kvintet"
+        ]
+    },
+    {
+        "id": "salome-karel-kryl",
+        "title": "Salome",
+        "artist": [
+            "Karel Kryl"
+        ],
+        "band": []
+    },
+    {
+        "id": "sen-lucie",
+        "title": "Sen",
+        "artist": [],
+        "band": [
+            "Lucie"
+        ]
+    },
+    {
+        "id": "severni-vitr-zdenek-sverak",
+        "title": "Severní vítr",
+        "artist": [
+            "Zdeněk Svěrák",
+            "Jaroslav Uhlíř"
+        ],
+        "band": []
+    }
+]

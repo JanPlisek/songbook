@@ -1,0 +1,87 @@
+{
+    "id": "krouzek-jan-nedved",
+    "title": "Kroužek",
+    "artist": [
+        "Jan Nedvěd",
+        "František Nedvěd"
+    ],
+    "band": [
+        "Brontosauři"
+    ],
+    "originalKey": "E",
+    "capo": 0,
+    "lyrics": [
+        {
+            "chords": "    E                          A",
+            "text": "1. Rozhozený vlasy, v trávě chvíli spí,"
+        },
+        {
+            "chords": "        H7                  E",
+            "text": "   nohy unavený z těžkejch bot,"
+        },
+        {
+            "chords": "        A       E         A         E",
+            "text": "   kdo ví, co zdá se jí, co se jí zdá,"
+        },
+        {
+            "chords": "           F#                  H7",
+            "text": "   co tam za víčkama schováno má."
+        },
+        {
+            "chords": "",
+            "text": "2. Na zápěstí z kůže kroužek skrývá dlaň,"
+        },
+        {
+            "chords": "",
+            "text": "   tak nechte ji tu chvilku spát,"
+        },
+        {
+            "chords": "",
+            "text": "   ať pocit jen má bezpečí odevzdaná,"
+        },
+        {
+            "chords": "",
+            "text": "   šla s námi přes den všechno stejně jak kluk."
+        },
+        {
+            "chords": "            A           E            H7",
+            "text": "R: Podívej, usmívá se, tiše, vždyť spí,"
+        },
+        {
+            "chords": "                  A           E         H7",
+            "text": "   co kdo z nás vlastně jeden o druhým ví,"
+        },
+        {
+            "chords": "                E",
+            "text": "   tak pojďte hrát."
+        },
+        {
+            "chords": "",
+            "text": "3. Ať probudí ji písnička, ať zpívá s ní,"
+        },
+        {
+            "chords": "",
+            "text": "   ještě než otevře oči, hraj,"
+        },
+        {
+            "chords": "",
+            "text": "   počkej, ta bude koukat, než zjistí, kde je,"
+        },
+        {
+            "chords": "",
+            "text": "   do kolen opře hlavu vykulená."
+        },
+        {
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "chords": "",
+            "text": "4.=1."
+        }
+    ]
+}

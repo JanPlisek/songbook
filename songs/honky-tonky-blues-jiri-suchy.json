@@ -1,0 +1,33 @@
+{
+    "id": "honky-tonky-blues-jiri-suchy",
+    "title": "Honky tonky blues",
+    "artist": [
+        "Jiří Suchý",
+        "Jiří Šlitr"
+    ],
+    "band": [],
+    "originalKey": "D",
+    "capo": 0,
+    "lyrics": [
+        {
+            "chords": " D",
+            "text": "Každý ráno na piáno hraje Jack, hraje Jack,"
+        },
+        {
+            "chords": " G7                 D",
+            "text": "každý ráno na piáno hraje Jack, hraje Jack,"
+        },
+        {
+            "chords": " A7         G7          D     G7    D",
+            "text": "honky tonk, honky tonk, honky tonky blues."
+        },
+        {
+            "chords": " F#7          Hmi     F#7         Hmi",
+            "text": "Nikomu v domě nevadí, že to piáno neladí,"
+        },
+        {
+            "chords": " E               Edim                 E7          A7",
+            "text": "když hraje Jack, jak už jsem řek, svý honky tonky blues."
+        }
+    ]
+}

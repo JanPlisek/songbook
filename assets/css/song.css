@@ -1,0 +1,103 @@
+/* ================================================= */
+/* === FINÁLNÍ VERZE SOUBORU assets/css/song.css === */
+/* ================================================= */
+
+/* --- HLAVNÍ LAYOUT STRÁNKY --- */
+.song-view-body .container { max-width: none; width: 100%; padding: 0 2rem; }
+.song-page { width: 100%; }
+
+/* --- HLAVIČKA PÍSNĚ --- */
+.song-header { display: flex; justify-content: space-between; align-items: center; min-height: 60px; border-bottom: 1px solid var(--border-color); margin-bottom: 20px; flex-wrap: wrap; gap: 1rem; }
+.left-group { display: flex; gap: 20px; align-items: center; flex-wrap: wrap; }
+.right-group { display: flex; gap: 20px; align-items: center; white-space: nowrap; }
+.song-header h1 { margin: 0; font-size: 18pt; }
+.song-header h2 { margin: 0; font-size: 16pt; color: #6c757d; font-weight: normal; }
+.song-header span { font-size: 0.9rem; color: #495057; }
+span#current-key, span.capo { color: var(--primary-color); font-weight: bold; }
+.edit-link-header { display: inline-flex; align-items: center; gap: 8px; margin-left: 1.5rem; padding: 5px 10px; text-decoration: none; color: #888; border: 1px solid var(--border-color); border-radius: 5px; transition: all 0.2s; }
+.edit-link-header:hover { color: var(--primary-color); background-color: rgba(0,0,0,0.05); border-color: var(--primary-color); }
+body.dark-mode .edit-link-header:hover { background-color: rgba(255, 255, 255, 0.05); }
+
+/* --- ZOBRAZENÍ TEXTU A AKORDŮ --- */
+.lyrics-container { font-family: 'Martian Mono', 'Courier New', Courier, monospace; font-weight: 400; font-size: 16px; letter-spacing: normal; }
+.lyrics-line-group { margin-bottom: 0.8em; }
+.stanza-start { margin-top: 2em; }
+.chords-line { font-weight: 700; color: var(--primary-color); line-height: 1.2; white-space: pre; }
+.text-line { line-height: 1.2; white-space: pre; }
+
+/* --- VÍCESLOUPCOVÝ LAYOUT PRO ŠIROKÉ OBRAZOVKY --- */
+@media (min-width: 992px) {
+    #song-content { column-fill: auto; column-width: 550px; column-gap: 50px; height: calc(100vh - 200px); }
+    .lyrics-line-group { break-inside: avoid; }
+}
+
+/* --- OVLÁDACÍ PANEL A MODÁLNÍ OKNO --- */
+#song-controls-container { position: fixed; bottom: 20px; right: 20px; z-index: 100; }
+#btn-toggle-controls { width: 60px; height: 60px; border-radius: 50%; border: none; background-color: var(--primary-color); color: white; font-size: 2rem; box-shadow: 0 4px 10px rgba(0,0,0,0.2); cursor: pointer; display: flex; justify-content: center; align-items: center; transition: transform 0.2s; }
+#btn-toggle-controls:hover { transform: scale(1.1); }
+#controls-popup { position: absolute; bottom: 80px; right: 0; display: flex; flex-direction: column; gap: 5px; background-color: var(--header-bg); border: 1px solid var(--border-color); border-radius: 8px; padding: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.15); visibility: hidden; opacity: 0; transform: translateY(10px); transition: all 0.2s ease-in-out; }
+#controls-popup.visible { visibility: visible; opacity: 1; transform: translateY(0); }
+#controls-popup button { background: none; border: 1px solid var(--border-color); color: var(--text-color); width: 45px; height: 45px; border-radius: 5px; cursor: pointer; font-size: 1rem; display: flex; align-items: center; justify-content: center; }
+#controls-popup button:hover { background-color: var(--primary-color); color: white; border-color: var(--primary-color); }
+#controls-popup hr { border: none; border-top: 1px solid var(--border-color); margin: 5px 0; }
+.modal-overlay { position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.6); display: flex; justify-content: center; align-items: center; z-index: 1000; }
+.modal-content { background-color: var(--header-bg); padding: 2rem; border-radius: 8px; box-shadow: 0 5px 15px rgba(0,0,0,0.3); text-align: center; }
+.modal-content h3 { margin-top: 0; margin-bottom: 1.5rem; }
+.transpose-keys { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; margin-bottom: 1.5rem; }
+.transpose-keys button { background: none; border: 1px solid var(--border-color); color: var(--text-color); padding: 10px; border-radius: 5px; cursor: pointer; font-size: 1rem; transition: background-color 0.2s, color 0.2s; }
+.transpose-keys button[data-key$="m"] { margin-top: 10px; }
+.transpose-keys button:hover { background-color: var(--primary-color); color: white; }
+.btn-close-modal { background-color: #6c757d; color: white; padding: 0.6rem 1.2rem; border: none; border-radius: 5px; cursor: pointer; margin-top: 1.5rem; }
+
+/* --- STYLY PRO TISK --- */
+@media print {
+    header, footer, #song-controls-container { display: none !important; }
+    body, .song-page { margin: 0; padding: 0; box-shadow: none; border: none; background-color: white !important; color: black !important; }
+    .lyrics-container { font-size: 12pt; height: auto !important; }
+    .chords-line { color: black !important; }
+}
+
+/* ======================================================= */
+/* === FINÁLNÍ RESPONZIVNÍ STYLY PRO STRÁNKU S PÍSNÍ === */
+/* ======================================================= */
+
+/* --- Pravidla pro TABLETY a VELKÉ TELEFONY NA VÝŠKU (do 991px) --- */
+@media (max-width: 991px) {
+    /* Schováme meta-informace, které nejsou klíčové */
+    .song-header .right-group {
+        display: none;
+    }
+    /* Zajistíme, aby se hlavička správně zarovnala, i když chybí pravá část */
+    .song-header {
+        justify-content: flex-start;
+    }
+    /* Zrušíme vícesloupcový layout a omezení výšky */
+    #song-content {
+        height: auto;
+        column-count: 1;
+    }
+}
+
+/* --- Pravidla specificky pro TELEFONY (do 768px) --- */
+@media (max-width: 768px) {
+    .song-header {
+        display: block;
+        height: auto;
+        padding-bottom: 1rem;
+    }
+    .song-header .left-group {
+        display: block;
+        text-align: left;
+    }
+    .song-header h1 {
+        font-size: 1.5rem;
+        text-align: left;
+    }
+    .song-header h2 {
+        display: block;
+        width: 100%;
+        text-align: right;
+        font-size: 1.1rem;
+        margin-top: 0.5rem;
+    }
+}

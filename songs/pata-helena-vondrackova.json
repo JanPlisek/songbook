@@ -1,0 +1,52 @@
+{
+    "id": "pata-helena-vondrackova",
+    "title": "Pátá",
+    "artist": [
+        "Helena Vondráčková"
+    ],
+    "band": [],
+    "originalKey": "C",
+    "capo": 0,
+    "lyrics": [
+        {
+            "chords": "   C                  F     G           C     F  G",
+            "text": "1. Hodina bývá dlouho trpělivá a potom odbíjí pátá,"
+        },
+        {
+            "chords": "   C                     F      G             C     F  G",
+            "text": "   a tak tu zpívám slova mlčenlivá o tom, že pomíjí pátá."
+        },
+        {
+            "chords": "   C                         Ami",
+            "text": "R. Zvonek zvoní škola končí, po schodech se běží"
+        },
+        {
+            "chords": "   C                       Ami             G",
+            "text": "   Novák leze po jabloni a je náhle svěží, bláznivej den,"
+        },
+        {
+            "chords": "                                 Ami             Dmi",
+            "text": "   a já smíchem umírám, kdosi mě kárá a páni já nenabírám"
+        },
+        {
+            "chords": "        C  Ami   F        G     C  Ami",
+            "text": "   neboť pátá, právě teď odbila pátá,"
+        },
+        {
+            "chords": "   F         G     C  Ami   F        G      C",
+            "text": "   právě teď odbila pátá, právě teď odbila nám, pátá."
+        },
+        {
+            "chords": "",
+            "text": "2. Hodina bývá někdy nekonečnou, a pak už odbíjí pátá,"
+        },
+        {
+            "chords": "",
+            "text": "   a proto zpívám píseň jedinečnou, právě že pomíjí pátá."
+        },
+        {
+            "chords": "",
+            "text": "R."
+        }
+    ]
+}

@@ -1,0 +1,90 @@
+{
+    "id": "pulnocni-vaclav-neckar",
+    "title": "Půlnoční",
+    "artist": [
+        "Václav Neckář"
+    ],
+    "band": [
+        "Umakart"
+    ],
+    "originalKey": "D",
+    "capo": 0,
+    "lyrics": [
+        {
+            "chords": "D                                G A",
+            "text": "Jedu domů po trati, jedu přes kopce,"
+        },
+        {
+            "chords": "D                                  G A",
+            "text": "za okny padá, padá sníh, budou Vánoce,"
+        },
+        {
+            "chords": "D                                          G A",
+            "text": "chmury, trable, starosti, nechal jsem ve městě,"
+        },
+        {
+            "chords": "D                                        G A",
+            "text": "už slyším lidi na půlnoční zpívat v kostele,"
+        },
+        {
+            "chords": "   D        Hmi  G A",
+            "text": "aleluja, alelu - ja."
+        },
+        {
+            "chords": "",
+            "text": "Ježíš na kříži ztrápený občas se usměje,"
+        },
+        {
+            "chords": "",
+            "text": "na ty, co v zázrak uvěří, na ty co zpívají,"
+        },
+        {
+            "chords": "",
+            "text": "aleluja, aleluja."
+        },
+        {
+            "chords": "           D  A       Hmi  G",
+            "text": "R: Beránku náš na nebesích,"
+        },
+        {
+            "chords": "         D   A          C",
+            "text": "stůj při nás, až přijde tma,"
+        },
+        {
+            "chords": "   D        Hmi  G",
+            "text": "aleluja, alelu - ja."
+        },
+        {
+            "chords": "",
+            "text": "Stojím v prázdném kostele, hvězdy nade mnou,"
+        },
+        {
+            "chords": "",
+            "text": "z kříže zbyl jenom stín, ale přesto slyším,"
+        },
+        {
+            "chords": "",
+            "text": "aleluja, aleluja."
+        },
+        {
+            "chords": "           D   A       Hmi  G",
+            "text": "R: Beránku náš  na nebesích,"
+        },
+        {
+            "chords": "         D   A          C   G",
+            "text": "stůj při nás, až přijde tma,"
+        },
+        {
+            "chords": "        D  A       Hmi  G",
+            "text": "beránku náš na nebesích,"
+        },
+        {
+            "chords": "           D   A             C    G",
+            "text": "neopouštěj nás, až začnem se bát, bát."
+        },
+        {
+            "chords": "   D        Hmi  G      D        Hmi  G      D",
+            "text": "Aleluja, alelu - ja, aleluja, alelu - ja, aleluja."
+        }
+    ]
+}
