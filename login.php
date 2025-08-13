@@ -1,7 +1,5 @@
 <?php
 // soubor: login.php
-// !! session_start() musí být úplně první věc ve skriptu !!
-session_start();
 
 // --- Konfigurace ---
 // Zde si definujeme přihlašovací údaje.

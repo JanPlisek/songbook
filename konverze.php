@@ -1,5 +1,4 @@
 <?php
-session_start();
 include_once 'includes/functions.php'; // Použijeme include_once pro jistotu
 
 // Pokud uživatel není přihlášen, přesměrujeme ho.

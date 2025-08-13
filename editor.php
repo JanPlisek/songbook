@@ -1,5 +1,4 @@
 <?php
-session_start();
 include_once 'includes/functions.php'; // Toto je v pořádku, je to potřeba pro kontrolu níže.
 
 // Pokud uživatel není přihlášen, ukončíme skript.

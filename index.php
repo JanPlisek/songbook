@@ -21,7 +21,7 @@ include 'includes/header.php';
 
 <div class="homepage-container">
     <div class="search-wrapper">
-    <h1 class="homepage-title">Zpěvníček</h1>
+    <h1 class="homepage-title">Zpěvník</h1>
     <div>
         <div class="search-box">
             <input type="text" id="search-input" placeholder="Hledat písničku nebo interpreta...">
