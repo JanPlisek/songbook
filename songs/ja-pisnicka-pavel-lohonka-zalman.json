@@ -10,6 +10,7 @@
     "capo": 3,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "       Dmi                C",
             "text": "1. To já, zrozená z nemocných básníků,"
         },
@@ -26,6 +27,7 @@
             "text": "   když mám být pod cenou prodaná."
         },
         {
+            "block_start": true,
             "chords": "        F               C",
             "text": "R: Kdo vás obléká do šatů svatebních,"
         },
@@ -42,6 +44,7 @@
             "text": "   se můj strach do klína schovává."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. To já, zrozená v hospodách na tácku"
         },
@@ -58,10 +61,12 @@
             "text": "   směju se po stěnách cizincům."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. To já, písnička, ležím tu před vámi,"
         },
@@ -78,6 +83,7 @@
             "text": "   kteří pro lásku smí o mně hrát."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         }

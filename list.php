@@ -1,4 +1,11 @@
 <?php
+// === INICIALIZAČNÍ BLOK (přidat) ===
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+include_once 'includes/functions.php';
+// === KONEC BLOKU ===
+
 $pageTitle = "Rejstřík písní";
 include 'includes/header.php';
 

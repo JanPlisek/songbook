@@ -11,6 +11,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   D                   Emi",
             "text": "1. Byla to krása, když já do El Pasa,"
         },
@@ -27,6 +28,7 @@
             "text": "   kde z oken zvuk honky tonk piana zněl."
         },
         {
+            "block_start": true,
             "chords": "   G                                                D    D7",
             "text": "R. Ve dveřích mexická dívka stojí a ve vlasech růži má,"
         },
@@ -39,6 +41,7 @@
             "text": "   a ve svých snech jenom mne objímá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Dívka snědé kůže, jak prérijní růže,"
         },
@@ -55,6 +58,7 @@
             "text": "   už kolik nocí jen o ní se mi zdá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Ja svý sherry dopil, když na mě osopil"
         },
@@ -71,10 +75,12 @@
             "text": "   a snad proto on pad', ale já zůstal stát."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Hledal jsem spásu, tak zády k El Pasu"
         },
@@ -91,10 +97,12 @@
             "text": "   ale po mý Feleeně zmáhal mě stesk."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "5. Pak konečně k ďasu já vyjel k El Pasu,"
         },

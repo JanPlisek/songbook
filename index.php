@@ -21,17 +21,18 @@ include 'includes/header.php';
 
 <div class="homepage-container">
     <div class="search-wrapper">
-    <h1 class="homepage-title">Zpěvník</h1>
-    <div>
-        <div class="search-box">
-            <input type="text" id="search-input" placeholder="Hledat písničku nebo interpreta...">
-            <div id="search-results" class="search-results-dropdown"></div>
+        <h1 class="homepage-title">Zpěvník</h1>
+        <div>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Hledat písničku nebo interpreta...">
+                <div id="search-results" class="search-results-dropdown"></div>
+            </div>
+            <div class="homepage-links">
+                <a href="list.php" class="btn">Seznam písní</a>
+                <a href="interprets.php" class="btn">Seznam interpretů</a>
+                <a href="random.php" class="btn">Překvap mě</a>
+            </div>
         </div>
-        <div class="homepage-links">
-            <a href="list.php" class="btn">Seznam písní</a>
-            <a href="interprets.php" class="btn">Seznam interpretů</a>
-        </div>
-    </div>
     </div>
 </div>
 

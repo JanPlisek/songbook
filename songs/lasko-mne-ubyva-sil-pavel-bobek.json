@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "       A",
             "text": "1. Já sám pozdě večer jsem do sálu vešel,"
         },
@@ -41,6 +42,7 @@
             "text": "   já se díval, jak sedá si blíž."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Pak jsem ho spatřil, on k silákům patřil,"
         },
@@ -73,6 +75,7 @@
             "text": "   slov pár, dodnes slyším je znít."
         },
         {
+            "block_start": true,
             "chords": "             A                D",
             "text": "R: Řekl jí:\"Lásko, mně ubývá sil,"
         },
@@ -93,6 +96,7 @@
             "text": "   řekl jí:\"Lásko, mně ubývá sil.\""
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Dál vím, že zmizel jak spadané listí,"
         },
@@ -125,6 +129,7 @@
             "text": "   těch slov pár a stín, co tam stál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         }

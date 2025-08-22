@@ -11,72 +11,60 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "          D                                G",
-            "text": "1.Tenkrát končila válka, když spatřil jsem svět, "
+            "text": "1.Tenkrát končila válka, když spatřil jsem svět,"
         },
         {
             "chords": "                  D              Hmi       A",
-            "text": "  já sotva nohama plet, když mně byl jeden rok. "
+            "text": "  já sotva nohama plet, když mně byl jeden rok."
         },
         {
             "chords": "               D                      G",
-            "text": "  Jenže nebyla kůže, táta ušil mi pár bot "
+            "text": "  Jenže nebyla kůže, táta ušil mi pár bot"
         },
         {
             "chords": "                    D                       Hmi        A     A7",
-            "text": "  z kůže toulavejch psů a řek, v nich budeš mít pevnej krok. "
+            "text": "  z kůže toulavejch psů a řek, v nich budeš mít pevnej krok."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "      D                 G          Emi",
-            "text": "R.Tak fidlej a hraj jen pro ty, co maj "
+            "text": "R.Tak fidlej a hraj jen pro ty, co maj"
         },
         {
             "chords": "        A                  D     A7",
-            "text": "  hlavu v oblacích a plnou snů, "
+            "text": "  hlavu v oblacích a plnou snů,"
         },
         {
             "chords": "      D                 G          Emi",
-            "text": "  tak fidlej a hraj jen pro ty, co maj "
+            "text": "  tak fidlej a hraj jen pro ty, co maj"
         },
         {
             "chords": "       A                 D",
-            "text": "  boty z kůže toulavejch psů. "
+            "text": "  boty z kůže toulavejch psů."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2.Já zůstal jsem stejnej, jak bejval jsem dřív,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "  to jen čas na mě kýv v proudu dní, jak se zdá."
         },
         {
             "chords": "",
-            "text": "2.Já zůstal jsem stejnej, jak bejval jsem dřív, "
+            "text": "  Mám pořád svý první banjo, co jeden tulák mi dal,"
         },
         {
             "chords": "",
-            "text": "  to jen čas na mě kýv v proudu dní, jak se zdá. "
+            "text": "  já s ním pod hlavou spal a dodnes stejnej zvuk má."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "  Mám pořád svý první banjo, co jeden tulák mi dal, "
-        },
-        {
-            "chords": "",
-            "text": "  já s ním pod hlavou spal a dodnes stejnej zvuk má. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "R. "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R."
         }
     ]
 }

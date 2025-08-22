@@ -9,88 +9,77 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    C               G          Ami        E",
-            "text": "1. Až se ti jednou bude zdát, že je osud zlej, "
+            "text": "1. Až se ti jednou bude zdát, že je osud zlej,"
         },
         {
             "chords": "    F            C              Dmi        G",
-            "text": "   já vím to se může stát, tak přesto nezoufej. "
+            "text": "   já vím to se může stát, tak přesto nezoufej."
         },
         {
             "chords": "    C               G             Ami            E",
-            "text": "   Až se ti jednou bude zdát, že nemáš štěstí v lásce, "
+            "text": "   Až se ti jednou bude zdát, že nemáš štěstí v lásce,"
         },
         {
             "chords": "    F            C           Dmi          G",
-            "text": "   že ten, koho miluješ, tě přestává mít rád. "
+            "text": "   že ten, koho miluješ, tě přestává mít rád."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "    F                  C       F            C",
-            "text": "R. Potom nebuď z toho smutná, i když je to tak, "
+            "text": "R. Potom nebuď z toho smutná, i když je to tak,"
         },
         {
             "chords": "    F             C          G          F",
-            "text": "   i když hořce chutná, jak člověk poznává, "
+            "text": "   i když hořce chutná, jak člověk poznává,"
         },
         {
             "chords": "       C            F         C        Ami",
-            "text": "   že sen, kterýmu věřil, se asi jiným zdá, "
+            "text": "   že sen, kterýmu věřil, se asi jiným zdá,"
         },
         {
             "chords": "        G            F         C       E     F",
-            "text": "   tak lepší než se trápit je rada prostinká. "
+            "text": "   tak lepší než se trápit je rada prostinká."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Až se ti jednou bude zdát, že na světě není láska,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   že je to jenom pohádka, pohádka pro děti."
         },
         {
             "chords": "",
-            "text": "2. Až se ti jednou bude zdát, že na světě není láska, "
+            "text": "   Já vím, když se dva políbí, že to nemusí být z lásky,"
         },
         {
             "chords": "",
-            "text": "   že je to jenom pohádka, pohádka pro děti. "
+            "text": "   a vůbec nic si neslíbí a tak to asi má být."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Až budeš mít někoho, kdo by tě měl hrozně rád,"
         },
         {
             "chords": "",
-            "text": "   Já vím, když se dva políbí, že to nemusí být z lásky, "
+            "text": "   to, že ho taky miluješ, nedej mu příliš znát,"
         },
         {
             "chords": "",
-            "text": "   a vůbec nic si neslíbí a tak to asi má být. "
-        },
-        {
-            "chords": "",
-            "text": "R. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "3. Až budeš mít někoho, kdo by tě měl hrozně rád, "
-        },
-        {
-            "chords": "",
-            "text": "   to, že ho taky miluješ, nedej mu příliš znát, "
-        },
-        {
-            "chords": "",
-            "text": "   já vím, je to podivný, že mít rád se nevyplácí "
+            "text": "   já vím, je to podivný, že mít rád se nevyplácí"
         },
         {
             "chords": "    F             C        G              C    G  Ami  E  F  C  G  C",
-            "text": "   v lásce totiž vyhrává, ten kdo má rád míň. "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   v lásce totiž vyhrává, ten kdo má rád míň."
         }
     ]
 }

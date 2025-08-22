@@ -1,0 +1,129 @@
+{
+    "id": "hey-jude-beatles",
+    "title": "Hey Jude",
+    "artist": [],
+    "band": [
+        "Beatles"
+    ],
+    "originalKey": "F",
+    "capo": 0,
+    "lyrics": [
+        {
+            "block_start": true,
+            "chords": "        F                  C",
+            "text": "1. Hey Jude don't make it bad"
+        },
+        {
+            "chords": "           C7  C7sus    C7      F",
+            "text": "   take a sad song and make it better"
+        },
+        {
+            "chords": "      Bb                          F",
+            "text": "   remember to let her into your heart"
+        },
+        {
+            "chords": "                  C7              F",
+            "text": "   then you can start to make it better."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Hey Jude don't be afraid"
+        },
+        {
+            "chords": "",
+            "text": "   you were made to go out and get her"
+        },
+        {
+            "chords": "",
+            "text": "   the minute you let her under your skin"
+        },
+        {
+            "chords": "",
+            "text": "   then you begin to make it better."
+        },
+        {
+            "block_start": true,
+            "chords": "   F7                         Bb       Bb\/A    Gmi7",
+            "text": "R: And any time you feel the pain hey Jude refrain,"
+        },
+        {
+            "chords": "          Gmi7\/F    C7\/E   C7        F",
+            "text": "   don't carry the world upon your shoulders"
+        },
+        {
+            "chords": "    F7                            Bb        Bb\/A    Gmi7",
+            "text": "   for well you know that it's a fool who plays it cool"
+        },
+        {
+            "chords": "       Gmi7\/F     C7\/E    C7     F",
+            "text": "   by making his world a little colder"
+        },
+        {
+            "chords": "   da da da da da da da da da.",
+            "text": ""
+        },
+        {
+            "chords": "",
+            "text": "3. Hey Jude don't let me down"
+        },
+        {
+            "chords": "",
+            "text": "   you have found her now go and get her"
+        },
+        {
+            "chords": "",
+            "text": "   remember to let her into your heart"
+        },
+        {
+            "chords": "",
+            "text": "   then you can start to make it better."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: So let it out and let it in hey Jude begin"
+        },
+        {
+            "chords": "",
+            "text": "   you're waiting for someone to perform with"
+        },
+        {
+            "chords": "",
+            "text": "   and don't you know that it's just you hey Jude you'll do"
+        },
+        {
+            "chords": "",
+            "text": "   the movement you need is on your shoulders"
+        },
+        {
+            "chords": "   da da da da da da da da da.",
+            "text": ""
+        },
+        {
+            "chords": "",
+            "text": "4. Hey Jude don't make it bad"
+        },
+        {
+            "chords": "",
+            "text": "   take a sad song and make it better"
+        },
+        {
+            "chords": "",
+            "text": "   remember to let her under your skin"
+        },
+        {
+            "chords": "",
+            "text": "   then you'll begin to make it better"
+        },
+        {
+            "chords": "",
+            "text": "   better better better better better oh."
+        },
+        {
+            "block_start": true,
+            "chords": "    F        D#          Bb              F",
+            "text": "*: Da da da da da da da da da da da hey Jude ..."
+        }
+    ]
+}

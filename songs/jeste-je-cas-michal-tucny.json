@@ -12,6 +12,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    G       Ami  D7             G",
             "text": "1. Dobře to vím, všim' jsem si ovšem"
         },
@@ -28,6 +29,7 @@
             "text": "   vždyť život jde dál a svět se pořád točí."
         },
         {
+            "block_start": true,
             "chords": "             G                 D",
             "text": "R. Ve snech mých jseš dál mou milou,"
         },
@@ -48,6 +50,7 @@
             "text": "   ze tvých řas: ještě je čas."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Nebuď smutná a nic neříkej,"
         },
@@ -64,6 +67,7 @@
             "text": "   a až zítra mezi nám shoří mosty."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R."
         }

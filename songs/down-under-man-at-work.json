@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Ami                 G                Ami  F G",
             "text": "1. Travelling in a fried out kombie,"
         },
@@ -25,6 +26,7 @@
             "text": "   she took me in and gave me breakfast,  and she said"
         },
         {
+            "block_start": true,
             "chords": "      C                    G                Ami   F G",
             "text": "Ref.: Do you come from a land down under"
         },
@@ -41,6 +43,7 @@
             "text": "      you better run, you better take cover"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Buying bread from a man in Brussels,"
         },
@@ -61,6 +64,7 @@
             "text": "And he said:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Ref.: i come from a land down under,"
         },
@@ -77,6 +81,7 @@
             "text": "      You better run you better take cover."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Lying in a den in Bombay,"
         },
@@ -97,6 +102,7 @@
             "text": "and he said:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Ref.: Do you come from a land down under"
         },

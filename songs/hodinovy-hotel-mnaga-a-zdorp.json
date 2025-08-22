@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   C                   Em",
             "text": "   Tlusté koberce plné prachu"
         },
@@ -41,6 +42,7 @@
             "text": "   ale znovu listy nakloní a naslouchají, vzduch voní kouřem"
         },
         {
+            "block_start": true,
             "chords": "          C        Em                         A",
             "text": "   Ref.: Svět je, Svět je jenom hodinový hotel"
         },
@@ -65,6 +67,7 @@
             "text": "   a můj pokoj je studenś a prázdný......."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "   Vezmu si sako a půjdu do baru"
         },

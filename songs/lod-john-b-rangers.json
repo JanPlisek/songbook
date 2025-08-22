@@ -9,112 +9,98 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "E",
-            "text": "Už vyplouvá loď \"John B.\", "
+            "text": "Už vyplouvá loď \"John B.\","
         },
         {
             "chords": "",
-            "text": "už vyplouvá loď \"John B.\", "
+            "text": "už vyplouvá loď \"John B.\","
         },
         {
             "chords": "",
-            "text": "okamžik malý jen "
+            "text": "okamžik malý jen"
         },
         {
             "chords": "             H7",
-            "text": "než popluje dál. "
+            "text": "než popluje dál."
         },
         {
+            "block_start": true,
             "chords": "                 E     E7",
-            "text": "R: Tak nechte mě plout, "
+            "text": "R: Tak nechte mě plout,"
         },
         {
             "chords": "                 A   Ami",
-            "text": "   tak nechte mě plout, "
+            "text": "   tak nechte mě plout,"
         },
         {
             "chords": "E                  H7",
-            "text": "   sil už málo mám, "
+            "text": "   sil už málo mám,"
         },
         {
             "chords": "                 E",
-            "text": "   tak nechte mě plout. "
+            "text": "   tak nechte mě plout."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Nejdřív jsem se napil,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "na zdraví všem připil,"
         },
         {
             "chords": "",
-            "text": "Nejdřív jsem se napil, "
+            "text": "vím, že cesta má"
         },
         {
             "chords": "",
-            "text": "na zdraví všem připil, "
+            "text": "konec už má."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Sklenici svou dopil,"
         },
         {
             "chords": "",
-            "text": "vím, že cesta má "
+            "text": "za krátko u mě byl,"
         },
         {
             "chords": "",
-            "text": "konec už má. "
+            "text": "okovy na ruce dal"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "a pistole vzal"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "Šerif John Stone,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "šerif John Stone,"
         },
         {
             "chords": "",
-            "text": "Sklenici svou dopil, "
+            "text": "moji svobodu vzal"
         },
         {
             "chords": "",
-            "text": "za krátko u mě byl, "
-        },
-        {
-            "chords": "",
-            "text": "okovy na ruce dal "
-        },
-        {
-            "chords": "",
-            "text": "a pistole vzal "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": "Šerif John Stone, "
-        },
-        {
-            "chords": "",
-            "text": "šerif John Stone, "
-        },
-        {
-            "chords": "",
-            "text": "moji svobodu vzal "
-        },
-        {
-            "chords": "",
-            "text": "šerif John Stone. "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "šerif John Stone."
         }
     ]
 }

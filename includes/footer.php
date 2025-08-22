@@ -1,9 +1,5 @@
 </main>
 
-<footer>
-    <p>&copy; <?php echo date("Y"); ?> ZPĚVNÍK, Jan Plíšek</p>
-</footer>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     // --- Logika pro Tmavý / Světlý režim ---
@@ -24,6 +20,27 @@ document.addEventListener('DOMContentLoaded', function() {
     mobileMenuToggle?.addEventListener('click', () => {
         mainNavLinks.classList.toggle('is-open');
     });
+});
+
+document.addEventListener('DOMContentLoaded', function() {
+    const fullscreenButton = document.getElementById('fullscreen-btn');
+
+    if (fullscreenButton) {
+        fullscreenButton.addEventListener('click', () => {
+            // Zjistíme, jestli už jsme v režimu celé obrazovky
+            if (!document.fullscreenElement) {
+                // Pokud ne, zapneme ho pro celou stránku
+                document.documentElement.requestFullscreen().catch(err => {
+                    alert(`Chyba při pokusu o zapnutí režimu celé obrazovky: ${err.message} (${err.name})`);
+                });
+            } else {
+                // Pokud ano, vypneme ho
+                if (document.exitFullscreen) {
+                    document.exitFullscreen();
+                }
+            }
+        });
+    }
 });
 </script>
 

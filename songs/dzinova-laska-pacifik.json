@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "D D4sus D",
             "text": ""
         },
@@ -25,6 +26,7 @@
             "text": "   Takový, jó, takový jsou oči tvý."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Horký dech to jsi ty, v očích míváš klid i napětí."
         },
@@ -37,6 +39,7 @@
             "text": "   Takový, jó, takový jsi zase ty."
         },
         {
+            "block_start": true,
             "chords": "   D7      G          A7          F#mi                Hmi",
             "text": "R: Ta naše láska džínová nám dvěma patří a nám se podobá."
         },
@@ -57,6 +60,7 @@
             "text": "   džínová láska, džínová láska, džínová láska."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Na pláč tvůj nemám zbraň, vždycky hladím tvoji malou dlaň,"
         },
@@ -69,6 +73,7 @@
             "text": "   taková, jó taková je láska má."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Proč máš spěch? Kam zas jdeš? Ptáš se a já nemusím to říct,"
         },
@@ -81,10 +86,12 @@
             "text": "   Taková, jó, taková je láska má"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "5. Vlasy máš jako med, někdy chladná umíš být jak led."
         },
@@ -97,6 +104,7 @@
             "text": "   Taková, jó, taková jsi někdy ty."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "6. Nervy máš napnutý, člověk stěží tě pak donutí,"
         },
@@ -109,6 +117,7 @@
             "text": "   Takový, jó, takový jsi zase ty."
         },
         {
+            "block_start": true,
             "chords": "   D7      G                    A7      D     Hmi     Emi",
             "text": "R: Ta naše láska džínová...  ...džínová láska,džínová láska,"
         },

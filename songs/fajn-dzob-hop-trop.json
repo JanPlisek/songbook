@@ -9,108 +9,101 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Gmi              F        Gmi",
-            "text": "1. Hop!  Moje briga má jméno \"Ariel\", "
+            "text": "1. Hop!  Moje briga má jméno \"Ariel\","
         },
         {
             "chords": "                 F       Gmi",
-            "text": "   řekl kapitán, když mě zval, "
+            "text": "   řekl kapitán, když mě zval,"
         },
         {
             "chords": "     Bb                    F",
-            "text": "   |: prej abych s ním jako lodník jel "
+            "text": "   |: prej abych s ním jako lodník jel"
         },
         {
             "chords": "        Gmi         F      Gmi",
-            "text": "      a džob, co mi nabíd' bral. :| "
+            "text": "      a džob, co mi nabíd' bral. :|"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Von veliký prachy mi sliboval,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   čert ví jestli ňáký má,"
         },
         {
             "chords": "",
-            "text": "2. Von veliký prachy mi sliboval, "
-        },
-        {
-            "chords": "",
-            "text": "   čert ví jestli ňáký má, "
-        },
-        {
-            "chords": "",
-            "text": "   |: já nevěřil, a tak žvanil dál, "
+            "text": "   |: já nevěřil, a tak žvanil dál,"
         },
         {
             "chords": "                             G",
-            "text": "      že zejtra už vyplouvá. :| "
+            "text": "      že zejtra už vyplouvá. :|"
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "               C     G",
-            "text": "R: Celej den a celou noc "
+            "text": "R: Celej den a celou noc"
         },
         {
             "chords": "   Emi                 D  G",
-            "text": "   stožár se pode mnou kejvá, "
+            "text": "   stožár se pode mnou kejvá,"
         },
         {
             "chords": "                       C     G",
-            "text": "   chceš to znát (tak) klidně pojď, "
+            "text": "   chceš to znát (tak) klidně pojď,"
         },
         {
             "chords": "      Emi               D  G",
-            "text": "   ať víš taky, jaký to bejvá, "
+            "text": "   ať víš taky, jaký to bejvá,"
         },
         {
             "chords": "                  C      G",
-            "text": "   žaludek stoupá vejš a vejš, "
+            "text": "   žaludek stoupá vejš a vejš,"
         },
         {
             "chords": "   Emi             D   G",
-            "text": "   na lodi všechno skřípá, "
+            "text": "   na lodi všechno skřípá,"
         },
         {
             "chords": "                   C      G",
-            "text": "   do očí tak jako mořská sůl "
+            "text": "   do očí tak jako mořská sůl"
         },
         {
             "chords": "   Emi             D  G",
-            "text": "   vostrej vítr mi štípá. "
+            "text": "   vostrej vítr mi štípá."
         },
         {
+            "block_start": true,
             "chords": "   Gmi           F         Gmi",
-            "text": "3. Kdyby do vočí někdo vám tvrdil, "
+            "text": "3. Kdyby do vočí někdo vám tvrdil,"
         },
         {
             "chords": "",
-            "text": "   že by práci pro vás měl fajn, "
+            "text": "   že by práci pro vás měl fajn,"
         },
         {
             "chords": "",
-            "text": "   : dejte si říct, to by bral jenom ten, "
+            "text": "   : dejte si říct, to by bral jenom ten,"
         },
         {
             "chords": "",
-            "text": "      kdo je blázen a nemá šajn, : "
+            "text": "      kdo je blázen a nemá šajn, :"
         },
         {
             "chords": "",
-            "text": " že: "
+            "text": " že:"
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "R: Celej den... "
+            "text": "R: Celej den..."
         },
         {
             "chords": "           Gmi   Gmi   Gmi",
-            "text": "Coda: \"Hop...hop...hop...Trop\" "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "Coda: \"Hop...hop...hop...Trop\""
         }
     ]
 }

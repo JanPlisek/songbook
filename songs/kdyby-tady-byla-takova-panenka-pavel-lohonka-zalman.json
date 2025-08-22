@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "        C",
             "text": "1. : Kdyby tady byla taková panenka,"
         },
@@ -25,6 +26,7 @@
             "text": "      přitom pannou býti. :"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. : Kdybych já ti měla syna vychovati,"
         },
@@ -41,6 +43,7 @@
             "text": "      do dřeva netíti. :"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. : Kdybych já ti musel kolíbku dělati,"
         },
@@ -57,6 +60,7 @@
             "text": "      bez jehly a nití. :"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. : Kdybych já ti měla košiličku šíti"
         },
@@ -73,6 +77,7 @@
             "text": "      až k nebeské výši. :"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "5. : Kdybych já ti musel žebřík udělati"
         },

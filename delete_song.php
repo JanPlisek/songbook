@@ -1,5 +1,6 @@
 <?php
 // soubor: delete_song.php
+session_start();
 include_once 'includes/functions.php'; // Použijeme include_once pro jistotu
 
 // Pokud uživatel není přihlášen, ukončíme skript s chybou.

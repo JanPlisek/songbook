@@ -9,136 +9,115 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "G  C  Em  Dm  F",
             "text": ""
         },
         {
             "chords": "G  C  Em  Dm  F",
-            "text": " "
+            "text": ""
         },
         {
             "chords": "Em       Am",
-            "text": "Jenom se ptej "
+            "text": "Jenom se ptej"
         },
         {
             "chords": "       C",
-            "text": "Kolem plameny tančí "
+            "text": "Kolem plameny tančí"
         },
         {
             "chords": "    G                     F",
-            "text": "Tak proč je tady divenj chlad "
+            "text": "Tak proč je tady divenj chlad"
         },
         {
             "chords": "",
-            "text": "Nepospíchej "
+            "text": "Nepospíchej"
         },
         {
             "chords": "",
-            "text": "Kdo tě zavede zpátky "
+            "text": "Kdo tě zavede zpátky"
         },
         {
             "chords": "",
-            "text": "A kdo při tobě bude stát "
+            "text": "A kdo při tobě bude stát"
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "        C          Em            Dm",
-            "text": "Víš já mám spoustu známejch v podzemí "
+            "text": "Víš já mám spoustu známejch v podzemí"
         },
         {
             "chords": "          F",
-            "text": "A divá Bára se mnou spí "
+            "text": "A divá Bára se mnou spí"
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "         C             Em         Dm",
-            "text": "Když je noc všechno krásný zdá se mi "
+            "text": "Když je noc všechno krásný zdá se mi"
         },
         {
             "chords": "          F             Em",
-            "text": "To sme my dávno prokletý "
+            "text": "To sme my dávno prokletý"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Ještě je čas"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "Jak tě nestvůra kouše"
         },
         {
             "chords": "",
-            "text": "Ještě je čas "
+            "text": "Tak schovej nohy do peřin"
         },
         {
             "chords": "",
-            "text": "Jak tě nestvůra kouše "
+            "text": "Okolo nás"
         },
         {
             "chords": "",
-            "text": "Tak schovej nohy do peřin "
+            "text": "Je toho tolik co zkoušet"
         },
         {
             "chords": "",
-            "text": "Okolo nás "
+            "text": "Na jedno zdraví nevěřím"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Víš já mám spoustu známejch v podzemí..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Kdopak tě zval"
         },
         {
             "chords": "",
-            "text": "Je toho tolik co zkoušet "
+            "text": "Vem si do dlaně růži"
         },
         {
             "chords": "",
-            "text": "Na jedno zdraví nevěřím "
+            "text": "Sevři ji a krve pij"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "Tak pojď jenom dál"
         },
         {
             "chords": "",
-            "text": "Víš já mám spoustu známejch v podzemí... "
+            "text": "Obleč si moji kůži"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "Vysaj mě a použij"
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "Kdopak tě zval "
-        },
-        {
-            "chords": "",
-            "text": "Vem si do dlaně růži "
-        },
-        {
-            "chords": "",
-            "text": "Sevři ji a krve pij "
-        },
-        {
-            "chords": "",
-            "text": "Tak pojď jenom dál "
-        },
-        {
-            "chords": "",
-            "text": "Obleč si moji kůži "
-        },
-        {
-            "chords": "",
-            "text": "Vysaj mě a použij "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "Víš já mám spoustu známejch v podzemí... "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "Víš já mám spoustu známejch v podzemí..."
         }
     ]
 }

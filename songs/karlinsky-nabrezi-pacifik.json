@@ -9,6 +9,7 @@
     "capo": 3,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "Emi                                   H7",
             "text": "Karlínský nábřeží,kde jezdil nákladní vlak,"
         },
@@ -25,6 +26,7 @@
             "text": "na rohu ohrady harmonikář písně hrál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Karlínský nábřeží zná holek prodejnejch pláč,"
         },
@@ -41,6 +43,7 @@
             "text": "jako by náhodou někdo si písničku hrál."
         },
         {
+            "block_start": true,
             "chords": "                  A               E",
             "text": "Rev :  Čas,ten se,vážení,zastavit nedá,"
         },
@@ -57,6 +60,7 @@
             "text": "       vzpomínku vzdálenou,doprovodí."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Karlínský nábřeží daleko od hlavních tříd,"
         },
@@ -73,6 +77,7 @@
             "text": "dneska už nesvítí,život jde bez konce dál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Karlínský nábřeží,najednou selhal ti hlas"
         },
@@ -89,6 +94,7 @@
             "text": "v tichu,co zavládlo,někdo si písničku hrál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Rev :  Čas,ten se,vážení,zastavit nedá . . ."
         }

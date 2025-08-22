@@ -10,6 +10,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   D        F#   G",
             "text": "R: Hajný je lesa pán,"
         },
@@ -26,6 +27,7 @@
             "text": "   a každej pytlák se ho vždycky bál."
         },
         {
+            "block_start": true,
             "chords": "           B",
             "text": "Rec: Co se děje, les mi hoří ?"
         },
@@ -42,6 +44,7 @@
             "text": "     Já tu meškám v pantoflích."
         },
         {
+            "block_start": true,
             "chords": "B",
             "text": "Klidně si zůstaňte v domácí obuvi"
         },
@@ -50,6 +53,7 @@
             "text": "klukům to nevadí, dívky vás omluví,"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "děti: Máme výborný plán,"
         },
@@ -66,6 +70,7 @@
             "text": "      a dejte nám je třeba jako dar."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Hajný - recitatív:"
         },
@@ -86,6 +91,7 @@
             "text": "Z toho koukaj želízka!"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "dítě - sólo:"
         },
@@ -106,6 +112,7 @@
             "text": "sto malých do školky."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Hajný - sólo:"
         },

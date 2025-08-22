@@ -11,96 +11,63 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "Dmi      C4 C          D4     D     Dmi        C              G    Dmi",
-            "text": "Ve svitu loučí stín se stínu  leká, nad hradní dvůr mrak tiše vplul, "
+            "text": "Ve svitu loučí stín se stínu  leká, nad hradní dvůr mrak tiše vplul,"
         },
         {
             "chords": "           C4 C         D4    D     Ami  G         D   Dmi",
-            "text": "když dívky pláčou, muže válka čeká, noci zbývá jen půl. "
-        },
-        {
-            "chords": "",
-            "text": " "
+            "text": "když dívky pláčou, muže válka čeká, noci zbývá jen půl."
         },
         {
             "chords": "Dmi       C4 C        D4      D      Dmi       C              G    Dmi",
-            "text": "Za chvíli svítá a tam v jedné z věží kornet se loučí s dívkou svou, "
+            "text": "Za chvíli svítá a tam v jedné z věží kornet se loučí s dívkou svou,"
         },
         {
             "chords": "        C4 C          D4    D     Ami   G          D",
-            "text": "znaveni láskou v loži bílém leží, nežná slůvka zní tmou. "
+            "text": "znaveni láskou v loži bílém leží, nežná slůvka zní tmou."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
-        },
-        {
+            "block_start": true,
             "chords": "        Ami             D              Ami          D",
-            "text": "Tady to jsou tvé vlásky plavé, tady to tvá je něžná tvář, "
+            "text": "Tady to jsou tvé vlásky plavé, tady to tvá je něžná tvář,"
         },
         {
             "chords": "        Ami            D              F Emi",
-            "text": "tady to jsou tvé dlaně hravé  ani nedýcháš. "
+            "text": "tady to jsou tvé dlaně hravé  ani nedýcháš."
         },
         {
             "chords": "         Ami          D               Ami       D",
-            "text": "Tak tady spí tvé tělo krásné, dívenka pláče potají, "
+            "text": "Tak tady spí tvé tělo krásné, dívenka pláče potají,"
         },
         {
             "chords": "            Ami           D                  F   Emi  D  Dmi",
-            "text": "hej kornete vstávej, ráno časné,  kde se oči tvé toulají. "
+            "text": "hej kornete vstávej, ráno časné,  kde se oči tvé toulají."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "Dmi      C4 C         D4     D      Dmi     C            G    Dmi",
-            "text": "Bitva už končí, pouze kornet chybí, zmámený láskou tvrdě spal, "
+            "text": "Bitva už končí, pouze kornet chybí, zmámený láskou tvrdě spal,"
         },
         {
             "chords": "           C4 C          D4    D      Ami   G      D",
-            "text": "nad hrobem zběhů, tam se smrti líbí,  povel dává - pal! "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "nad hrobem zběhů, tam se smrti líbí,  povel dává - pal!"
         },
         {
             "chords": "        Ami             D              Ami          D",
-            "text": "Tady to jsou tvé vlásky plavé, tady to tvá je něžná tvář, "
+            "text": "Tady to jsou tvé vlásky plavé, tady to tvá je něžná tvář,"
         },
         {
             "chords": "        Ami            D                 F Emi",
-            "text": "tady to jsou tvé dlaně hravé proč už nedýcháš. "
+            "text": "tady to jsou tvé dlaně hravé proč už nedýcháš."
         },
         {
             "chords": "         Ami          D               Ami       D",
-            "text": "Tak tady spí tvé tělo krásné, dívenka pláče potají, "
+            "text": "Tak tady spí tvé tělo krásné, dívenka pláče potají,"
         },
         {
             "chords": "            Ami           D                  F   Emi  D",
-            "text": "hej kornete vstávej, ráno časné,  kde se oči tvé toulají. "
-        },
-        {
-            "chords": "",
-            "text": ""
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "hej kornete vstávej, ráno časné,  kde se oči tvé toulají."
         }
     ]
 }

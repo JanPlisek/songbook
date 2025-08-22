@@ -11,6 +11,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Ami G    Fmaj7     Emi7     Ami",
             "text": "1. Zpívám ptákům a zvlášť holubům,"
         },
@@ -27,6 +28,7 @@
             "text": "   měl jsem rád holubích křídel šum."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Vlídná dívka jim házela hrách,"
         },
@@ -43,6 +45,7 @@
             "text": "   měl jsem rád starý dům, jeho práh."
         },
         {
+            "block_start": true,
             "chords": "   Ami A7  Dmi     G            C         Ami",
             "text": "R: Hledám dům holubí, kdopak z vás cestu ví,"
         },
@@ -59,6 +62,7 @@
             "text": "   vždyť to ví, že jsem chtěl jen pro ni žít."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Sdílný déšť vypráví okapům,"
         },
@@ -75,6 +79,7 @@
             "text": "   neslyšíš holubích křídel šum."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Nabízej úplatou cokoli,"
         },
@@ -91,10 +96,12 @@
             "text": "   nespatříš ztracené údolí."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "  Zpívám ptákům a zvlášť holubům,"
         },

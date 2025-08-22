@@ -12,6 +12,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    E                          A",
             "text": "1. Rozhozený vlasy, v trávě chvíli spí,"
         },
@@ -28,6 +29,7 @@
             "text": "   co tam za víčkama schováno má."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Na zápěstí z kůže kroužek skrývá dlaň,"
         },
@@ -44,6 +46,7 @@
             "text": "   šla s námi přes den všechno stejně jak kluk."
         },
         {
+            "block_start": true,
             "chords": "            A           E            H7",
             "text": "R: Podívej, usmívá se, tiše, vždyť spí,"
         },
@@ -56,6 +59,7 @@
             "text": "   tak pojďte hrát."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Ať probudí ji písnička, ať zpívá s ní,"
         },
@@ -72,6 +76,7 @@
             "text": "   do kolen opře hlavu vykulená."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },

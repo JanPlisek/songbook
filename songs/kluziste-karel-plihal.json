@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "      C      Emi7\/H Ami7   C\/G   Fmaj7     C    Fmaj7 G",
             "text": "1. Strejček kovář chytil kleště, uštíp' z noční oblohy"
         },
@@ -25,6 +26,7 @@
             "text": "   pak přitáhl kovadlinu a obrovský kladivo."
         },
         {
+            "block_start": true,
             "chords": "           C        Emi7\/H Ami7     C\/G",
             "text": "R: Zatím tři bílé vrány pěkně za sebou"
         },
@@ -41,6 +43,7 @@
             "text": "   kolem jdou, někam jdou, nedojdou, nedojdou."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Vydal z hrdla mocný pokřik ztichlým letním večerem,"
         },
@@ -57,10 +60,12 @@
             "text": "   na obrovské mucholapce visí nebe s hvězdami."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Zpod víček mi vytrysk' pramen na zmačkané polštáře,"
         },
@@ -77,6 +82,7 @@
             "text": "   do kalhot si čistí ruce umazané od sazí."
         },
         {
+            "block_start": true,
             "chords": "   C Emi7\/H Ami7 C\/G Fmaj7 C D7 G C Emi7\/H Ami7 C\/G Fmaj7 C Fmaj7 C",
             "text": ""
         }

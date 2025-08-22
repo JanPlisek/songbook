@@ -12,6 +12,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "               Hmi  Emi           D",
             "text": "1. Když první tání cestu sněhu zkříží"
         },
@@ -28,6 +29,7 @@
             "text": "   tak nějak líp si balím, proč, bůhví."
         },
         {
+            "block_start": true,
             "chords": "                G                 D",
             "text": "R: Přišel čas slunce, zrození a tratí,"
         },
@@ -44,6 +46,7 @@
             "text": "      oživne kemp, jaro, vítej k nám. :"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Kdo ví, jak voní země, když se budí,"
         },
@@ -60,10 +63,12 @@
             "text": "   na lidi, co chtěj' zkazit život nám."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Zmrznout by měla, kéž by se tak stalo,"
         },
@@ -80,6 +85,7 @@
             "text": "   bude má země zdravá jako buk."
         },
         {
+            "block_start": true,
             "chords": "             G     F#            Hmi",
             "text": "R: + oživne kemp, jaro, vítej k nám ..."
         }

@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    Emi                        H7",
             "text": "1. Pod tmavočervenými jeřabinami"
         },
@@ -29,6 +30,7 @@
             "text": "   zahynul motýl jako naše láska."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Na břehu řeky roste tráva ostřice,"
         },
@@ -49,6 +51,7 @@
             "text": "   a národ němý tlučou oficíři."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Na nebi měsíc jako koláč s tvarohem,"
         },

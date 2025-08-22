@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "A                D",
             "text": "Hello Mary Lou, goodbye heart,"
         },
@@ -25,6 +26,7 @@
             "text": "So Hello Mary Lou,goodbye heart"
         },
         {
+            "block_start": true,
             "chords": "A",
             "text": "Passed me by one sunny day,"
         },
@@ -49,6 +51,7 @@
             "text": "And though I never did see you before"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "I said Hello Mary Lou, goodbye heart,"
         },

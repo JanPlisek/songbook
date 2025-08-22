@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "      C     G            D",
             "text": "1. Ta stará dobrá hra je okoukaná."
         },
@@ -25,6 +26,7 @@
             "text": "   Včera je včera, bohužel bohudík."
         },
         {
+            "block_start": true,
             "chords": "    C             G     D           Em",
             "text": "R. Nic není jako dřív, nic není jak bejvávalo."
         },
@@ -41,6 +43,7 @@
             "text": "   Nic není jako dřív, ačkoliv drobná paralela by tu byla."
         },
         {
+            "block_start": true,
             "chords": "   C            G            D",
             "text": "2. Snad nevěříš na tajný znamení."
         },
@@ -57,10 +60,12 @@
             "text": "   včera i dneska, všude ta stará píseň."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R. Ačkoliv nic není jako dřív ..."
         },
         {
+            "block_start": true,
             "chords": "    C               G",
             "text": "*: Promlouvám k vám ústy múzy,"
         },
@@ -77,6 +82,7 @@
             "text": "   odplouvám a mizím ..."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R. Nic není jako dřív, nic není jak bejvávalo."
         },

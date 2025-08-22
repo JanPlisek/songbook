@@ -10,6 +10,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   C                      G         C C7",
             "text": "1. Naraž si bouřku ještě více do čela,"
         },
@@ -22,6 +23,7 @@
             "text": "   aby ti vráska z čela zcela zmizela."
         },
         {
+            "block_start": true,
             "chords": "   C                      G         C C7",
             "text": "2. Věř mi, že láska vrásky vždycky nadělá,"
         },
@@ -34,6 +36,7 @@
             "text": "   a obarví ti  tvoje vlasy  do běla."
         },
         {
+            "block_start": true,
             "chords": "   C                      G         C C7",
             "text": "3. Nešťastná láska vrásky vždycky nadělá,"
         },
@@ -46,6 +49,7 @@
             "text": "   a tak si naraž bouřku jěště více do čela."
         },
         {
+            "block_start": true,
             "chords": "   C                      G         C C7",
             "text": "4. Řekli ti, že ti milá s jiným zmizela,"
         },

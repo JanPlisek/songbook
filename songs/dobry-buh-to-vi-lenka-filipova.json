@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Ami          C            G                Dmi",
             "text": "1. Napsal jí ta nejkrásnější slova, která kdy vůbec znal"
         },
@@ -17,6 +18,7 @@
             "text": "   A pak položil dopis pod kámen a dlouho nad ním tiše stál"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Nad hlavou mu táhly mraky jako podivná obtloustlá zvířata"
         },
@@ -25,6 +27,7 @@
             "text": "   A na vrbě tam ledňáček zářil, voda v tůni chladná, stojatá"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. A on jako blázen blatouchům vykládal, že bude snad jeho paní"
         },
@@ -33,6 +36,7 @@
             "text": "   A pak s ozvěnou do lesa hulákal podivné nesmysly o bílé lani"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. O zvláštním stvoření, které se potají snad v ženu promění"
         },
@@ -41,6 +45,7 @@
             "text": "   Ona přichází pomalu loukou a hledá dopis v kamení"
         },
         {
+            "block_start": true,
             "chords": "   Ami             C                G",
             "text": "R. Ústa z jeřabin, paže z břečťanu máš"
         },
@@ -57,10 +62,12 @@
             "text": "   To mě zabije, to si odnesu"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "5. = 1."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "6. To zvláštní stvoření, které se potají snad v ženu promění"
         },
@@ -69,6 +76,7 @@
             "text": "   Ona přichází pomalu loukou a schovává dopis v kamení"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R. Ústa z popela, paže z větvoví mám"
         },

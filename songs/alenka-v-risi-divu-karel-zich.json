@@ -9,116 +9,106 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    G",
-            "text": "1. Telegram s adresou svět, "
+            "text": "1. Telegram s adresou svět,"
         },
         {
             "chords": "    C                             D7     G   D",
-            "text": "   píšu v něm pět vlídných vět - jedné dívce. "
+            "text": "   píšu v něm pět vlídných vět - jedné dívce."
         },
         {
             "chords": "    G",
-            "text": "   Kdopak ví kam jej zítra pošta doručí "
+            "text": "   Kdopak ví kam jej zítra pošta doručí"
         },
         {
             "chords": "    C",
-            "text": "   a kolik náhod mu poručí "
+            "text": "   a kolik náhod mu poručí"
         },
         {
             "chords": "    D7                                   G      D7",
-            "text": "   chtěl bych jen vidět zář očí, které budou je číst. "
+            "text": "   chtěl bych jen vidět zář očí, které budou je číst."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "          G",
-            "text": "R. Šel bych cestou prašnou co nikdo nezměří, "
+            "text": "R. Šel bych cestou prašnou co nikdo nezměří,"
         },
         {
             "chords": "     C",
-            "text": "   sám jedenkrát bych s plnou brašnou cinknul u dveří, "
+            "text": "   sám jedenkrát bych s plnou brašnou cinknul u dveří,"
         },
         {
             "chords": "     D7                                     G    D7",
-            "text": "   bude v očích mít úžas jak Alenka v říši divů. "
+            "text": "   bude v očích mít úžas jak Alenka v říši divů."
         },
         {
             "chords": "     G",
-            "text": "   I když dá mi košem až řádky bude číst, "
+            "text": "   I když dá mi košem až řádky bude číst,"
         },
         {
             "chords": "     C",
-            "text": "   já chtěl bych být tím listonošem, neboť jsem si jist, "
+            "text": "   já chtěl bych být tím listonošem, neboť jsem si jist,"
         },
         {
             "chords": "    D7                                      G    D7",
-            "text": "   bude v očích mít úžas jak Alenka v říši divů. "
+            "text": "   bude v očích mít úžas jak Alenka v říši divů."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Já nechal všechna okna dokořán"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   a díval se na svět ze všech stran, jak se koulí."
         },
         {
             "chords": "",
-            "text": "2. Já nechal všechna okna dokořán "
+            "text": "   A celý den přemítám o dívce neznámé,"
         },
         {
             "chords": "",
-            "text": "   a díval se na svět ze všech stran, jak se koulí. "
+            "text": "   proč už se dávno neznáme,"
         },
         {
             "chords": "",
-            "text": "   A celý den přemítám o dívce neznámé, "
+            "text": "   snad adresu najde toto poselství mé."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Odmítli můj telegram"
         },
         {
             "chords": "",
-            "text": "   proč už se dávno neznáme, "
+            "text": "   a řekli poslat jej není kam - adresa schází."
         },
         {
             "chords": "",
-            "text": "   snad adresu najde toto poselství mé. "
+            "text": "   A celý den přemítám o dívce neznámé,"
         },
         {
             "chords": "",
-            "text": "R. "
+            "text": "   proč už se dávno neznáme,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   snad adresu najde poselství."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R."
         },
         {
             "chords": "",
-            "text": "3. Odmítli můj telegram "
-        },
-        {
-            "chords": "",
-            "text": "   a řekli poslat jej není kam - adresa schází. "
-        },
-        {
-            "chords": "",
-            "text": "   A celý den přemítám o dívce neznámé, "
-        },
-        {
-            "chords": "",
-            "text": "   proč už se dávno neznáme, "
-        },
-        {
-            "chords": "",
-            "text": "   snad adresu najde poselství. "
-        },
-        {
-            "chords": "",
-            "text": "R. "
-        },
-        {
-            "chords": "",
-            "text": "   + bude v očích mít úžas jak Alenka v říši divů. "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   + bude v očích mít úžas jak Alenka v říši divů."
         }
     ]
 }

@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "D",
             "text": "Koukejte vycouvat, já před váma tu dávno byl,"
         },
@@ -17,6 +18,7 @@
             "text": "nechtějte abych se na vás rozzlobil."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Čekal jsem, až ten pán místo pro mě vytvoří,"
         },
@@ -25,6 +27,7 @@
             "text": "chtěl jsem tam zacouvat vše pro mě hovoří."
         },
         {
+            "block_start": true,
             "chords": "Hm                    F#7",
             "text": "Tváříte se že mě neslyšíte,"
         },
@@ -41,6 +44,7 @@
             "text": "od desetníku rýhu bude mít."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Když ten chlap odešel, odplaty čas nadešel,"
         },
@@ -49,6 +53,7 @@
             "text": "já jemu s korunou auto obešel."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Číhal však za rohem, čekal, jak se zachovám,"
         },
@@ -57,6 +62,7 @@
             "text": "přešel mi po střeše, z auta ruinu mám."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Náladu jsem přestal mít na fóry,"
         },
@@ -73,6 +79,7 @@
             "text": "pak už bylo tělo na tělo."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "A tak primář kliniky s profesorem matiky"
         },
@@ -81,6 +88,7 @@
             "text": "váleli se po zemi, žádný cavyky."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Oba starší pánové, po té, když je zabásli,"
         },

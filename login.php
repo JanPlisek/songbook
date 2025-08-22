@@ -1,11 +1,13 @@
 <?php
 // soubor: login.php
+// !! session_start() musí být úplně první věc ve skriptu !!
+session_start();
 
 // --- Konfigurace ---
 // Zde si definujeme přihlašovací údaje.
 // HESLO JE ZDE ZAHASHOVANÉ! Nikdy ho neukládej v čitelné podobě.
 define('ADMIN_USERNAME', 'admin');
-define('ADMIN_PASSWORD_HASH', '$2y$10$8MMV6dfe1kgIiLKu0ZfTJOBmU2xppTjEUvJPVSc4eupLYC8mch4oO'); // Toto je hash pro heslo "Zpevnik123"
+define('ADMIN_PASSWORD_HASH', '$2y$10$Q6VDncwkamu3ueullJZpC.xzM0ahSoSfhgE/TVULt8ifO1owv3lgq'); // Toto je hash pro heslo "Zpevnik123"
 
 // Pokud bys chtěl změnit heslo, použij tento kód pro vygenerování nového hashe:
 // echo password_hash("NoveHeslo", PASSWORD_DEFAULT);

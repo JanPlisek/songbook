@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "F  Es\/G C7",
             "text": ""
         },
@@ -53,6 +54,7 @@
             "text": "Půjdu tam ještě dnes, ale jsem bez peněz."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2.Mlha je moje deka a místo stropu - most."
         },

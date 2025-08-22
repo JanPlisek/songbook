@@ -11,6 +11,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "         C        C7         F        C",
             "text": "1. Jsem potulnej cowboy, já se potloukám"
         },
@@ -27,6 +28,7 @@
             "text": "   potkal jsem holku vod Červený řeky."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Pak začlo mi trápení a spousta běd,"
         },
@@ -43,6 +45,7 @@
             "text": "   dal hlídat dceru vod Červený řeky."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Já schůzku jsem si s ní dal uprostřed skal,"
         },
@@ -59,6 +62,7 @@
             "text": "   já líbal holku vod Červený řeky."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Sotva mi však řekla:\"Miláčku můj,\""
         },
@@ -75,6 +79,7 @@
             "text": "   stál její táta vod Červený řeky."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "5. Tam pušky se ježily, moc jich bylo,"
         },
@@ -91,6 +96,7 @@
             "text": "   já vobklíčenej byl u Červený řeky."
         },
         {
+            "block_start": true,
             "chords": "        G                  F        C",
             "text": "*: Pak ke slovu přišla má pistol a pěst,"
         },

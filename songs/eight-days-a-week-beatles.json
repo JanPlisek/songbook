@@ -1,80 +1,77 @@
 {
-    "id": "eight-days-a-week-the-beatles",
+    "id": "eight-days-a-week-beatles",
     "title": "Eight Days a Week",
     "artist": [],
     "band": [
-        "The Beatles"
+        "Beatles"
     ],
     "originalKey": "D",
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Dadd9 E\/D G\/D D",
             "text": ""
         },
         {
             "chords": "   Dadd9 E\/D G\/D D",
-            "text": " "
+            "text": ""
         },
         {
             "chords": "   D               E         G                    D",
-            "text": "1. Oh I need your love babe guess you know it's true "
+            "text": "1. Oh I need your love babe guess you know it's true"
         },
         {
             "chords": "                     E         G               D",
-            "text": "   hope you need my love babe just like I need you "
+            "text": "   hope you need my love babe just like I need you"
         },
         {
             "chords": "    Hmi     G6      Hmi     E",
-            "text": "   hold me love me hold me love me "
+            "text": "   hold me love me hold me love me"
         },
         {
             "chords": "   D                      E        G             D",
-            "text": "   ain't got nothin' but love babe eight days a week. "
+            "text": "   ain't got nothin' but love babe eight days a week."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Love you ev'ry day girl always on my mind"
         },
         {
             "chords": "",
-            "text": "2. Love you ev'ry day girl always on my mind "
+            "text": "   one thing I can say girl love you all the time"
         },
         {
             "chords": "",
-            "text": "   one thing I can say girl love you all the time "
+            "text": "   hold me love me hold me love me"
         },
         {
             "chords": "",
-            "text": "   hold me love me hold me love me "
+            "text": "   ain't got nothin'but love babe eight days a week."
         },
         {
-            "chords": "",
-            "text": "   ain't got nothin'but love babe eight days a week. "
-        },
-        {
+            "block_start": true,
             "chords": "   A                    Hmi",
-            "text": "R: Eight days a week I love you "
+            "text": "R: Eight days a week I love you"
         },
         {
             "chords": "   E                     G6             A",
-            "text": "   eight days a week is not enough to show I care. "
+            "text": "   eight days a week is not enough to show I care."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3.=1."
         },
         {
             "chords": "",
-            "text": "3.=1. "
+            "text": "R:"
         },
         {
-            "chords": "",
-            "text": "R: "
-        },
-        {
+            "block_start": true,
             "chords": "        G             D   G             D   G             D",
-            "text": "4.=2. + eight days a week eight days a week eight days a week ... "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "4.=2. + eight days a week eight days a week eight days a week ..."
         }
     ]
 }

@@ -12,6 +12,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    Hmi             Hmi\/A",
             "text": "1. Nějak umírá nám láska,"
         },
@@ -24,6 +25,7 @@
             "text": "   jdeme dál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Každej vztah je vlastně sázka"
         },
@@ -36,6 +38,7 @@
             "text": "   my jdeme dál."
         },
         {
+            "block_start": true,
             "chords": "    Hmi                   Hmi\/A",
             "text": "R: Řekněte, kdopak za to může,"
         },
@@ -52,6 +55,7 @@
             "text": "   kdo na vojáky chce si hrát."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Už zase bohatejch je spousta,"
         },
@@ -64,6 +68,7 @@
             "text": "   my jdeme dál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. A tak nám zbývá jenom doufat,"
         },
@@ -76,10 +81,12 @@
             "text": "   budeme dál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "5. Už zase umírá nám láska,"
         },

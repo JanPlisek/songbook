@@ -9,104 +9,82 @@
     "capo": 2,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Ami7               D               G  G7",
-            "text": "1. Sedím na kolejích, které nikam nevedou, "
+            "text": "1. Sedím na kolejích, které nikam nevedou,"
         },
         {
             "chords": "   Ami7                     D               G  G7",
-            "text": "   koukám na kopretinu, jak miluje se s lebedou, "
+            "text": "   koukám na kopretinu, jak miluje se s lebedou,"
         },
         {
             "chords": "   Ami7               D                  G Emi",
-            "text": "   mraky vzaly slunce zase pod svou ochranu, "
+            "text": "   mraky vzaly slunce zase pod svou ochranu,"
         },
         {
             "chords": "   Ami7                        D                 G D",
-            "text": "   jen ty nejdeš, holka zlatá, kdypak já tě dostanu? "
+            "text": "   jen ty nejdeš, holka zlatá, kdypak já tě dostanu?"
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "     G                  Emi",
-            "text": "R: Z ráje, my vyhnaní z ráje, "
+            "text": "R: Z ráje, my vyhnaní z ráje,"
         },
         {
             "chords": "               Ami7    C            G   D",
-            "text": "   kde není už místa, prej něco se chystá, "
+            "text": "   kde není už místa, prej něco se chystá,"
         },
         {
             "chords": "      G                  Emi",
-            "text": "   z ráje nablýskaných plesů "
+            "text": "   z ráje nablýskaných plesů"
         },
         {
             "chords": "                  Ami7  C         G",
-            "text": "   jdem zpátky do lesů za nějaký čas. "
+            "text": "   jdem zpátky do lesů za nějaký čas."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Vlak nám včera ujel ze stanice do nebe,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   málo jsi se snažil, málo šel jsi do sebe,"
         },
         {
             "chords": "",
-            "text": "2. Vlak nám včera ujel ze stanice do nebe, "
+            "text": "   šel jsi vlastní cestou, a to se zrovna nenosí,"
         },
         {
             "chords": "",
-            "text": "   málo jsi se snažil, málo šel jsi do sebe, "
+            "text": "   i pes, kterej chce přízeň, napřed svýho pána poprosí."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Z ráje..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Už tě vidím z dálky, jak máváš na mě korunou,"
         },
         {
             "chords": "",
-            "text": "   šel jsi vlastní cestou, a to se zrovna nenosí, "
+            "text": "   a jestli nám to bude stačit, zatleskáme na druhou,"
         },
         {
             "chords": "",
-            "text": "   i pes, kterej chce přízeň, napřed svýho pána poprosí. "
+            "text": "   zabalíme všechny, co si dávaj' rande za branou,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   v ráji není místa, možná v pekle se nás zastanou."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "R: Z ráje... "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "3. Už tě vidím z dálky, jak máváš na mě korunou, "
-        },
-        {
-            "chords": "",
-            "text": "   a jestli nám to bude stačit, zatleskáme na druhou, "
-        },
-        {
-            "chords": "",
-            "text": "   zabalíme všechny, co si dávaj' rande za branou, "
-        },
-        {
-            "chords": "",
-            "text": "   v ráji není místa, možná v pekle se nás zastanou. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "R: Z ráje... "
-        },
-        {
-            "chords": "",
-            "text": ""
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R: Z ráje..."
         }
     ]
 }

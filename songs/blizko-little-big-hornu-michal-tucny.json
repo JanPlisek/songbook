@@ -11,112 +11,116 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "          Ami",
-            "text": "1. Tam, kde leží Little Big Horn, je indiánská zem, "
+            "text": "1. Tam, kde leží Little Big Horn, je indiánská zem,"
         },
         {
             "chords": "                                Dmi",
-            "text": "   tam přijíždí generál Custer se svým praporem, "
+            "text": "   tam přijíždí generál Custer se svým praporem,"
         },
         {
             "chords": "       Ami                      Dmi",
-            "text": "   modrý kabáty jezdců, stíny dlouhejch karabin, "
+            "text": "   modrý kabáty jezdců, stíny dlouhejch karabin,"
         },
         {
             "chords": "       Ami                                A",
-            "text": "   a z indiánskejch signálů po nebi letí dým. "
+            "text": "   a z indiánskejch signálů po nebi letí dým."
         },
         {
+            "block_start": true,
             "chords": "    A                                        E7",
-            "text": "R: Říkal to Jim Bridger: já měl jsem v noci sen, "
+            "text": "R: Říkal to Jim Bridger: já měl jsem v noci sen,"
         },
         {
             "chords": "                                        A",
-            "text": "   pod sedmou kavalerií jak krví rudne zem, "
+            "text": "   pod sedmou kavalerií jak krví rudne zem,"
         },
         {
             "chords": "                                               D",
-            "text": "   kmen Siouxů je statečný a dobře svůj kraj zná, "
+            "text": "   kmen Siouxů je statečný a dobře svůj kraj zná,"
         },
         {
             "chords": "         E7                     A           Ami",
-            "text": "   proč Custer neposlouchá ta slova varovná? "
+            "text": "   proč Custer neposlouchá ta slova varovná?"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Tam blízko Little Big Hornu šedivou prérií"
         },
         {
             "chords": "",
-            "text": "2. Tam blízko Little Big Hornu šedivou prérií "
+            "text": "   táhne generál Custer s sedmou kavalerií,"
         },
         {
             "chords": "",
-            "text": "   táhne generál Custer s sedmou kavalerií, "
+            "text": "   marně mu stopař Bridger radí: zpátky povel dej,"
         },
         {
             "chords": "",
-            "text": "   marně mu stopař Bridger radí: zpátky povel dej, "
+            "text": "   jedinou možnost ještě máš, život si zachovej."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Tam blízko Little Big Hornu se vznáší smrti stín,"
         },
         {
             "chords": "",
-            "text": "   jedinou možnost ještě máš, život si zachovej. "
+            "text": "   padají jezdci z koní, výstřely z karabin,"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "   límce modrejch kabátů barví krev červená,"
         },
         {
             "chords": "",
-            "text": "3. Tam blízko Little Big Hornu se vznáší smrti stín, "
+            "text": "   kmen Siouxů je statečný a dobře svůj kraj zná."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Říkal to Jim Bridger: já měl jsem v noci sen,"
         },
         {
             "chords": "",
-            "text": "   padají jezdci z koní, výstřely z karabin, "
+            "text": "   pod sedmou kavalerií jak krví rudne zem,"
         },
         {
             "chords": "",
-            "text": "   límce modrejch kabátů barví krev červená, "
+            "text": "   kmen Siouxů je statečný a dobře svůj kraj zná,"
         },
         {
             "chords": "",
-            "text": "   kmen Siouxů je statečný a dobře svůj kraj zná. "
+            "text": "   proč Custer neposlouchal ta slova varovná?"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4. Pak všechno ztichlo a jen tamtam duní nad krajem,"
         },
         {
             "chords": "",
-            "text": "R: Říkal to Jim Bridger: já měl jsem v noci sen, "
+            "text": "   v oblaku prachu mizí Siouxů vítězný kmen,"
         },
         {
             "chords": "",
-            "text": "   pod sedmou kavalerií jak krví rudne zem, "
+            "text": "   cáry vlajky hvězdnatý po kopcích vítr vál,"
         },
         {
             "chords": "",
-            "text": "   kmen Siouxů je statečný a dobře svůj kraj zná, "
+            "text": "   tam uprostřed svých vojáků leží i generál."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "   proč Custer neposlouchal ta slova varovná? "
-        },
-        {
-            "chords": "",
-            "text": "4. Pak všechno ztichlo a jen tamtam duní nad krajem, "
-        },
-        {
-            "chords": "",
-            "text": "   v oblaku prachu mizí Siouxů vítězný kmen, "
-        },
-        {
-            "chords": "",
-            "text": "   cáry vlajky hvězdnatý po kopcích vítr vál, "
-        },
-        {
-            "chords": "",
-            "text": "   tam uprostřed svých vojáků leží i generál. "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R:"
         }
     ]
 }

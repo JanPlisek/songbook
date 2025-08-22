@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "G  G7maj  Emi  C  G  G7maj  Emi  C  D",
             "text": ""
         },
@@ -65,95 +66,97 @@
             "text": "mersi, jó mersi, tak opustit zoufalců ráj, chci zas v tobě spát."
         },
         {
+            "block_start": true,
             "chords": "Emi, Emi, Emi, Emi, C, C, Ami, Ami, C, D",
             "text": ""
         },
         {
-            "chords": "G                          Hmi",
+            "chords": "",
             "text": "Říkáš, že svět je krásnej, svět je zlej,"
         },
         {
-            "chords": "Emi                    C",
+            "chords": "",
             "text": "až naše hvězda zhasne, haudy haudy hej,"
         },
         {
-            "chords": "G                     Hmi",
+            "chords": "",
             "text": "štěstím se lůza rodí, neříkám,"
         },
         {
-            "chords": "Emi                       C",
+            "chords": "",
             "text": "hledá pravdu, rodí, neví, nesvlíká se lásko"
         },
         {
-            "chords": "D                    C                G",
+            "chords": "",
             "text": "a hrubý síly vzývám, snídám bezpráví,"
         },
         {
-            "chords": "D                       Ami",
+            "chords": "",
             "text": "tvý voči v hlavě vídám, je to všechno jedna velká síla,"
         },
         {
-            "chords": "Emi                    C",
+            "chords": "",
             "text": "jestli se vážně hodíš, nevím nejdu spát,"
         },
         {
-            "chords": "D                      C",
+            "chords": "",
             "text": "na kolej kluky vodíš a ráno se chceš brát,"
         },
         {
-            "chords": "Emi                     C",
+            "chords": "",
             "text": "jestli se ke mně hodíš, snad jdu k tobě spát,"
         },
         {
-            "chords": "D                         C",
+            "chords": "",
             "text": "s láskou se vůní brodíme, postelový království"
         },
         {
-            "chords": "D                    C    C           D                 Emi",
+            "chords": "",
             "text": "za koně nechce se mi dát, jsem na tom stejně mám tě rád,"
         },
         {
-            "chords": "C        D              Ami",
+            "chords": "",
             "text": "jablkem, jablkem nejsi, kousnu hloubš a zlíbám tě celou"
         },
         {
-            "chords": "C                                     D",
+            "chords": "",
             "text": "mersi, jó mersi, tak opustit zoufalců ráj, chci zas v tobě spát."
         },
         {
+            "block_start": true,
             "chords": "Emi, Emi, Emi, Emi, C, C, Emi, Emi, C, D",
             "text": ""
         },
         {
-            "chords": "Emi                       C",
+            "chords": "",
             "text": "Sami se k břehům kloníme, sami jak bezvládnej proud,"
         },
         {
-            "chords": "Emi                          C",
+            "chords": "",
             "text": "sami se proti vlnám stavíme, sami se chcem zbavit těch pout,"
         },
         {
-            "chords": "Emi                       C",
+            "chords": "",
             "text": "sami se k břehům kloníme, sami jak bezvládnej proud,"
         },
         {
-            "chords": "Emi                          C  D",
+            "chords": "",
             "text": "sami se proti vlnám stavíme."
         },
         {
-            "chords": "C           D                   Emi",
+            "chords": "",
             "text": "Jsem na tom stejně mám tě rád,"
         },
         {
-            "chords": "C        D",
+            "chords": "",
             "text": "jablkem, jablkem nejsi,"
         },
         {
-            "chords": "Ami",
+            "chords": "",
             "text": "kousnu hloubš a zlíbám tě celou"
         },
         {
-            "chords": "C                                     D                         Emi",
+            "chords": "",
             "text": "mersi, jó mersi, tak opustit zoufalců ráj, chci zas v tobě spát."
         }
     ]

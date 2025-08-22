@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "      C              F",
             "text": "1.Nelidský je můj osud spíš,"
         },
@@ -25,6 +26,7 @@
             "text": "\"Co by řek mi Houston, Houston, Houston.\""
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2.V botách je díra šaty jsou cár,"
         },
@@ -41,6 +43,7 @@
             "text": "co by řek mi Houston, Houston, Houston."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3.Tulák se zoufale zpátky vlík,"
         },
@@ -57,6 +60,7 @@
             "text": "co by řek mi Houston, Houston, Houston."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4.Jednou se vrátím a budu mít,"
         },

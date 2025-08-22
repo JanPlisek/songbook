@@ -9,120 +9,122 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "           G         D           G        C",
-            "text": "1. V naší malé kuchyni tloukly staré hodiny "
+            "text": "1. V naší malé kuchyni tloukly staré hodiny"
         },
         {
             "chords": "             G         D         G",
-            "text": "   dlouhých devadesát let na stěně "
+            "text": "   dlouhých devadesát let na stěně"
         },
         {
             "chords": "                    D           G             C",
-            "text": "   a můj děda řadu let vstával ráno přesně v pět, "
+            "text": "   a můj děda řadu let vstával ráno přesně v pět,"
         },
         {
             "chords": "           G         D       G",
-            "text": "   sám je natahoval každodenně. "
+            "text": "   sám je natahoval každodenně."
         },
         {
             "chords": "                                C        G",
-            "text": "   Byly koupeny v den, kdy byl děda narozen, "
+            "text": "   Byly koupeny v den, kdy byl děda narozen,"
         },
         {
             "chords": "                       A7          D",
-            "text": "   vždycky rád poslouchal jejich hlas, "
+            "text": "   vždycky rád poslouchal jejich hlas,"
         },
         {
             "chords": "             G     D     G         C           G  D  G",
-            "text": "   život se dal v let a devadesát let je jen krátký čas. "
+            "text": "   život se dal v let a devadesát let je jen krátký čas."
         },
         {
+            "block_start": true,
             "chords": "     G          C    G              C   G",
-            "text": "R: Kráčely rok za rokem dědečkovým životem, "
+            "text": "R: Kráčely rok za rokem dědečkovým životem,"
         },
         {
             "chords": "                        D          G             C",
-            "text": "   jednou ráno zůstal spát, život má svůj pevný řád, "
+            "text": "   jednou ráno zůstal spát, život má svůj pevný řád,"
         },
         {
             "chords": "            G   D       G",
-            "text": "   to snad zná každý z nás. "
+            "text": "   to snad zná každý z nás."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Napřed kluk, za pár let statný muž a potom kmet,"
         },
         {
             "chords": "",
-            "text": "2. Napřed kluk, za pár let statný muž a potom kmet, "
+            "text": "   černý vlas, ctihodné šediny,"
         },
         {
             "chords": "",
-            "text": "   černý vlas, ctihodné šediny, "
+            "text": "   člověk stárne, je to tak, život jede jako vlak,"
         },
         {
             "chords": "",
-            "text": "   člověk stárne, je to tak, život jede jako vlak, "
+            "text": "   ať ho ženou roky nebo vteřiny."
         },
         {
             "chords": "",
-            "text": "   ať ho ženou roky nebo vteřiny. "
+            "text": "   Přitom rok od roku tikaly mu do kroku"
         },
         {
             "chords": "",
-            "text": "   Přitom rok od roku tikaly mu do kroku "
+            "text": "   hodiny, které měl tolik rád,"
         },
         {
             "chords": "",
-            "text": "   hodiny, které měl tolik rád, "
+            "text": "   život se dal v let, za devadesát let náhle zůstal stát."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Po té noci ledové přišlo jitro zářivé,"
         },
         {
             "chords": "",
-            "text": "   život se dal v let, za devadesát let náhle zůstal stát. "
+            "text": "   domem zní zase pláč dítěte,"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "   to náš nový syn způsobem obvyklým"
         },
         {
             "chords": "",
-            "text": "3. Po té noci ledové přišlo jitro zářivé, "
+            "text": "   říká nám, že je rád na světě."
         },
         {
             "chords": "",
-            "text": "   domem zní zase pláč dítěte, "
+            "text": "   V naši malé kuchyni visí nové hodiny"
         },
         {
             "chords": "",
-            "text": "   to náš nový syn způsobem obvyklým "
+            "text": "   místo těch, které jsou teď ve smetí,"
         },
         {
             "chords": "",
-            "text": "   říká nám, že je rád na světě. "
+            "text": "   začaly, tik-tak, vesele počítat nové století."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Budou kráčet rok za rokem celým naším životem"
         },
         {
             "chords": "",
-            "text": "   V naši malé kuchyni visí nové hodiny "
+            "text": "   a svým hlasem budou nás varovat, co umí čas,"
         },
         {
             "chords": "",
-            "text": "   místo těch, které jsou teď ve smetí, "
-        },
-        {
-            "chords": "",
-            "text": "   začaly, tik-tak, vesele počítat nové století. "
-        },
-        {
-            "chords": "",
-            "text": "R: Budou kráčet rok za rokem celým naším životem "
-        },
-        {
-            "chords": "",
-            "text": "   a svým hlasem budou nás varovat, co umí čas, "
-        },
-        {
-            "chords": "",
-            "text": "   když se rozletí. "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   když se rozletí."
         }
     ]
 }

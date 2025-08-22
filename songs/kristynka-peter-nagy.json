@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "Hmi               G",
             "text": "Kristínka by mala dnes"
         },
@@ -41,6 +42,7 @@
             "text": "keď sa rútiš s kolmých skál"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Bol som pri nej dole hneď"
         },
@@ -73,6 +75,7 @@
             "text": "keď sa rútiš s kolmých skál"
         },
         {
+            "block_start": true,
             "chords": "D         A     Hmi",
             "text": "Spíš Kristínka, snáď len spíš"
         },
@@ -85,6 +88,7 @@
             "text": "ten pád bol možno len klam"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Spíš Kristínka, snáď len spíš"
         },
@@ -117,6 +121,7 @@
             "text": "pri oblakoch"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Vydýchla mi v náručí"
         },
@@ -133,6 +138,7 @@
             "text": "že ticho za ňu rozpráva"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Tak sa platí, za to že mladá"
         },

@@ -9,172 +9,145 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "     Ami",
-            "text": "1. Spatřil jsem kometu, oblohou letěla, "
+            "text": "1. Spatřil jsem kometu, oblohou letěla,"
         },
         {
             "chords": "",
-            "text": "   chtěl jsem jí zazpívat, ona mi zmizela, "
+            "text": "   chtěl jsem jí zazpívat, ona mi zmizela,"
         },
         {
             "chords": "     Dmi            G7",
-            "text": "   zmizela jako laň u lesa v remízku, "
+            "text": "   zmizela jako laň u lesa v remízku,"
         },
         {
             "chords": "     C                   E7",
-            "text": "   v očích mi zbylo jen pár žlutých penízků. "
+            "text": "   v očích mi zbylo jen pár žlutých penízků."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Penízky ukryl jsem do hlíny pod dubem,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   až příště přiletí, my už tu nebudem,"
         },
         {
             "chords": "",
-            "text": "2. Penízky ukryl jsem do hlíny pod dubem, "
+            "text": "   my už tu nebudem, ach, pýcho marnivá,"
         },
         {
             "chords": "",
-            "text": "   až příště přiletí, my už tu nebudem, "
+            "text": "   spatřil jsem kometu, chtěl jsem jí zazpívat."
         },
         {
-            "chords": "",
-            "text": "   my už tu nebudem, ach, pýcho marnivá, "
-        },
-        {
-            "chords": "",
-            "text": "   spatřil jsem kometu, chtěl jsem jí zazpívat. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "   Ami              Dmi",
-            "text": "R: O vodě, o trávě, o lese, "
+            "text": "R: O vodě, o trávě, o lese,"
         },
         {
             "chords": "   G7                         C",
-            "text": "   o smrti, se kterou smířit nejde se, "
+            "text": "   o smrti, se kterou smířit nejde se,"
         },
         {
             "chords": "   Ami               Dmi",
-            "text": "   o lásce, o zradě, o světě "
+            "text": "   o lásce, o zradě, o světě"
         },
         {
             "chords": "   E                      E7                Ami",
-            "text": "   a o všech lidech, co kdy žili na téhle planetě. "
+            "text": "   a o všech lidech, co kdy žili na téhle planetě."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Na hvězdném nádraží cinkají vagóny,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   pan Kepler rozepsal nebeské zákony,"
         },
         {
             "chords": "",
-            "text": "3. Na hvězdném nádraží cinkají vagóny, "
+            "text": "   hledal, až nalezl v hvězdářských triedrech"
         },
         {
             "chords": "",
-            "text": "   pan Kepler rozepsal nebeské zákony, "
+            "text": "   tajemství, která teď neseme na bedrech."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4. Velká a odvěká tajemství přírody,"
         },
         {
             "chords": "",
-            "text": "   hledal, až nalezl v hvězdářských triedrech "
+            "text": "   že jenom z člověka člověk se narodí,"
         },
         {
             "chords": "",
-            "text": "   tajemství, která teď neseme na bedrech. "
+            "text": "   že kořen s větvemi ve strom se spojuje"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   a krev našich nadějí vesmírem putuje."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Na na na ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "5. Spatřil jsem kometu, byla jak reliéf"
         },
         {
             "chords": "",
-            "text": "4. Velká a odvěká tajemství přírody, "
+            "text": "   zpod rukou umělce, který už nežije,"
         },
         {
             "chords": "",
-            "text": "   že jenom z člověka člověk se narodí, "
+            "text": "   šplhal jsem do nebe, chtěl jsem ji osahat,"
         },
         {
             "chords": "",
-            "text": "   že kořen s větvemi ve strom se spojuje "
+            "text": "   marnost mne vysvlékla celého donaha."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "6. Jak socha Davida z bílého mramoru"
         },
         {
             "chords": "",
-            "text": "   a krev našich nadějí vesmírem putuje. "
+            "text": "   stál jsem a hleděl jsem, hleděl jsem nahoru,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   až příště přiletí, ach, pýcho marnivá,"
         },
         {
             "chords": "",
-            "text": "R: Na na na ... "
+            "text": "   my už tu nebudem, ale jiný jí zazpívá."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: O vodě, o trávě, o lese,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   o smrti, se kterou smířit nejde se,"
         },
         {
             "chords": "",
-            "text": "5. Spatřil jsem kometu, byla jak reliéf "
+            "text": "   o lásce, o zradě, o světě,"
         },
         {
             "chords": "",
-            "text": "   zpod rukou umělce, který už nežije, "
-        },
-        {
-            "chords": "",
-            "text": "   šplhal jsem do nebe, chtěl jsem ji osahat, "
-        },
-        {
-            "chords": "",
-            "text": "   marnost mne vysvlékla celého donaha. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "6. Jak socha Davida z bílého mramoru "
-        },
-        {
-            "chords": "",
-            "text": "   stál jsem a hleděl jsem, hleděl jsem nahoru, "
-        },
-        {
-            "chords": "",
-            "text": "   až příště přiletí, ach, pýcho marnivá, "
-        },
-        {
-            "chords": "",
-            "text": "   my už tu nebudem, ale jiný jí zazpívá. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "R: O vodě, o trávě, o lese, "
-        },
-        {
-            "chords": "",
-            "text": "   o smrti, se kterou smířit nejde se, "
-        },
-        {
-            "chords": "",
-            "text": "   o lásce, o zradě, o světě, "
-        },
-        {
-            "chords": "",
-            "text": "   bude to písnička o nás a kometě ... "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   bude to písnička o nás a kometě ..."
         }
     ]
 }

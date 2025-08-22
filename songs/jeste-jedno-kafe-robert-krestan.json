@@ -11,76 +11,74 @@
     "capo": 3,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "         Emi                       D",
-            "text": "1. Máš sladkej dech a oči, kterým patří svatozář, "
+            "text": "1. Máš sladkej dech a oči, kterým patří svatozář,"
         },
         {
             "chords": "       C                              H7",
-            "text": "   a vlasy máš jak hedvábí, když je vhodíš na polštář, "
+            "text": "   a vlasy máš jak hedvábí, když je vhodíš na polštář,"
         },
         {
             "chords": "        Emi                     D",
-            "text": "   ale já se o tvou lásku ani vděčnost neprosím, "
+            "text": "   ale já se o tvou lásku ani vděčnost neprosím,"
         },
         {
             "chords": "       C                          H7",
-            "text": "   ty děkuješ jen hvězdám a jseš věrná jenom jim. "
+            "text": "   ty děkuješ jen hvězdám a jseš věrná jenom jim."
         },
         {
+            "block_start": true,
             "chords": "    C                        H7",
-            "text": "R: Ještě jedno kafe bych si dal, "
+            "text": "R: Ještě jedno kafe bych si dal,"
         },
         {
             "chords": "    C                      H7              Emi",
-            "text": "   ještě jedno kafe, krucinál, než pojedu dál. "
+            "text": "   ještě jedno kafe, krucinál, než pojedu dál."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Tvůj táta, to je vandrák a od přírody zběh"
         },
         {
             "chords": "",
-            "text": "2. Tvůj táta, to je vandrák a od přírody zběh "
+            "text": "   a místo písmen učí tě jen dorovnávat dech,"
         },
         {
             "chords": "",
-            "text": "   a místo písmen učí tě jen dorovnávat dech, "
+            "text": "   a taky házet nožem a držet pospolu"
         },
         {
             "chords": "",
-            "text": "   a taky házet nožem a držet pospolu "
+            "text": "   a brada se mu třese, když se nosí ke stolu."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Tvá sestra hádá z ruky a tvá máti jakbysmet"
         },
         {
             "chords": "",
-            "text": "   a brada se mu třese, když se nosí ke stolu. "
+            "text": "   a ty sama umíš všechno, co je mimo tenhle svět,"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "   a tvá rozkoš nezná hranic, děvče s hlasem skřivana.,"
         },
         {
             "chords": "",
-            "text": "3. Tvá sestra hádá z ruky a tvá máti jakbysmet "
+            "text": "   jen tvý srdce je jak moře - samý tajemství a tma."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "   a ty sama umíš všechno, co je mimo tenhle svět, "
-        },
-        {
-            "chords": "",
-            "text": "   a tvá rozkoš nezná hranic, děvče s hlasem skřivana., "
-        },
-        {
-            "chords": "",
-            "text": "   jen tvý srdce je jak moře - samý tajemství a tma. "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": ""
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R:"
         }
     ]
 }

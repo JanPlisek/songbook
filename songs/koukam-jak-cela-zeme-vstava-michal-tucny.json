@@ -11,6 +11,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "  G             C             G",
             "text": "1.Ranním vlakem jezdím dlouhá léta"
         },
@@ -51,6 +52,7 @@
             "text": "  kolem polí a pasoucích se stád."
         },
         {
+            "block_start": true,
             "chords": "  G                     C",
             "text": "R.Koukám, jak celá země vstává"
         },
@@ -71,6 +73,7 @@
             "text": "  To jsem já tvůj znovu nalezený syn."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2.Jedem kolem nízkých spících domků,"
         },
@@ -111,10 +114,12 @@
             "text": "  palcem první cigaretu zadusí."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R.Koukám, jak celá země vstává ..."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3.Přidali nám cestou jeden vagón,"
         },
@@ -155,6 +160,7 @@
             "text": "  kolem polí a pasoucích se stád."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R.Koukám, jak celá země vstává ..."
         }

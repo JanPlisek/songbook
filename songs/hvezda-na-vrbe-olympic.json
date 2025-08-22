@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "           Ami   Emi    Ami   F       Emi   G7 C Emi",
             "text": "1. Kdo se večer hájem vrací, ten ať klopí zraky,"
         },
@@ -25,6 +26,7 @@
             "text": "   že na vrbě kromě listí visí malá hvězda."
         },
         {
+            "block_start": true,
             "chords": "        C                F             C           F",
             "text": "R: Viděli jsme jednou v lukách plakat na té vrbě kluka,"
         },
@@ -33,6 +35,7 @@
             "text": "   který pevně věřil tomu, že ji sundá z toho stromu."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Kdo o hvězdy jeví zájem, zem když večer chladne,"
         },
@@ -49,6 +52,7 @@
             "text": "   a pro ty, co kolem chodí, na tu větev zavěsí."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         }

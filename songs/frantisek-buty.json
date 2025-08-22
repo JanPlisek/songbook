@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    G                              C",
             "text": "1. Na hladinu rybníka svítí sluníčko"
         },
@@ -25,6 +26,7 @@
             "text": "   jmenoval se František Dobrota."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. František Dobrota, rodák z blízké vesnice,"
         },
@@ -41,6 +43,7 @@
             "text": "   teď dobře poslouchej, co máš všechno udělat."
         },
         {
+            "block_start": true,
             "chords": "    C                    D C",
             "text": "R: Balabambam, balabambam,"
         },
@@ -57,6 +60,7 @@
             "text": "   a kolem rybníka nahusto nasázet topoly"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. František udělal všechno, co mu řekla, balabambam, balabambam,"
         },
@@ -66,13 +70,14 @@
         },
         {
             "chords": "",
-            "text": "   žebriňák s nářadím dotáhl od chalupy k rybníku,"
+            "text": "   žebřiňák s nářadím dotáhl od chalupy k rybníku,"
         },
         {
             "chords": "",
             "text": "   vykopal díry a zasadil topoly."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Od té doby vítr na hladinu nefouká,"
         },

@@ -11,80 +11,65 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "         D                                   F#",
-            "text": "1. Cesty toulavý, já vím, že se vás už nikdy nezbavím, "
+            "text": "1. Cesty toulavý, já vím, že se vás už nikdy nezbavím,"
         },
         {
             "chords": "   F#7                  Emi",
-            "text": "   s kamarády vám večer písní vyprávím, "
+            "text": "   s kamarády vám večer písní vyprávím,"
         },
         {
             "chords": "      G               A          D",
-            "text": "   že dál mě vedou mý cesty toulavý. "
+            "text": "   že dál mě vedou mý cesty toulavý."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Cesty toulavý, na jednom místě stát mě nebaví,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   tam, kde jsem ještě nebyl, tak se zastavím"
         },
         {
             "chords": "",
-            "text": "2. Cesty toulavý, na jednom místě stát mě nebaví, "
+            "text": "   a dál mě vedou mý cesty toulavý."
         },
         {
-            "chords": "",
-            "text": "   tam, kde jsem ještě nebyl, tak se zastavím "
-        },
-        {
-            "chords": "",
-            "text": "   a dál mě vedou mý cesty toulavý. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "   D7    G",
-            "text": "R. Cesty toulavý, jak za starých časů "
+            "text": "R. Cesty toulavý, jak za starých časů"
         },
         {
             "chords": "              D              G",
-            "text": "   komedianti z poutí, každý z nás to ví, "
+            "text": "   komedianti z poutí, každý z nás to ví,"
         },
         {
             "chords": "                                      D        A7",
-            "text": "   že žádný cesty nejsou rovný, že se kroutí a kroutí. "
+            "text": "   že žádný cesty nejsou rovný, že se kroutí a kroutí."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. = 1."
         },
         {
             "chords": "",
-            "text": " "
+            "text": "R."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4.Cesty toulavý, já vím, že se vás už nikdy nezbavím,"
         },
         {
             "chords": "",
-            "text": "3. = 1. "
+            "text": "  s kamarády vám večer písní vyprávím,"
         },
         {
             "chords": "",
-            "text": "R. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "4.Cesty toulavý, já vím, že se vás už nikdy nezbavím, "
-        },
-        {
-            "chords": "",
-            "text": "  s kamarády vám večer písní vyprávím, "
-        },
-        {
-            "chords": "",
-            "text": "  [: že dál mě vedou mý cesty toulavý. :] "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "  [: že dál mě vedou mý cesty toulavý. :]"
         }
     ]
 }

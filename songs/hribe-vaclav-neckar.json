@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "C                     F      C",
             "text": "Johny mi dal k svátku krásný hříbě,"
         },
@@ -41,6 +42,7 @@
             "text": "jó zkuste žít mezi kovboji."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Dlouhán Johny ten se jenom směje, ten svým koním jenou rozumí."
         },
@@ -57,6 +59,7 @@
             "text": "Hříbat těch se holky nebojí, jó zkuste žít mezi kovboji."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Až se hříbě stane rychlým běžcem, ze sedla ho párkrát vyhodí,"
         },

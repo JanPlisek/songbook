@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "        G            D          C     G",
             "text": "1. Kdo ví, proč to hříbě tak v lásce mám,"
         },
@@ -17,6 +18,7 @@
             "text": "   stádo mu zbloudilo bůhvíkam."
         },
         {
+            "block_start": true,
             "chords": "        G",
             "text": "R: Ať sníh či déšť padá tmou,"
         },
@@ -33,6 +35,7 @@
             "text": "   já a můj Doney Gal musíme jít."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. V zádech už máme snad tisíce mil,"
         },
@@ -41,10 +44,12 @@
             "text": "   stále jen spolu jdem, neznáme cíl."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Až z nás jeden zůstane v klínu hor,"
         },
@@ -53,6 +58,7 @@
             "text": "   já ať to jsem, a ne můj Doney Gal."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         }

@@ -10,164 +10,138 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "     Ami          C        Ami            E",
-            "text": "1. Dneska už mně fóry ňák nejdou přes pysky, "
+            "text": "1. Dneska už mně fóry ňák nejdou přes pysky,"
         },
         {
             "chords": "     Ami              C          Ami   E       Ami",
-            "text": "   stojím s dlouhou kravatou na bedně vod whisky, "
+            "text": "   stojím s dlouhou kravatou na bedně vod whisky,"
         },
         {
             "chords": "                     C        Ami          E",
-            "text": "   stojím s dlouhým vobojkem jak stájovej pinč, "
+            "text": "   stojím s dlouhým vobojkem jak stájovej pinč,"
         },
         {
             "chords": "        Ami        C         Ami     E      A",
-            "text": "   tu kravatu, co nosím, mi navlík' soudce Lynč. "
+            "text": "   tu kravatu, co nosím, mi navlík' soudce Lynč."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "        A           D         E           A",
-            "text": "R: Tak kopni do tý bedny, ať panstvo nečeká, "
+            "text": "R: Tak kopni do tý bedny, ať panstvo nečeká,"
         },
         {
             "chords": "                       D           E        A",
-            "text": "   jsou dlouhý schody do nebe a štreka daleká "
+            "text": "   jsou dlouhý schody do nebe a štreka daleká"
         },
         {
             "chords": "                 D        E            A",
-            "text": "   do nebeskýho baru, já sucho v krku mám, "
+            "text": "   do nebeskýho baru, já sucho v krku mám,"
         },
         {
             "chords": "                    D         E           Ami",
-            "text": "   tak kopni do tý bedny, ať na cestu se dám. "
+            "text": "   tak kopni do tý bedny, ať na cestu se dám."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Mít tak všechny bedny od whisky vypitý,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   postavil bych malej dům na louce ukrytý,"
         },
         {
             "chords": "",
-            "text": "2. Mít tak všechny bedny od whisky vypitý, "
+            "text": "   postavil bych malej dům a z vokna koukal ven"
         },
         {
             "chords": "",
-            "text": "   postavil bych malej dům na louce ukrytý, "
+            "text": "   a chlastal bych tam s Bilem a chlastal by tam Ben."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Tak kopni do tý bedny ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Kdyby jsi se, hochu, jen porád nechtěl rvát,"
         },
         {
             "chords": "",
-            "text": "   postavil bych malej dům a z vokna koukal ven "
+            "text": "   nemusel jsi dneska na týhle bedně stát,"
         },
         {
             "chords": "",
-            "text": "   a chlastal bych tam s Bilem a chlastal by tam Ben. "
+            "text": "   moh' jsi někde v suchu tu svoji whisku pít,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   nemusel jsi dneska na krku laso mít."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Tak kopni do tý bedny ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4. Když jsem štípnul koně a ujel jen pár mil,"
         },
         {
             "chords": "",
-            "text": "R: Tak kopni do tý bedny ... "
+            "text": "   nechtěl běžet, dokavád se whisky nenapil,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   zatracená smůla zlá, zatracenej pech,"
         },
         {
             "chords": "",
-            "text": "3. Kdyby jsi se, hochu, jen porád nechtěl rvát, "
+            "text": "   když kůň cucá whisku jak u potoka mech."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Tak kopni do tý bedny ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "5. Až kopneš do tý bedny, jak se to dělává,"
         },
         {
             "chords": "",
-            "text": "   nemusel jsi dneska na týhle bedně stát, "
+            "text": "   do krku mi zvostane jen dírka mrňavá,"
         },
         {
             "chords": "",
-            "text": "   moh' jsi někde v suchu tu svoji whisku pít, "
+            "text": "   jenom dírka mrňavá a k smrti jenom krok,"
         },
         {
             "chords": "",
-            "text": "   nemusel jsi dneska na krku laso mít. "
+            "text": "   má to smutnej konec, a whisky ani lok."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Tak kopni do tý bedny, ať panstvo nečeká,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   jsou dlouhý schody do nebe a štreka daleká"
         },
         {
             "chords": "",
-            "text": "R: Tak kopni do tý bedny ... "
+            "text": "   do nebeskýho baru, já sucho v krku mám,"
         },
         {
             "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "4. Když jsem štípnul koně a ujel jen pár mil, "
-        },
-        {
-            "chords": "",
-            "text": "   nechtěl běžet, dokavád se whisky nenapil, "
-        },
-        {
-            "chords": "",
-            "text": "   zatracená smůla zlá, zatracenej pech, "
-        },
-        {
-            "chords": "",
-            "text": "   když kůň cucá whisku jak u potoka mech. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "R: Tak kopni do tý bedny ... "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "5. Až kopneš do tý bedny, jak se to dělává, "
-        },
-        {
-            "chords": "",
-            "text": "   do krku mi zvostane jen dírka mrňavá, "
-        },
-        {
-            "chords": "",
-            "text": "   jenom dírka mrňavá a k smrti jenom krok, "
-        },
-        {
-            "chords": "",
-            "text": "   má to smutnej konec, a whisky ani lok. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "R: Tak kopni do tý bedny, ať panstvo nečeká, "
-        },
-        {
-            "chords": "",
-            "text": "   jsou dlouhý schody do nebe a štreka daleká "
-        },
-        {
-            "chords": "",
-            "text": "   do nebeskýho baru, já sucho v krku mám, "
-        },
-        {
-            "chords": "",
-            "text": "   tak kopni do tý bedny! "
+            "text": "   tak kopni do tý bedny!"
         }
     ]
 }

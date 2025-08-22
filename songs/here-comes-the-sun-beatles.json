@@ -1,112 +1,104 @@
 {
-    "id": "here-comes-the-sun-the-beatles",
+    "id": "here-comes-the-sun-beatles",
     "title": "Here Comes The Sun",
     "artist": [],
     "band": [
-        "The Beatles"
+        "Beatles"
     ],
     "originalKey": "G",
     "capo": 0,
     "lyrics": [
         {
             "chords": "G",
-            "text": "Little darling, "
+            "text": "Little darling,"
         },
         {
             "chords": "             C                  D",
-            "text": "It's been a long, cold, lonely winter. "
+            "text": "It's been a long, cold, lonely winter."
         },
         {
             "chords": "G",
-            "text": "Little darling, "
+            "text": "Little darling,"
         },
         {
             "chords": "               C                     D",
-            "text": "It feels like years since it's been here. "
+            "text": "It feels like years since it's been here."
         },
         {
             "chords": "G",
-            "text": "Here comes the sun. "
+            "text": "Here comes the sun."
         },
         {
             "chords": "C               A7",
-            "text": "Here comes the sun, "
+            "text": "Here comes the sun,"
         },
         {
             "chords": "           G              C D G",
-            "text": "And I say, it's all right. "
+            "text": "And I say, it's all right."
         },
         {
             "chords": "G",
-            "text": "Little darling, "
+            "text": "Little darling,"
         },
         {
             "chords": "             C                D",
-            "text": "The smiles returning to their faces. "
+            "text": "The smiles returning to their faces."
         },
         {
             "chords": "G",
-            "text": "Little darling, "
+            "text": "Little darling,"
         },
         {
             "chords": "              C                     D",
-            "text": "It feels like years since it's been here. "
+            "text": "It feels like years since it's been here."
         },
         {
             "chords": "G",
-            "text": "Here comes the sun. "
+            "text": "Here comes the sun."
         },
         {
             "chords": "C               A7",
-            "text": "Here comes the sun, "
+            "text": "Here comes the sun,"
         },
         {
             "chords": "           G              C D G",
-            "text": "And I say, it's all right. "
+            "text": "And I say, it's all right."
         },
         {
             "chords": "F    C    G            D",
-            "text": "Sun, sun, sun, here it comes "
+            "text": "Sun, sun, sun, here it comes"
         },
         {
             "chords": "",
-            "text": "Sun, sun, sun, here it comes "
+            "text": "Sun, sun, sun, here it comes"
         },
         {
             "chords": "G",
-            "text": "Little darling, "
+            "text": "Little darling,"
         },
         {
             "chords": "            C             D",
-            "text": "I feel that ice is slowly melting. "
+            "text": "I feel that ice is slowly melting."
         },
         {
             "chords": "G",
-            "text": "Little darling, "
+            "text": "Little darling,"
         },
         {
             "chords": "              C                     D",
-            "text": "It feels like years since it's been clear. "
+            "text": "It feels like years since it's been clear."
         },
         {
             "chords": "G",
-            "text": "Here comes the sun. "
+            "text": "Here comes the sun."
         },
         {
             "chords": "C               A7",
-            "text": "Here comes the sun, "
+            "text": "Here comes the sun,"
         },
         {
             "chords": "           G              C D C D G",
-            "text": "And I say, it's all right. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "And I say, it's all right."
         }
     ]
 }

@@ -1,15 +1,9 @@
 <?php
-include_once 'includes/functions.php'; // Toto je v pořádku, je to potřeba pro kontrolu níže.
+if (session_status() === PHP_SESSION_NONE) { session_start(); }
+include_once 'includes/functions.php';
 
-// Pokud uživatel není přihlášen, ukončíme skript.
-if (!is_user_logged_in()) {
-    header('Location: login.php');
-    exit;
-}
+if (!is_user_logged_in()) { header('Location: login.php'); exit; }
 
-// ------ ZDE NASTALA ZMĚNA ------
-// Původní řádek: include 'includes/functions.php'; include 'includes/header.php';
-// Nový řádek (už nenačítáme znovu functions.php, o to se postará header):
 $pageTitle = "Editor písní";
 include 'includes/header.php';
 
@@ -20,10 +14,7 @@ $form_data = ['title' => '', 'artist' => '', 'band' => '', 'key' => '', 'capo' =
 // Načtení existující písně k editaci
 if (isset($_GET['id']) && $_SERVER['REQUEST_METHOD'] !== 'POST') {
     $song_id = $_GET['id']; 
-    // Bezpečnostní pojistka proti directory traversal
-    if (strpos($song_id, '/') !== false || strpos($song_id, '\\') !== false || strpos($song_id, '.') !== false) {
-        die('Neplatné ID písně.');
-    }
+    if (strpos($song_id, '/') !== false || strpos($song_id, '\\') !== false || strpos($song_id, '.') !== false) { die('Neplatné ID písně.'); }
     $file_path = 'songs/' . $song_id . '.json';
     if (file_exists($file_path)) {
         $song_data = json_decode(file_get_contents($file_path), true);
@@ -35,17 +26,14 @@ if (isset($_GET['id']) && $_SERVER['REQUEST_METHOD'] !== 'POST') {
             $form_data['capo'] = $song_data['capo'] ?? 0;
             $raw_content = '';
             if (isset($song_data['lyrics']) && is_array($song_data['lyrics'])) {
+                $is_first_block = true;
                 foreach ($song_data['lyrics'] as $line) {
-                    if (isset($line['chords']) && $line['chords'] !== "") { 
-                        $raw_content .= $line['chords'] . "\n"; 
+                    if (isset($line['block_start']) && $line['block_start'] && !$is_first_block) {
+                        $raw_content .= "\n"; // Přidáme prázdný řádek mezi bloky
                     }
-                    if (isset($line['text']) && $line['text'] !== "") {
-                        $raw_content .= $line['text'] . "\n";
-                    } elseif (isset($line['chords']) && $line['chords'] !== "") {
-                        // Přidá prázdný řádek pro akordový řádek bez textu, aby se zachovalo formátování
-                    } else {
-                        $raw_content .= "\n";
-                    }
+                    if (isset($line['chords']) && $line['chords'] !== "") { $raw_content .= $line['chords'] . "\n"; }
+                    if (isset($line['text']) && $line['text'] !== "") { $raw_content .= $line['text'] . "\n"; }
+                    $is_first_block = false;
                 }
             }
             $form_data['raw_content'] = $raw_content;
@@ -59,83 +47,70 @@ if (isset($_GET['id']) && $_SERVER['REQUEST_METHOD'] !== 'POST') {
 
 // Zpracování a uložení formuláře
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save_song'])) {
-    $title = $_POST['title']; 
-    $artist_string = $_POST['artist']; 
-    $band_string = $_POST['band']; 
-    $key = $_POST['key']; 
-    $capo = (int)$_POST['capo']; 
+    // ... (metadata processing remains the same) ...
+    $title = $_POST['title']; $artist_string = $_POST['artist']; $band_string = $_POST['band']; $key = $_POST['key']; $capo = (int)$_POST['capo']; 
     $raw_content = $_POST['song_content'];
     
+    // === VYLEPŠENÝ PARSER TEXTU S ROZPOZNÁVÁNÍM BLOKŮ ===
     $lines = explode("\n", str_replace("\r", "", $raw_content));
     $lyrics_data = []; 
     $chord_line_regex = '/^[A-HMIsc\s#b\/susmajdimaugadd0-9()\[\]:.,-]+$/i';
-    
+    $next_line_is_block_start = true; // První řádek je vždy začátek bloku
+
     for ($i = 0; $i < count($lines); $i++) {
         $current_line = rtrim($lines[$i]);
-        if ($current_line === "") continue; // Přeskakujeme prázdné řádky
+
+        if (trim($current_line) === "") {
+            $next_line_is_block_start = true;
+            continue; // Přeskočíme prázdný řádek, ale poznačíme si, že další řádek je začátek
+        }
         
+        $line_object = [];
+        if ($next_line_is_block_start) {
+            $line_object['block_start'] = true;
+            $next_line_is_block_start = false;
+        }
+
         $is_current_line_chord = preg_match($chord_line_regex, trim($current_line));
         
         if ($is_current_line_chord) {
+            $line_object['chords'] = $current_line;
             $next_line_index = $i + 1;
-            $text_line = "";
-            // Najdeme další ne-akordový řádek
-            while ($next_line_index < count($lines) && preg_match($chord_line_regex, trim($lines[$next_line_index]))) {
-                // Tento řádek je také akordový, přidáme předchozí jen s akordy
-                $lyrics_data[] = ["chords" => $current_line, "text" => ""];
-                $current_line = rtrim($lines[$next_line_index]);
-                $next_line_index++;
+            if ($next_line_index < count($lines) && !preg_match($chord_line_regex, trim($lines[$next_line_index]))) {
+                $line_object['text'] = rtrim($lines[$next_line_index]);
+                $i++; // Posuneme index, protože jsme zpracovali dva řádky
+            } else {
+                $line_object['text'] = "";
             }
-            if ($next_line_index < count($lines)) {
-                $text_line = rtrim($lines[$next_line_index]);
-                $i = $next_line_index; // Posuneme hlavní index
-            }
-            $lyrics_data[] = ["chords" => $current_line, "text" => $text_line];
         } else { 
-            $lyrics_data[] = ["chords" => "", "text" => $current_line]; 
+            $line_object['chords'] = "";
+            $line_object['text'] = $current_line; 
         }
+        $lyrics_data[] = $line_object;
     }
-    
+    // === KONEC PARSERU ===
+
     $artists_array = !empty($artist_string) ? array_map('trim', explode(',', $artist_string)) : [];
     $bands_array = !empty($band_string) ? array_map('trim', explode(',', $band_string)) : [];
-    
     $id_name = !empty($artists_array) ? $artists_array[0] : (!empty($bands_array) ? $bands_array[0] : 'neznamy');
-    
     $id = create_slug($title . '-' . $id_name);
     $filename = 'songs/' . $id . '.json';
-    
     $final_json_data = [ 'id' => $id, 'title' => $title, 'artist' => $artists_array, 'band' => $bands_array, 'originalKey' => $key, 'capo' => $capo, 'lyrics' => $lyrics_data ];
     file_put_contents($filename, json_encode($final_json_data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     
-    // Aktualizace _masterlist.json
+    // ... (updating _masterlist.json remains the same) ...
     $master_list_file = 'songs/_masterlist.json';
-    $master_list = [];
-    if (file_exists($master_list_file)) {
-        $master_list = json_decode(file_get_contents($master_list_file), true) ?? [];
-    }
-    
+    $master_list = file_exists($master_list_file) ? json_decode(file_get_contents($master_list_file), true) ?? [] : [];
     $exists_index = -1; 
-    foreach($master_list as $index => $song) { 
-        if ($song['id'] === $id) { 
-            $exists_index = $index; 
-            break; 
-        } 
-    }
-    
+    foreach($master_list as $index => $song) { if ($song['id'] === $id) { $exists_index = $index; break; } }
     $new_entry = ['id' => $id, 'title' => $title, 'artist' => $artists_array, 'band' => $bands_array];
-    if ($exists_index !== -1) { 
-        $master_list[$exists_index] = $new_entry; 
-    } else { 
-        $master_list[] = $new_entry; 
-    }
-    
+    if ($exists_index !== -1) { $master_list[$exists_index] = $new_entry; } else { $master_list[] = $new_entry; }
     file_put_contents($master_list_file, json_encode($master_list, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     
     $message = "Úspěch! Písnička '$title' byla uložena."; 
     $message_type = 'success';
 }
 ?>
-
 <div class="editor-page">
     <h1>Editor písní</h1>
     <?php if ($message): ?> <div class="message <?php echo $message_type; ?>"><?php echo htmlspecialchars($message); ?></div> <?php endif; ?>
@@ -155,7 +130,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save_song'])) {
         </fieldset>
         <fieldset>
             <legend><h3>Text a akordy</h3></legend>
-            <p style="font-size: 0.9em; color: #666;">Pište akordy na samostatný řádek nad text. Prázdné řádky budou zachovány.</p>
+            <p style="font-size: 0.9em; color: #666;">Pro oddělení slok použijte prázdný řádek. Pište akordy na samostatný řádek nad text.   ---------|</p>
             <textarea id="song_content" name="song_content" required><?php echo htmlspecialchars($form_data['raw_content']); ?></textarea>
         </fieldset>
         <button type="submit" name="save_song">Zpracovat a uložit písničku</button>

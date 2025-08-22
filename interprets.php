@@ -1,4 +1,11 @@
 <?php
+// === INICIALIZAČNÍ BLOK (přidat) ===
+if (session_status() === PHP_SESSION_NONE) {
+    session_start();
+}
+include_once 'includes/functions.php';
+// === KONEC BLOKU ===
+
 $pageTitle = "Interpreti";
 include 'includes/header.php';
 

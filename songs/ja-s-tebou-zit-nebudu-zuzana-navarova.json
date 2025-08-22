@@ -11,6 +11,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    Emi                     F#7",
             "text": "1. Bylas' jak poslední hlt vína,"
         },
@@ -27,6 +28,7 @@
             "text": "   říkalas': dnešní noc je tvá."
         },
         {
+            "block_start": true,
             "chords": "    G                         H7",
             "text": "R: Co my dva z lásky vlastně máme,"
         },
@@ -47,6 +49,7 @@
             "text": "   : a me tu ha nadži vava jaj dari dari daj. :"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Zejtra tě potkám za svým stínem,"
         },
@@ -63,10 +66,12 @@
             "text": "   hořká a sladká splývají."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Bylas' jak poslední hlt vína,"
         },
@@ -83,6 +88,7 @@
             "text": "   a trapný průchod banalit."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R: Co my tři z lásky vlastně máme,"
         },

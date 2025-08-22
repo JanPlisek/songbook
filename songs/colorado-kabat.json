@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "           G                           C",
             "text": "1. Táta vždycky říkal: hochu, žádný strachy,"
         },
@@ -25,6 +26,7 @@
             "text": "   do srdce Evropy já vodjel v klidu krást."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Narvaný kapsy, prsteny, řetězy zlatý"
         },
@@ -41,6 +43,7 @@
             "text": "   musím si pohnout, dokaváď tam rozdávaj'."
         },
         {
+            "block_start": true,
             "chords": "            G                        C",
             "text": "R: Z Billa na Nováka změním si svý jméno,"
         },
@@ -57,6 +60,7 @@
             "text": "   o tý zlatý žíle řeknu doma všem."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Tam kradou všichni, co blízko vokolo bydlej',"
         },
@@ -73,6 +77,7 @@
             "text": "   házej' mu kosti za to, že se nedívá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Místo krav tam, nelžu vám, prej pasou holky,"
         },
@@ -89,6 +94,7 @@
             "text": "   místo na koních tam jezděj' v medvědech."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },

@@ -9,164 +9,140 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "Ami                                  Dmi",
-            "text": "Někdy si říkám, jestli ještě znáš mý jméno, "
+            "text": "Někdy si říkám, jestli ještě znáš mý jméno,"
         },
         {
             "chords": "      G                             C    C\/H",
-            "text": "a jak často na mě myslíš, když jdeš spát. "
+            "text": "a jak často na mě myslíš, když jdeš spát."
         },
         {
             "chords": "          Ami                  Dmi",
-            "text": "Na zítřek v televizi hlásí zataženo, "
+            "text": "Na zítřek v televizi hlásí zataženo,"
         },
         {
             "chords": "       E                     Ami",
-            "text": "a v mý hlavě už tak bude napořád. "
+            "text": "a v mý hlavě už tak bude napořád."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Život jde dál, lásko, musíme si zvykat,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "a není dobrý na tý cestě zůstat sám,"
         },
         {
             "chords": "",
-            "text": "Život jde dál, lásko, musíme si zvykat, "
+            "text": "pro jeden smutek nemá cenu stokrát vzlykat,"
         },
         {
             "chords": "",
-            "text": "a není dobrý na tý cestě zůstat sám, "
+            "text": "když má svět otevřenou náruč dokořán."
         },
         {
-            "chords": "",
-            "text": "pro jeden smutek nemá cenu stokrát vzlykat, "
-        },
-        {
-            "chords": "",
-            "text": "když má svět otevřenou náruč dokořán. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "C                    Ami",
-            "text": "A co bylo dál, jenom vítr, "
+            "text": "A co bylo dál, jenom vítr,"
         },
         {
             "chords": "F          G         C",
-            "text": "po nebi se mraky honily. "
+            "text": "po nebi se mraky honily."
         },
         {
             "chords": "C                    Ami",
-            "text": "A co bylo dál, jenom vítr, "
+            "text": "A co bylo dál, jenom vítr,"
         },
         {
             "chords": "F              G          Ami",
-            "text": "stromy se až k zemi sklonily. "
+            "text": "stromy se až k zemi sklonily."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "V uších mi pořád zněly tvoje něžný věty,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "a do vlasů ti sedal bílej sníh,"
         },
         {
             "chords": "",
-            "text": "V uších mi pořád zněly tvoje něžný věty, "
+            "text": "z oblohy černý jak díra mezi světy,"
         },
         {
             "chords": "",
-            "text": "a do vlasů ti sedal bílej sníh, "
+            "text": "se na mě snášel a studil na dlaních."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "A co bylo dál, jenom vítr,"
         },
         {
             "chords": "",
-            "text": "z oblohy černý jak díra mezi světy, "
+            "text": "po nebi se mraky honily."
         },
         {
             "chords": "",
-            "text": "se na mě snášel a studil na dlaních. "
+            "text": "A co bylo dál, jenom vítr,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "a stromy se až k zemi sklonily."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "V tom baru nevěděli, že je venku krize,"
         },
         {
             "chords": "",
-            "text": "A co bylo dál, jenom vítr, "
+            "text": "z rádia zpíval Cohen \"Lásko, jsem tvůj muž\","
         },
         {
             "chords": "",
-            "text": "po nebi se mraky honily. "
+            "text": "tys vešla dovnitř jak zhmotnění mý vize,"
         },
         {
             "chords": "",
-            "text": "A co bylo dál, jenom vítr, "
+            "text": "jako když do srdce mi někdo vrazí nůž..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "A co bylo dál, jenom vítr,"
         },
         {
             "chords": "",
-            "text": "a stromy se až k zemi sklonily. "
+            "text": "po nebi se mraky honily."
         },
         {
             "chords": "",
-            "text": " "
+            "text": "A co bylo dál, jenom vítr,"
         },
         {
             "chords": "",
-            "text": "V tom baru nevěděli, že je venku krize, "
+            "text": "a stromy se až k zemi ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "A co bylo dál, jenom vítr,"
         },
         {
             "chords": "",
-            "text": "z rádia zpíval Cohen \"Lásko, jsem tvůj muž\", "
+            "text": "po nebi se mraky honily."
         },
         {
             "chords": "",
-            "text": "tys vešla dovnitř jak zhmotnění mý vize, "
+            "text": "A co bylo dál, jenom vítr,"
         },
         {
             "chords": "",
-            "text": "jako když do srdce mi někdo vrazí nůž... "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "A co bylo dál, jenom vítr, "
-        },
-        {
-            "chords": "",
-            "text": "po nebi se mraky honily. "
-        },
-        {
-            "chords": "",
-            "text": "A co bylo dál, jenom vítr, "
-        },
-        {
-            "chords": "",
-            "text": "a stromy se až k zemi ... "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "A co bylo dál, jenom vítr, "
-        },
-        {
-            "chords": "",
-            "text": "po nebi se mraky honily. "
-        },
-        {
-            "chords": "",
-            "text": "A co bylo dál, jenom vítr, "
-        },
-        {
-            "chords": "",
-            "text": "a stromy se až k zemi sklonily "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "a stromy se až k zemi sklonily"
         }
     ]
 }

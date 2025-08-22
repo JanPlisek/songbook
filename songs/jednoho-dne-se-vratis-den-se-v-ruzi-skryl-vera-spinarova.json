@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "A                                 D",
             "text": "Den se v růži skryl a z růže vůní hřál,"
         },
@@ -25,6 +26,7 @@
             "text": "s prázdnem slůvek tvých chci znova písní znít"
         },
         {
+            "block_start": true,
             "chords": "   C#mi         F#mi A",
             "text": "To víš, že zůstanou,"
         },
@@ -41,6 +43,7 @@
             "text": "mou písní zníš Adál"
         },
         {
+            "block_start": true,
             "chords": "   C#mi            F#mi A",
             "text": "To víš,že půjdem k nám,"
         },
@@ -61,6 +64,7 @@
             "text": "já dlaň tvou stále znám"
         },
         {
+            "block_start": true,
             "chords": "   C#mi         F#mi A",
             "text": "To víš sny zůstanou,"
         },
@@ -85,6 +89,7 @@
             "text": "vítej k nám, vítej k nám ten stůl tu máš"
         },
         {
+            "block_start": true,
             "chords": "   C#mi  F#mi A",
             "text": "Už náruč znáš,"
         },

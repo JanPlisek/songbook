@@ -10,6 +10,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    C                                       G",
             "text": "R: Nechci vo něm slyšet, nechci nikdy vidět islandskej kraj,"
         },
@@ -18,6 +19,7 @@
             "text": "   mý šedivý vlasy mi za pravdu daj'."
         },
         {
+            "block_start": true,
             "chords": "       G                  C",
             "text": "1. Až někdo ti, hochu, vo Islandu řekne,"
         },
@@ -34,6 +36,7 @@
             "text": "   je dočista blázen, a ty se mu směj."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Kdo kanady prodřel v tom pohřebním koutě,"
         },
@@ -50,10 +53,12 @@
             "text": "   ten třesoucím hlasem mi za pravdu dá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Jó, tenkrát v tom roce, co bylo to sucho,"
         },
@@ -70,6 +75,7 @@
             "text": "   esli nám neřekne, kde leží ráj."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Pak v proklatým vedru sme lesama táhli,"
         },
@@ -86,10 +92,12 @@
             "text": "   padaly na zem, to člověk by zdech'."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "5. Pak začaly kopce a šutráků fůry,"
         },
@@ -106,6 +114,7 @@
             "text": "   a islandskej ďábel se z voblaků smál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "6. A večer, když ztahaný na zem jsme padli,"
         },
@@ -122,10 +131,12 @@
             "text": "   stádo se přehnalo divokejch krav."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "7. Můj Bože, proč nedáš nám voddechnout chvíli,"
         },
@@ -142,6 +153,7 @@
             "text": "   to ubohejch trempířů přízraky jdou."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "8. Tak zašel tam jeden a ztratil se druhej"
         },
@@ -158,10 +170,12 @@
             "text": "   až zvostal jsem samotnej uprostřed skal."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "9. Já za chvíli zdechnu, jen minuta zbejvá,"
         },
@@ -178,6 +192,7 @@
             "text": "   až zaleze slunce, já vodejdu s ním."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "10. Ač není tu žádnej, kdo pro mě by plakal,"
         },

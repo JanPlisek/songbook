@@ -9,92 +9,90 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "     Ami                           C",
-            "text": "1. Bratříčku,nevzlykej, to nejsou bubáci, "
+            "text": "1. Bratříčku,nevzlykej, to nejsou bubáci,"
         },
         {
             "chords": "      G                               E7",
-            "text": "   vždyť už jsi velikej, to jsou jen vojáci, "
+            "text": "   vždyť už jsi velikej, to jsou jen vojáci,"
         },
         {
             "chords": "     F                                    E",
-            "text": "   přijeli v hranatých železných maringotkách. "
+            "text": "   přijeli v hranatých železných maringotkách."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Se slzou na víčku hledíme na sebe,"
         },
         {
             "chords": "",
-            "text": "2. Se slzou na víčku hledíme na sebe, "
+            "text": "   buď se mnou, bratříčku, bojím se o tebe"
         },
         {
             "chords": "",
-            "text": "   buď se mnou, bratříčku, bojím se o tebe "
+            "text": "   na cestách klikatých, bratříčku, v polobotkách."
         },
         {
-            "chords": "",
-            "text": "   na cestách klikatých, bratříčku, v polobotkách. "
-        },
-        {
+            "block_start": true,
             "chords": "    Ami Emi Ami   Emi Ami  Emi Ami Emi",
-            "text": "R: Prší a  venku se  setmělo, "
+            "text": "R: Prší a  venku se  setmělo,"
         },
         {
             "chords": "    Ami  Emi Ami Emi Ami Emi Ami Emi",
-            "text": "   tato noc nebude krátká, "
+            "text": "   tato noc nebude krátká,"
         },
         {
             "chords": "    Ami  Emi F       Ami",
-            "text": "   beránka  vlku se zachtělo, "
+            "text": "   beránka  vlku se zachtělo,"
         },
         {
             "chords": "     F     Ami             E",
-            "text": "   bratříčku, zavřel jsi vrátka? "
+            "text": "   bratříčku, zavřel jsi vrátka?"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Bratříčku, nevzlykej, neplýtvej slzami,"
         },
         {
             "chords": "",
-            "text": "3. Bratříčku, nevzlykej, neplýtvej slzami, "
+            "text": "   nadávky polykej a šetři silami,"
         },
         {
             "chords": "",
-            "text": "   nadávky polykej a šetři silami, "
+            "text": "   nesmíš mi vyčítat, jestliže nedojdeme."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4. Nauč se písničku, není tak složitá,"
         },
         {
             "chords": "",
-            "text": "   nesmíš mi vyčítat, jestliže nedojdeme. "
+            "text": "   opři se, bratříčku, cesta je rozbitá,"
         },
         {
             "chords": "",
-            "text": "4. Nauč se písničku, není tak složitá, "
+            "text": "   budeme klopýtat, zpátky už nemůžeme."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Prší a venku se setmělo,"
         },
         {
             "chords": "",
-            "text": "   opři se, bratříčku, cesta je rozbitá, "
+            "text": "   tato noc nebude krátká,"
         },
         {
             "chords": "",
-            "text": "   budeme klopýtat, zpátky už nemůžeme. "
-        },
-        {
-            "chords": "",
-            "text": "R: Prší a venku se setmělo, "
-        },
-        {
-            "chords": "",
-            "text": "   tato noc nebude krátká, "
-        },
-        {
-            "chords": "",
-            "text": "   beránka vlku se zachtělo, "
+            "text": "   beránka vlku se zachtělo,"
         },
         {
             "chords": "     F     Ami F        Ami F Ami F        Ami",
-            "text": "   bratříčku, zavírej vrátka!    Zavírej vrátka! "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   bratříčku, zavírej vrátka!    Zavírej vrátka!"
         }
     ]
 }

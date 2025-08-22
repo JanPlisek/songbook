@@ -1,9 +1,9 @@
 {
-    "id": "while-my-guitar-gently-weeps-the-beatles",
+    "id": "while-my-guitar-gently-weeps-beatles",
     "title": "While My Guitar Gently Weeps",
     "artist": [],
     "band": [
-        "The Beatles"
+        "Beatles"
     ],
     "originalKey": "Am",
     "capo": 0,
@@ -14,95 +14,87 @@
         },
         {
             "chords": "   Ami Ami\/G Ami\/F# Dmi\/F Ami G D E",
-            "text": " "
+            "text": ""
         },
         {
             "chords": "      Ami        Ami\/G        Ami\/F#             Fmaj7",
-            "text": "1. I look at you all see the love there that's sleeping "
+            "text": "1. I look at you all see the love there that's sleeping"
         },
         {
             "chords": "     Ami        G          C   E7",
-            "text": "   while my guitar gently weeps "
+            "text": "   while my guitar gently weeps"
         },
         {
             "chords": "      Ami          Ami\/G      Ami\/F#        Fmaj7",
-            "text": "   I look at the floor and I see it needs sweeping "
+            "text": "   I look at the floor and I see it needs sweeping"
         },
         {
             "chords": "     Ami        G          C   E7",
-            "text": "   still my guitar gently weeps. "
+            "text": "   still my guitar gently weeps."
         },
         {
             "chords": "   A              C#mi F#mi   C#mi",
-            "text": "R: I don't know why   nobody told you "
+            "text": "R: I don't know why   nobody told you"
         },
         {
             "chords": "    Hmi                E7 D\/F# E7",
-            "text": "   how to unfold your love "
+            "text": "   how to unfold your love"
         },
         {
             "chords": "   A             C#mi F#mi        C#mi",
-            "text": "   I don't know how  someone controlled you "
+            "text": "   I don't know how  someone controlled you"
         },
         {
             "chords": "     Hmi                E7 D\/F#",
-            "text": "   they bought and sold you. "
+            "text": "   they bought and sold you."
         },
         {
             "chords": "",
-            "text": "2. I look at the world and I notice it's turning "
+            "text": "2. I look at the world and I notice it's turning"
         },
         {
             "chords": "",
-            "text": "   while my guitar gently weeps "
+            "text": "   while my guitar gently weeps"
         },
         {
             "chords": "",
-            "text": "   with every mistake we must surely be learning "
+            "text": "   with every mistake we must surely be learning"
         },
         {
             "chords": "",
-            "text": "   still my guitar gently weeps. "
+            "text": "   still my guitar gently weeps."
         },
         {
             "chords": "",
-            "text": "R: I don't know how you were diverted "
+            "text": "R: I don't know how you were diverted"
         },
         {
             "chords": "",
-            "text": "   you were perverted too "
+            "text": "   you were perverted too"
         },
         {
             "chords": "",
-            "text": "   I don't know how you were inverted "
+            "text": "   I don't know how you were inverted"
         },
         {
             "chords": "",
-            "text": "   no one alerted you. "
+            "text": "   no one alerted you."
         },
         {
             "chords": "",
-            "text": "3. I look at you all see the love there that's sleeping "
+            "text": "3. I look at you all see the love there that's sleeping"
         },
         {
             "chords": "",
-            "text": "   while my guitar gently weeps "
+            "text": "   while my guitar gently weeps"
         },
         {
             "chords": "",
-            "text": "   I Iook at you all see the love there that's sleeping "
+            "text": "   I Iook at you all see the love there that's sleeping"
         },
         {
             "chords": "",
-            "text": "   still my guitar gently weeps. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   still my guitar gently weeps."
         }
     ]
 }

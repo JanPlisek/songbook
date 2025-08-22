@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "            G        Emi    C    D7",
             "text": "1. Jsem v krinolíně lariatu oblečen,"
         },
@@ -41,6 +42,7 @@
             "text": "   dál ve větru sem-tam se kymácí."
         },
         {
+            "block_start": true,
             "chords": "            G                        D",
             "text": "R: Měsíc mě označkoval cejchovadlem lesů,"
         },
@@ -57,6 +59,7 @@
             "text": "   a v dáli tepou kopyta."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Že pistole už Oklamohou nezazní,"
         },
@@ -89,10 +92,12 @@
             "text": "   tak na dně kapsy tabák poslední."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. I Llano Estacado zná můj zpěv,"
         },
@@ -125,6 +130,7 @@
             "text": "   mám koně, laso, hlad a pistoli."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         }

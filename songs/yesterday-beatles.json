@@ -1,76 +1,68 @@
 {
-    "id": "yesterday-the-beatles",
+    "id": "yesterday-beatles",
     "title": "Yesterday",
     "artist": [],
     "band": [
-        "The Beatles"
+        "Beatles"
     ],
     "originalKey": "F",
     "capo": 0,
     "lyrics": [
         {
             "chords": "    F        Emi      A7                Dmi    Dmi\/C",
-            "text": "1. Yesterday all my troubles seemed so far away "
+            "text": "1. Yesterday all my troubles seemed so far away"
         },
         {
             "chords": "    Bb     C                       F",
-            "text": "   now it looks as though they're here to stay "
+            "text": "   now it looks as though they're here to stay"
         },
         {
             "chords": "   C\/E Dmi  G7       Bb    F",
-            "text": "   oh  I believe in yesterday. "
+            "text": "   oh  I believe in yesterday."
         },
         {
             "chords": "",
-            "text": "2. Suddenly I'm not half the man I used to be "
+            "text": "2. Suddenly I'm not half the man I used to be"
         },
         {
             "chords": "",
-            "text": "   there's a shadow hanging over me "
+            "text": "   there's a shadow hanging over me"
         },
         {
             "chords": "",
-            "text": "   oh yesterday came suddenly. "
+            "text": "   oh yesterday came suddenly."
         },
         {
             "chords": "     Emi A  Dmi C  Bb Dmi       Gmi     C7       F",
-            "text": "R: Why she had to go  I don't know she wouldn't say "
+            "text": "R: Why she had to go  I don't know she wouldn't say"
         },
         {
             "chords": "   Emi A    Dmi C      Bb   Dmi   Gmi     C7     F",
-            "text": "   I  said something wrong now I long for yesterday. "
+            "text": "   I  said something wrong now I long for yesterday."
         },
         {
             "chords": "",
-            "text": "3. Yesterday love was such an easy game to play "
+            "text": "3. Yesterday love was such an easy game to play"
         },
         {
             "chords": "",
-            "text": "   now I need a place to hide away "
+            "text": "   now I need a place to hide away"
         },
         {
             "chords": "",
-            "text": "   oh I believe in yesterday. "
+            "text": "   oh I believe in yesterday."
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "R:"
         },
         {
             "chords": "",
-            "text": "4.=3. "
+            "text": "4.=3."
         },
         {
             "chords": "   F     G7 Bb F",
-            "text": "*: Mm mm mm mm mm ... "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "*: Mm mm mm mm mm ..."
         }
     ]
 }

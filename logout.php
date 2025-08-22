@@ -1,5 +1,6 @@
 <?php
 // soubor: logout.php
+session_start();
 
 // Smaže všechny proměnné v session
 session_unset();

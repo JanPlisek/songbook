@@ -9,128 +9,107 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "Em7",
             "text": ""
-        },
-        {
-            "chords": "Em7",
-            "text": " "
         },
         {
             "chords": "G         D            Am",
-            "text": "Nandej mi do hlavy tvý brouky "
+            "text": "Nandej mi do hlavy tvý brouky"
         },
         {
             "chords": "Am                   G",
-            "text": "A Bůh nám seber beznaděj "
+            "text": "A Bůh nám seber beznaděj"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "V duši zbylo světlo z jedný holky"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "Tak mi teď za to vynadej"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Zima a promarněný touhy"
         },
         {
             "chords": "",
-            "text": "V duši zbylo světlo z jedný holky "
+            "text": "Do vrásek stromů padá déšť"
         },
         {
-            "chords": "",
-            "text": "Tak mi teď za to vynadej "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "Zima a promarněný touhy "
-        },
-        {
-            "chords": "",
-            "text": "Do vrásek stromů padá déšť "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "G            D           Ami",
-            "text": "Zbejvaj roky asi ne moc dlouhý "
+            "text": "Zbejvaj roky asi ne moc dlouhý"
         },
         {
             "chords": "Ami               C               G",
-            "text": "Do vlasů mi zabroukej... pa pa pa pa "
+            "text": "Do vlasů mi zabroukej... pa pa pa pa"
         },
         {
             "chords": "     Hmi   Emi         G",
-            "text": "|:pa pa pa pa pa pa pa pa :| "
+            "text": "|:pa pa pa pa pa pa pa pa :|"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Tvoje oči jenom žhavý stíny"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "Dotek slunce zapadá"
         },
         {
             "chords": "",
-            "text": "Tvoje oči jenom žhavý stíny "
+            "text": "Horkej vítr rozezní mý zvony"
         },
         {
             "chords": "",
-            "text": "Dotek slunce zapadá "
+            "text": "Do vlasů ti zabrouká... pa pa pa pa"
         },
         {
             "chords": "",
-            "text": "Horkej vítr rozezní mý zvony "
+            "text": "pa pa pa pa"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Na obloze křídla tažnejch ptáků"
         },
         {
             "chords": "",
-            "text": "Do vlasů ti zabrouká... pa pa pa pa "
+            "text": "Tak už na svý bráchy zavolej"
         },
         {
             "chords": "",
-            "text": "pa pa pa pa "
+            "text": "Na tváře ti padaj slzy z mraků"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "A Bůh nam sebral beznadej"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "V duši zbylo světlo z jedny holky"
         },
         {
             "chords": "",
-            "text": "Na obloze křídla tažnejch ptáků "
+            "text": "Do vrásek stromů padá déšť"
         },
         {
             "chords": "",
-            "text": "Tak už na svý bráchy zavolej "
+            "text": "Poslední dny hodiny a roky"
         },
         {
             "chords": "",
-            "text": "Na tváře ti padaj slzy z mraků "
+            "text": "Do vlasu ti zabrouká... pa pa pa pa"
         },
         {
             "chords": "",
-            "text": "A Bůh nam sebral beznadej "
-        },
-        {
-            "chords": "",
-            "text": "V duši zbylo světlo z jedny holky "
-        },
-        {
-            "chords": "",
-            "text": "Do vrásek stromů padá déšť "
-        },
-        {
-            "chords": "",
-            "text": "Poslední dny hodiny a roky "
-        },
-        {
-            "chords": "",
-            "text": "Do vlasu ti zabrouká... pa pa pa pa "
-        },
-        {
-            "chords": "",
-            "text": "pa pa pa pa "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "pa pa pa pa"
         }
     ]
 }

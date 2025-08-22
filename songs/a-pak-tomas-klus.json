@@ -9,108 +9,94 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "A                        C#mi",
-            "text": "Jednou štěstí dohoní i ty jezdce na koních, "
+            "text": "Jednou štěstí dohoní i ty jezdce na koních,"
         },
         {
             "chords": "Cmi   Hmi      E",
-            "text": "co, hledají ho v cizích stájích "
+            "text": "co, hledají ho v cizích stájích"
         },
         {
             "chords": "       A                  C#mi",
-            "text": "Jednou hrana zazvoní i těm jezdcům na koních, "
+            "text": "Jednou hrana zazvoní i těm jezdcům na koních,"
         },
         {
             "chords": "Cmi   Hmi        E",
-            "text": "co, stále vedou svou cestou šedou "
+            "text": "co, stále vedou svou cestou šedou"
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "A                        C#mi",
-            "text": "A pak, koně Klus promění v cval, "
+            "text": "A pak, koně Klus promění v cval,"
         },
         {
             "chords": "            F#mi         E",
-            "text": "nic stejné nebude dál, svět promění se "
+            "text": "nic stejné nebude dál, svět promění se"
         },
         {
             "chords": "A                        C#mi",
-            "text": "Pak, koně Klus promění v cval, "
+            "text": "Pak, koně Klus promění v cval,"
         },
         {
             "chords": "            F#mi         E",
-            "text": "nic stejné nebude dál, svět promění se "
+            "text": "nic stejné nebude dál, svět promění se"
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "A                        C#mi",
-            "text": "Až ten vítr zavane, vzplane srdce, hlava ne "
+            "text": "Až ten vítr zavane, vzplane srdce, hlava ne"
         },
         {
             "chords": "Cmi   Hmi      E",
-            "text": "a, začne bít, zavládne klid "
+            "text": "a, začne bít, zavládne klid"
         },
         {
             "chords": "A                        C#mi",
-            "text": "Oči jezdců spatří svit obzoru, kam chtěli jít, "
+            "text": "Oči jezdců spatří svit obzoru, kam chtěli jít,"
         },
         {
             "chords": "Cmi   Hmi      E",
-            "text": "kde, spočinou, kde spočinou "
+            "text": "kde, spočinou, kde spočinou"
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "A                        C#mi",
-            "text": "A pak, koně Klus promění v cval, "
+            "text": "A pak, koně Klus promění v cval,"
         },
         {
             "chords": "            F#mi         E",
-            "text": "nic stejné nebude dál, svět promění se "
+            "text": "nic stejné nebude dál, svět promění se"
         },
         {
             "chords": "A                        C#mi",
-            "text": "Pak, koně Klus promění v cval, "
+            "text": "Pak, koně Klus promění v cval,"
         },
         {
             "chords": "            F#mi         E",
-            "text": "nic stejné nebude dál, svět promění se "
+            "text": "nic stejné nebude dál, svět promění se"
+        },
+        {
+            "block_start": true,
+            "chords": "A                        C#mi",
+            "text": "A pak, koně Klus promění v cval,"
+        },
+        {
+            "chords": "            F#mi         E",
+            "text": "nic stejné nebude dál, svět promění se"
         },
         {
             "chords": "A                        C#mi",
-            "text": "A pak, koně Klus promění v cval, "
+            "text": "A pak, koně Klus promění v cval,"
         },
         {
             "chords": "            F#mi         E",
-            "text": "nic stejné nebude dál, svět promění se "
+            "text": "nic stejné nebude dál, svět promění se"
         },
         {
-            "chords": "A                        C#mi",
-            "text": "A pak, koně Klus promění v cval, "
-        },
-        {
-            "chords": "            F#mi         E",
-            "text": "nic stejné nebude dál, svět promění se "
-        },
-        {
+            "block_start": true,
             "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "pak... "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "pak..."
         }
     ]
 }

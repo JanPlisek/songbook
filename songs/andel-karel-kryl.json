@@ -9,80 +9,78 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "      C       Ami             C        G7",
-            "text": "1. Z rozmlácenýho kostela v krabici s kusem mýdla "
+            "text": "1. Z rozmlácenýho kostela v krabici s kusem mýdla"
         },
         {
             "chords": "     C       Ami            C     G7        C",
-            "text": "   přinesl jsem si anděla, polámali mu křídla, "
+            "text": "   přinesl jsem si anděla, polámali mu křídla,"
         },
         {
             "chords": "             Ami           C            G7",
-            "text": "   díval se na mě oddaně, já měl jsem trochu trému, "
+            "text": "   díval se na mě oddaně, já měl jsem trochu trému,"
         },
         {
             "chords": "    C           Ami             C       G7       C",
-            "text": "   tak vtiskl jsem mu do dlaně lahvičku od parfému. "
+            "text": "   tak vtiskl jsem mu do dlaně lahvičku od parfému."
         },
         {
+            "block_start": true,
             "chords": "   C          Ami              C           G7",
-            "text": "R: A proto, prosím, věř mi, chtěl jsem ho žádat, "
+            "text": "R: A proto, prosím, věř mi, chtěl jsem ho žádat,"
         },
         {
             "chords": "   C       Ami         C      G7",
-            "text": "   aby mi mezi dveřmi pomohl hádat, "
+            "text": "   aby mi mezi dveřmi pomohl hádat,"
         },
         {
             "chords": "    C        Ami G7     C            Ami G7(F) (G) C",
-            "text": "   co mě čeká    a nemine, co mě čeká    a    nemine. "
+            "text": "   co mě čeká    a nemine, co mě čeká    a    nemine."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Pak hlídali jsme oblohu, pozorujíce ptáky,"
         },
         {
             "chords": "",
-            "text": "2. Pak hlídali jsme oblohu, pozorujíce ptáky, "
+            "text": "   debatujíce o Bohu a hraní na vojáky,"
         },
         {
             "chords": "",
-            "text": "   debatujíce o Bohu a hraní na vojáky, "
+            "text": "   do tváře jsem mu neviděl, pokoušel se ji schovat,"
         },
         {
             "chords": "",
-            "text": "   do tváře jsem mu neviděl, pokoušel se ji schovat, "
+            "text": "   to asi ptákům záviděl, že mohou poletovat."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Když novinky mi sděloval u okna do ložnice,"
         },
         {
             "chords": "",
-            "text": "   to asi ptákům záviděl, že mohou poletovat. "
+            "text": "   já křídla jsem mu ukoval z mosazný nábojnice,"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "   a tak jsem pozbyl anděla, on oknem odletěl mi,"
         },
         {
             "chords": "",
-            "text": "3. Když novinky mi sděloval u okna do ložnice, "
+            "text": "   však přítel prý mi udělá novýho z mojí helmy."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "   já křídla jsem mu ukoval z mosazný nábojnice, "
-        },
-        {
-            "chords": "",
-            "text": "   a tak jsem pozbyl anděla, on oknem odletěl mi, "
-        },
-        {
-            "chords": "",
-            "text": "   však přítel prý mi udělá novýho z mojí helmy. "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R:"
         }
     ]
 }

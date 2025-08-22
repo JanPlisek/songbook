@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "          G",
             "text": "1. Když jsem byl chlapec malej, tak metr nad zemí,"
         },
@@ -25,6 +26,7 @@
             "text": "   a tu svoji nejmilejší hrál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Teď už jsem chlap jak hora, šest stop a palců pět,"
         },
@@ -41,6 +43,7 @@
             "text": "   tak zase slyšet svýho tátu hrát."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Ta písnička mě vedla mým celým životem,"
         },
@@ -57,6 +60,7 @@
             "text": "   když jsem si vzpomněl, jak náš táta hrál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. To všechno už je dávno, táta je pod zemí,"
         },

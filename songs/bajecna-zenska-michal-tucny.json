@@ -11,84 +11,86 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "            C                                           F",
-            "text": "1. Tenhle příběh je pravda, ať visím, jestli vám budu lhát, "
+            "text": "1. Tenhle příběh je pravda, ať visím, jestli vám budu lhát,"
         },
         {
             "chords": "            G                                           C",
-            "text": "   já jsem potkal jednu dívku a do dnešního dne ji mám rád, "
+            "text": "   já jsem potkal jednu dívku a do dnešního dne ji mám rád,"
         },
         {
             "chords": "                                                   F",
-            "text": "   nikdy neměla zlost, když jsem hluboko do kapsy měl, "
+            "text": "   nikdy neměla zlost, když jsem hluboko do kapsy měl,"
         },
         {
             "chords": "            G                                           C",
-            "text": "   vždycky měla pochopení a já se s ní nikdy hádat nemusel. "
+            "text": "   vždycky měla pochopení a já se s ní nikdy hádat nemusel."
         },
         {
+            "block_start": true,
             "chords": "            C(C,C,D)                          F(F,F,G)",
-            "text": "R: Když si báječnou ženskou vezme báječnej chlap, "
+            "text": "R: Když si báječnou ženskou vezme báječnej chlap,"
         },
         {
             "chords": "             G(G,G,A)                                  C(C,C,D)",
-            "text": "   tak mají báječnej život plnej báječnejch dní bez útrap, "
+            "text": "   tak mají báječnej život plnej báječnejch dní bez útrap,"
         },
         {
             "chords": "                                                  F(F,F,G)",
-            "text": "   celý den jen tak sedí a popíjejí Chateauneuf du Pape, "
+            "text": "   celý den jen tak sedí a popíjejí Chateauneuf du Pape,"
         },
         {
             "chords": "            G(G,G,A)                          C(C,C,D)",
-            "text": "   když si báječnou ženskou vezme báječnej chlap. "
+            "text": "   když si báječnou ženskou vezme báječnej chlap."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Nikdy jsem neslyšel: kam jdeš, kdy přijdeš a kde jsi byl,"
         },
         {
             "chords": "",
-            "text": "2. Nikdy jsem neslyšel: kam jdeš, kdy přijdeš a kde jsi byl, "
+            "text": "   a já nikdy nezapomněl, abych svoje sliby vyplnil,"
         },
         {
             "chords": "",
-            "text": "   a já nikdy nezapomněl, abych svoje sliby vyplnil, "
+            "text": "   a když vzpomínala, tak jen na to hezký, co nám život dal,"
         },
         {
             "chords": "",
-            "text": "   a když vzpomínala, tak jen na to hezký, co nám život dal, "
+            "text": "   nedala mi příležitost, na co bych si taky stěžoval."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Tenhle příběh je pravda a sním svůj klobouk, jestli jsem vám lhal,"
         },
         {
             "chords": "",
-            "text": "   nedala mi příležitost, na co bych si taky stěžoval. "
+            "text": "   že jsem potkal jednu dívku a tu jsem si za ženu vzal,"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "   zní to jak pohádka z oříšků královny Máb,"
         },
         {
             "chords": "",
-            "text": "3. Tenhle příběh je pravda a sním svůj klobouk, jestli jsem vám lhal, "
+            "text": "   že si báječnou ženskou vzal jeden báječnej chlap."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
         },
         {
             "chords": "",
-            "text": "   že jsem potkal jednu dívku a tu jsem si za ženu vzal, "
-        },
-        {
-            "chords": "",
-            "text": "   zní to jak pohádka z oříšků královny Máb, "
-        },
-        {
-            "chords": "",
-            "text": "   že si báječnou ženskou vzal jeden báječnej chlap. "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R:"
         }
     ]
 }

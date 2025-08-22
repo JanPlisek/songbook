@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "          G                            C            G",
             "text": "1. Já tu na svým dílci, celkem vzato, bídnej život mám,"
         },
@@ -25,6 +26,7 @@
             "text": "   na mým dílci v starý chajdě drnový."
         },
         {
+            "block_start": true,
             "chords": "          C                        G",
             "text": "R: Dveře mají panty z kůže, vokna nejsou zasklený,"
         },
@@ -41,6 +43,7 @@
             "text": "   na mým dílci v starý chajdě drnový."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Když jsem z domova tam na východě vyšel zbohatnout,"
         },
@@ -57,10 +60,12 @@
             "text": "   na mým dílci v starý chajdě drnový."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Ale rád bych, aby se tu našla dívka laskavá,"
         },
@@ -77,6 +82,7 @@
             "text": "   i na mým dílci v starý chajdě drnový."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },

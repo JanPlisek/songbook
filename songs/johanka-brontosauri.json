@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "               Emi Dmi                   Ami",
             "text": "1. S hlavou skloněnou lidí zástup se tu dívá,"
         },
@@ -25,6 +26,7 @@
             "text": "   oheň nad sebou, jenom s pravdou dál."
         },
         {
+            "block_start": true,
             "chords": "    E7               Ami",
             "text": "R: Hej, muži, přidej oheň spí,"
         },
@@ -41,6 +43,7 @@
             "text": "   jak skončil soudnej den s Johankou."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Dík svůj dal ti král, celá Francie si zpívá,"
         },
@@ -57,10 +60,12 @@
             "text": "   vítr zprávu vál, že se dýchat dá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. S hlavou skloněnou lidí zástup se tu dívá,"
         },
@@ -77,6 +82,7 @@
             "text": "   hra se zastaví, jiná začíná."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         }

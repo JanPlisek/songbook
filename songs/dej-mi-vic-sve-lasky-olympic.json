@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Ami                            C",
             "text": "1. Vymyslel jsem spoustu napadů, aů,"
         },
@@ -25,6 +26,7 @@
             "text": "   v noci chodit strašit do hradu, aů."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Dám si dvoje housle pod bradu, aů,"
         },
@@ -41,6 +43,7 @@
             "text": "   vyrábím tu hradní záhadu, aů."
         },
         {
+            "block_start": true,
             "chords": "   C                     E",
             "text": "R: Má drahá, dej mi víc, má drahá, dej mi víc,"
         },
@@ -57,6 +60,7 @@
             "text": "   já chci jen pohladit tvé vlásky, aů."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Nejlepší z těch divnejch nápadů, aů,"
         },
@@ -73,10 +77,12 @@
             "text": "   zamknu si na sedm západů, aů."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4.=3."
         }

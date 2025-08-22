@@ -11,136 +11,121 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "         C                C7",
-            "text": "Když jde blizzard s vichřicí, "
+            "text": "Když jde blizzard s vichřicí,"
         },
         {
             "chords": "   F            C",
-            "text": "já sám jedu vánicí. "
+            "text": "já sám jedu vánicí."
         },
         {
             "chords": "                              G7 (F7,F#7,G7)",
-            "text": "A na cestě už jsem skoro celý den, "
+            "text": "A na cestě už jsem skoro celý den,"
         },
         {
             "chords": "       C              C7",
-            "text": "Jedu k tý, o níž jsem snil, "
+            "text": "Jedu k tý, o níž jsem snil,"
         },
         {
             "chords": "       F                C",
-            "text": "Cestou dlouhou přes sto mil. "
+            "text": "Cestou dlouhou přes sto mil."
         },
         {
             "chords": "      G                         Ami",
-            "text": "A jen deset mil mi zbývá k Mary Anne, "
+            "text": "A jen deset mil mi zbývá k Mary Anne,"
         },
         {
             "chords": "      G                         C",
-            "text": "a jen deset mil mi zbývá k Mary Anne. "
+            "text": "a jen deset mil mi zbývá k Mary Anne."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Jedu nocí šílenou, bílou mlhou, černou tmou,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "a můj koník už je taky unaven."
         },
         {
             "chords": "",
-            "text": "Jedu nocí šílenou, bílou mlhou, černou tmou, "
+            "text": "Sčítám chvíli za chvílí, sčítám míli za mílí,"
         },
         {
             "chords": "",
-            "text": "a můj koník už je taky unaven. "
+            "text": "a jen sedm mil mi zbývá k Mary Anne,"
         },
         {
             "chords": "",
-            "text": "Sčítám chvíli za chvílí, sčítám míli za mílí, "
+            "text": "a jen sedm mil mi zbývá k Mary Anne."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Kůň už nemůže a pad, zchromil ho ten věčnej chvat,"
         },
         {
             "chords": "",
-            "text": "a jen sedm mil mi zbývá k Mary Anne, "
+            "text": "vítr stopy ničí jako ráno sen."
         },
         {
             "chords": "",
-            "text": "a jen sedm mil mi zbývá k Mary Anne. "
+            "text": "Tak se nocí probíjím, z láhve brandy upíjím"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "a jen tři míle mi zbejvaj k Mary Anne,"
         },
         {
             "chords": "",
-            "text": "Kůň už nemůže a pad, zchromil ho ten věčnej chvat, "
+            "text": "a jen tři míle mi zbejvaj k Mary Anne."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "V dálce světla zaplály, to mý oči hledaly."
         },
         {
             "chords": "",
-            "text": "vítr stopy ničí jako ráno sen. "
+            "text": "Potíž je jenom v tom, že nemůžu dál."
         },
         {
             "chords": "",
-            "text": "Tak se nocí probíjím, z láhve brandy upíjím "
+            "text": "Na sedlo si hlavu dát, už se mi chce strašně,"
         },
         {
             "chords": "",
-            "text": "a jen tři míle mi zbejvaj k Mary Anne, "
+            "text": "strašně spát,a jen sto yardů mi zbývá k Mary Anne,"
         },
         {
             "chords": "",
-            "text": "a jen tři míle mi zbejvaj k Mary Anne. "
+            "text": "a jen sto yardů mi zbývá k Mary Anne."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Tak ho našli za pár dní ležet v jámě bezedný."
         },
         {
             "chords": "",
-            "text": " "
+            "text": "Hlavu měl bílou a oči jako len."
         },
         {
             "chords": "",
-            "text": "V dálce světla zaplály, to mý oči hledaly. "
+            "text": "V ruce prsten, co chtěl ji dát,"
         },
         {
             "chords": "",
-            "text": "Potíž je jenom v tom, že nemůžu dál. "
+            "text": "proč ho k čertu nemoh hřát ?"
         },
         {
             "chords": "",
-            "text": "Na sedlo si hlavu dát, už se mi chce strašně, "
+            "text": "A jen sto yardů mu zbývá k Mary Anne,"
         },
         {
             "chords": "",
-            "text": "strašně spát,a jen sto yardů mi zbývá k Mary Anne, "
-        },
-        {
-            "chords": "",
-            "text": "a jen sto yardů mi zbývá k Mary Anne. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "Tak ho našli za pár dní ležet v jámě bezedný. "
-        },
-        {
-            "chords": "",
-            "text": "Hlavu měl bílou a oči jako len. "
-        },
-        {
-            "chords": "",
-            "text": "V ruce prsten, co chtěl ji dát, "
-        },
-        {
-            "chords": "",
-            "text": "proč ho k čertu nemoh hřát ? "
-        },
-        {
-            "chords": "",
-            "text": "A jen sto yardů mu zbývá k Mary Anne, "
-        },
-        {
-            "chords": "",
-            "text": "a jen sto yardů mu zbývá k Mary Anne. "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "a jen sto yardů mu zbývá k Mary Anne."
         }
     ]
 }

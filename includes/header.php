@@ -1,9 +1,3 @@
-<?php
-session_start();
-// TOTO JE KLÍČOVÁ OPRAVA: Načteme funkce hned na začátku.
-// Každá stránka, která použije hlavičku, tak bude znát naše funkce.
-include_once 'includes/functions.php'; 
-?>
 <!DOCTYPE html>
 <html lang="cs">
 <head>
@@ -27,6 +21,7 @@ include_once 'includes/functions.php';
         <ul id="main-nav-links">
             <li><a href="list.php">Rejstřík písní</a></li>
             <li><a href="interprets.php">Interpreti</a></li>
+            <li><a href="random.php">Překvap mě</a></li>
             <?php if (is_user_logged_in()): // Zobrazí se jen po přihlášení ?>
                 <li><a href="konverze.php">Přidat z URL</a></li>
                 <li><a href="editor.php">Editor</a></li>
@@ -34,6 +29,11 @@ include_once 'includes/functions.php';
             <li>
                 <button id="theme-toggle-btn" class="theme-toggle-button" title="Přepnout motiv">
                     <span class="material-symbols-outlined">contrast</span>
+                </button>
+            </li>
+            <li>
+                <button id="fullscreen-btn" class="theme-toggle-button" title="Celá obrazovka">
+                    <span class="material-symbols-outlined">fullscreen</span>
                 </button>
             </li>
             

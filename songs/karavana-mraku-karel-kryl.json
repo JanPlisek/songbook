@@ -9,120 +9,111 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "     D                      Hmi",
-            "text": "1. Slunce je zlatou skobou na vobloze přibitý, "
+            "text": "1. Slunce je zlatou skobou na vobloze přibitý,"
         },
         {
             "chords": "    G           A         D A7",
-            "text": "   pod sluncem sedlo kožený, "
+            "text": "   pod sluncem sedlo kožený,"
         },
         {
             "chords": "    D                         Hmi",
-            "text": "   pod sedlem kůň, pod koněm moje boty rozbitý "
+            "text": "   pod sedlem kůň, pod koněm moje boty rozbitý"
         },
         {
             "chords": "   G        A         D",
-            "text": "   a starý ruce sedřený. "
+            "text": "   a starý ruce sedřený."
         },
         {
+            "block_start": true,
             "chords": "    D7      G         A          Hmi",
-            "text": "R: Dopředu jít s tou karavanou mraků, "
+            "text": "R: Dopředu jít s tou karavanou mraků,"
         },
         {
             "chords": "                  G        A          Hmi",
-            "text": "   schovat svou pleš pod stetson děravý, "
+            "text": "   schovat svou pleš pod stetson děravý,"
         },
         {
             "chords": "                  Emi        A7    Hmi      Emi",
-            "text": "   : jen kousek jít, jen chvíli, do soumraku, "
+            "text": "   : jen kousek jít, jen chvíli, do soumraku,"
         },
         {
             "chords": "                    Hmi         F#        Hmi    A7",
-            "text": "      až tam, kde svítí město, město bělavý. : "
+            "text": "      až tam, kde svítí město, město bělavý. :"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Vítr si tiše hvízdá po silnici spálený,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   v tom městě nikdo nezdraví,"
         },
         {
             "chords": "",
-            "text": "2. Vítr si tiše hvízdá po silnici spálený, "
+            "text": "   šerif i soudce - gangsteři, voba řádně zvolení"
         },
         {
             "chords": "",
-            "text": "   v tom městě nikdo nezdraví, "
+            "text": "   a lidi strachem nezdraví."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Sto cizejch zabíječů s pistolema skotačí"
         },
         {
             "chords": "",
-            "text": "   šerif i soudce - gangsteři, voba řádně zvolení "
+            "text": "   a zákon džungle panuje,"
         },
         {
             "chords": "",
-            "text": "   a lidi strachem nezdraví. "
+            "text": "   provazník plete smyčky, hrobař kopat nestačí"
         },
         {
             "chords": "",
-            "text": "3. Sto cizejch zabíječů s pistolema skotačí "
+            "text": "   a truhlář rakve hobluje."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: V městě je řád a pro každého práce,"
         },
         {
             "chords": "",
-            "text": "   a zákon džungle panuje, "
+            "text": "   buď ještě rád, když huba voněmí,"
         },
         {
             "chords": "",
-            "text": "   provazník plete smyčky, hrobař kopat nestačí "
+            "text": "   : může tě hřát, že nejseš na voprátce"
         },
         {
             "chords": "",
-            "text": "   a truhlář rakve hobluje. "
+            "text": "      nebo že neležíš pár inchů pod zemí. :"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4.=1."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Pryč odtud jít s tou karavanou mraků,"
         },
         {
             "chords": "",
-            "text": "R: V městě je řád a pro každého práce, "
+            "text": "   kde tichej dům a pušky rezavý,"
         },
         {
             "chords": "",
-            "text": "   buď ještě rád, když huba voněmí, "
+            "text": "   : orat a sít od rána do soumraku"
         },
         {
             "chords": "",
-            "text": "   : může tě hřát, že nejseš na voprátce "
-        },
-        {
-            "chords": "",
-            "text": "      nebo že neležíš pár inchů pod zemí. : "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "4.=1. "
-        },
-        {
-            "chords": "",
-            "text": "R: Pryč odtud jít s tou karavanou mraků, "
-        },
-        {
-            "chords": "",
-            "text": "   kde tichej dům a pušky rezavý, "
-        },
-        {
-            "chords": "",
-            "text": "   : orat a sít od rána do soumraku "
-        },
-        {
-            "chords": "",
-            "text": "      a nechat zapomenout srdce bolavý. : "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "      a nechat zapomenout srdce bolavý. :"
         }
     ]
 }

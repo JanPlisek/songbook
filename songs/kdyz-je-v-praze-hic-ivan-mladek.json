@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   C",
             "text": "1. Když je v Praze abnormální hic,"
         },
@@ -41,6 +42,7 @@
             "text": "   chleba s máslem ukousnout mi dá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Když je v Praze abnormální mráz,"
         },
@@ -73,6 +75,7 @@
             "text": "   chleba s máslem mi ukousnout dá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. = 1."
         }

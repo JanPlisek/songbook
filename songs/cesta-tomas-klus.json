@@ -11,144 +11,110 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "",
-            "text": "Intro: C G Ami F G "
+            "text": "Intro: C G Ami F G"
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "       C                              G",
-            "text": "1. Tou cestou, tím směrem prý bych se dávno měl dát, "
+            "text": "1. Tou cestou, tím směrem prý bych se dávno měl dát,"
         },
         {
             "chords": "        Dmi",
-            "text": "   když sněží, jde to stěží, ale sněhy pak tají, "
+            "text": "   když sněží, jde to stěží, ale sněhy pak tají,"
         },
         {
             "chords": "       F                G",
-            "text": "   kus něhy ti za nehty slíbí a dají. "
+            "text": "   kus něhy ti za nehty slíbí a dají."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "       C                         G",
-            "text": "2. víc síly, se prát, na dně víc dávat než brát, "
+            "text": "2. víc síly, se prát, na dně víc dávat než brát,"
         },
         {
             "chords": "      Dmi",
-            "text": "   a i když se vleče a je schůdná jen v kleče "
+            "text": "   a i když se vleče a je schůdná jen v kleče"
         },
         {
             "chords": "          F                   G",
-            "text": "   donutí přestat se zbytečně ptát. "
+            "text": "   donutí přestat se zbytečně ptát."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "             C                     G               Ami",
-            "text": "R: Jestli se blížím k cíli,  kolik zbývá víry, kam zvou "
+            "text": "R: Jestli se blížím k cíli,  kolik zbývá víry, kam zvou"
         },
         {
             "chords": "                          F    G        C",
-            "text": "   svodidla, co po tmě mi lžou?     Snad couvám zpátky "
+            "text": "   svodidla, co po tmě mi lžou?     Snad couvám zpátky"
         },
         {
             "chords": "     G                 Ami              F        G",
-            "text": "   a plýtvám řádky, co řvou,   že už mi doma neotevřou. "
+            "text": "   a plýtvám řádky, co řvou,   že už mi doma neotevřou."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "             C                              G",
-            "text": "3. Nebo jít s proudem, na lusknutí prstu se začít hned smát, "
+            "text": "3. Nebo jít s proudem, na lusknutí prstu se začít hned smát,"
         },
         {
             "chords": "       Dmi",
-            "text": "   mít svůj chodník slávy a před sebou davy "
+            "text": "   mít svůj chodník slávy a před sebou davy"
         },
         {
             "chords": "          F                  G",
-            "text": "   a přes zkroucená záda být součástí stáda, "
+            "text": "   a přes zkroucená záda být součástí stáda,"
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "       C                              G",
-            "text": "4. ale zpívat, a hrát, kotníky líbat, a stát, "
+            "text": "4. ale zpívat, a hrát, kotníky líbat, a stát,"
         },
         {
             "chords": "       Dmi",
-            "text": "   na křídlech všech slavíků, a vlastně už ze zvyku "
+            "text": "   na křídlech všech slavíků, a vlastně už ze zvyku"
         },
         {
             "chords": "   F                  G",
-            "text": "   přestat se zbytečně ptát. "
+            "text": "   přestat se zbytečně ptát."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "             C                     G               Ami",
-            "text": "R: Jestli se blížím k cíli,  kolik zbývá víry, kam zvou "
+            "text": "R: Jestli se blížím k cíli,  kolik zbývá víry, kam zvou"
         },
         {
             "chords": "                          F    G        C",
-            "text": "   svodidla, co po tmě mi lžou?     Snad couvám zpátky "
+            "text": "   svodidla, co po tmě mi lžou?     Snad couvám zpátky"
         },
         {
             "chords": "     G                 Ami              F        G",
-            "text": "   a plýtvám řádky, co řvou,   že už mi doma neotevřou. "
+            "text": "   a plýtvám řádky, co řvou,   že už mi doma neotevřou."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": " "
+            "text": "Intro: 4x ( Ami  Ami\/G  D\/Fis  Dmi\/F ) + G"
         },
         {
-            "chords": "",
-            "text": "Intro: 4x ( Ami  Ami\/G  D\/Fis  Dmi\/F ) + G "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "            C                     G               Ami",
-            "text": "R: Jestli se blížím k cíli,  kolik zbývá víry, kam zvou "
+            "text": "R: Jestli se blížím k cíli,  kolik zbývá víry, kam zvou"
         },
         {
             "chords": "                          F    G        C",
-            "text": "   svodidla, co po tmě mi lžou?     Snad couvám zpátky "
+            "text": "   svodidla, co po tmě mi lžou?     Snad couvám zpátky"
         },
         {
             "chords": "     G                 Ami              F        G",
-            "text": "   a plýtvám řádky, co řvou,   že už mi doma neotevřou. "
+            "text": "   a plýtvám řádky, co řvou,   že už mi doma neotevřou."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "Sólo dohra na motiv refrénu "
-        },
-        {
-            "chords": "",
-            "text": ""
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "Sólo dohra na motiv refrénu"
         }
     ]
 }

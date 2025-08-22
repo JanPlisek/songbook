@@ -11,116 +11,103 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   C",
-            "text": "1. Až mi čas řekne stůj "
+            "text": "1. Až mi čas řekne stůj"
         },
         {
             "chords": "         F             C",
-            "text": "   až si jednou sundám boty "
+            "text": "   až si jednou sundám boty"
         },
         {
             "chords": "         F          C",
-            "text": "   až mi smích kolejnic "
+            "text": "   až mi smích kolejnic"
         },
         {
             "chords": "        C            G",
-            "text": "   řekne příteli skoč "
+            "text": "   řekne příteli skoč"
         },
         {
             "chords": "        C",
-            "text": "   až mi zesvětští dlaň "
+            "text": "   až mi zesvětští dlaň"
         },
         {
             "chords": "        F            C",
-            "text": "   jako kachel z terakoty "
+            "text": "   jako kachel z terakoty"
         },
         {
             "chords": "         F              C",
-            "text": "   až se posadím k tvým dveřím "
+            "text": "   až se posadím k tvým dveřím"
         },
         {
             "chords": "         C   G      C",
-            "text": "   prosím neptej se proč "
+            "text": "   prosím neptej se proč"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Až mi prach z věčných cest"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   zhladí jizvu na mé tváři"
         },
         {
             "chords": "",
-            "text": "2. Až mi prach z věčných cest "
+            "text": "   až budu vědět věci"
         },
         {
             "chords": "",
-            "text": "   zhladí jizvu na mé tváři "
+            "text": "   které líp nevědět"
         },
         {
             "chords": "",
-            "text": "   až budu vědět věci "
+            "text": "   až mi poslední verš"
         },
         {
             "chords": "",
-            "text": "   které líp nevědět "
+            "text": "   zplaní v starém makuláři"
         },
         {
             "chords": "",
-            "text": "   až mi poslední verš "
+            "text": "   snad to bude pozdě"
         },
         {
             "chords": "",
-            "text": "   zplaní v starém makuláři "
+            "text": "   ale jistě naposled"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Až pak vítr a déšť"
         },
         {
             "chords": "",
-            "text": "   snad to bude pozdě "
+            "text": "   smyjí stopy u Golgoty"
         },
         {
             "chords": "",
-            "text": "   ale jistě naposled "
+            "text": "   až se dým spálenišť"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "   nakonec rozplyne"
         },
         {
             "chords": "",
-            "text": "3. Až pak vítr a déšť "
+            "text": "   až si odepnu pás"
         },
         {
             "chords": "",
-            "text": "   smyjí stopy u Golgoty "
+            "text": "   až si jednou sundám boty"
         },
         {
             "chords": "",
-            "text": "   až se dým spálenišť "
+            "text": "   až nezbude mi nic"
         },
         {
             "chords": "",
-            "text": "   nakonec rozplyne "
-        },
-        {
-            "chords": "",
-            "text": "   až si odepnu pás "
-        },
-        {
-            "chords": "",
-            "text": "   až si jednou sundám boty "
-        },
-        {
-            "chords": "",
-            "text": "   až nezbude mi nic "
-        },
-        {
-            "chords": "",
-            "text": "   a možná tobě taky ne "
-        },
-        {
-            "chords": "",
-            "text": ""
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   a možná tobě taky ne"
         }
     ]
 }

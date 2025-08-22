@@ -9,132 +9,132 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "                    A    A4sus A",
-            "text": "1. Byly krásný naše plány, "
+            "text": "1. Byly krásný naše plány,"
         },
         {
             "chords": "                        C#mi Cmi Hmi",
-            "text": "   byla jsi můj celej svět, "
+            "text": "   byla jsi můj celej svět,"
         },
         {
             "chords": "                        A   A4sus A",
-            "text": "   čas je vzal a nechal rány, "
+            "text": "   čas je vzal a nechal rány,"
         },
         {
             "chords": "      Hmi                E  E4sus E",
-            "text": "   starší jsme jen o pár let. "
+            "text": "   starší jsme jen o pár let."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Tenkrát byly děti malý,"
         },
         {
             "chords": "",
-            "text": "2. Tenkrát byly děti malý, "
+            "text": "   ale život utíká,"
         },
         {
             "chords": "",
-            "text": "   ale život utíká, "
+            "text": "   už na \"táto\" slyší jinej,"
         },
         {
             "chords": "",
-            "text": "   už na \"táto\" slyší jinej, "
+            "text": "   i když si tak neříká."
         },
         {
-            "chords": "",
-            "text": "   i když si tak neříká. "
-        },
-        {
+            "block_start": true,
             "chords": "   E7                 A",
-            "text": "R: Nebe modrý zrcadlí se "
+            "text": "R: Nebe modrý zrcadlí se"
         },
         {
             "chords": "   F#7                   Hmi",
-            "text": "   v řece, která všechno ví, "
+            "text": "   v řece, která všechno ví,"
         },
         {
             "chords": "                     A   A4sus A",
-            "text": "   stejnou barvu jako měly "
+            "text": "   stejnou barvu jako měly"
         },
         {
             "chords": "   Hmi           E  E4sus E",
-            "text": "   tvoje oči džínový. "
+            "text": "   tvoje oči džínový."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Kluci tenkrát, co tě znali,"
         },
         {
             "chords": "",
-            "text": "3. Kluci tenkrát, co tě znali, "
+            "text": "   všude, kde jsem s tebou byl,"
         },
         {
             "chords": "",
-            "text": "   všude, kde jsem s tebou byl, "
+            "text": "   \"Amazonka\" říkávali,"
         },
         {
             "chords": "",
-            "text": "   \"Amazonka\" říkávali, "
+            "text": "   a já hrdě přisvědčil."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4. Tvoje strachy, že ti mládí"
         },
         {
             "chords": "",
-            "text": "   a já hrdě přisvědčil. "
+            "text": "   pod rukama utíká"
         },
         {
             "chords": "",
-            "text": "4. Tvoje strachy, že ti mládí "
+            "text": "   vedly k tomu, že ti nikdo"
         },
         {
             "chords": "",
-            "text": "   pod rukama utíká "
+            "text": "   \"Amazonka\" neříká."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "5. Zlatý kráse cingrlátek,"
         },
         {
             "chords": "",
-            "text": "   vedly k tomu, že ti nikdo "
+            "text": "   jak sis časem myslela,"
         },
         {
             "chords": "",
-            "text": "   \"Amazonka\" neříká. "
+            "text": "   vadil možná trampskej šátek,"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "   nosit dáls' ho nechtěla."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Teď jsi víla z paneláku,"
         },
         {
             "chords": "",
-            "text": "5. Zlatý kráse cingrlátek, "
+            "text": "   samá dečka, samej krám,"
         },
         {
             "chords": "",
-            "text": "   jak sis časem myslela, "
+            "text": "   já si přál jen, abys byla"
         },
         {
             "chords": "",
-            "text": "   vadil možná trampskej šátek, "
-        },
-        {
-            "chords": "",
-            "text": "   nosit dáls' ho nechtěla. "
-        },
-        {
-            "chords": "",
-            "text": "R: Teď jsi víla z paneláku, "
-        },
-        {
-            "chords": "",
-            "text": "   samá dečka, samej krám, "
-        },
-        {
-            "chords": "",
-            "text": "   já si přál jen, abys byla "
-        },
-        {
-            "chords": "",
-            "text": "   pořád stejná, přísahám, "
+            "text": "   pořád stejná, přísahám,"
         },
         {
             "chords": "   Hmi                 A",
-            "text": "   pořád stejná, přísa-hám. "
-        },
-        {
-            "chords": "",
-            "text": ""
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   pořád stejná, přísa-hám."
         }
     ]
 }

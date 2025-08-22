@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "     G                 Gmaj7\/F#          Gmaj7",
             "text": "1. Stál tam na stráni dům, v něm židle a stůl,"
         },
@@ -41,6 +42,7 @@
             "text": "   svět s ním, svět s ním."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Touláš se po lese, touláš a jenom tak bloumáš"
         },
@@ -73,6 +75,7 @@
             "text": "   svět s ním, svět s ním."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Však náhle volání táhlé ti přeruší snění"
         },

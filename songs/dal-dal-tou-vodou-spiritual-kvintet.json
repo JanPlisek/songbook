@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    Emi  C       Emi    H H7         Emi     H7",
             "text": "R: Dál, dál tou vodou, dál, dál tou vodou, bratři,"
         },
@@ -17,6 +18,7 @@
             "text": "   dál, dál tou vodou, než vítr vlny kalné rozbouří."
         },
         {
+            "block_start": true,
             "chords": "    Emi  C       G6 D  G",
             "text": "1. Bílý zástup spěchá dál,"
         },
@@ -33,10 +35,12 @@
             "text": "   vítr vlny kalné rozbouří."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Blesků zář nám svítí tmou,"
         },
@@ -53,6 +57,7 @@
             "text": "   vítr vlny kalné rozbouří."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         }

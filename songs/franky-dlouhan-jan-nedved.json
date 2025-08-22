@@ -12,108 +12,90 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "           C              F           C",
-            "text": "Kolik je smutného, když mraky černé jdou "
+            "text": "Kolik je smutného, když mraky černé jdou"
         },
         {
             "chords": "              G7    F          C",
-            "text": "lidem nad hlavou, smutnou dálavou, "
+            "text": "lidem nad hlavou, smutnou dálavou,"
         },
         {
             "chords": "                         F             C",
-            "text": "já slyšel příběh, který velkou pravdu měl, "
+            "text": "já slyšel příběh, který velkou pravdu měl,"
         },
         {
             "chords": "            G7   F          C",
-            "text": "za čas odletěl, každý zapomněl. "
+            "text": "za čas odletěl, každý zapomněl."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "    C          G7",
-            "text": "R: Měl kapsu prázdnou Frenky dlouhán, "
+            "text": "R: Měl kapsu prázdnou Frenky dlouhán,"
         },
         {
             "chords": "               F             C",
-            "text": "   po Státech toulal se jen sám, "
+            "text": "   po Státech toulal se jen sám,"
         },
         {
             "chords": "             F            C             G",
-            "text": "   a že byl veselej, tak každej měl ho rád. "
+            "text": "   a že byl veselej, tak každej měl ho rád."
         },
         {
             "chords": "               F                    C         Ami",
-            "text": "   tam ruce k dílu mlčky přiloží a zase jede dál, "
+            "text": "   tam ruce k dílu mlčky přiloží a zase jede dál,"
         },
         {
             "chords": "      F                  G",
-            "text": "   a každý, kdo s ním chvilku byl, "
+            "text": "   a každý, kdo s ním chvilku byl,"
         },
         {
             "chords": "         F     G7      C",
-            "text": "   ten dlouho se pak smál. "
+            "text": "   ten dlouho se pak smál."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Tam, kde byl pláč, tam Frenky hezkou píseň měl,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "slzy neměl rád, chtěl se jenom smát,"
         },
         {
             "chords": "",
-            "text": "Tam, kde byl pláč, tam Frenky hezkou píseň měl, "
+            "text": "a když pak večer ranče tiše usínaj',"
         },
         {
             "chords": "",
-            "text": "slzy neměl rád, chtěl se jenom smát, "
+            "text": "Frankův zpěv jde dál, nocí s písní dál."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Měl kapsu prázdnou ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Tak jednou Frenkyho vám našli, přestal žít,"
         },
         {
             "chords": "",
-            "text": "a když pak večer ranče tiše usínaj', "
+            "text": "jeho srdce spí, tiše smutně spí,"
         },
         {
             "chords": "",
-            "text": "Frankův zpěv jde dál, nocí s písní dál. "
+            "text": "bůh ví, jak, za co tenhle smíšek konec měl,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "farář píseň pěl, umíráček zněl."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "R: Měl kapsu prázdnou ... "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "Tak jednou Frenkyho vám našli, přestal žít, "
-        },
-        {
-            "chords": "",
-            "text": "jeho srdce spí, tiše smutně spí, "
-        },
-        {
-            "chords": "",
-            "text": "bůh ví, jak, za co tenhle smíšek konec měl, "
-        },
-        {
-            "chords": "",
-            "text": "farář píseň pěl, umíráček zněl. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "R: Měl kapsu prázdnou ... "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R: Měl kapsu prázdnou ..."
         }
     ]
 }

@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   G A  D",
             "text": "   Pam pdadadm......"
         },
@@ -37,6 +38,7 @@
             "text": "   já jim ale na to řek':\"Chci být hlídačem krav.\""
         },
         {
+            "block_start": true,
             "chords": "            D",
             "text": "R: Já chci mít čapku s bambulí nahoře,"
         },
@@ -53,6 +55,7 @@
             "text": "   zpívat si: pam pam pam padadadadam ..."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. K vánocům mi kupovali hromady knih,"
         },
@@ -77,10 +80,12 @@
             "text": "   každý se mě opatrně tázal na moje zdraví."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Dnes už jsem starší a vím, co vím,"
         },
@@ -105,10 +110,12 @@
             "text": "   kde se mezi mraky honí moje strakaté krávy."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "dál v E dur"
         },

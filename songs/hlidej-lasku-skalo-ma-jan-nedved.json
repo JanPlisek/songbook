@@ -12,6 +12,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    C                                     G7   C",
             "text": "1. Jak to v žití chodívá, láska k lidem přichází,"
         },
@@ -28,6 +29,7 @@
             "text": "   měla džíny vybledlý, na zádech starej vak."
         },
         {
+            "block_start": true,
             "chords": "     C                                     G7   C",
             "text": "R: Hlídej lásku, skálo má, než se s ránem vytratí,"
         },
@@ -44,6 +46,7 @@
             "text": "   víš, co umí člověk, pojď, než se s ránem vytratí."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Když mi \"ahoj\" povídá, úsměvem mě pohladí,"
         },
@@ -60,6 +63,7 @@
             "text": "   den zmizel za obzorem, stín skryl náš tichý kout."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         }

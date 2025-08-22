@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   D            G     D",
             "text": "1. Dál za vozem spolu šlapem,"
         },
@@ -29,6 +30,7 @@
             "text": "   z hor divokej tymián."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Léto, zůstaň dlouho s námi,"
         },
@@ -49,6 +51,7 @@
             "text": "   z hor divokej tymián"
         },
         {
+            "block_start": true,
             "chords": "   D7  G             D              G        F#mi",
             "text": "R: Podívej, jak málo stačí, když do vázy natrhám"
         },
@@ -57,6 +60,7 @@
             "text": "   bílou nocí k milování z hor divokej tymián."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Dál za vozem trávou, prachem,"
         },

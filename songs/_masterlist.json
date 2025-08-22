@@ -448,7 +448,7 @@
             "John Lennon"
         ],
         "band": [
-            "The Beatles"
+            "Beatles"
         ]
     },
     {
@@ -458,126 +458,6 @@
             "Lenka Filipová"
         ],
         "band": []
-    },
-    {
-        "id": "eight-days-a-week-the-beatles",
-        "title": "Eight Days a Week",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "here-comes-the-sun-the-beatles",
-        "title": "Here Comes The Sun",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "hey-jude-the-beatles",
-        "title": "Hey Jude",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "i-want-to-hold-your-hand-the-beatles",
-        "title": "I Want To Hold Your Hand",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "a-hard-day-s-night-the-beatles",
-        "title": "A Hard Day's Night",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "can-t-buy-me-love-the-beatles",
-        "title": "Can't Buy Me Love",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "come-together-the-beatles",
-        "title": "Come Together",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "let-it-be-the-beatles",
-        "title": "Let It Be",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "love-me-do-the-beatles",
-        "title": "Love Me Do",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "michelle-the-beatles",
-        "title": "Michelle",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "penny-lane-the-beatles",
-        "title": "Penny Lane",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "while-my-guitar-gently-weeps-the-beatles",
-        "title": "While My Guitar Gently Weeps",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "yellow-submarine-the-beatles",
-        "title": "Yellow Submarine",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "yesterday-the-beatles",
-        "title": "Yesterday",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
-    },
-    {
-        "id": "you-ve-got-to-hide-your-love-away-the-beatles",
-        "title": "You've Got To Hide Your Love Away",
-        "artist": [],
-        "band": [
-            "The Beatles"
-        ]
     },
     {
         "id": "amerika-lucie",
@@ -1104,14 +984,6 @@
             "Petr Novák"
         ],
         "band": []
-    },
-    {
-        "id": "down-under-men-at-work",
-        "title": "Down Under",
-        "artist": [],
-        "band": [
-            "Men At Work"
-        ]
     },
     {
         "id": "ja-pisnicka-pavel-lohonka-zalman",
@@ -1738,6 +1610,134 @@
         "artist": [
             "Zdeněk Svěrák",
             "Jaroslav Uhlíř"
+        ],
+        "band": []
+    },
+    {
+        "id": "a-hard-day-s-night-beatles",
+        "title": "A Hard Day's Night",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "come-together-beatles",
+        "title": "Come Together",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "here-comes-the-sun-beatles",
+        "title": "Here Comes The Sun",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "i-want-to-hold-your-hand-beatles",
+        "title": "I Want To Hold Your Hand",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "let-it-be-beatles",
+        "title": "Let It Be",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "michelle-beatles",
+        "title": "Michelle",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "while-my-guitar-gently-weeps-beatles",
+        "title": "While My Guitar Gently Weeps",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "yesterday-beatles",
+        "title": "Yesterday",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "can-t-buy-me-love-beatles",
+        "title": "Can't Buy Me Love",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "eight-days-a-week-beatles",
+        "title": "Eight Days a Week",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "hey-jude-beatles",
+        "title": "Hey Jude",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "love-me-do-beatles",
+        "title": "Love Me Do",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "penny-lane-beatles",
+        "title": "Penny Lane",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "yellow-submarine-beatles",
+        "title": "Yellow Submarine",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "you-ve-got-to-hide-your-love-away-beatles",
+        "title": "You've Got To Hide Your Love Away",
+        "artist": [],
+        "band": [
+            "Beatles"
+        ]
+    },
+    {
+        "id": "your-song-elton-john",
+        "title": "Your Song",
+        "artist": [
+            "Elton John"
         ],
         "band": []
     }
