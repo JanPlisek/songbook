@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "E               C#7",
             "text": "Jak můžeš být tak krutá,"
         },
@@ -17,6 +18,7 @@
             "text": "copak nemáš kouska citu v těle?"
         },
         {
+            "block_start": true,
             "chords": "E6  E6  E  E6  E  E6  E6  E  E6  E",
             "text": ""
         },
@@ -37,6 +39,7 @@
             "text": " a Já už věděl, co Ti budu hrát."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "To ještě rostla v javorovém lese"
         },
@@ -53,6 +56,7 @@
             "text": "žár, který ve mně denně narů stal."
         },
         {
+            "block_start": true,
             "chords": "    C#mi                          G#mi",
             "text": "S tou kytarou teď stojím před tvým domem,"
         },

@@ -9,56 +9,52 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "         G        C        G       C",
-            "text": "1. Co skrýváš za víčky a plameny svíčky, "
+            "text": "1. Co skrýváš za víčky a plameny svíčky,"
         },
         {
             "chords": "         G                            D",
-            "text": "   snad houf bílých holubic nebo jen žal, "
+            "text": "   snad houf bílých holubic nebo jen žal,"
         },
         {
             "chords": "       C           G         C      G",
-            "text": "   tak odplul ten prvý den smáčený krví, "
+            "text": "   tak odplul ten prvý den smáčený krví,"
         },
         {
             "chords": "                         D      G",
-            "text": "   ani pouťovou panenku nezanechal. "
+            "text": "   ani pouťovou panenku nezanechal."
         },
         {
+            "block_start": true,
             "chords": "   G      C       G       D  C   G      D",
-            "text": "R: Otevři oči, ty uspěchaná dámo uplakaná, "
+            "text": "R: Otevři oči, ty uspěchaná dámo uplakaná,"
         },
         {
             "chords": "   C      G         C         G              D      G",
-            "text": "   otevři oči, ta hloupá noc končí a mír je mezi náma. "
+            "text": "   otevři oči, ta hloupá noc končí a mír je mezi náma."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Už si oblékni šaty i řetízek zlatý"
         },
         {
             "chords": "",
-            "text": "2. Už si oblékni šaty i řetízek zlatý "
+            "text": "   a umyj se, půjdeme na karneval,"
         },
         {
             "chords": "",
-            "text": "   a umyj se, půjdeme na karneval, "
+            "text": "   a na bílou kůži ti napíšu tuší,"
         },
         {
             "chords": "",
-            "text": "   a na bílou kůži ti napíšu tuší, "
+            "text": "   že dámou jsi byla a zůstáváš dál."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "   že dámou jsi byla a zůstáváš dál. "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R:"
         }
     ]
 }

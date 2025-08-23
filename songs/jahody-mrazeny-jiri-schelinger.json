@@ -1,0 +1,55 @@
+{
+    "id": "jahody-mrazeny-jiri-schelinger",
+    "title": "Jahody mražený",
+    "artist": [
+        "Jiří Schelinger"
+    ],
+    "band": [],
+    "originalKey": "A",
+    "capo": 0,
+    "lyrics": [
+        {
+            "block_start": true,
+            "chords": "   A",
+            "text": "1. Poslala mě moje dívka pro jahody červený,"
+        },
+        {
+            "chords": "   D                     G                           A",
+            "text": "   bez nich se prý nemám vracet, tak tu stojím ztrápený."
+        },
+        {
+            "chords": "   A",
+            "text": "   Když se dívám co je sněhu, fouká vítr, pálí mráz,"
+        },
+        {
+            "chords": "   D                 G      A                  E",
+            "text": "   možná že si děvče myslí, že se mě tak zbaví snáz."
+        },
+        {
+            "block_start": true,
+            "chords": "      G            D   A              E",
+            "text": "R. \/: Zapoměla vážení, na jahody mražený,"
+        },
+        {
+            "chords": "      G              D   A             E",
+            "text": "      na jahody mražený, v igelitu balený. :\/"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Pohádku to připomíná o dvanácti měsíčkách,"
+        },
+        {
+            "chords": "",
+            "text": "   nechtěla mi říci sbohem, teď by chtěla abych plách."
+        },
+        {
+            "chords": "",
+            "text": "   Mohl bych se klidně vrátit, vím však že mě nečeká,"
+        },
+        {
+            "chords": "",
+            "text": "   měla mi to říci rovnou, že jiného ráda má."
+        }
+    ]
+}

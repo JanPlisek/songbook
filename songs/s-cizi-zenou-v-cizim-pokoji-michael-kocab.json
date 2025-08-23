@@ -10,120 +10,105 @@
     "capo": 1,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "Hm Em F#",
-            "text": " "
+            "text": ""
         },
         {
             "chords": "  D                  F#7     Hmi                F#7            D",
-            "text": "S cizí ženou v cizím pokoji zdá se, že tu pro mě končí jeden flám, "
+            "text": "S cizí ženou v cizím pokoji zdá se, že tu pro mě končí jeden flám,"
         },
         {
             "chords": "                   F#7  \t  Hmi                      F#7",
-            "text": "na to kde se začal marně vzpomám, jsem jak vagón, když ho odpojí. "
+            "text": "na to kde se začal marně vzpomám, jsem jak vagón, když ho odpojí."
         },
         {
             "chords": "  G                     H7  Emi                      H7        D",
-            "text": "S cizí ženou v cizím pokoji, když jsme jednou tady, tak by nemělo "
+            "text": "S cizí ženou v cizím pokoji, když jsme jednou tady, tak by nemělo"
         },
         {
             "chords": "  G                H7\t\tEmi                   A",
-            "text": "být tu jinak nežli pěkně veselo, proč oba dva teda, chcem zívat až běda. "
+            "text": "být tu jinak nežli pěkně veselo, proč oba dva teda, chcem zívat až běda."
         },
         {
             "chords": "  D                    F#7    Hm             F#7         D",
-            "text": "Jsme jak zašlí svatí v orloji, já a cizí žena v cizím pokoji  - "
+            "text": "Jsme jak zašlí svatí v orloji, já a cizí žena v cizím pokoji  -"
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "F# Hmi F# Hmi F#mi Emi F#",
-            "text": "na na na na......... "
+            "text": "na na na na........."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "S cizí ženou v cizím pokoji, tam kde starý fíkus tiše uvadá,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "ani on už není, co byl za mlada, takhle skončí, kdo se spokojí"
         },
         {
             "chords": "",
-            "text": "S cizí ženou v cizím pokoji, tam kde starý fíkus tiše uvadá, "
+            "text": "s péčí ženy v tomhle pokoji, kdo mě zná ten řek by to je k nevíře,"
         },
         {
             "chords": "",
-            "text": "ani on už není, co byl za mlada, takhle skončí, kdo se spokojí "
+            "text": "budík, který tiká na dně talíře, ten jako by věřil a nestranně měřil"
         },
         {
             "chords": "",
-            "text": "s péčí ženy v tomhle pokoji, kdo mě zná ten řek by to je k nevíře, "
+            "text": "kdo se bojí a kdo nebojí, když je s cizí ženou v cizím pokoji."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "S cizí ženou v cizím pokoji nějak nejsem ve své kůži, řekl bych,"
         },
         {
             "chords": "",
-            "text": "budík, který tiká na dně talíře, ten jako by věřil a nestranně měřil "
+            "text": "snad tu schází něha, snad tu schází hřich, nejspíš mi tu schází obojí."
         },
         {
             "chords": "",
-            "text": "kdo se bojí a kdo nebojí, když je s cizí ženou v cizím pokoji. "
+            "text": "S cizí ženskou v cizím pokoji proč jsem předně vůbec a proč v pyžamu,"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "proč se dívám, jak jí zbytek salámu,"
         },
         {
             "chords": "",
-            "text": "S cizí ženou v cizím pokoji nějak nejsem ve své kůži, řekl bych, "
+            "text": "fůj,proč neřeknu madam,tak sbohem já padám."
         },
         {
             "chords": "",
-            "text": "snad tu schází něha, snad tu schází hřich, nejspíš mi tu schází obojí. "
+            "text": "Vidím, že to za moc nestojí, sbohem cizí matko v cizím pokoji."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Proč ta žena v tomhle pokoji mi však tolik známá připadá,"
         },
         {
             "chords": "",
-            "text": "S cizí ženskou v cizím pokoji proč jsem předně vůbec a proč v pyžamu, "
+            "text": "stejně jak ten pokoj, jak ta nálada, jako rána, co se nehojí."
         },
         {
             "chords": "",
-            "text": "proč se dívám, jak jí zbytek salámu, fůj,proč neřeknu madam,tak sbohem já padám. "
+            "text": "S cizí ženou v cizím pokoji už jsem dlouho nebyl, já to nějak splet,"
         },
         {
             "chords": "",
-            "text": "Vidím, že to za moc nestojí, sbohem cizí matko v cizím pokoji. "
+            "text": " byl jsem tam, kde bydlím nejmíň dvacet let"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "a to co mám v domě je rozhodně pro mě."
         },
         {
             "chords": "",
-            "text": "Proč ta žena v tomhle pokoji mi však tolik známá připadá, "
-        },
-        {
-            "chords": "",
-            "text": "stejně jak ten pokoj, jak ta nálada, jako rána, co se nehojí. "
-        },
-        {
-            "chords": "",
-            "text": "S cizí ženou v cizím pokoji už jsem dlouho nebyl, já to nějak splet, "
-        },
-        {
-            "chords": "",
-            "text": " byl jsem tam, kde bydlím nejmíň dvacet let a to co mám v domě je rozhodně pro mě. "
-        },
-        {
-            "chords": "",
-            "text": "Stejně jako chůze v postroji jsem tu se svou ženou ve svém pokoji. "
-        },
-        {
-            "chords": "",
-            "text": ""
-        },
-        {
-            "chords": "",
-            "text": ""
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "Stejně jako chůze v postroji jsem tu se svou ženou ve svém pokoji."
         }
     ]
 }

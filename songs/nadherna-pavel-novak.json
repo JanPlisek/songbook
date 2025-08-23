@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    A              E            A",
             "text": "1. Já včera ještě nosil blázna šat"
         },
@@ -25,6 +26,7 @@
             "text": "   a teď už se mě nemusíte ptát."
         },
         {
+            "block_start": true,
             "chords": "    A                        E",
             "text": "R. Nádherná, nádherná, nádherná,"
         },
@@ -41,6 +43,7 @@
             "text": "   co sem slét tys můj šestý světadíl."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Šla městem, pestrý šátek za ni vlál"
         },
@@ -57,6 +60,7 @@
             "text": "   a v rozpačitém srdci oheň vzplál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Teď v zahradě snů svoji růži mám"
         },

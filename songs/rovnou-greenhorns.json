@@ -1,0 +1,68 @@
+{
+    "id": "rovnou-greenhorns",
+    "title": "Rovnou",
+    "artist": [],
+    "band": [
+        "Greenhorns"
+    ],
+    "originalKey": "",
+    "capo": 0,
+    "lyrics": [
+        {
+            "block_start": true,
+            "chords": "    G                   G7",
+            "text": "1. Tak už jsem ti teda fouk',"
+        },
+        {
+            "chords": "    C                   G",
+            "text": "   prsten si dej za klobouk,"
+        },
+        {
+            "chords": "    C         D7       G          Emi",
+            "text": "   nechci tě znát a neměl jsem tě rád,"
+        },
+        {
+            "chords": "    G        D7     G",
+            "text": "   to ti říkám rovnou."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Rovnou, jo, tady rovnou,"
+        },
+        {
+            "chords": "",
+            "text": "   rovnou, jo, tady rovnou,"
+        },
+        {
+            "chords": "",
+            "text": "   prostě těpic a nehledej mě víc,"
+        },
+        {
+            "chords": "",
+            "text": "   to ti říkám rovnou."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Z Kentucky do Tennesee"
+        },
+        {
+            "chords": "",
+            "text": "   přes hory a přes lesy,"
+        },
+        {
+            "chords": "",
+            "text": "   z potoků vodou já smejval stopu svou,"
+        },
+        {
+            "chords": "",
+            "text": "   to ti říkám rovnou."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4.=2."
+        }
+    ]
+}

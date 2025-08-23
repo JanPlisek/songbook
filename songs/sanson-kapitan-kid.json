@@ -9,100 +9,99 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "         C            G7                    Ami",
-            "text": "1. Kde jsou ty starý časy, kdy korzet natrhla si "
+            "text": "1. Kde jsou ty starý časy, kdy korzet natrhla si"
         },
         {
             "chords": "                E        G7            C",
-            "text": "   i žena hrdé rasy, sotva jsem na ni kejv', "
+            "text": "   i žena hrdé rasy, sotva jsem na ni kejv',"
         },
         {
             "chords": "              G7                  Ami",
-            "text": "   i urozené dámy na srdci měly šrámy, "
+            "text": "   i urozené dámy na srdci měly šrámy,"
         },
         {
             "chords": "                   E                Ami",
-            "text": "   šeptaly mi 'mon ami' a otvíraly sejf. "
+            "text": "   šeptaly mi 'mon ami' a otvíraly sejf."
         },
         {
             "chords": "    Dmi           Gmi        Dmi",
-            "text": "   Poničil jsem stovky milovníků, "
+            "text": "   Poničil jsem stovky milovníků,"
         },
         {
             "chords": "    Ami            F              G7",
-            "text": "   Gabla, Fairbankse i bratry v triku, "
+            "text": "   Gabla, Fairbankse i bratry v triku,"
         },
         {
             "chords": "      C            G7                       Ami",
-            "text": "   dokonce bratry bez trika, tři tragédy a komika, "
+            "text": "   dokonce bratry bez trika, tři tragédy a komika,"
         },
         {
             "chords": "                    E                  Ami    C      G7 Ami E Ami",
-            "text": "   má minulost je kronika milenců nebohejch, la la la ... "
+            "text": "   má minulost je kronika milenců nebohejch, la la la ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Trpěl jsem na subrety, cpaly mi cigarety,"
         },
         {
             "chords": "",
-            "text": "2. Trpěl jsem na subrety, cpaly mi cigarety, "
+            "text": "   zvaly me na výlety, kam chodil Renoir,"
         },
         {
             "chords": "",
-            "text": "   zvaly me na výlety, kam chodil Renoir, "
+            "text": "   dokonce sufražetky mívaly se mnou pletky,"
         },
         {
             "chords": "",
-            "text": "   dokonce sufražetky mívaly se mnou pletky, "
+            "text": "   daly mi na žiletky a flašku Chat noir."
         },
         {
             "chords": "",
-            "text": "   daly mi na žiletky a flašku Chat noir. "
+            "text": "   Kdybych býval pro milenku každou"
         },
         {
             "chords": "",
-            "text": "   Kdybych býval pro milenku každou "
+            "text": "   nesnažil se umřít sebevraždou,"
         },
         {
             "chords": "",
-            "text": "   nesnažil se umřít sebevraždou, "
+            "text": "   moh' jsem bejt dneska ženatej, otravnej, blbej, baňatej"
         },
         {
             "chords": "",
-            "text": "   moh' jsem bejt dneska ženatej, otravnej, blbej, baňatej "
+            "text": "   chlap, co má v pajzlu najatej pro děvku budoir, la la la ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Teď sedím na pavlači, mam pivo, to mi stačí,"
         },
         {
             "chords": "",
-            "text": "   chlap, co má v pajzlu najatej pro děvku budoir, la la la ... "
+            "text": "   a připadá mi k pláči, že kradu žrádlo psům,"
         },
         {
             "chords": "",
-            "text": "3. Teď sedím na pavlači, mam pivo, to mi stačí, "
+            "text": "   prachy se nenaskytly, včera mě křeče chytly,"
         },
         {
             "chords": "",
-            "text": "   a připadá mi k pláči, že kradu žrádlo psům, "
+            "text": "   zdraví a krása v pytli, a dluhů plnej dům."
         },
         {
             "chords": "",
-            "text": "   prachy se nenaskytly, včera mě křeče chytly, "
+            "text": "   Sedávám na obrácený kisně, špačkem tužky sepisuju písně,"
         },
         {
             "chords": "",
-            "text": "   zdraví a krása v pytli, a dluhů plnej dům. "
+            "text": "   jak odvar máty peprné mě v srdci občas zatrne"
         },
         {
             "chords": "",
-            "text": "   Sedávám na obrácený kisně, špačkem tužky sepisuju písně, "
-        },
-        {
-            "chords": "",
-            "text": "   jak odvar máty peprné mě v srdci občas zatrne "
-        },
-        {
-            "chords": "",
-            "text": "   a čekám, kdo se ustrne a zaplatí mi rum, la la la ... "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   a čekám, kdo se ustrne a zaplatí mi rum, la la la ..."
         }
     ]
 }

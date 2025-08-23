@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "     F                  C",
             "text": "1. Krásná růže v sadu kvetla"
         },
@@ -33,6 +34,7 @@
             "text": "   chtěla ji mít v pokoji."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Vykrad' jsem se v noci z domu"
         },
@@ -57,6 +59,7 @@
             "text": "   když mě chytnou, tak budu bit."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Pak jsem s růží k milé spěchal,"
         },
@@ -81,6 +84,7 @@
             "text": "   na polštář jí tu růži dal."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Ráno do bot rosa padla,"
         },

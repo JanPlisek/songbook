@@ -4,6 +4,13 @@ include_once 'includes/functions.php';
 
 if (!is_user_logged_in()) { header('Location: login.php'); exit; }
 
+// === PŘIDÁNÍ KNIHOVNY CROPPER.JS (začátek) ===
+?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cropperjs/1.6.2/cropper.min.js"></script>
+<?php
+// === PŘIDÁNÍ KNIHOVNY CROPPER.JS (konec) ===
+
 $pageTitle = "Editor písní";
 include 'includes/header.php';
 
@@ -92,6 +99,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save_song'])) {
 
     $artists_array = !empty($artist_string) ? array_map('trim', explode(',', $artist_string)) : [];
     $bands_array = !empty($band_string) ? array_map('trim', explode(',', $band_string)) : [];
+    // === NOVÝ BLOK PRO ZPRACOVÁNÍ OBRÁZKU ===
+    
+    // === KONEC BLOKU PRO OBRÁZEK ===
     $id_name = !empty($artists_array) ? $artists_array[0] : (!empty($bands_array) ? $bands_array[0] : 'neznamy');
     $id = create_slug($title . '-' . $id_name);
     $filename = 'songs/' . $id . '.json';
@@ -123,6 +133,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save_song'])) {
             <input type="text" id="artist" name="artist" value="<?php echo htmlspecialchars($form_data['artist']); ?>">
             <label for="band">Kapela (více oddělte čárkou):</label>
             <input type="text" id="band" name="band" value="<?php echo htmlspecialchars($form_data['band']); ?>">
+            
+            <label for="artist_image">Obrázek interpreta (nepovinné):</label>
+            <input type="file" id="artist_image" name="artist_image" accept="image/jpeg, image/png, image/webp">
+            
             <label for="key">Originální tónina:</label>
             <input type="text" id="key" name="key" value="<?php echo htmlspecialchars($form_data['key']); ?>" placeholder="např. G nebo Am">
             <label for="capo">Pozice kapodastru:</label>
@@ -130,10 +144,125 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save_song'])) {
         </fieldset>
         <fieldset>
             <legend><h3>Text a akordy</h3></legend>
-            <p style="font-size: 0.9em; color: #666;">Pro oddělení slok použijte prázdný řádek. Pište akordy na samostatný řádek nad text.   ---------|</p>
+            <p style="font-size: 0.9em; color: #666;">Pro oddělení slok použijte prázdný řádek. Pište akordy na samostatný řádek nad text.   -----------------------------|</p>
             <textarea id="song_content" name="song_content" required><?php echo htmlspecialchars($form_data['raw_content']); ?></textarea>
         </fieldset>
         <button type="submit" name="save_song">Zpracovat a uložit písničku</button>
     </form>
 </div>
+
+<div id="cropper-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+        <h3>Oříznout obrázek interpreta</h3>
+        <p style="margin-bottom: 1rem;">Pomocí rámečku vyberte požadovaný výřez a potvrďte.</p>
+
+        <div id="cropper-container">
+            <img id="image-to-crop" src="" alt="Náhled pro ořezání">
+        </div>
+
+        <div style="margin-top: 1.5rem; display: flex; justify-content: space-between; align-items: center;">
+            <button type="button" id="crop-and-upload-btn" class="btn" style="background-color: #28a745;">Oříznout a nahrát</button>
+            <small id="upload-status"></small>
+            <button type="button" id="btn-close-cropper-modal" class="btn-close-modal">Zrušit</button>
+        </div>
+    </div>
+</div>
+
+
 <?php include 'includes/footer.php'; ?>
+
+<?php include 'includes/footer.php'; ?>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // --- Prvky pro ořezávání ---
+    const fileInput = document.getElementById('artist_image');
+    const image = document.getElementById('image-to-crop');
+    const cropperModal = document.getElementById('cropper-modal');
+    const uploadButton = document.getElementById('crop-and-upload-btn');
+    const closeButton = document.getElementById('btn-close-cropper-modal');
+    const uploadStatus = document.getElementById('upload-status');
+    const artistInput = document.getElementById('artist');
+    const bandInput = document.getElementById('band'); // Přidali jsme odkaz na pole s kapelou
+    
+    let cropper; 
+
+    // --- Zobrazí modal a inicializuje cropper (beze změny) ---
+    fileInput.addEventListener('change', (event) => {
+        const files = event.target.files;
+        if (files && files.length > 0) {
+            const reader = new FileReader();
+            reader.onload = (e) => {
+                image.src = e.target.result;
+                cropperModal.style.display = 'flex';
+                if (cropper) { cropper.destroy(); }
+                cropper = new Cropper(image, {
+                    aspectRatio: 25 / 18, viewMode: 1, dragMode: 'move',
+                    autoCropArea: 0.9, responsive: true, background: false,
+                });
+            };
+            reader.readAsDataURL(files[0]);
+        }
+    });
+
+    // --- Skryje modal (beze změny) ---
+    const closeModal = () => {
+        cropperModal.style.display = 'none';
+        if (cropper) { cropper.destroy(); }
+        fileInput.value = '';
+        uploadStatus.textContent = '';
+    };
+    closeButton.addEventListener('click', closeModal);
+
+    // --- Ořízne a nahraje obrázek (VYLEPŠENÁ LOGIKA) ---
+    uploadButton.addEventListener('click', () => {
+        if (!cropper) {
+            alert('Nejprve vyberte obrázek.');
+            return;
+        }
+
+        // === ZMĚNA ZDE: Inteligentní výběr jména pro soubor ===
+        let nameForSlug = '';
+        const artistValue = artistInput.value.trim();
+        const bandValue = bandInput.value.trim();
+
+        if (artistValue !== '') {
+            // Prioritu má autor, vezmeme jen prvního v pořadí
+            nameForSlug = artistValue.split(',')[0].trim();
+        } else if (bandValue !== '') {
+            // Pokud není autor, vezmeme kapelu (opět jen první)
+            nameForSlug = bandValue.split(',')[0].trim();
+        }
+
+        if (nameForSlug === '') {
+            alert('Vyplňte prosím alespoň pole "Autor / Osoba" nebo "Kapela", aby se obrázek mohl správně pojmenovat.');
+            return;
+        }
+        // === KONEC ZMĚNY ===
+
+        uploadStatus.textContent = 'Nahrávám...';
+        
+        cropper.getCroppedCanvas({ width: 500, height: 500 }).toBlob((blob) => {
+            const formData = new FormData();
+            formData.append('cropped_image', blob, 'image.png');
+            formData.append('artist_name', nameForSlug); // Použijeme chytře vybrané jméno
+
+            fetch('upload_image.php', { method: 'POST', body: formData })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    uploadStatus.style.color = 'green';
+                    uploadStatus.textContent = 'Úspěšně nahráno!';
+                    setTimeout(closeModal, 1500);
+                } else {
+                    throw new Error(data.message || 'Neznámá chyba.');
+                }
+            })
+            .catch(error => {
+                uploadStatus.style.color = 'red';
+                uploadStatus.textContent = 'Chyba: ' + error.message;
+            });
+        }, 'image/png');
+    });
+});
+</script>

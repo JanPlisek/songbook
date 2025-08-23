@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "G                   C     D              Bmi",
             "text": "It´s a little bit funny, this feeling inside"
         },
@@ -41,6 +42,7 @@
             "text": "My gift is my song and this one´s for you."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Chorus"
         },
@@ -61,6 +63,7 @@
             "text": "that I put down in words"
         },
         {
+            "block_start": true,
             "chords": "  G            C             C            D",
             "text": "How wonderful life is while you´re in the world."
         },

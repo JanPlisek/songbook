@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "        A                   Emi         Emi7          A",
             "text": "1. Nás bylo sedm romantiků netušících, že se všechno mění,"
         },
@@ -25,6 +26,7 @@
             "text": "   svý tělo sádlem obalený napasovat do maskáčů z mládí."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Léta kráse nepřidaj' a nevyléčí naše ztuhlý klouby,"
         },
@@ -41,6 +43,7 @@
             "text": "   a slova městem neředěná snášejí se do vyrezlý trávy."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Pak čaj s příchutí jehličí a cigaretu zapalovat třískou,"
         },
@@ -57,6 +60,7 @@
             "text": "   tak proč nám slzí oči, není přece vítr a kouř vzhůru stoupá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. A je tu konec víkendu a všechno jako v obráceným filmu,"
         },

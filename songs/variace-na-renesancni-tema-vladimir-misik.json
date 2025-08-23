@@ -11,48 +11,45 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    Ami           F          G            Ami",
-            "text": "   Láska je jako večernice plující černou oblohou, "
+            "text": "   Láska je jako večernice plující černou oblohou,"
         },
         {
             "chords": "                  F            G               Ami",
-            "text": "   zavřete dveře na petlice, zhasněte v domě všechny svíce "
+            "text": "   zavřete dveře na petlice, zhasněte v domě všechny svíce"
         },
         {
             "chords": "                     F     G                 Ami    C G\/H Ami C\/G D F",
-            "text": "   a opevněte svoje těla, vy, kterým srdce zkameněla.  D F "
+            "text": "   a opevněte svoje těla, vy, kterým srdce zkameněla.  D F"
         },
         {
             "chords": "    Ami                  F     G             Ami",
-            "text": "   Láska je jako krásná loď, která ztratila kapitána, "
+            "text": "   Láska je jako krásná loď, která ztratila kapitána,"
         },
         {
             "chords": "                         F      G                 Ami",
-            "text": "   námořníkům se třesou ruce a bojí se, co bude zrána, "
+            "text": "   námořníkům se třesou ruce a bojí se, co bude zrána,"
         },
         {
             "chords": "                            F          G           Ami",
-            "text": "   láska je jako bolest z probuzení a horké ruce hvězd, "
+            "text": "   láska je jako bolest z probuzení a horké ruce hvězd,"
         },
         {
             "chords": "                   F          G            Ami              C G\/H Ami",
-            "text": "   které ti oknem do vězení květiny sypou ze svatebních cest. C\/G D F "
+            "text": "   které ti oknem do vězení květiny sypou ze svatebních cest. C\/G D F"
         },
         {
             "chords": "    Ami           F          G            Ami",
-            "text": "   Láska je jako večernice plující černou oblohou, "
+            "text": "   Láska je jako večernice plující černou oblohou,"
         },
         {
             "chords": "                   F            G             Ami",
-            "text": "   náš život hoří jako svíce a mrtví milovat nemohou, "
+            "text": "   náš život hoří jako svíce a mrtví milovat nemohou,"
         },
         {
             "chords": "    G             Ami   C G\/H Ami C\/G D F Ami",
-            "text": "   mrtví milovat nemohou ... "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   mrtví milovat nemohou ..."
         }
     ]
 }

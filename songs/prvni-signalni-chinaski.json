@@ -9,6 +9,7 @@
     "capo": 1,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Emi   G           C          Emi",
             "text": "1. Až si zejtra ráno řeknu zase jednou provždy dost,"
         },
@@ -25,6 +26,7 @@
             "text": "   když za všechno si můžu vlastně sám."
         },
         {
+            "block_start": true,
             "chords": "   Ami                   C",
             "text": "R: Za spoustu dní možná  spoustu let,"
         },
@@ -49,6 +51,7 @@
             "text": "   jaký si to uděláš - takový to máš ."
         },
         {
+            "block_start": true,
             "chords": "   G                  C           Emi",
             "text": "2. Až se dneska večer budu tvářit zas jak Karel Gott,"
         },
@@ -65,6 +68,7 @@
             "text": "   jak jsem si to uďál tak to mám."
         },
         {
+            "block_start": true,
             "chords": "   Ami                   C",
             "text": "R: Za spoustu dní možná  spoustu let,"
         },

@@ -11,6 +11,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "",
             "text": "Rec: Na dnešek jsem měl divnej sen: slunce pálilo a před saloonem "
         },
@@ -35,6 +36,7 @@
             "text": "     neúprosným hlasem rozsudek:"
         },
         {
+            "block_start": true,
             "chords": "               Emi                           G           D",
             "text": "1. Pověste ho vejš, ať se houpá, pověste ho vejš, ať má dost,"
         },
@@ -43,6 +45,7 @@
             "text": "   pověste ho vejš, ať se houpá, že tu byl nezvanej host."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Pověste ho, že byl jinej, že tu s náma dejchal stejnej vzduch,"
         },
@@ -51,6 +54,7 @@
             "text": "   pověste ho, že byl línej a tak trochu dobrodruh."
         },
         {
+            "block_start": true,
             "chords": "         Emi                             G             D",
             "text": "*: Pověste ho za El Paso, za Snídani v trávě a Lodní zvon,"
         },
@@ -63,6 +67,7 @@
             "text": "   a že měl country rád a že se uměl smát i vám."
         },
         {
+            "block_start": true,
             "chords": "           G              D           Ami         G D",
             "text": "R: Nad hlavou jen slunce pálí, konec můj nic neoddálí,"
         },
@@ -75,10 +80,12 @@
             "text": "   a do uší mi stále zní tahle píseň poslední."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3.=1."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Pověste ho za tu banku, v který zruinoval svůj vklad,"
         },
@@ -87,10 +94,12 @@
             "text": "   za to, že nikdy nevydržel na jednom místě stát."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "5.=1."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "6. Pověste ho za tu jistou, který nesplnil svůj slib,"
         },
@@ -99,6 +108,7 @@
             "text": "   že byl zarputilým optimistou, a tak dělal spoustu chyb."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "*: Pověste ho, že se koukal a že hodně jedl a hodně pil,"
         },
@@ -111,6 +121,7 @@
             "text": "   a pak se oženil a pak se usadil a žil."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },

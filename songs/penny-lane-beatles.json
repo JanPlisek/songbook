@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "             C               Ami7            Dmi7     G7sus",
             "text": "1. In Penny Lane there is a barber showing photographs"
         },
@@ -25,6 +26,7 @@
             "text": "   stop and say hello."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. On the corner is a banker with a motorcar"
         },
@@ -41,6 +43,7 @@
             "text": "   in the pouring rain very strange."
         },
         {
+            "block_start": true,
             "chords": "           Bb           Bb\/D           D#",
             "text": "R1: Penny Lane is in my ears and in my eyes"
         },
@@ -53,6 +56,7 @@
             "text": "    I sit and meanwhile back."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. In Penny Lane there is a fireman with an hourglass"
         },
@@ -69,6 +73,7 @@
             "text": "   it's a clean machine."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R2: Penny Lane is in my ears and in my eyes"
         },
@@ -81,6 +86,7 @@
             "text": "    in summer meanwhile back."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Behind the shelter in the middle of a roundabout"
         },
@@ -97,6 +103,7 @@
             "text": "   she is anyway."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "5. In Penny Lane the barber shaves another customer"
         },
@@ -113,10 +120,12 @@
             "text": "   from the pouring rain very strange."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R1:"
         },
         {
+            "block_start": true,
             "chords": "           C            C\/E            F",
             "text": "R3: Penny Lane is in my ears and in my eyes"
         },

@@ -9,108 +9,106 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "     A",
-            "text": "1. Kráčel krajem poutník, šel sám, "
+            "text": "1. Kráčel krajem poutník, šel sám,"
         },
         {
             "chords": "     D                         A",
-            "text": "   kráčel krajem poutník, šel sám, "
+            "text": "   kráčel krajem poutník, šel sám,"
         },
         {
             "chords": "                                  C# F#mi",
-            "text": "   kráčel krajem poutník, kráčel sám, "
+            "text": "   kráčel krajem poutník, kráčel sám,"
         },
         {
             "chords": "              H              H7                E4sus E7",
-            "text": "   tu potkal dívku, nesla džbán, přistoupil k ní a pravil: "
+            "text": "   tu potkal dívku, nesla džbán, přistoupil k ní a pravil:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. \"Ráchel, Ráchel, žízeň mě zmáhá,"
         },
         {
             "chords": "",
-            "text": "2. \"Ráchel, Ráchel, žízeň mě zmáhá, "
+            "text": "   Ráchel, Ráchel, žízeň mě zmáhá,"
         },
         {
             "chords": "",
-            "text": "   Ráchel, Ráchel, žízeň mě zmáhá, "
+            "text": "   Ráchel, Ráchel, žízeň mě zmáhá,"
         },
         {
             "chords": "",
-            "text": "   Ráchel, Ráchel, žízeň mě zmáhá, "
+            "text": "   tak přistup blíže, nehodná, a dej mi pít,\" a ona:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. \"Kdo jsi, kdo jsi, že mi říkáš jménem,"
         },
         {
             "chords": "",
-            "text": "   tak přistup blíže, nehodná, a dej mi pít,\" a ona: "
+            "text": "   kdo jsi, kdo jsi, že mi říkáš jménem,"
         },
         {
             "chords": "",
-            "text": "3. \"Kdo jsi, kdo jsi, že mi říkáš jménem, "
+            "text": "   kdo jsi, kdo jsi, že mi říkáš jménem,"
         },
         {
             "chords": "",
-            "text": "   kdo jsi, kdo jsi, že mi říkáš jménem, "
+            "text": "   já tě vidím poprvé, odkud mě znáš?\""
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4. Ráchel, Ráchel, znám víc než jméno,"
         },
         {
             "chords": "",
-            "text": "   kdo jsi, kdo jsi, že mi říkáš jménem, "
+            "text": "   Ráchel, Ráchel, znám víc než jméno,"
         },
         {
             "chords": "",
-            "text": "   já tě vidím poprvé, odkud mě znáš?\" "
+            "text": "   Ráchel, Ráchel, znám víc než jméno,\""
         },
         {
             "chords": "",
-            "text": "4. Ráchel, Ráchel, znám víc než jméno, "
+            "text": "   pak se napil, ruku zdvih' a kráčel dál."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "5. Ten džbán, ten džbán z nepálené hlíny,"
         },
         {
             "chords": "",
-            "text": "   Ráchel, Ráchel, znám víc než jméno, "
+            "text": "   ten džbán, ten džbán z nepálené hlíny,"
         },
         {
             "chords": "",
-            "text": "   Ráchel, Ráchel, znám víc než jméno,\" "
+            "text": "   ten džbán, ten džbán z nepálené hlíny"
         },
         {
             "chords": "",
-            "text": "   pak se napil, ruku zdvih' a kráčel dál. "
+            "text": "   v onu chvíli zazářil kovem ryzím."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "6. Kráčel krajem poutník, šel sám,"
         },
         {
             "chords": "",
-            "text": "5. Ten džbán, ten džbán z nepálené hlíny, "
+            "text": "   kráčel krajem poutník, šel sám,"
         },
         {
             "chords": "",
-            "text": "   ten džbán, ten džbán z nepálené hlíny, "
-        },
-        {
-            "chords": "",
-            "text": "   ten džbán, ten džbán z nepálené hlíny "
-        },
-        {
-            "chords": "",
-            "text": "   v onu chvíli zazářil kovem ryzím. "
-        },
-        {
-            "chords": "",
-            "text": "6. Kráčel krajem poutník, šel sám, "
-        },
-        {
-            "chords": "",
-            "text": "   kráčel krajem poutník, šel sám, "
-        },
-        {
-            "chords": "",
-            "text": "   kráčel krajem poutník, kráčel sám, "
+            "text": "   kráčel krajem poutník, kráčel sám,"
         },
         {
             "chords": "            H          E               A D A",
-            "text": "   ač byl chudý, nepoznán, přece byl král. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "   ač byl chudý, nepoznán, přece byl král."
         }
     ]
 }

@@ -9,88 +9,90 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Dmi Ami E Ami Dmi Ami E Ami",
             "text": ""
         },
         {
             "chords": "   Dmi Ami E Ami Dmi Ami E Ami",
-            "text": " "
+            "text": ""
         },
         {
             "chords": "    Ami              E                   Ami",
-            "text": "1. Nebe je modrý a zlatý, bílá sluneční záře, "
+            "text": "1. Nebe je modrý a zlatý, bílá sluneční záře,"
         },
         {
             "chords": "                     E                      Ami",
-            "text": "   horko a sváteční šaty, vřava a zpocený tváře, "
+            "text": "   horko a sváteční šaty, vřava a zpocený tváře,"
         },
         {
             "chords": "                    E                         Ami",
-            "text": "   vím, co se bude dít, býk už se v ohradě vzpíná, "
+            "text": "   vím, co se bude dít, býk už se v ohradě vzpíná,"
         },
         {
             "chords": "                       E                       Ami",
-            "text": "   kdo chce, ten může jít, já si dám sklenici vína. "
+            "text": "   kdo chce, ten může jít, já si dám sklenici vína."
         },
         {
+            "block_start": true,
             "chords": "    Dmi              Ami",
-            "text": "R: Žízeň je veliká, život mi utíká, "
+            "text": "R: Žízeň je veliká, život mi utíká,"
         },
         {
             "chords": "    E                   Ami,A7",
-            "text": "   nechte mě příjemně snít, "
+            "text": "   nechte mě příjemně snít,"
         },
         {
             "chords": "    Dmi               Ami",
-            "text": "   ve stínu pod fíky poslouchat slavíky, "
+            "text": "   ve stínu pod fíky poslouchat slavíky,"
         },
         {
             "chords": "     E                 Ami,A7",
-            "text": "   zpívat si s nima a pít. "
+            "text": "   zpívat si s nima a pít."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Ženy jsou krásný a cudný, mnohá se ve mně zhlídla,"
         },
         {
             "chords": "",
-            "text": "2. Ženy jsou krásný a cudný, mnohá se ve mně zhlídla, "
+            "text": "   oči jako dvě studny, vlasy jak havraní křídla,"
         },
         {
             "chords": "",
-            "text": "   oči jako dvě studny, vlasy jak havraní křídla, "
+            "text": "   dobře vím, co znamená pád do nástrah dívčího klína,"
         },
         {
             "chords": "",
-            "text": "   dobře vím, co znamená pád do nástrah dívčího klína, "
+            "text": "   někdo má pletky rád, já si dám sklenici vína."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Nebe je modrý a zlatý, ženy krásný a cudný,"
         },
         {
             "chords": "",
-            "text": "   někdo má pletky rád, já si dám sklenici vína. "
+            "text": "   mantily, sváteční šaty, oči jako dvě studny,"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "   zmoudřel jsem stranou od lidí, jsem jak ta zahrada stinná,"
         },
         {
             "chords": "",
-            "text": "3. Nebe je modrý a zlatý, ženy krásný a cudný, "
+            "text": "   kdo chce, ať mi závidí, já si dám sklenici vína."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "   mantily, sváteční šaty, oči jako dvě studny, "
-        },
-        {
-            "chords": "",
-            "text": "   zmoudřel jsem stranou od lidí, jsem jak ta zahrada stinná, "
-        },
-        {
-            "chords": "",
-            "text": "   kdo chce, ať mi závidí, já si dám sklenici vína. "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R:"
         }
     ]
 }

@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    G       D         F       C",
             "text": "1. Here I stand with head in hand"
         },
@@ -25,6 +26,7 @@
             "text": "   feelin' two-foot small."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Everywhere people stare"
         },
@@ -41,10 +43,12 @@
             "text": "   and I hear them say."
         },
         {
+            "block_start": true,
             "chords": "       G                 C               D4sus D Dadd9 D",
             "text": "R: [: Hey you've got to hide your love away! :]"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. How could I even try"
         },
@@ -61,6 +65,7 @@
             "text": "   in the state I'm in."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. How could she say to me"
         },
@@ -77,6 +82,7 @@
             "text": "   let me hear you say."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         }

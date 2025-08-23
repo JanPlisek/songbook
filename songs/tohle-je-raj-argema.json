@@ -1,0 +1,86 @@
+{
+    "id": "tohle-je-raj-argema",
+    "title": "Tohle je ráj",
+    "artist": [],
+    "band": [
+        "Argema"
+    ],
+    "originalKey": "C",
+    "capo": 0,
+    "lyrics": [
+        {
+            "block_start": true,
+            "chords": "    C                      Am",
+            "text": "1. Před kým dveře zavíráš, proč se stále schováváš,"
+        },
+        {
+            "chords": "    Em                       F",
+            "text": "   bojíš se prý nočních můr, kam to utíkáš,"
+        },
+        {
+            "chords": "   G",
+            "text": "   počkej na mě baby."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Pořád mě jen odmítáš, proč už něco neříkáš,"
+        },
+        {
+            "chords": "",
+            "text": "   blízko už je věčný ráj, tam tě nečekám,"
+        },
+        {
+            "chords": "",
+            "text": "   moje smutná Lady."
+        },
+        {
+            "block_start": true,
+            "chords": "   Am                         Em",
+            "text": "R. Pojď ke mně a dej mi ruku, ať ji políbím,"
+        },
+        {
+            "chords": "   Am                       Em",
+            "text": "   tvé oči jsou tak blízko, já ti nabízím,"
+        },
+        {
+            "chords": "     F      G            F        G",
+            "text": "   nabízím toulání, poslouchej volání:"
+        },
+        {
+            "chords": "             C            Am             F             G",
+            "text": "   Tohle je ráj, tohle je ráj, tohle je ráj, tohle je ráj."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Neboj se jít kousek blíž, konečně snad uvidíš,"
+        },
+        {
+            "chords": "",
+            "text": "   je to jako v pohádkách, jsi tak bláznivá,"
+        },
+        {
+            "chords": "",
+            "text": "   budu Tě jen líbat."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Zavři oči, neváhej, jenom kousek srdce dej,"
+        },
+        {
+            "chords": "",
+            "text": "   polož hlavu na mou dlaň, teď už můžu sám,"
+        },
+        {
+            "chords": "",
+            "text": "   na Tebe se dívat."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R."
+        }
+    ]
+}

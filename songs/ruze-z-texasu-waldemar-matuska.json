@@ -1,0 +1,225 @@
+{
+    "id": "ruze-z-texasu-waldemar-matuska",
+    "title": "Růže z Texasu",
+    "artist": [
+        "Waldemar Matuška"
+    ],
+    "band": [],
+    "originalKey": "C",
+    "capo": 0,
+    "lyrics": [
+        {
+            "block_start": true,
+            "chords": "        C            C7          F           C",
+            "text": "1. Jedu Vám večer stezkou dát koňům v řece pít,"
+        },
+        {
+            "chords": "                      Ami           Dmi             G7",
+            "text": "   v tom potkám holku hezkou, že jsem až z koně slít'."
+        },
+        {
+            "chords": "      C              C7          F           C",
+            "text": "   Má kytku žlutejch květů, snad růží co já vím."
+        },
+        {
+            "chords": "                      Ami",
+            "text": "   Znám plno hezkejch ženskejch k světu,"
+        },
+        {
+            "chords": "       Dmi    G       C",
+            "text": "   ale tahle hraje prim."
+        },
+        {
+            "block_start": true,
+            "chords": "              F                         C",
+            "text": "R. Kdo si  kazíš smysl pro krásu, ať s tou a nebo s tou,"
+        },
+        {
+            "chords": "                           Ami           Dmi      G7",
+            "text": "   dej si říct, že kromě Texasu, tyhle růže nerostou."
+        },
+        {
+            "chords": "            C            C7              F           C",
+            "text": "   Ať máš kolťák nízko u pasu,  ať  jsi třeba     zloděj stád,"
+        },
+        {
+            "chords": "                        Ami        Dmi       G7     C",
+            "text": "   tuhle žlutou růži z Texasu budeš pořád mít už rád."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Řekla, že tu žije v ranči jen sama s tátou svým"
+        },
+        {
+            "chords": "",
+            "text": "   a hrozně ráda tančí, a teď zrovna nemá s kým."
+        },
+        {
+            "chords": "",
+            "text": "   Tak já se klidně nabíd', že půjdu s ní a rád"
+        },
+        {
+            "chords": "",
+            "text": "   a že se dám i zabít, když si to bude přát."
+        },
+        {
+            "chords": "",
+            "text": "R."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Hned si dala se mnou rande a přišla přesně v půl"
+        },
+        {
+            "chords": "",
+            "text": "   a dole teklo Rio Grande a po něm Měsíc plul."
+        },
+        {
+            "chords": "",
+            "text": "   Když si to tak v hlavě srovnám, co víc jsem si moh'"
+        },
+        {
+            "chords": "",
+            "text": "   přát, ona byla milá, štíhlá, rovná, zkrátka akorát."
+        },
+        {
+            "chords": "",
+            "text": "R."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4. Od těch dob svý stádo koní sem vodím k řece pít"
+        },
+        {
+            "chords": "",
+            "text": "   a žiju jenom pro ni a chtěl bych si ji vzít."
+        },
+        {
+            "chords": "",
+            "text": "   Když večer banjo ladím a zpívám si tu svou,"
+        },
+        {
+            "chords": "",
+            "text": "   tak pořád v duchu hladím, tu růži voňavou."
+        },
+        {
+            "chords": "",
+            "text": "R."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "      F6             F+          B6    Hdim   F6   Gm7 C7"
+        },
+        {
+            "chords": "",
+            "text": "1. Jedu Vám večer stezkou dát koním k řece pít,"
+        },
+        {
+            "chords": "         F6        Db7 D9         G7             Gm7   C7",
+            "text": "   v tom potkám holku  hezkou, až jsem až z koně slít'."
+        },
+        {
+            "chords": "",
+            "text": "      F6             F+          B6   Hdim  F6   Gm7 C7"
+        },
+        {
+            "chords": "",
+            "text": "   Má kytku žlutejch květů, snad růží co já vím."
+        },
+        {
+            "chords": "        F6      Db7   D9",
+            "text": "   Znám plno hezkejch ženskejch k světu,"
+        },
+        {
+            "chords": "       Gm7   C7    F6   F7",
+            "text": "   ale tahle hraje prim."
+        },
+        {
+            "block_start": true,
+            "chords": "          B6                        F6      Gm7  C7   F6   C7",
+            "text": "R. Kdo si kazíš smysl pro krásu, ať s tou a ne - bo s tou,"
+        },
+        {
+            "chords": "       F6          Db7 D9      G7              Gm7 C7",
+            "text": "   dej říct, že kromě  Texasu, tyhle růže nerostou."
+        },
+        {
+            "chords": "          F6           A7             B6    Hdim   F6   Gm7 C7",
+            "text": "   Ať máš kolťák nízko u pasu, ať jsi třeba zloděj stád,"
+        },
+        {
+            "chords": "         F6      Db7  D9           Gm7   C7     F6  C7",
+            "text": "   tyhle žlutý růže z Texasu budeš pořád mít už rád."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Řekla, že tu žije v ranči jen sama s tátou svým"
+        },
+        {
+            "chords": "",
+            "text": "   a hrozně ráda tančí, a teď zrovna nemá s kým."
+        },
+        {
+            "chords": "",
+            "text": "   Tak já se klidně nabíd', že půjdu s ní a rád"
+        },
+        {
+            "chords": "",
+            "text": "   a že se dám i zabít, když si to bude přát."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Hned si se mnou dala rande a přišla přesně v půl"
+        },
+        {
+            "chords": "",
+            "text": "   a dole teklo Rio Grande a po něm Měsíc plul."
+        },
+        {
+            "chords": "",
+            "text": "   Když si to tak v hlavě srovnám, co víc jsem si moh'"
+        },
+        {
+            "chords": "",
+            "text": "   přát, ona byla milá, štíhlá, rovná, zkrátka akorát."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4. Od těch dob svý stádo koní sem vodím k řece pít"
+        },
+        {
+            "chords": "",
+            "text": "   a žiju jenom pro ni a chtěl bych si ji vzít."
+        },
+        {
+            "chords": "",
+            "text": "   Když večer banjo ladím a zpívám si tu svou,"
+        },
+        {
+            "chords": "",
+            "text": "   tak pořád v duchu hladím, tu růži voňavou."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R."
+        }
+    ]
+}

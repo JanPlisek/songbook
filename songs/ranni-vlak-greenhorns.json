@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "Dmi",
             "text": "Už odjíždí ranní vlak"
         },
@@ -25,6 +26,7 @@
             "text": "jejich ranní náklaďák poslední vlak"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Kam odjíždí, snad sám neví"
         },
@@ -41,6 +43,7 @@
             "text": "co vozí náklaďák poslední vlak"
         },
         {
+            "block_start": true,
             "chords": "     F     Dmi    A7                Dmi",
             "text": "R: Ó jé, ó jé, v Idahu skončí cesta moje"
         },
@@ -49,6 +52,7 @@
             "text": "   ó jé, ó jé, v Idahu skončí cesta moje"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Na kolejích se potkávají"
         },
@@ -65,6 +69,7 @@
             "text": "kde jezdí náklaďák, poslední vlak"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Žádnej z nich nic na práci nemá"
         },
@@ -81,8 +86,13 @@
             "text": "vezme je náklaďák, poslední vlak"
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "R: Ó jé, ó jé, v Idahu skončí cesta moje..."
+            "text": "R:"
+        },
+        {
+            "chords": "",
+            "text": "Ó jé, ó jé, v Idahu skončí cesta moje..."
         },
         {
             "chords": "",

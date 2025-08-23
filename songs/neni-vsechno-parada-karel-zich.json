@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "C                        G",
             "text": "Není všechno paráda co hrajem,"
         },
@@ -25,6 +26,7 @@
             "text": "k brnkání si najde třeba drát."
         },
         {
+            "block_start": true,
             "chords": "F",
             "text": "Bez parády začínal jsem tenkrát,"
         },
@@ -41,6 +43,7 @@
             "text": "když jsem přes plot tajně chodil za Klárou."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Není všechno paráda co cítím,"
         },
@@ -57,6 +60,7 @@
             "text": "brzy je mám tahat s sebou ven."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Bez parády svítil jsem si sirkou,"
         },
@@ -73,6 +77,7 @@
             "text": "od těch dob mi Jirka nevěří."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Není všechno paráda co dělám,"
         },

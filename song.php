@@ -149,11 +149,11 @@ document.addEventListener('DOMContentLoaded', function() {
     let originalKey = '<?php echo $song_data['originalKey'] ?? 'C'; ?>';
 
     // OVLÁDACÍ PANEL
-    let currentFontSize = 16;
+    let currentFontSize = 12;
     const updateFontSize = () => { if(lyricsContainer) lyricsContainer.style.fontSize = `${currentFontSize}px`; };
     document.getElementById('btn-increase-font')?.addEventListener('click', () => { currentFontSize++; updateFontSize(); });
     document.getElementById('btn-decrease-font')?.addEventListener('click', () => { if (currentFontSize > 8) { currentFontSize--; updateFontSize(); } });
-    document.getElementById('btn-reset-font')?.addEventListener('click', () => { currentFontSize = 16; if(lyricsContainer) lyricsContainer.style.fontSize = ''; });
+    document.getElementById('btn-reset-font')?.addEventListener('click', () => { currentFontSize = 12; if(lyricsContainer) lyricsContainer.style.fontSize = ''; });
     document.getElementById('btn-print')?.addEventListener('click', () => window.print());
     const toggleBtn = document.getElementById('btn-toggle-controls');
     const popup = document.getElementById('controls-popup');

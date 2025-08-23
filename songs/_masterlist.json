@@ -890,7 +890,7 @@
         "artist": [
             "Zdeněk Svěrák",
             "Jaroslav Uhlíř",
-            "Jiří Schellinger"
+            "Jiří Schelinger"
         ],
         "band": []
     },
@@ -1428,14 +1428,6 @@
         "band": []
     },
     {
-        "id": "parada-karel-zich",
-        "title": "Paráda",
-        "artist": [
-            "Karel Zich"
-        ],
-        "band": []
-    },
-    {
         "id": "pata-helena-vondrackova",
         "title": "Pátá",
         "artist": [
@@ -1738,6 +1730,247 @@
         "title": "Your Song",
         "artist": [
             "Elton John"
+        ],
+        "band": []
+    },
+    {
+        "id": "dum-u-vychazejiciho-slunce-house-of-the-rising-sun-jaromir-mayer",
+        "title": "Dům U vycházejícího slunce (House of the Rising Sun)",
+        "artist": [
+            "Jaromír Mayer"
+        ],
+        "band": []
+    },
+    {
+        "id": "hlupak-vaha-katapult",
+        "title": "Hlupák váhá",
+        "artist": [],
+        "band": [
+            "Katapult"
+        ]
+    },
+    {
+        "id": "jahody-mrazeny-jiri-schelinger",
+        "title": "Jahody mražený",
+        "artist": [
+            "Jiří Schelinger"
+        ],
+        "band": []
+    },
+    {
+        "id": "jarosovsky-pivovar-argema",
+        "title": "Jarošovský pivovar",
+        "artist": [],
+        "band": [
+            "Argema"
+        ]
+    },
+    {
+        "id": "jednou-mi-fotr-povida-ivan-hlas",
+        "title": "Jednou mi fotr povídá",
+        "artist": [
+            "Ivan Hlas"
+        ],
+        "band": []
+    },
+    {
+        "id": "jo-tresne-zraly-waldemar-matuska",
+        "title": "Jó, třešně zrály",
+        "artist": [
+            "Waldemar Matuška"
+        ],
+        "band": []
+    },
+    {
+        "id": "kocka-elan",
+        "title": "Kočka",
+        "artist": [],
+        "band": [
+            "Elán"
+        ]
+    },
+    {
+        "id": "vino-chinaski",
+        "title": "Víno",
+        "artist": [],
+        "band": [
+            "Chinaski"
+        ]
+    },
+    {
+        "id": "okno-me-lasky-olympic",
+        "title": "Okno mé lásky",
+        "artist": [],
+        "band": [
+            "Olympic"
+        ]
+    },
+    {
+        "id": "otazky-olympic",
+        "title": "Otázky",
+        "artist": [],
+        "band": [
+            "Olympic"
+        ]
+    },
+    {
+        "id": "rovnou-greenhorns",
+        "title": "Rovnou",
+        "artist": [],
+        "band": [
+            "Greenhorns"
+        ]
+    },
+    {
+        "id": "ruze-z-texasu-waldemar-matuska",
+        "title": "Růže z Texasu",
+        "artist": [
+            "Waldemar Matuška"
+        ],
+        "band": []
+    },
+    {
+        "id": "svarak-harlej",
+        "title": "Svařák",
+        "artist": [],
+        "band": [
+            "Harlej"
+        ]
+    },
+    {
+        "id": "senkyrka-jarda-hypochondr",
+        "title": "Šenkýřka",
+        "artist": [
+            "Jarda Hypochondr"
+        ],
+        "band": []
+    },
+    {
+        "id": "sipkova-ruzenka-jiri-schelinger",
+        "title": "Šípková Růženka",
+        "artist": [
+            "Jiří Schelinger"
+        ],
+        "band": []
+    },
+    {
+        "id": "na-kolena-ivan-hlas",
+        "title": "Na kolena",
+        "artist": [
+            "Ivan Hlas"
+        ],
+        "band": []
+    },
+    {
+        "id": "tohle-je-raj-argema",
+        "title": "Tohle je ráj",
+        "artist": [],
+        "band": [
+            "Argema"
+        ]
+    },
+    {
+        "id": "jedeme-dal-olympic",
+        "title": "Jedeme dál",
+        "artist": [],
+        "band": [
+            "Olympic"
+        ]
+    },
+    {
+        "id": "tri-cunici-jarek-nohavica",
+        "title": "Tři čuníci",
+        "artist": [
+            "Jarek Nohavica"
+        ],
+        "band": []
+    },
+    {
+        "id": "ved-me-dal-cesto-ma-pavel-bobek",
+        "title": "Veď mě dál, cesto má",
+        "artist": [
+            "Pavel Bobek"
+        ],
+        "band": []
+    },
+    {
+        "id": "whisky-to-je-moje-gusto-yvetta-simonova",
+        "title": "Whisky, to je moje gusto",
+        "artist": [
+            "Yvetta Simonová",
+            ""
+        ],
+        "band": []
+    },
+    {
+        "id": "74-75-connels",
+        "title": "74-75",
+        "artist": [],
+        "band": [
+            "Connels"
+        ]
+    },
+    {
+        "id": "father-and-son-cat-stevens",
+        "title": "Father and Son",
+        "artist": [
+            "Cat Stevens"
+        ],
+        "band": []
+    },
+    {
+        "id": "nothing-else-matters-metallica",
+        "title": "Nothing else matters",
+        "artist": [],
+        "band": [
+            "Metallica"
+        ]
+    },
+    {
+        "id": "lonely-day-system-of-a-down",
+        "title": "Lonely day",
+        "artist": [],
+        "band": [
+            "System of a Down"
+        ]
+    },
+    {
+        "id": "hey-you-pink-floyd",
+        "title": "Hey You",
+        "artist": [],
+        "band": [
+            "Pink Floyd"
+        ]
+    },
+    {
+        "id": "wish-you-were-here-pink-floyd",
+        "title": "Wish You Were Here",
+        "artist": [],
+        "band": [
+            "Pink Floyd"
+        ]
+    },
+    {
+        "id": "space-oddity-david-bowie",
+        "title": "Space Oddity",
+        "artist": [
+            "David Bowie"
+        ],
+        "band": []
+    },
+    {
+        "id": "az-katapult",
+        "title": "Až",
+        "artist": [],
+        "band": [
+            "Katapult"
+        ]
+    },
+    {
+        "id": "chtel-bych-byt-medvidkem-michal-tucny",
+        "title": "Chtěl bych být medvídkem",
+        "artist": [
+            "Michal Tučný"
         ],
         "band": []
     }

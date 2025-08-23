@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "G D G D G D G D",
             "text": ""
         },
@@ -45,6 +46,7 @@
             "text": "nahý až na kožu"
         },
         {
+            "block_start": true,
             "chords": "   G  D       Emi",
             "text": "R: Už nebudem nahý"
         },
@@ -69,6 +71,7 @@
             "text": "   som nahý až na kožu"
         },
         {
+            "block_start": true,
             "chords": "C              D",
             "text": "Nahý už som bol"
         },

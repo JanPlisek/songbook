@@ -11,6 +11,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "G G D D A A D A",
             "text": ""
         },
@@ -31,6 +32,7 @@
             "text": "čím si zasloužit mám, že mně, zdá se, máš rád."
         },
         {
+            "block_start": true,
             "chords": "      G                  D        D7",
             "text": "Ref.: Ježíši, prosím tě, o pomoc tvou,"
         },
@@ -47,6 +49,7 @@
             "text": "      dej mi víru, čekám dál v rukou tvých."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Pane můj, napověz mi, ať vím,"
         },
@@ -63,10 +66,12 @@
             "text": "čím jsem prošel já sám, když jsem k tobě se bral."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Ref.:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Ježíši, prosím tě, o pomoc tvou,"
         },

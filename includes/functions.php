@@ -63,3 +63,29 @@ function get_czech_first_letter($string) {
     
     return mb_strtoupper(mb_substr($string, 0, 1, 'UTF-8'), 'UTF-8');
 }
+
+/**
+ * Najde správnou cestu k obrázku interpreta.
+ * Preferuje .png, poté hledá .jpg, a nakonec vrátí výchozí obrázek.
+ * @param string $artist_name Jméno interpreta.
+ * @return string Cesta k existujícímu obrázku.
+ */
+function get_artist_image_path($artist_name) {
+    $base_dir = 'assets/img/interprets/';
+    $slug = create_slug($artist_name);
+
+    // Preferujeme novější PNG formát z ořezávače
+    $png_path = $base_dir . $slug . '.png';
+    if (file_exists($png_path)) {
+        return $png_path;
+    }
+
+    // Pokud PNG neexistuje, zkusíme starší JPG
+    $jpg_path = $base_dir . $slug . '.jpg';
+    if (file_exists($jpg_path)) {
+        return $jpg_path;
+    }
+
+    // Pokud neexistuje ani jeden, vrátíme výchozí
+    return $base_dir . 'default.jpg';
+}

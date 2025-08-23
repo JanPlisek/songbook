@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   C                  F     G           C     F  G",
             "text": "1. Hodina bývá dlouho trpělivá a potom odbíjí pátá,"
         },
@@ -17,6 +18,7 @@
             "text": "   a tak tu zpívám slova mlčenlivá o tom, že pomíjí pátá."
         },
         {
+            "block_start": true,
             "chords": "   C                         Ami",
             "text": "R. Zvonek zvoní škola končí, po schodech se běží"
         },
@@ -37,6 +39,7 @@
             "text": "   právě teď odbila pátá, právě teď odbila nám, pátá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Hodina bývá někdy nekonečnou, a pak už odbíjí pátá,"
         },
@@ -45,6 +48,7 @@
             "text": "   a proto zpívám píseň jedinečnou, právě že pomíjí pátá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R."
         }

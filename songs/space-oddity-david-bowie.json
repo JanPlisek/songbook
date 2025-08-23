@@ -1,0 +1,137 @@
+{
+    "id": "space-oddity-david-bowie",
+    "title": "Space Oddity",
+    "artist": [
+        "David Bowie"
+    ],
+    "band": [],
+    "originalKey": "C",
+    "capo": 0,
+    "lyrics": [
+        {
+            "block_start": true,
+            "chords": "   C                       Em",
+            "text": "1. Ground Control to Major Tom"
+        },
+        {
+            "chords": "",
+            "text": "   Ground Control to Major Tom"
+        },
+        {
+            "chords": "   Am        Am\/G              D7\/F#",
+            "text": "   Take your protein pills and put your helmet on"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "   Ground Control to Major Tom"
+        },
+        {
+            "chords": "",
+            "text": "   Commencing countdown, engines on"
+        },
+        {
+            "chords": "",
+            "text": "   Check ignition and may God's love be with you"
+        },
+        {
+            "block_start": true,
+            "chords": "   C                               Em",
+            "text": "2. This is Ground Control to Major Tom"
+        },
+        {
+            "chords": "                          F",
+            "text": "   You've really made the grade"
+        },
+        {
+            "chords": "           Fm             C                     F",
+            "text": "   And the papers want to know whose shirts you wear"
+        },
+        {
+            "chords": "           Fm                 C              F",
+            "text": "   Now it's time to leave the capsule if you dare"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "   This is Major Tom to Ground Control"
+        },
+        {
+            "chords": "",
+            "text": "   I'm stepping through the door"
+        },
+        {
+            "chords": "",
+            "text": "   And I'm floating in a most peculiar way"
+        },
+        {
+            "chords": "",
+            "text": "   And the stars look very different today"
+        },
+        {
+            "block_start": true,
+            "chords": "       Fmaj7     Em",
+            "text": "R: For here Am I sitting in a tin can"
+        },
+        {
+            "chords": "",
+            "text": "   Far above the world"
+        },
+        {
+            "chords": "    B             Am",
+            "text": "   Planet Earth is blue"
+        },
+        {
+            "chords": "       G                     F",
+            "text": "   And there's nothing I can do"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Solo: C F G A A"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Though I'm past one hundred thousand miles"
+        },
+        {
+            "chords": "",
+            "text": "   I'm feeling very still"
+        },
+        {
+            "chords": "",
+            "text": "   And I think my spaceship knows which way to go"
+        },
+        {
+            "chords": "",
+            "text": "   Tell my wife I love her very much she knows"
+        },
+        {
+            "block_start": true,
+            "chords": "   C                 E7             Am                      C\/G",
+            "text": "B. Ground Control to Major Tom Your circuit's dead, there's something wrong"
+        },
+        {
+            "chords": "           D7\/F#",
+            "text": "   Can you hear me, Major Tom?"
+        },
+        {
+            "chords": "           C",
+            "text": "   Can you hear me, Major Tom?"
+        },
+        {
+            "chords": "           G",
+            "text": "   Can you hear me, Major Tom?"
+        },
+        {
+            "chords": "",
+            "text": "   Can you...."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Here am I floating 'round my tin can"
+        }
+    ]
+}

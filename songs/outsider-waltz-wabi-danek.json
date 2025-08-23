@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "         G                         Hmi",
             "text": "1. Dnes ráno, když bylo půl, při pravidelný hygieně"
         },
@@ -25,6 +26,7 @@
             "text": "   marně se, hochu, kasáš, už nejsi lev a velkej šéf."
         },
         {
+            "block_start": true,
             "chords": "    G               Emi",
             "text": "R: Máš svůj svět a ten se ti hroutí,"
         },
@@ -41,6 +43,7 @@
             "text": "   až potkáš nás na ní, tak  přidej se k nám."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Jsi z vojny doma čtrnáct dnů, a na radnici velká sláva,"
         },
@@ -57,10 +60,12 @@
             "text": "   není ta - bude jiná, dopisy spal a jde se dál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Za sebou máš třicet let a zejtra ráno třetí stání"
         },
@@ -77,6 +82,7 @@
             "text": "   už nemáš, čím bys platil, no tak se sbal a šlapej dál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },

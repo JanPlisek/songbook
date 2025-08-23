@@ -9,34 +9,24 @@
     "capo": 0,
     "lyrics": [
         {
-            "chords": "    C          F               C",
-            "text": "1. Za ledovou horou a černými lesy"
+            "block_start": true,
+            "chords": " C          F               C                F             C",
+            "text": "Za ledovou horou a černými lesy, je stříbrná řeka a za ní kdesi"
         },
         {
-            "chords": "                F             C",
-            "text": "   je stříbrná řeka a za ní kdesi"
+            "chords": "       F           C           Dmi G     F                       C",
+            "text": "stojí domek bez adresy a bez dechu, bydlí v něm - nechci říkat 'víla',"
         },
         {
-            "chords": "          F           C             Dmi G",
-            "text": "   stojí domek bez adresy a bez dechu,"
+            "chords": "        F               C      F                     C",
+            "text": "ale co na tom, i kdyby byla, před lidmi se trošku skryla"
         },
         {
-            "chords": "    F                           C",
-            "text": "   bydlí v něm - nechci říkat 'víla',"
+            "chords": "   Dmi        G             C",
+            "text": "a víme o ní hlavně z doslechu."
         },
         {
-            "chords": "           F               C",
-            "text": "   ale co na tom, i kdyby byla,"
-        },
-        {
-            "chords": "     F                     C",
-            "text": "   před lidmi se trošku skryla"
-        },
-        {
-            "chords": "      Dmi        G             C",
-            "text": "   a víme o ní hlavně z doslechu."
-        },
-        {
+            "block_start": true,
             "chords": "            Dmi             G",
             "text": "R: Že lidi rozumné blbnout nutí"
         },
@@ -61,6 +51,7 @@
             "text": "   a urážlivá je a hořkosladkokyselá."
         },
         {
+            "block_start": true,
             "chords": "             Dmi       G          C C\/H Ami",
             "text": "*: Genetičtí inženýři lámou její kód,"
         },
@@ -77,8 +68,13 @@
             "text": "   a pak i oni nakonec podléhají."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "R: A holubicím dál rostou křídla dravců,"
+            "text": "R:"
+        },
+        {
+            "chords": "",
+            "text": "   A holubicím dál rostou křídla dravců,"
         },
         {
             "chords": "",
@@ -86,11 +82,7 @@
         },
         {
             "chords": "",
-            "text": "   a lásce, té potvoře, sebevědomí,"
-        },
-        {
-            "chords": "",
-            "text": "   že jednou bude vládnout světem,"
+            "text": "   a lásce, té potvoře, sebevědomí, že jednou bude vládnout světem,"
         },
         {
             "chords": "",
@@ -101,6 +93,7 @@
             "text": "   které na tom budou stejně špatně jako my."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R: Když chlap zmagoří láskou, utíká za ní,"
         },
@@ -110,11 +103,7 @@
         },
         {
             "chords": "",
-            "text": "   u ženských je to přímo námět na horor,"
-        },
-        {
-            "chords": "",
-            "text": "   papuče letí pod pohovku,"
+            "text": "   u ženských je to přímo námět na horor, papuče letí pod pohovku,"
         },
         {
             "chords": "",
@@ -125,6 +114,7 @@
             "text": "   ať si tramvaj zvoní, ať se zblázní semafor."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Až vám ta potvora zastoupí cestu,"
         },
@@ -149,6 +139,7 @@
             "text": "   láska se totiž, i když je prevít, nevrací."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. A nesmí vám to nikdy přijít líto,"
         },
@@ -173,6 +164,7 @@
             "text": "   utíkejte, než vám zmizí navždycky."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R: Převrhněte stůl, opusťte dům,"
         },
@@ -197,6 +189,7 @@
             "text": "   ani v žádné jiné zemi na světě."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R: Hm hm hm ..."
         }

@@ -9,70 +9,40 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "  A",
-            "text": "1.Za devatero horami a devatero řekami,"
-        },
-        {
-            "chords": "",
-            "text": "  leží kraj líbezný jak z reklamy,"
+            "text": "1.Za devatero horami a devatero řekami, leží kraj líbezný jak z reklamy,"
         },
         {
             "chords": "      E",
-            "text": "  tam pravdě pšenka nekvete,"
-        },
-        {
-            "chords": "",
-            "text": "  člověk zde vyvinul se z prasete."
+            "text": "  tam pravdě pšenka nekvete, člověk zde vyvinul se z prasete."
         },
         {
             "chords": "        A",
-            "text": "  Oděni v sametové rubáše,"
-        },
-        {
-            "chords": "",
-            "text": "  zloději loví zbytky guláše,"
+            "text": "  Oděni v sametové rubáše, zloději loví zbytky guláše,"
         },
         {
             "chords": "               E",
-            "text": "  z plastových talířků kartou ze zlata,"
-        },
-        {
-            "chords": "",
-            "text": "  a při tom poslouchají Poupata."
+            "text": "  z plastových talířků kartou ze zlata, a při tom poslouchají Poupata."
         },
         {
             "chords": "    A",
-            "text": "  A tváře se tam nemění,"
-        },
-        {
-            "chords": "",
-            "text": "  pouze tituly a příjmení"
+            "text": "  A tváře se tam nemění, pouze tituly a příjmení"
         },
         {
             "chords": "           E",
-            "text": "  a kdo má peníze vystaví svou mordu,"
-        },
-        {
-            "chords": "",
-            "text": "  u dálnice na billboardu."
+            "text": "  a kdo má peníze vystaví svou mordu, dálnice na billboardu."
         },
         {
             "chords": "        A",
-            "text": "  Potom řidič v skutku tvrdý chleba má,"
-        },
-        {
-            "chords": "",
-            "text": "  furt on the road a s lumpama,"
+            "text": "  Potom řidič v skutku tvrdý chleba má, furt on the road a s lumpama,"
         },
         {
             "chords": "         E",
-            "text": "  učí se všechna hesla z paměti"
+            "text": "  učí se všechna hesla z paměti a pak ty kecy hustí do dětí."
         },
         {
-            "chords": "",
-            "text": "  a pak ty kecy hustí do dětí."
-        },
-        {
+            "block_start": true,
             "chords": "     A\t                                          E",
             "text": "Ref: Za co Pane Bože, za co? Trestáš tento prostý lid."
         },
@@ -89,6 +59,7 @@
             "text": "     Za co Pane Bože, za co? Omluv mě, že jsem tak smělý."
         },
         {
+            "block_start": true,
             "chords": "        H",
             "text": "2. Mezi pány, panuje věčná neshoda,"
         },
@@ -121,6 +92,7 @@
             "text": "   nejlíp se špína kydá za zády."
         },
         {
+            "block_start": true,
             "chords": "           H",
             "text": "   Léta, už tajím svoji příslušnost,"
         },
@@ -153,6 +125,7 @@
             "text": "   nechť vzkvétá naše zemička."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Ref: Za co Pane Bože, za co? Trestáš tento prostý lid."
         },
@@ -169,6 +142,7 @@
             "text": "     Za co Pane Bože, za co? Chceš, abychom trpěli."
         },
         {
+            "block_start": true,
             "chords": "         C",
             "text": "3. Nutno ještě říct k tomu všemu,"
         },
@@ -201,6 +175,7 @@
             "text": "   neznalost dějin a ústavy."
         },
         {
+            "block_start": true,
             "chords": "           C",
             "text": "   Přesto všechno, co lid v tom kraji zažívá,"
         },
@@ -233,6 +208,7 @@
             "text": "   že nám stačí demo Demokracie"
         },
         {
+            "block_start": true,
             "chords": "     C                                            G",
             "text": "Ref: Za co Pane Bože, za co? Trestáš tento prostý lid."
         },

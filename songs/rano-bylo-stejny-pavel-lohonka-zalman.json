@@ -11,76 +11,77 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "     G                      Hmi       D",
-            "text": "1. Stál na zastávce s vypůjčenou kytarou, "
+            "text": "1. Stál na zastávce s vypůjčenou kytarou,"
         },
         {
             "chords": "       Ami              D             G",
-            "text": "   v druhý ruce holku, to zavazadlo svý, "
+            "text": "   v druhý ruce holku, to zavazadlo svý,"
         },
         {
             "chords": "   Emi                       D",
-            "text": "   a tý holce v sáčku řek':\"Dobrýtro, miláčku, "
+            "text": "   a tý holce v sáčku řek':\"Dobrýtro, miláčku,"
         },
         {
             "chords": "    C          G       E7                     Ami D7      G",
-            "text": "   podívej se do dáli, uvidíš dvě smutný koleje  na silnici.\" "
+            "text": "   podívej se do dáli, uvidíš dvě smutný koleje  na silnici.\""
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Ráno bylo stejný, stejný pivo, stejný blues,"
         },
         {
             "chords": "",
-            "text": "2. Ráno bylo stejný, stejný pivo, stejný blues, "
+            "text": "   ospalí a nudní byli po flámu,"
         },
         {
             "chords": "",
-            "text": "   ospalí a nudní byli po flámu, "
+            "text": "   kouřili partyzánku, dým foukali do vánku,"
         },
         {
             "chords": "",
-            "text": "   kouřili partyzánku, dým foukali do vánku, "
+            "text": "   dívali se do dáli, viděli dvě smutný koleje na silnici."
         },
         {
-            "chords": "",
-            "text": "   dívali se do dáli, viděli dvě smutný koleje na silnici. "
-        },
-        {
+            "block_start": true,
             "chords": "    D                 C       G C G",
-            "text": "R: Ráno bylo stejný, nesváteční, "
+            "text": "R: Ráno bylo stejný, nesváteční,"
         },
         {
             "chords": "    D                  C      G C G",
-            "text": "   na tvářích počasí proměnlivý, "
+            "text": "   na tvářích počasí proměnlivý,"
         },
         {
             "chords": "    D              C           G",
-            "text": "   rádio hlásilo: na blatech svítá, "
+            "text": "   rádio hlásilo: na blatech svítá,"
         },
         {
             "chords": "    E7                    Ami7 D7 G",
-            "text": "   každej byl tak trochu sám, hm. "
+            "text": "   každej byl tak trochu sám, hm."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Holka, zvedej kotvy, nikdo nás už nebere,"
         },
         {
             "chords": "",
-            "text": "3. Holka, zvedej kotvy, nikdo nás už nebere, "
+            "text": "   pojedeme po svejch do podnájmu žít,"
         },
         {
             "chords": "",
-            "text": "   pojedeme po svejch do podnájmu žít, "
+            "text": "   koupíme na splátky jízdenku tam a zpátky,"
         },
         {
             "chords": "",
-            "text": "   koupíme na splátky jízdenku tam a zpátky, "
+            "text": "   až omrzí nás dálky, budem jak dvě smutný koleje na silnici."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "   až omrzí nás dálky, budem jak dvě smutný koleje na silnici. "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R:"
         }
     ]
 }

@@ -38,7 +38,7 @@ foreach ($all_songs as $song) {
         if (empty(trim($name))) continue;
         if (!isset($performers[$name])) {
             $is_band = in_array($name, (is_array($bands) ? $bands : (empty($bands) ? [] : [$bands])));
-            $performers[$name] = ['name' => $name, 'song_count' => 0, 'image' => create_slug($name) . '.jpg', 'is_band' => $is_band];
+            $performers[$name] = ['name' => $name, 'song_count' => 0, 'image' => get_artist_image_path($name), 'is_band' => $is_band];
         }
         $performers[$name]['song_count']++;
     }
@@ -132,7 +132,7 @@ foreach ($performers as $performer) {
                     <div class="interprets-grid">
                         <?php foreach ($interprets_in_group as $interpret): ?>
                             <a href="#" class="interpret-card" data-artist="<?php echo htmlspecialchars($interpret['name']); ?>">
-                                <img src="assets/img/interprets/<?php echo htmlspecialchars($interpret['image']); ?>" alt="<?php echo htmlspecialchars($interpret['name']); ?>" onerror="this.onerror=null;this.src='assets/img/interprets/default.jpg';">
+                                <img src="<?php echo htmlspecialchars($interpret['image']); ?>" alt="<?php echo htmlspecialchars($interpret['name']); ?>" ... >
                                 <div class="card-overlay">
                                     <h3><?php echo htmlspecialchars($interpret['name']); ?> <span>(<?php echo $interpret['song_count']; ?>)</span></h3>
                                 </div>

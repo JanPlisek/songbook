@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Ami Ami\/G Ami\/F# Dmi\/F Ami G D E",
             "text": ""
         },
@@ -33,6 +34,7 @@
             "text": "   still my guitar gently weeps."
         },
         {
+            "block_start": true,
             "chords": "   A              C#mi F#mi   C#mi",
             "text": "R: I don't know why   nobody told you"
         },
@@ -49,6 +51,7 @@
             "text": "   they bought and sold you."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. I look at the world and I notice it's turning"
         },
@@ -65,6 +68,7 @@
             "text": "   still my guitar gently weeps."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R: I don't know how you were diverted"
         },
@@ -81,6 +85,7 @@
             "text": "   no one alerted you."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. I look at you all see the love there that's sleeping"
         },

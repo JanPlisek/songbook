@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "   Dmi                    C",
             "text": "1. Výťah opäť nechodí tak zdolať 13 poschodí"
         },
@@ -25,6 +26,7 @@
             "text": "   ešte že sa po tme nebojím"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Počuť hlasné stereo aj výstrahy pred neverou"
         },
@@ -41,6 +43,7 @@
             "text": "   všetko počuť cestou po schodoch"
         },
         {
+            "block_start": true,
             "chords": "          Dmi          C",
             "text": "R: Cestou po schodoch, po schodoch"
         },
@@ -57,6 +60,7 @@
             "text": "   čo sme to za ľudia"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Štekot smutnej kólie za premárnené prémie"
         },

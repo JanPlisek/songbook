@@ -9,84 +9,82 @@
     "capo": 2,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    G          C           G          C",
-            "text": "1. Málo jím a málo spím a málokdy tě vídám, "
+            "text": "1. Málo jím a málo spím a málokdy tě vídám,"
         },
         {
             "chords": "    G          Hmi          Ami D7",
-            "text": "   málokdy si nechám něco zdát, "
+            "text": "   málokdy si nechám něco zdát,"
         },
         {
             "chords": "    C           G G\/F# Emi         C",
-            "text": "   doma nemám stání už od jarního tání, "
+            "text": "   doma nemám stání už od jarního tání,"
         },
         {
             "chords": "    F                       G",
-            "text": "   cítím, že se blíží listopad. "
+            "text": "   cítím, že se blíží listopad."
         },
         {
+            "block_start": true,
             "chords": "             F       C            G",
-            "text": "R: Listopadový písně od léta už slýchám, "
+            "text": "R: Listopadový písně od léta už slýchám,"
         },
         {
             "chords": "             Ami C           G",
-            "text": "   vítr ledový přinesl je k nám, "
+            "text": "   vítr ledový přinesl je k nám,"
         },
         {
             "chords": "               F           C          G",
-            "text": "   tak mě nečekej, dneska nikam nepospíchám, "
+            "text": "   tak mě nečekej, dneska nikam nepospíchám,"
         },
         {
             "chords": "             Ami C           G",
-            "text": "   listopadový písni naslouchám. "
+            "text": "   listopadový písni naslouchám."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Chvíli stát a poslouchat, jak vítr větve čistí,"
         },
         {
             "chords": "",
-            "text": "2. Chvíli stát a poslouchat, jak vítr větve čistí, "
+            "text": "   k zemi padá zlatý vodopád,"
         },
         {
             "chords": "",
-            "text": "   k zemi padá zlatý vodopád, "
+            "text": "   pod nohama cinká to poztrácené listí,"
         },
         {
             "chords": "",
-            "text": "   pod nohama cinká to poztrácené listí, "
+            "text": "   vím, že právě zpívá listopad."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Dál a dál tou záplavou, co pod nohou se blýská,"
         },
         {
             "chords": "",
-            "text": "   vím, že právě zpívá listopad. "
+            "text": "   co mě nutí do zpěvu se dát,"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "   tak si chvíli zpívám a potom radši pískám"
         },
         {
             "chords": "",
-            "text": "3. Dál a dál tou záplavou, co pod nohou se blýská, "
+            "text": "   píseň, co mě učil listopad."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "   co mě nutí do zpěvu se dát, "
-        },
-        {
-            "chords": "",
-            "text": "   tak si chvíli zpívám a potom radši pískám "
-        },
-        {
-            "chords": "",
-            "text": "   píseň, co mě učil listopad. "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": ""
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R:"
         }
     ]
 }

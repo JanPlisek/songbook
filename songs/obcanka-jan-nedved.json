@@ -12,6 +12,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    Ami             Dmi",
             "text": "1. Do kapsy občanku a k tomu korun pár,"
         },
@@ -24,6 +25,7 @@
             "text": "   to všechno přes škleby lidí, co nechápou nic."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Nechápou, že chcem jen, jenom v klidu žít,"
         },
@@ -36,6 +38,7 @@
             "text": "   a říkat někde něco, co svírá nám rty."
         },
         {
+            "block_start": true,
             "chords": "   Ami          Dmi      E7",
             "text": "R: Otřelý fráze a sliby do očí"
         },
@@ -48,6 +51,7 @@
             "text": "   jen proti nám, vyrost' z nich tuláckej kříž."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Nervózní města, hádky a štvanice,"
         },
@@ -60,6 +64,7 @@
             "text": "   to pro nás máte, tak pěkně děkujem, ne!"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4.=1."
         },

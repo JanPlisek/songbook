@@ -53,8 +53,11 @@ foreach ($all_songs as $song) {
             <h1>Seznam písní</h1>
         </div>
         <div class="right-group">
-            Máme zde celkem<strong><?php echo count($all_songs); ?></strong>písní
-        </div>    
+            <span>Celkem písní: <strong><?php echo count($all_songs); ?></strong></span>
+            <?php if (is_user_logged_in()): ?>
+                <span> | </span><a href="editor.php">Přidat novou píseň</a>
+            <?php endif; ?>
+        </div>   
     </div>    
 
     <div class="filter-box">

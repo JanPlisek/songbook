@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "       Emi          C        D                      Hmi",
             "text": "1. Šel pouští starý poutník, měl jeskyň slov - svůj dům,"
         },
@@ -25,6 +26,7 @@
             "text": "   a každý, kdo o něm mluvil, vypadal jak lhář."
         },
         {
+            "block_start": true,
             "chords": "   Ami                              Emi",
             "text": "R: Pravda a lež, on znal ten rozdíl snad jako jediný,"
         },
@@ -45,6 +47,7 @@
             "text": "   za ty, jimž víno donášel až k ústům."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. I u nás jednou spával, sám tomu nevěřím,"
         },
@@ -61,10 +64,12 @@
             "text": "   a všechny za nos vodí, když ukazuje líc."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R: Pravda a lež..."
         },
         {
+            "block_start": true,
             "chords": "   Emi                 C    D                  Hmi",
             "text": "3. Vítr dávno v poušti zavál řetěz stop, co on vryl,"
         },

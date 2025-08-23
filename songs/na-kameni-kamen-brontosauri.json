@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "         C",
             "text": "1. Jako suchej,starej strom,"
         },
@@ -29,6 +30,7 @@
             "text": "   a čím víc, tím líp se mám."
         },
         {
+            "block_start": true,
             "chords": "         Fmaj7",
             "text": "R: Budem o něco se rvát,"
         },
@@ -53,6 +55,7 @@
             "text": "   no, a potom amen."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. A to všechno proto jen,"
         },
@@ -73,10 +76,12 @@
             "text": "   hrabou pro kuličku svou, jen pro tu svou."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Možná jen se mi to zdá,"
         },
@@ -97,6 +102,7 @@
             "text": "   taky jsem si zvyk' na všechno kolem nás."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },

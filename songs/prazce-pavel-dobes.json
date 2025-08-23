@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    A",
             "text": "1. Házím tornu na svý záda, feldflašku a sumky,"
         },
@@ -17,6 +18,7 @@
             "text": "   navštívím dnes kamaráda z železniční průmky."
         },
         {
+            "block_start": true,
             "chords": "              A",
             "text": "R1: Vždyť je jaro, zapni si kšandy,"
         },
@@ -25,6 +27,7 @@
             "text": "    pozdravuj vlaštovky a, muziko, ty hraj."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Vystupuji z vlaku, který mizí v dálce,"
         },
@@ -33,10 +36,12 @@
             "text": "   stojím v České Třebové a všude kolem pražce."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R1:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Pohostil mě slivovicí, představil mě Mařce,"
         },
@@ -45,10 +50,12 @@
             "text": "   posadil mě na lavici z dubového pražce."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R1:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Provedl mě domem - nikde kousek zdiva,"
         },
@@ -57,6 +64,7 @@
             "text": "   všude samej pražec, jen Máňa byla živá."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R2: To je to jaro, zapni si kšandy,"
         },
@@ -65,6 +73,7 @@
             "text": "    pozdravuj vlaštovky a, muziko, ty hraj."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "5. Plakáty nás informují:\"Přijď pracovat k dráze,"
         },
@@ -73,10 +82,12 @@
             "text": "   pakliže ti vyhovují rychlost, šmír a saze.\""
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R1:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "6. A jestliže jsi labužník a přes kapsu se praštíš,"
         },
@@ -85,10 +96,12 @@
             "text": "   upečeš i krávu na železničních pražcích."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R1:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "7. A naučíš se skákat tak, jak to umí vrabec,"
         },
@@ -97,10 +110,12 @@
             "text": "   když na nohu si pustíš železniční pražec."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R1:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "8. Když má děvče z Třebové rádo svého chlapce,"
         },
@@ -109,10 +124,12 @@
             "text": "   posílá mu na vojnu železniční pražce."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R1:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "9. A když děti zlobí, tak hned je doma mazec,"
         },
@@ -121,10 +138,12 @@
             "text": "   Děda Mráz jim nepřinese ani jeden pražec."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R1:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "10. Před děvčaty z Třebové chlubil jsem se silou,"
         },
@@ -133,10 +152,12 @@
             "text": "    pozvedl jsem pražec, načež odvezli mě s kýlou."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R1:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "11. Pamatuji pouze ještě operační sál,"
         },
@@ -145,6 +166,7 @@
             "text": "    pak praštili mě pražcem a já jsem tvrdě spal."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R3:  A bylo jaro, zapni si kšandy,"
         },

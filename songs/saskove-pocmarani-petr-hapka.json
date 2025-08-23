@@ -9,204 +9,174 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "C                H7",
-            "text": "Koukněte na toho fintila "
+            "text": "Koukněte na toho fintila"
         },
         {
             "chords": "Dmi7              G7",
-            "text": "pod krkem žlutého motýla "
+            "text": "pod krkem žlutého motýla"
         },
         {
             "chords": "Dmi7             G7",
-            "text": "zelený klobouček do týla "
+            "text": "zelený klobouček do týla"
         },
         {
             "chords": "D7        G7       C     G",
-            "text": "šoupne si na bílou pleš. "
+            "text": "šoupne si na bílou pleš."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "C                   H7",
-            "text": "I když ten tralalák padá mi "
+            "text": "I když ten tralalák padá mi"
         },
         {
             "chords": "Dmi7               G7",
-            "text": "hlavně že vyhrávám barvami "
+            "text": "hlavně že vyhrávám barvami"
         },
         {
             "chords": "Dmi7               G7",
-            "text": "hlavně že vyhrávám barvami "
+            "text": "hlavně že vyhrávám barvami"
         },
         {
             "chords": "D7        G7           C   C7",
-            "text": "zase jsem šťastnej jak veš. "
+            "text": "zase jsem šťastnej jak veš."
         },
         {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "             F               Fmi",
-            "text": "R: Co po mně chceš pravdu či lež "
+            "text": "R: Co po mně chceš pravdu či lež"
         },
         {
             "chords": "               C                 C7",
-            "text": "   zkus ty dvě rozeznat a pak se směj "
+            "text": "   zkus ty dvě rozeznat a pak se směj"
         },
         {
             "chords": "           F            Fmi",
-            "text": "   barevný svět láme mi hřbet "
+            "text": "   barevný svět láme mi hřbet"
         },
         {
             "chords": "   Emi7        Ami7      Dmi7   G7",
-            "text": "   přesto chci být šašek počmáranej. "
+            "text": "   přesto chci být šašek počmáranej."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Ucho mu hryžou jak oplatku"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "s rozběhem kopou ho do zadku"
         },
         {
             "chords": "",
-            "text": "Ucho mu hryžou jak oplatku "
+            "text": "tvrděj že všechno je v pořádku"
         },
         {
             "chords": "",
-            "text": "s rozběhem kopou ho do zadku "
+            "text": "když mu daj mizernej plat."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Když ale koukám se na lidi"
         },
         {
             "chords": "",
-            "text": "tvrděj že všechno je v pořádku "
+            "text": "všechno tak černě zas nevidím"
         },
         {
             "chords": "",
-            "text": "když mu daj mizernej plat. "
+            "text": "všechno tak černě zas nevidím"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "ještě se dovedem smát"
         },
         {
-            "chords": "",
-            "text": "Když ale koukám se na lidi "
-        },
-        {
-            "chords": "",
-            "text": "všechno tak černě zas nevidím "
-        },
-        {
-            "chords": "",
-            "text": "všechno tak černě zas nevidím "
-        },
-        {
-            "chords": "",
-            "text": "ještě se dovedem smát "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "            F            Fmi",
-            "text": "R: Ne že se snad není co bát "
+            "text": "R: Ne že se snad není co bát"
         },
         {
             "chords": "             C                 C7",
-            "text": "   úzkost má tlapy jak Cassius Clay "
+            "text": "   úzkost má tlapy jak Cassius Clay"
         },
         {
             "chords": "             F                 Fmi",
-            "text": "   ten věčný strach na miskách vah "
+            "text": "   ten věčný strach na miskách vah"
         },
         {
             "chords": "   Emi7     Ami7       Dmi7   G7",
-            "text": "   převážit chce šašek počmáranej. "
+            "text": "   převážit chce šašek počmáranej."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Kampak chcem ve věku rozumu"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "strkat prý své nosy na gumu"
         },
         {
             "chords": "",
-            "text": "Kampak chcem ve věku rozumu "
+            "text": "určitě od rumu z konzumu"
         },
         {
             "chords": "",
-            "text": "strkat prý své nosy na gumu "
+            "text": "tak strašně červené jsou."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Ptám se však tebe náš osude"
         },
         {
             "chords": "",
-            "text": "určitě od rumu z konzumu "
+            "text": "co bude až tady nebude"
         },
         {
             "chords": "",
-            "text": "tak strašně červené jsou. "
+            "text": "co bude až tady nebude"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "dojemně pitomá show."
         },
         {
-            "chords": "",
-            "text": "Ptám se však tebe náš osude "
-        },
-        {
-            "chords": "",
-            "text": "co bude až tady nebude "
-        },
-        {
-            "chords": "",
-            "text": "co bude až tady nebude "
-        },
-        {
-            "chords": "",
-            "text": "dojemně pitomá show. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
+            "block_start": true,
             "chords": "           F            Fmi",
-            "text": "R: Bláhová show šaškové jdou "
+            "text": "R: Bláhová show šaškové jdou"
         },
         {
             "chords": "            C                C7",
-            "text": "   barevnou naději vytřískat z ní "
+            "text": "   barevnou naději vytřískat z ní"
         },
         {
             "chords": "           F              Fmi",
-            "text": "   hledáme brod uprostřed vod "
+            "text": "   hledáme brod uprostřed vod"
         },
         {
             "chords": "   Emi7    Ami7     Dmi7   G7",
-            "text": "   my věční šaškové počmáraní. "
+            "text": "   my věční šaškové počmáraní."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Ptám se však tebe náš osude"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "co bude až tady nebude"
         },
         {
             "chords": "",
-            "text": "Ptám se však tebe náš osude "
+            "text": "co bude až tady nebude"
         },
         {
             "chords": "",
-            "text": "co bude až tady nebude "
-        },
-        {
-            "chords": "",
-            "text": "co bude až tady nebude "
-        },
-        {
-            "chords": "",
-            "text": "dojemně pitomá show. "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "dojemně pitomá show."
         }
     ]
 }

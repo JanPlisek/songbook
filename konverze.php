@@ -82,7 +82,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save_song'])) {
         $new_entry = ['id' => $id, 'title' => $title, 'artist' => $artists_array, 'band' => $bands_array];
         if ($exists_index !== -1) { $master_list[$exists_index] = $new_entry; } else { $master_list[] = $new_entry; }
         file_put_contents($master_list_file, json_encode($master_list, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
-        $message = "Úspěch! Písnička '$title' byla uložena."; $message_type = 'success';
+        // Připravíme si odkaz pro tlačítko s ID právě uložené písně
+        $edit_link = '<a href="editor.php?id=' . urlencode($id) . '" class="btn" style="margin-left: 1rem; background-color: #28a745;">Upravit píseň</a>';
+
+        // Sestavíme výslednou hlášku s textem a tlačítkem
+        $message = '<div style="display: flex; align-items: center; justify-content: space-between;">' .
+           "<span>Úspěch! Písnička '" . htmlspecialchars($title) . "' byla uložena.</span>" .
+           $edit_link .
+           '</div>';
         $form_data = ['title' => '', 'artist' => '', 'band' => '', 'key' => '', 'lyrics_json' => ''];
     }
 }
@@ -90,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save_song'])) {
 <div class="converter-page">
     <h1>Přidání písně z URL</h1>
     <p>Vložte URL adresu písničky z <code>velkyzpevnik.cz</code> a skript se pokusí automaticky stáhnout data. Poté zkontrolujte a doplňte pole.</p>
-    <?php if ($message): ?> <div class="message <?php echo $message_type; ?>"><?php echo htmlspecialchars($message); ?></div> <?php endif; ?>
+    <?php if ($message): ?> <div class="message <?php echo $message_type; ?>"><?php echo $message; ?></div> <?php endif; ?>
     <form class="form-section" action="konverze.php" method="POST">
         <fieldset>
             <legend><h3>Krok 1: Načíst data z URL</h3></legend>

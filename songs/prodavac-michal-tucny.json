@@ -11,6 +11,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "      C",
             "text": "Rec: Pojďte všichni dovnitř, pozvěte si všechny známé,"
         },
@@ -31,6 +32,7 @@
             "text": "     poradíme, posloužíme."
         },
         {
+            "block_start": true,
             "chords": "          C                         F",
             "text": "1. Stál krámek v naší ulici, v něm párky, buřty s hořčicí"
         },
@@ -63,6 +65,7 @@
             "text": "   a toužil jsem se prodavačem stát."
         },
         {
+            "block_start": true,
             "chords": "    C",
             "text": "R: Pět deka, deset deka, dvacet deka, třicet deka,"
         },
@@ -87,6 +90,7 @@
             "text": "   prosím pěkně, mohu nechat o jedenáct deka víc?"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Já nezapomněl na svůj cíl a záhy jsem se vyučil"
         },
@@ -119,10 +123,12 @@
             "text": "   že mu vlastně zpívá prodavač."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Vím, že se život rozletí, a sním o konci století,"
         },
@@ -155,6 +161,7 @@
             "text": "   Michal Tučný, odpovědný vedoucí."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },

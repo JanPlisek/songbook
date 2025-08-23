@@ -1,0 +1,89 @@
+{
+    "id": "na-kolena-ivan-hlas",
+    "title": "Na kolena",
+    "artist": [
+        "Ivan Hlas"
+    ],
+    "band": [],
+    "originalKey": "C",
+    "capo": 0,
+    "lyrics": [
+        {
+            "block_start": true,
+            "chords": "            C                 Ami",
+            "text": "1. Táhněte do háje, všichni pryč,"
+        },
+        {
+            "chords": "                   C                Ami",
+            "text": "   chtěl jsem jít do ráje a nemám klíč,"
+        },
+        {
+            "chords": "              C              Ami",
+            "text": "   jak si tu můžete takhle žrát,"
+        },
+        {
+            "chords": "                 F                G",
+            "text": "   ztratil jsem holku, co ji mám rád."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Napravo, nalevo, nebudu mít klid,"
+        },
+        {
+            "chords": "",
+            "text": "   dala mi najevo, že mě nechce mít,"
+        },
+        {
+            "chords": "",
+            "text": "   zbitej a špinavej, tancuju sám,"
+        },
+        {
+            "chords": "             Dmi               G",
+            "text": "   váš pohled káravej už dávno znám."
+        },
+        {
+            "block_start": true,
+            "chords": "                  F                        C",
+            "text": "R: Pořád jen [: na kolena, na kolena, :] jé jé jé,"
+        },
+        {
+            "chords": "                 F                        C",
+            "text": "   pořád jen [: na kolena, na kolena, :] jé jé jé,"
+        },
+        {
+            "chords": "                 F                      C       Ami",
+            "text": "   pořád jen [: na kolena, na kolena, :] je to tak,"
+        },
+        {
+            "chords": "           F                G",
+            "text": "   a vaše saka vám posere pták."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Cigáro do koutku si klidně dám,"
+        },
+        {
+            "chords": "",
+            "text": "   tuhletu pochoutku vychutnám sám,"
+        },
+        {
+            "chords": "",
+            "text": "   kašlu vám na bonton, vejmysly chytrejch hlav,"
+        },
+        {
+            "chords": "",
+            "text": "   sere mě Tichej Don a ten váš tupej dav."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R: Pořád jen na kolena, na kolena, ..."
+        },
+        {
+            "chords": "",
+            "text": "   a tenhle barák vám posere pták."
+        }
+    ]
+}

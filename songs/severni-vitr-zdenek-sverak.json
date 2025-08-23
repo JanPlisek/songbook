@@ -10,6 +10,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "          C                  Ami",
             "text": "1. Jdu s děravou patou, mám horečku zlatou,"
         },
@@ -26,6 +27,7 @@
             "text": "   se leskne a třpytí můj sen."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Kraj pod sněhem mlčí, tam stopy jsou vlčí,"
         },
@@ -42,6 +44,7 @@
             "text": "   já nechám si tisíckrát zdát."
         },
         {
+            "block_start": true,
             "chords": "    C       C7       F     C                 G      G7",
             "text": "R: Severní vítr je krutý, počítej, lásko má, s tím,"
         },
@@ -50,6 +53,7 @@
             "text": "   k nohám ti dám zlaté pruty, nebo se vůbec nevrátím."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Tak zarůstám vousem a vlci už jdou sem,"
         },
@@ -66,6 +70,7 @@
             "text": "   svůj hrob a že stloukám si kříž."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "4. Zde leží ten blázen, chtěl dům a chtěl bazén"
         },
@@ -82,6 +87,7 @@
             "text": "   a nad hrobem polární zář."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R: Severní vitr... \/:k nohám ti dám...nevrátím :\/"
         }

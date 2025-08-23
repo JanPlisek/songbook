@@ -9,128 +9,124 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "      C       Dmi         C    Dmi",
-            "text": "1. V zahradě za cihlovou zídkou, "
+            "text": "1. V zahradě za cihlovou zídkou,"
         },
         {
             "chords": "    C           Dmi         C  Dmi",
-            "text": "   popsanou v slavných výročích, "
+            "text": "   popsanou v slavných výročích,"
         },
         {
             "chords": "    C      Dmi       E         Ami",
-            "text": "   sedává na podzim na trávě před besídkou "
+            "text": "   sedává na podzim na trávě před besídkou"
+        },
+        {
+            "chords": "    F          G(-)       E",
+            "text": "   děvčátko s páskou na očích."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Pohádku o mluvícím ptáku"
         },
         {
             "chords": "",
-            "text": "    F          G(-)       E "
+            "text": "   nechá si přečíst z notesu,"
         },
         {
             "chords": "",
-            "text": "   děvčátko s páskou na očích. "
+            "text": "   pak pošle polibek po chmýří na bodláku"
         },
         {
             "chords": "",
-            "text": "2. Pohádku o mluvícím ptáku "
+            "text": "   na vymyšlenou adresu."
         },
         {
-            "chords": "",
-            "text": "   nechá si přečíst z notesu, "
-        },
-        {
-            "chords": "",
-            "text": "   pak pošle polibek po chmýří na bodláku "
-        },
-        {
-            "chords": "",
-            "text": "   na vymyšlenou adresu. "
-        },
-        {
+            "block_start": true,
             "chords": "                Ami             Dmi",
-            "text": "R: Prosím vás, nechte ji, ach, nechte ji, "
+            "text": "R: Prosím vás, nechte ji, ach, nechte ji,"
         },
         {
             "chords": "       Ami       G7",
-            "text": "   tu nevidomou dívku, "
+            "text": "   tu nevidomou dívku,"
         },
         {
             "chords": "     Dmi        G7            E",
-            "text": "   prosím vás, nechte ji si hrát, "
+            "text": "   prosím vás, nechte ji si hrát,"
         },
         {
             "chords": "      Dmi                Ami",
-            "text": "   vždyť možná hraje si na slunce s nebesy, "
+            "text": "   vždyť možná hraje si na slunce s nebesy,"
         },
         {
             "chords": "    F(G)              G(E)          E",
-            "text": "   jež nikdy neuvidí, ač ji bude hřát. "
+            "text": "   jež nikdy neuvidí, ač ji bude hřát."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Pohádku o mluvícím ptáku"
         },
         {
             "chords": "",
-            "text": "3. Pohádku o mluvícím ptáku "
+            "text": "   a o třech zlatejch jabloních,"
         },
         {
             "chords": "",
-            "text": "   a o třech zlatejch jabloních, "
+            "text": "   a taky o lásce, již v černých květech máku"
         },
         {
             "chords": "",
-            "text": "   a taky o lásce, již v černých květech máku "
+            "text": "   přivezou jezdci na koních."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4. Pohádku o kouzelném slůvku,"
         },
         {
             "chords": "",
-            "text": "   přivezou jezdci na koních. "
+            "text": "   jež vzbudí všechny zakleté,"
         },
         {
             "chords": "",
-            "text": "4. Pohádku o kouzelném slůvku, "
+            "text": "   pohádku o duze, jež spává na ostrůvku,"
         },
         {
             "chords": "",
-            "text": "   jež vzbudí všechny zakleté, "
+            "text": "   na kterém poklad najdete."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
         },
         {
             "chords": "",
-            "text": "   pohádku o duze, jež spává na ostrůvku, "
+            "text": "Rec.=1."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "5. Rukama dotýká se květů"
         },
         {
             "chords": "",
-            "text": "   na kterém poklad najdete. "
+            "text": "   a neruší ji motýli,"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "   jen trochu hraje si s řetízkem amuletu,"
         },
         {
             "chords": "",
-            "text": "Rec.=1. "
+            "text": "   jen na chvíli."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "5. Rukama dotýká se květů "
-        },
-        {
-            "chords": "",
-            "text": "   a neruší ji motýli, "
-        },
-        {
-            "chords": "",
-            "text": "   jen trochu hraje si s řetízkem amuletu, "
-        },
-        {
-            "chords": "",
-            "text": "   jen na chvíli. "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R:"
         }
     ]
 }

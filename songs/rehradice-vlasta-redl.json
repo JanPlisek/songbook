@@ -11,84 +11,69 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "Emi            D          G",
-            "text": "A te Rehradice na pěkný rovině "
+            "text": "A te Rehradice na pěkný rovině"
         },
         {
             "chords": "A           Hmi  Emi  A    D",
-            "text": "Teče tam voděnka dolů po dědině "
+            "text": "Teče tam voděnka dolů po dědině"
         },
         {
             "chords": "Ami  Hmi     Emi",
-            "text": "Je pěkná, je čistá "
+            "text": "Je pěkná, je čistá"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "A po tej voděnce drobný rebé skáčó"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "Pověz mi má milá, proč tvý oči pláčó"
         },
         {
             "chords": "",
-            "text": "A po tej voděnce drobný rebé skáčó "
+            "text": "Tak smutně, žalostně"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Pláčó oné pláčó šohajó po tebé"
         },
         {
             "chords": "",
-            "text": "Pověz mi má milá, proč tvý oči pláčó "
+            "text": "Že sme sa dostali daleko vod sebe"
         },
         {
             "chords": "",
-            "text": "Tak smutně, žalostně "
+            "text": "Daleko vod sebe"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "Proč by neplakaly, když srdénko bolí"
         },
         {
             "chords": "",
-            "text": " "
+            "text": "Musijó zaplakat šohajovi kvůli"
         },
         {
             "chords": "",
-            "text": "Pláčó oné pláčó šohajó po tebé "
+            "text": "Šohajovi kvůli."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "A te Rehradice na pěkný rovině"
         },
         {
             "chords": "",
-            "text": "Že sme sa dostali daleko vod sebe "
+            "text": "Teče tam voděnka dolů po dědině"
         },
         {
             "chords": "",
-            "text": "Daleko vod sebe "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "Proč by neplakaly, když srdénko bolí "
-        },
-        {
-            "chords": "",
-            "text": "Musijó zaplakat šohajovi kvůli "
-        },
-        {
-            "chords": "",
-            "text": "Šohajovi kvůli. "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": "A te Rehradice na pěkný rovině "
-        },
-        {
-            "chords": "",
-            "text": "Teče tam voděnka dolů po dědině "
-        },
-        {
-            "chords": "",
-            "text": "Je pěkná, je čistá. "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "Je pěkná, je čistá."
         }
     ]
 }

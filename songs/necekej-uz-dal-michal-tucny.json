@@ -11,6 +11,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "E                H7",
             "text": "Nečekej už marně dál"
         },
@@ -27,6 +28,7 @@
             "text": "jen vítr a písek ví."
         },
         {
+            "block_start": true,
             "chords": "   H7             E  H7",
             "text": "R: Vítr a písek to ví"
         },
@@ -43,6 +45,7 @@
             "text": "   dál jsem se smál."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Vítr pouště směr mi vzal"
         },
@@ -59,10 +62,12 @@
             "text": "tvý slzy v písek promění."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "Nečekej už marně dál"
         },

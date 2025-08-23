@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "       C                    F        G7 Dmi",
             "text": "1. Mám naději, že uslyším tvé tiché volání,"
         },
@@ -25,6 +26,7 @@
             "text": "   ó, Ruby,    nechtěj mi lásku brát."
         },
         {
+            "block_start": true,
             "chords": "       Dmi                      C",
             "text": "R: Já nevymyslel válku, to jen prstem někdo kýv',"
         },
@@ -41,6 +43,7 @@
             "text": "   ó, Ruby,  chci nablízku tě mít."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Je zázračné to vědomí, že ještě vůbec bdím."
         },
@@ -57,6 +60,7 @@
             "text": "   ó, Ruby, nechtěj mi lásku brát."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R: Proč utápíš se do mlhy, snad nechystáš se jít,"
         },

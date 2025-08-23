@@ -9,104 +9,101 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    G         Cmi F G# G Cmi G Cmi F G# G Cmi G",
-            "text": "R: Vap tap tap ... "
+            "text": "R: Vap tap tap ..."
         },
         {
+            "block_start": true,
             "chords": "      Cmi                    F",
-            "text": "1. V devět hodin dvacet pět mě opustilo štěstí, "
+            "text": "1. V devět hodin dvacet pět mě opustilo štěstí,"
         },
         {
             "chords": "         G#                                  G     G7",
-            "text": "   ten vlak, co jsem jím měl jet, na koleji dávno nestál, "
+            "text": "   ten vlak, co jsem jím měl jet, na koleji dávno nestál,"
         },
         {
             "chords": "      Cmi                    F",
-            "text": "   v devět hodin dvacet pět jako bych dostal pěstí, "
+            "text": "   v devět hodin dvacet pět jako bych dostal pěstí,"
         },
         {
             "chords": "       G#                             G          G7",
-            "text": "   já za hodinu na náměstí měl jsem stát, ale v jiným městě. "
+            "text": "   já za hodinu na náměstí měl jsem stát, ale v jiným městě."
         },
         {
             "chords": "          C7",
-            "text": "   Tvá zpráva zněla prostě a byla tak krátká, "
+            "text": "   Tvá zpráva zněla prostě a byla tak krátká,"
         },
         {
             "chords": "        Fmi",
-            "text": "   že stavíš se jen na skok, že nechalas' mi vrátka "
+            "text": "   že stavíš se jen na skok, že nechalas' mi vrátka"
         },
         {
             "chords": "    Bb              G",
-            "text": "   zadní otevřená, zadní otevřená, "
+            "text": "   zadní otevřená, zadní otevřená,"
         },
         {
             "chords": "       C7",
-            "text": "   já naposled tě viděl, když ti bylo dvacet, "
+            "text": "   já naposled tě viděl, když ti bylo dvacet,"
         },
         {
             "chords": "    Fmi",
-            "text": "   to jsi tenkrát řekla, že se nechceš vracet, "
+            "text": "   to jsi tenkrát řekla, že se nechceš vracet,"
         },
         {
             "chords": "    Bb              G",
-            "text": "   že jsi unavená, ze mě unavená. "
+            "text": "   že jsi unavená, ze mě unavená."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "R:"
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Já čekala jsem, hlavu jako střep, a zdálo se, že dlouho,"
         },
         {
             "chords": "",
-            "text": "R: "
+            "text": "   může za to vinný sklep, že člověk často sleví,"
         },
         {
             "chords": "",
-            "text": "2. Já čekala jsem, hlavu jako střep, a zdálo se, že dlouho, "
+            "text": "   já čekala jsem, hlavu jako střep, s podvědomou touhou,"
         },
         {
             "chords": "",
-            "text": "   může za to vinný sklep, že člověk často sleví, "
+            "text": "   já čekala jsem dobu dlouhou, víc než dost, kolik přesně, nevím."
         },
         {
             "chords": "",
-            "text": "   já čekala jsem, hlavu jako střep, s podvědomou touhou, "
+            "text": "   Pak jedenáctá bila a už to bylo passé,"
         },
         {
             "chords": "",
-            "text": "   já čekala jsem dobu dlouhou, víc než dost, kolik přesně, nevím. "
+            "text": "   já dřív jsem měla vědět, že vidět chci tě zase,"
         },
         {
             "chords": "",
-            "text": "   Pak jedenáctá bila a už to bylo passé, "
+            "text": "   láska nerezaví, láska nerezaví,"
         },
         {
             "chords": "",
-            "text": "   já dřív jsem měla vědět, že vidět chci tě zase, "
+            "text": "   ten list, co jsem ti psala, byl dozajista hloupý,"
         },
         {
             "chords": "",
-            "text": "   láska nerezaví, láska nerezaví, "
+            "text": "   byl odměřený moc, na vlídný slovo skoupý,"
         },
         {
             "chords": "",
-            "text": "   ten list, co jsem ti psala, byl dozajista hloupý, "
+            "text": "   už to nenapravím, už to nenapravím."
         },
         {
+            "block_start": true,
             "chords": "",
-            "text": "   byl odměřený moc, na vlídný slovo skoupý, "
-        },
-        {
-            "chords": "",
-            "text": "   už to nenapravím, už to nenapravím. "
-        },
-        {
-            "chords": "",
-            "text": "R: "
-        },
-        {
-            "chords": "",
-            "text": " "
-        },
-        {
-            "chords": "",
-            "text": ""
+            "text": "R:"
         }
     ]
 }

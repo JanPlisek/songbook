@@ -9,6 +9,7 @@
     "capo": 0,
     "lyrics": [
         {
+            "block_start": true,
             "chords": "    F        Emi      A7                Dmi    Dmi\/C",
             "text": "1. Yesterday all my troubles seemed so far away"
         },
@@ -21,6 +22,7 @@
             "text": "   oh  I believe in yesterday."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "2. Suddenly I'm not half the man I used to be"
         },
@@ -33,6 +35,7 @@
             "text": "   oh yesterday came suddenly."
         },
         {
+            "block_start": true,
             "chords": "     Emi A  Dmi C  Bb Dmi       Gmi     C7       F",
             "text": "R: Why she had to go  I don't know she wouldn't say"
         },
@@ -41,6 +44,7 @@
             "text": "   I  said something wrong now I long for yesterday."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "3. Yesterday love was such an easy game to play"
         },
@@ -53,6 +57,7 @@
             "text": "   oh I believe in yesterday."
         },
         {
+            "block_start": true,
             "chords": "",
             "text": "R:"
         },

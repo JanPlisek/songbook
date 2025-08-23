@@ -1,0 +1,114 @@
+{
+    "id": "tri-cunici-jarek-nohavica",
+    "title": "Tři čuníci",
+    "artist": [
+        "Jarek Nohavica"
+    ],
+    "band": [],
+    "originalKey": "C",
+    "capo": 0,
+    "lyrics": [
+        {
+            "block_start": true,
+            "chords": "      C",
+            "text": "1. V řadě za sebou tři čuníci jdou,"
+        },
+        {
+            "chords": "                                  Ami",
+            "text": "   ťápají si v blátě cestou-necestou,"
+        },
+        {
+            "chords": "    Dmi                      G",
+            "text": "   kufry nemají, cestu neznají,"
+        },
+        {
+            "chords": "    Dmi                     G",
+            "text": "   vyšli prostě do světa a vesele si zpívají: uí uí uí ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "2. Auta jezdí tam, náklaďáky sem,"
+        },
+        {
+            "chords": "",
+            "text": "   tři čuníci jdou, jdou rovnou za nosem,"
+        },
+        {
+            "chords": "",
+            "text": "   ušima bimbají, žito křoupají,"
+        },
+        {
+            "chords": "",
+            "text": "   vyšli prostě do světa a vesele si zpívají: uí uí uí ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "3. Levá, pravá - teď!, přední, zadní - už!,"
+        },
+        {
+            "chords": "",
+            "text": "   tři čuníci jdou, jdou jako jeden muž,"
+        },
+        {
+            "chords": "",
+            "text": "   lidé zírají, důvod neznají,"
+        },
+        {
+            "chords": "",
+            "text": "   proč ti malí čuníci tak vesele si zpívají: uí uí uí ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "4. Když kopýtka pálí, když jim dojde dech,"
+        },
+        {
+            "chords": "",
+            "text": "   sednou ke studánce na vysoký břeh,"
+        },
+        {
+            "chords": "",
+            "text": "   ušima bimbají, kopýtka máchají,"
+        },
+        {
+            "chords": "",
+            "text": "   chvilinku si odpočinou, a pak dál se vydají: uí uí uí ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "5. Když se spustí déšť, roztrhne se mrak,"
+        },
+        {
+            "chords": "",
+            "text": "   k sobě přitisknou se čumák na čumák,"
+        },
+        {
+            "chords": "",
+            "text": "   blesky bleskají, kapky pleskají,"
+        },
+        {
+            "chords": "",
+            "text": "   oni v dešti, nepohodě vesele si zpívají: uí uí uí ..."
+        },
+        {
+            "block_start": true,
+            "chords": "",
+            "text": "6. Za tu spoustu let, co je světem svět,"
+        },
+        {
+            "chords": "",
+            "text": "   přešli zeměkouli třikrát tam a zpět"
+        },
+        {
+            "chords": "",
+            "text": "   v řadě za sebou, hele, támhle jdou,"
+        },
+        {
+            "chords": "",
+            "text": "   pojďme s nima zazpívat si jejich píseň veselou: uí uí uí ..."
+        }
+    ]
+}
