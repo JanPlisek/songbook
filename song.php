@@ -1,10 +1,15 @@
 <?php
-// === INICIALIZAČNÍ BLOK (přidáno pro opravu chyby) ===
+// soubor: song.php (NOVÁ VERZE)
+
+// === INICIALIZAČNÍ BLOK ===
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
-include_once 'includes/functions.php';
+// Připojíme se k databázi a načteme obecné funkce
+require_once 'includes/database.php';
+require_once 'includes/functions.php';
 // === KONEC BLOKU ===
+
 
 $bodyClass = "song-view-body";
 $song_id = $_GET['id'] ?? null;
@@ -12,18 +17,48 @@ $song_data = null;
 $error_message = '';
 
 if ($song_id) {
-    if (preg_match('/^[a-z0-9-]+$/', $song_id)) {
-        $file_path = 'songs/' . $song_id . '.json';
-        if (file_exists($file_path)) {
-            $json_content = file_get_contents($file_path);
-            $song_data = json_decode($json_content, true);
-        } else { $error_message = "Písnička s ID '$song_id' nebyla nalezena."; }
-    } else { $error_message = "Neplatné ID písničky."; }
-} else { $error_message = "Nebylo zadáno ID písničky."; }
+    // Připravíme si SQL dotaz. Tento dotaz je chytřejší:
+    // 1. Vybere všechny sloupce z tabulky zp_songs.
+    // 2. Pomocí GROUP_CONCAT spojí jména všech interpretů a kapel do jednoho textového řetězce.
+    // 3. Pomocí LEFT JOIN spojí všechny 3 tabulky dohromady podle ID.
+    $sql = "SELECT 
+            s.*, 
+            GROUP_CONCAT(p.name SEPARATOR ', ') AS performers,
+            GROUP_CONCAT(p.id SEPARATOR ',') AS performer_ids
+            FROM
+                zp_songs s
+            LEFT JOIN 
+                zp_song_performers sp ON s.id = sp.song_id
+            LEFT JOIN 
+                zp_performers p ON sp.performer_id = p.id
+            WHERE 
+                s.id = ?
+            GROUP BY 
+                s.id";
 
-// Vylepšení titulku stránky, aby nezpůsobil chybu, pokud chybí data
-$performers_title = implode(', ', array_merge($song_data['artist'] ?? [], $song_data['band'] ?? []));
-$pageTitle = $song_data ? $song_data['title'] . ' - ' . $performers_title : 'Chyba';
+    // Použijeme připravený dotaz (prepared statement) pro bezpečnost
+    $stmt = $pdo->prepare($sql);
+    $stmt->execute([$song_id]);
+
+    // Načteme výsledek
+    $song_data = $stmt->fetch();
+
+    if ($song_data) {
+        // Text písně je v databázi uložen jako JSON řetězec.
+        // Musíme ho převést zpět na PHP pole, aby mu JavaScript rozuměl.
+        $song_data['lyrics'] = json_decode($song_data['lyrics'], true);
+    } else {
+        $error_message = "Písnička s ID '$song_id' nebyla nalezena.";
+    }
+
+} else {
+    $error_message = "Nebylo zadáno ID písničky.";
+}
+
+// Titulek stránky
+$pageTitle = $song_data ? $song_data['title'] . ' - ' . ($song_data['performers'] ?? 'Neznámý') : 'Chyba';
+
+// Načteme hlavičku (zde se nic nemění)
 include 'includes/header.php';
 ?>
 
@@ -46,16 +81,24 @@ include 'includes/header.php';
         <div class="song-header">
             <div class="left-group">
                 <h1><?php echo htmlspecialchars($song_data['title']); ?></h1>
-                <?php
-                    $artists = $song_data['artist'] ?? [];
-                    $bands = $song_data['band'] ?? [];
-                    $performers = array_merge($artists, $bands);
-                    $performer_string = implode(', ', $performers);
-                ?>
-                <h2><?php echo htmlspecialchars($performer_string); ?></h2>
+                <div class="song-performers">
+                    <?php
+                    // Stejná logika, jakou jsme použili v list.php
+                    $performer_names = explode(', ', $song_data['performers'] ?? '');
+                    $performer_ids = explode(',', $song_data['performer_ids'] ?? '');
+
+                    foreach ($performer_names as $index => $name) {
+                        if (!empty(trim($name))) {
+                            $id = $performer_ids[$index] ?? 0;
+                            // Vypíšeme odkaz (tag) s atributy pro náš JavaScript
+                            echo '<a href="#" class="performer-link js-show-performer-modal" data-performer-id="' . htmlspecialchars($id) . '" data-performer-name="' . htmlspecialchars($name) . '">' . htmlspecialchars($name) . '</a>';
+                        }
+                    }
+                    ?>
+                </div>
             </div>
             <div class="right-group">
-                <span>orig. tónina: <span id="current-key"><?php echo htmlspecialchars($song_data['originalKey']); ?></span></span>
+                <span>orig. tónina: <span id="current-key"><?php echo htmlspecialchars($song_data['original_key']); ?></span></span>
                 <?php if (!empty($song_data['capo']) && $song_data['capo'] > 0): ?>
                     <span>capo: <span class="capo"><?php echo htmlspecialchars($song_data['capo']); ?></span></span>
                 <?php endif; ?>

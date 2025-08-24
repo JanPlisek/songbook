@@ -1,8 +1,9 @@
 /* ================================================= */
-/* === FINÁLNÍ VERZE SOUBORU assets/css/main.css === */
+/* ===         ZPĚVNÍK - HLAVNÍ STYLY            === */
+/* ===         (Refaktorovaná verze)             === */
 /* ================================================= */
 
-/* --- 1. ZÁKLADNÍ NASTAVENÍ A PROMĚNNÉ --- */
+/* === 1. ZÁKLADNÍ NASTAVENÍ A PROMĚNNÉ === */
 :root {
     --bg-color: #f8f9fa;
     --text-color: #212529;
@@ -20,15 +21,14 @@ body.dark-mode {
     --header-bg: #343a40;
 }
 
-/* --- 2. ZÁKLADNÍ RESETY A GLOBÁLNÍ STYLY --- */
-html {
-    height: 100%;
-}
-
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+html {
+    height: 100%;
 }
 
 body {
@@ -40,7 +40,15 @@ body {
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* --- 3. SPOLEČNÉ KOMPONENTY (HLAVIČKA, PATIČKA, TLAČÍTKA) --- */
+/* === 2. OBECNÉ A ZNOVUPOUŽITELNÉ KOMPONENTY === */
+
+/* --- A. Základní layout --- */
+.container {
+    max-width: 1100px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
 header {
     background-color: var(--header-bg);
     border-bottom: 1px solid var(--border-color);
@@ -51,6 +59,16 @@ header {
     z-index: 1000;
 }
 
+footer {
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    color: #6c757d;
+    border-top: 1px solid var(--border-color);
+}
+
+/* --- B. Navigace --- */
 .main-nav {
     display: flex;
     justify-content: space-between;
@@ -77,11 +95,8 @@ header {
     padding: 0 1rem;
     height: 60px;
     display: flex;
-    /* Klíčová vlastnost pro zarovnání */
     align-items: center;
-    /* Vertikálně vycentruje ikonku a text */
     gap: 0.75rem;
-    /* Vytvoří mezeru mezi ikonkou a textem */
     text-decoration: none;
     color: var(--text-color);
     transition: background-color 0.2s;
@@ -91,67 +106,165 @@ header {
     background-color: rgba(0, 0, 0, 0.05);
 }
 
-.theme-toggle-button {
+.mobile-menu-button {
+    display: none;
     background: none;
     border: none;
-    cursor: pointer;
     color: var(--text-color);
+    font-size: 2rem;
+    cursor: pointer;
     padding: 0.5rem;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.theme-toggle-button:hover {
-    background-color: rgba(0, 0, 0, 0.1);
-}
-
-.container {
-    max-width: 1100px;
-    margin: 2rem auto;
-    padding: 0 1rem;
-}
-
-footer {
-    text-align: center;
+/* --- C. Formulářové prvky --- */
+.form-section {
+    border: 1px solid var(--border-color);
     padding: 1.5rem;
-    margin-top: 2rem;
-    font-size: 0.9rem;
-    color: #6c757d;
-    border-top: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
 }
 
-.btn {
-    display: inline-block;
-    padding: 0.8rem 1.5rem;
+.form-section fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+.form-section legend {
+    font-size: 1.2rem;
+    font-weight: bold;
+    padding: 0 10px;
+    margin-left: -10px;
+}
+
+.form-section label {
+    font-weight: bold;
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-section input[type="url"],
+.form-section input[type="text"],
+.form-section input[type="number"],
+.form-section textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    font-size: 1rem;
+    box-sizing: border-box;
+}
+
+.form-section button {
+    font-size: 1rem;
+    padding: 10px 20px;
+    border: none;
     background-color: var(--primary-color);
     color: white;
-    text-decoration: none;
     border-radius: 5px;
-    margin: 0 10px;
+    cursor: pointer;
+    margin-top: 1.5rem;
     transition: background-color 0.2s;
 }
 
-.btn:hover {
+.form-section button:hover {
     background-color: var(--primary-hover-color);
 }
 
-/* --- 4. STYLY PRO KONKRÉTNÍ STRÁNKY --- */
+/* --- D. Tlačítka a Odkazy jako tlačítka --- */
+.btn,
+a.btn {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: var(--primary-color);
+    color: white !important;
+    /* !important zajistí přepsání barvy odkazu */
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    margin: 0 5px;
+    transition: background-color 0.2s;
+    cursor: pointer;
+    text-align: center;
+}
 
-/* A. Úvodní stránka (index.php) */
+.btn:hover,
+a.btn:hover {
+    background-color: var(--primary-hover-color);
+    color: white !important;
+}
+
+fieldset:disabled {
+    opacity: 0.5;
+}
+
+/* --- D. Zprávy a notifikace --- */
+.message {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.message.success {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.message.error {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+/* --- E. Modální okna --- */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+    padding: 1rem;
+}
+
+.modal-content {
+    background-color: var(--bg-color);
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    color: var(--text-color);
+    max-height: 85vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.btn-close-modal {
+    background-color: #6c757d;
+    color: white;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    flex-shrink: 0;
+}
+
+/* === 3. STYLY PRO KONKRÉTNÍ STRÁNKY === */
+
+/* --- A. Homepage (index.php) --- */
 body.homepage-body {
     height: 100vh;
-    margin: 0;
     overflow: hidden;
-    background-color: var(--bg-color);
 }
 
 body.homepage-body .container {
     max-width: none;
-    margin: 0;
     padding: 0;
-    width: 100%;
+    margin: 0;
     height: 100%;
 }
 
@@ -254,10 +367,27 @@ body.homepage-body footer {
 }
 
 .homepage-links a {
-    margin-bottom: 1rem
+    margin-bottom: 1rem;
 }
 
-/* B. Seznamy (list.php & interpreti) */
+/* --- B. Song List (list.php) --- */
+.song-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.song-header .right-group {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.song-header .right-group a {
+    color: var(--primary-color);
+}
+
 .filter-box {
     margin: 2rem 0;
 }
@@ -288,17 +418,31 @@ body.homepage-body footer {
 }
 
 .song-list-item {
-    flex-grow: 1;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.7rem 1.5rem;
-    text-decoration: none;
-    color: var(--text-color);
-    transition: background-color 0.2s;
+    width: 100%;
 }
 
-.edit-link {
+a.song-title-link {
+    text-decoration: none;
+    color: inherit;
+    flex-grow: 1;
+}
+
+.song-title {
+    font-weight: bold;
+}
+
+.song-artist {
+    font-size: 0.9em;
+    color: #6c757d;
+    text-align: right;
+}
+
+.edit-link,
+.delete-link {
     flex-shrink: 0;
     display: flex;
     justify-content: center;
@@ -310,35 +454,16 @@ body.homepage-body footer {
     transition: background-color 0.2s, color 0.2s;
 }
 
-.song-title {
-    font-weight: bold;
+.delete-link:hover {
+    background-color: #f8d7da;
+    color: #721c24;
 }
 
-.song-artist {
-    font-size: 0.9em;
-    color: #6c757d;
-}
-
-body.dark-mode .song-list-item:hover,
-body.dark-mode .edit-link:hover {
+body.dark-mode .song-list-item-wrapper:hover {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-.sort-options {
-    margin-bottom: 0rem;
-    text-align: right;
-}
-
-.sort-options form {
-    display: inline-block;
-}
-
-.sort-options label {
-    margin-left: 1rem;
-    cursor: pointer;
-}
-
-/* C. Rejstřík (list.php) */
+/* --- C. Alphabetical Filter --- */
 .alphabet-filter {
     display: flex;
     flex-wrap: wrap;
@@ -397,7 +522,35 @@ body.dark-mode .alpha-btn.active {
     margin-top: 0;
 }
 
-/* D. Interpreti (interprets.php) */
+/* --- D. Performer Tags (použito na list.php a song.php) --- */
+.song-artist a.performer-link,
+.song-performers a.performer-link {
+    display: inline-block;
+    text-decoration: none;
+    color: var(--text-color);
+    background-color: #e9ecef;
+    padding: 3px 10px;
+    border-radius: 15px;
+    font-size: 0.85em;
+    margin: 2px 3px;
+    line-height: 1.4;
+    transition: background-color 0.2s, color 0.2s;
+    border: 1px solid transparent;
+}
+
+.song-artist a.performer-link:hover,
+.song-performers a.performer-link:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* Pro tmavý režim */
+body.dark-mode .song-artist a.performer-link,
+body.dark-mode .song-performers a.performer-link {
+    background-color: #495057;
+}
+
+/* --- E. Performers Grid (interprets.php) --- */
 .interprets-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
@@ -405,7 +558,6 @@ body.dark-mode .alpha-btn.active {
 }
 
 .interpret-card {
-    background-color: white;
     display: block;
     position: relative;
     height: 180px;
@@ -420,11 +572,6 @@ body.dark-mode .alpha-btn.active {
 .interpret-card:hover {
     transform: scale(1.05);
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
-}
-
-.interpret-card.active {
-    outline: 3px solid var(--primary-color);
-    transform: scale(1.05);
 }
 
 .interpret-card img {
@@ -462,19 +609,82 @@ body.dark-mode .alpha-btn.active {
     opacity: 0.8;
 }
 
-/* === STYLY PRO MODÁLNÍ OKNO INTERPRETA (OPRAVENÁ A SJEDNOCENÁ VERZE) === */
+.sort-options {
+    text-align: right;
+}
+
+.sort-options form {
+    display: inline-block;
+}
+
+.sort-options label {
+    margin-left: 1rem;
+    cursor: pointer;
+}
+
+/* --- F. Performer Detail Page (performer.php) --- */
+.performer-header {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+    border-radius: 8px;
+}
+
+.performer-photo {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    background-color: #eee;
+}
+
+.performer-details {
+    flex-grow: 1;
+}
+
+.performer-details h1 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+.performer-info {
+    margin-bottom: 1.5rem;
+}
+
+a.edit-performer-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.performer-song-list h2 {
+    margin-bottom: 1.5rem;
+}
+
+.song-list-columns {
+    column-count: 3;
+    column-gap: 1.5rem;
+}
+
+.song-list-columns .song-list-item-wrapper {
+    margin-bottom: 1rem;
+    break-inside: avoid;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--header-bg);
+}
+
+/* --- G. Performer Modal (from interprets.php & list.php) --- */
 .artist-songs-modal-content {
     width: 90%;
     max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    /* Uspořádání prvků pod sebe */
-    max-height: 85vh;
-    /* Maximální výška okna */
-    background-color: var(--bg-color);
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 #modal-artist-name {
@@ -483,176 +693,130 @@ body.dark-mode .alpha-btn.active {
     border-bottom: 1px solid var(--border-color);
     margin-bottom: 1rem;
     flex-shrink: 0;
-    /* Zabrání smrštění nadpisu */
+}
+
+#modal-artist-name a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#modal-artist-name a:hover {
+    color: var(--primary-color);
 }
 
 #modal-song-list {
     flex-grow: 1;
-    /* Klíčové: Kontejner se seznamem vyplní dostupné místo */
     overflow-y: auto;
-    /* Klíčové: Povolí vertikální rolování, když je obsah delší */
     min-height: 0;
-    /* Důležitý fix pro správné fungování overflow ve flexboxu */
     text-align: left;
 }
 
-/* JavaScript generuje vnitřní kontejner .song-list, který dále stylujeme */
 #modal-song-list .song-list {
     border: none;
     padding: 0;
 }
 
-/* Vzhled jednotlivé položky se seznamu písní v modalu */
-.modal-song-list .song-list-item-wrapper {
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    background-color: var(--header-bg);
-    display: flex;
-    align-items: stretch;
-    break-inside: avoid;
-    /* Zabrání "rozlomení" položky ve vícesloupcovém layoutu */
-}
-
-/* Mezery mezi položkami na mobilu (pro desktop to řeší 'gap' v gridu) */
-@media (max-width: 768px) {
-    .modal-song-list .song-list-item-wrapper {
-        margin-bottom: 10px;
-    }
-}
-
-/* Dvousloupcový layout pro desktop */
-@media (min-width: 769px) {
-    #modal-song-list .song-list {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 10px;
-        /* Mezery mezi položkami (řádky i sloupce) */
-    }
-}
-
-.btn-close-modal {
-    background-color: #6c757d;
-    color: white;
-    padding: 0.6rem 1.2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 1.5rem;
-    flex-shrink: 0;
-    /* Zabrání smrštění tlačítka */
-}
-
-/* E. Konverze a Editor (formuláře) */
-.form-section {
-    border: 1px solid var(--border-color);
-    padding: 1.5rem;
-    border-radius: 8px;
-    margin-bottom: 1.5rem;
-}
-
-.form-section legend {
-    font-size: 1.2rem;
-    font-weight: bold;
-    padding: 0 10px;
-    margin-left: -10px;
-}
-
-.form-section label {
-    font-weight: bold;
-    display: block;
-    margin-top: 1rem;
-    margin-bottom: 0.5rem;
-}
-
-.form-section input[type="url"],
-.form-section input[type="text"],
-.form-section input[type="number"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid var(--border-color);
-    border-radius: 5px;
-    font-size: 1rem;
-    box-sizing: border-box;
-}
-
-.form-section button {
-    font-size: 1rem;
-    padding: 10px 20px;
-    border: none;
-    background-color: var(--primary-color);
-    color: white;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 1.5rem;
-}
-
-.form-section button:hover {
-    background-color: var(--primary-hover-color);
-}
-
-fieldset {
-    border: none;
+/* --- H. Editor Page (editor.php) --- */
+body.editor-layout-body .container {
+    max-width: none;
     padding: 0;
     margin: 0;
 }
 
-fieldset:disabled {
-    opacity: 0.5;
+.editor-main-grid {
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    height: calc(100vh - 60px);
 }
 
-.form-section textarea {
-    width: 100%;
-    height: 150px;
-    font-family: monospace;
-    background-color: #eee;
-    padding: 15px;
+.editor-metadata-column {
+    padding: 1.5rem;
+    overflow-y: auto;
+    border-right: 1px solid var(--border-color);
 }
 
-.editor-page textarea {
-    height: 50vh;
+.editor-lyrics-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-lyrics-column .form-section,
+.editor-lyrics-column fieldset {
+    border: none;
+    padding: 0;
+    margin: 0;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.editor-lyrics-column legend,
+.editor-lyrics-column .form-section p {
+    display: none;
+}
+
+.editor-lyrics-column textarea#song_content {
+    flex-grow: 1;
+    border: none;
+    resize: none;
+    padding: 1.5rem;
+    font-size: 16px;
     font-family: 'Martian Mono', 'Courier New', Courier, monospace;
-    font-size: 14px;
-    line-height: 1.5;
-    background-color: #fff;
-    color: #333;
+    background-image: linear-gradient(to right, transparent 73ch, rgba(128, 128, 128, 0.15) 73ch, rgba(128, 128, 128, 0.15) calc(73ch + 1px), transparent calc(73ch + 1px));
+    background-attachment: local;
 }
 
-body.dark-mode .form-section textarea,
-body.dark-mode .editor-page textarea {
-    background-color: #333;
-    color: #eee;
+body.dark-mode .editor-lyrics-column textarea#song_content {
+    background-color: var(--bg-color);
+    color: var(--text-color);
 }
 
-.message {
-    padding: 15px;
-    margin-bottom: 20px;
-    border-radius: 4px;
+/* --- I. Cropper Modal (edit_performer.php) --- */
+#cropper-modal .modal-content {
+    width: 90vw;
+    max-width: 800px;
 }
 
-.message.success {
-    background-color: #d4edda;
-    color: #155724;
+#cropper-container {
+    width: 100%;
+    height: 60vh;
+    background-color: #f0f0f0;
+    border: 1px solid var(--border-color);
 }
 
-.message.error {
-    background-color: #f8d7da;
-    color: #721c24;
+#image-to-crop {
+    display: block;
+    max-width: 100%;
 }
 
-/* --- 5. RESPONZIVNÍ STYLY PRO MOBILNÍ ZAŘÍZENÍ --- */
-@media (max-width: 991px) {
+/* === 4. RESPONZIVNÍ STYLY (@media queries) === */
 
-    /* Zvýšil jsem breakpoint pro lepší chování na tabletech */
-    .interprets-layout {
-        grid-template-columns: 1fr;
+@media (max-width: 992px) {
+
+    /* Performer Detail Page */
+    .song-list-columns {
+        column-count: 2;
     }
 
-    .song-results-column {
-        margin-top: 2rem;
+    /* Editor Page */
+    .editor-main-grid {
+        display: block;
+        height: auto;
+    }
+
+    .editor-metadata-column {
+        border-right: none;
+    }
+
+    .editor-lyrics-column textarea#song_content {
+        min-height: 50vh;
     }
 }
 
 @media (max-width: 768px) {
+
+    /* Main Navigation */
     .main-nav ul {
         display: none;
         position: absolute;
@@ -680,19 +844,28 @@ body.dark-mode .editor-page textarea {
         padding: 1rem 1.5rem;
     }
 
-    .main-nav ul li:last-child {
-        padding: 0.5rem 1.5rem;
-        border-bottom: none;
-    }
-
     .mobile-menu-button {
         display: block;
-        background: none;
-        border: none;
-        color: var(--text-color);
-        font-size: 2rem;
-        cursor: pointer;
-        padding: 0.5rem;
+    }
+
+    /* Performer Detail Page */
+    .song-list-columns {
+        column-count: 1;
+    }
+
+    .performer-header {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Performer Modal */
+    #modal-song-list .song-list {
+        display: block;
+    }
+
+    #modal-song-list .song-list-item-wrapper {
+        margin-bottom: 10px;
     }
 }
 
@@ -700,51 +873,112 @@ body.dark-mode .editor-page textarea {
     .mobile-menu-button {
         display: none;
     }
+
+    /* Performer Modal - 2-column layout */
+    #modal-song-list .song-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
 }
 
-/* === Doplňkové styly pro mazání písní === */
-.delete-link {
-    flex-shrink: 0;
+/* ================================================= */
+/* ===         BLOK O KONEČNÉ OPRAVĚ STYLŮ         === */
+/* ================================================= */
+
+/* --- 1. Oprava zarovnání obrázku na stránce interpreta --- */
+/* Přidáním `align-items: center` vertikálně vycentrujeme fotku vůči textu. */
+.performer-header {
+    align-items: center;
+}
+
+
+/* --- 2. Sjednocení vzhledu seznamu písní v modálním okně --- */
+/* Tento styl zajistí, že položky v modalu budou mít stejné ohraničení a pozadí jako na stránce list.php */
+#modal-song-list .song-list-item-wrapper {
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    background-color: var(--header-bg);
+}
+
+
+/* --- 3. Sjednocení barev odkazů v seznamech --- */
+/* Toto pravidlo zajistí, že odkazy na písničky v modálním okně i na stránce interpreta
+   nebudou modré, ale přebiorou barvu textu daného motivu. */
+.song-list-columns .song-list-item-wrapper a,
+#modal-song-list .song-list-item-wrapper a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+/* Zachováme hover efekt i na těchto místech */
+#modal-song-list .song-list-item-wrapper:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+body.dark-mode #modal-song-list .song-list-item-wrapper:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* === STYLY PRO NOVÝ INLINE EDITOR OBRÁZKŮ === */
+.current-performer-photo {
+    max-width: 250px;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    border: 1px solid var(--border-color);
+}
+
+#cropper-container-inline {
+    width: 100%;
+    height: 360px; /* Pevná výška pro ořezávací plochu */
+    border: 2px dashed var(--border-color);
+    border-radius: 8px;
+    position: relative;
+    background-color: var(--bg-color);
+    margin-top: 1rem;
+}
+
+#cropper-placeholder {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 1.5rem;
-    text-decoration: none;
-    color: #aaa;
-    border-left: 1px solid var(--border-color);
-    transition: background-color 0.2s, color 0.2s;
+    height: 100%;
+    text-align: center;
+    color: #888;
 }
 
-.delete-link:hover {
-    background-color: #f8d7da;
-    /* Světle červené pozadí */
-    color: #721c24;
-    /* Tmavě červená ikonka */
+#cropper-placeholder .material-symbols-outlined {
+    font-size: 4rem;
+    color: #ccc;
+}
+body.dark-mode #cropper-placeholder .material-symbols-outlined { color: #555; }
+
+.btn-secondary {
+    padding: 0.5rem 1rem;
+    background-color: #6c757d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-secondary:hover { background-color: #5a6268; }
+
+#image-to-crop-inline {
+    display: block;
+    max-width: 100%;
+    opacity: 0; /* Skryjeme, dokud se nenahraje obrázek */
 }
 
-/* Styl pro tlačítko "Přidat píseň" v hlavičce seznamu */
-.song-header .right-group {
+#image-editor-container .cropper-container {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+}
+
+.image-editor-actions {
+    margin-top: 1rem;
     display: flex;
     align-items: center;
     gap: 1rem;
 }
-
-.song-header .right-group a {
-    color: var(--primary-color)
-}
-
-#cropper-modal .modal-content {
-        width: 90vw;
-        max-width: 800px;
-    }
-    #cropper-container {
-        width: 100%;
-        height: 60vh; /* Výška se přizpůsobí velikosti okna */
-        background-color: #f0f0f0;
-        border: 1px solid var(--border-color);
-    }
-    /* Zajistí, že se obrázek vejde do kontejneru */
-    #image-to-crop {
-        display: block;
-        max-width: 100%;
-    }

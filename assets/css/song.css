@@ -1,54 +1,63 @@
 /* ================================================= */
-/* === FINÁLNÍ VERZE SOUBORU assets/css/song.css === */
+/* ===         STYLY PRO STRÁNKU PÍSNĚ           === */
+/* ===         (Refaktorovaná verze)             === */
 /* ================================================= */
 
-/* --- HLAVNÍ LAYOUT STRÁNKY --- */
+/* === 1. ZÁKLADNÍ LAYOUT STRÁNKY === */
 .song-view-body .container {
     max-width: none;
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 1.5rem;
+    /* Lehce zvětšený padding */
 }
 
 .song-page {
     width: 100%;
 }
 
-/* --- HLAVIČKA PÍSNĚ --- */
+/* === 2. HLAVIČKA PÍSNĚ (NÁZEV, INTERPRET) === */
 .song-header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    min-height: 40px;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
     border-bottom: 1px solid var(--border-color);
-    margin-bottom: 15px;
     flex-wrap: wrap;
     gap: 1rem;
 }
 
-.left-group {
+.song-header .left-group {
     display: flex;
-    gap: 10px;
-    align-items: center;
     flex-wrap: wrap;
+    /* Umožní zalamování na malých obrazovkách */
+    align-items: baseline;
+    /* Zarovná texty na účaří */
+    gap: 1rem;
+    /* Mezera mezi názvem a interpretem */
 }
 
-.right-group {
+.song-header .right-group {
     display: flex;
-    gap: 10px;
+    gap: 1rem;
     align-items: center;
     white-space: nowrap;
+    /* Zabrání zalamování v pravé části */
+    margin-left: auto;
+    /* Odsadí pravou část co nejvíce doprava */
 }
 
 .song-header h1 {
     margin: 0;
-    font-size: 16pt;
+    font-size: 1.8rem;
+    line-height: 1.2;
 }
 
-.song-header h2 {
-    margin: 0;
-    font-size: 12pt;
+/* Styl pro tagy interpretů na stránce s detailem písně */
+.song-performers {
+    font-size: 1.25rem;
+    /* Zvětšeno pro lepší čitelnost */
     color: #6c757d;
-    font-weight: normal;
 }
 
 .song-header span {
@@ -66,7 +75,6 @@ span.capo {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    margin-left: 1.5rem;
     padding: 5px 10px;
     text-decoration: none;
     color: #888;
@@ -85,65 +93,39 @@ body.dark-mode .edit-link-header:hover {
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-/* --- ZOBRAZENÍ TEXTU A AKORDŮ --- */
+
+/* === 3. ZOBRAZENÍ TEXTU A AKORDŮ === */
 .lyrics-container {
     font-family: 'Martian Mono', 'Courier New', Courier, monospace;
-    font-weight: 600;
-    font-size: 12px;
-    letter-spacing: normal;
+    font-size: 14px;
+    /* Sjednocená velikost, JS ji může měnit */
+    line-height: 1.5;
+    /* Lehce zvětšené řádkování pro čitelnost */
+    white-space: pre;
 }
 
 .lyrics-line-group {
-    margin-bottom: 0.8em;
+    margin-bottom: .3em;
 }
 
 .stanza-start {
-    margin-top: 1.5em;
+    margin-top: 1.8em;
 }
 
 .chords-line {
     font-weight: 700;
     color: var(--primary-color);
-    line-height: 1.1;
-    white-space: pre;
 }
 
-.text-line {
-    line-height: 1.1;
-    white-space: pre;
+/* Dvousloupcový layout pro široké obrazovky (GRID) */
+.lyrics-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Výchozí jednosloupcové zobrazení */
+    gap: 2rem;
 }
 
-/* --- VÍCESLOUPCOVÝ LAYOUT PRO ŠIROKÉ OBRAZOVKY (NOVÁ VERZE S GRIDEM) --- */
-@media (min-width: 992px) {
-    .lyrics-grid-container {
-        display: grid;
-        /* Vytvoří dva sloupce se stejnou šířkou a mezerou 50px */
-        grid-template-columns: 1fr 1fr;
-        gap: 20px;
-        /* Výška kontejneru, aby sloupce mohly rolovat */
-        height: calc(100vh - 200px);
-    }
-
-    .lyrics-column {
-        overflow-y: auto;
-        /* Povolí svislé rolování pro každý sloupec zvlášť */
-        scrollbar-width: thin;
-    }
-
-    /* Původní pravidlo pro .lyrics-line-group můžeme nechat, je stále užitečné */
-    .lyrics-line-group {
-        break-inside: avoid;
-    }
-}
-
-/* --- VÍCESLOUPCOVÝ LAYOUT PRO ŠIROKÉ OBRAZOVKY (NOVÁ VERZE S GRIDEM) --- */
-@media (min-width: 1440px) {
-    .lyrics-grid-container {
-        font-size: 16px;
-    }
-}
-
-/* --- OVLÁDACÍ PANEL A MODÁLNÍ OKNO --- */
+/* === 4. OVLÁDACÍ PANEL A MODÁLNÍ OKNO === */
 #song-controls-container {
     position: fixed;
     bottom: 20px;
@@ -221,32 +203,7 @@ body.dark-mode .edit-link-header:hover {
     margin: 5px 0;
 }
 
-.modal-overlay {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-}
-
-.modal-content {
-    background-color: var(--header-bg);
-    padding: 2rem;
-    border-radius: 8px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
-    text-align: center;
-}
-
-.modal-content h3 {
-    margin-top: 0;
-    margin-bottom: 1.5rem;
-}
-
+/* Transpoziční modál - sdílí styly z main.css, zde jen specifika */
 .transpose-keys {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -265,31 +222,64 @@ body.dark-mode .edit-link-header:hover {
     transition: background-color 0.2s, color 0.2s;
 }
 
-.transpose-keys button[data-key$="m"] {
-    margin-top: 10px;
-}
-
 .transpose-keys button:hover {
     background-color: var(--primary-color);
     color: white;
 }
 
-.btn-close-modal {
-    background-color: #6c757d;
-    color: white;
-    padding: 0.6rem 1.2rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 1.5rem;
+/* === 5. RESPONZIVNÍ STYLY === */
+
+/* --- Tablety a větší obrazovky (od 992px) --- */
+@media (min-width: 992px) {
+    .lyrics-grid-container {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .lyrics-column {
+        overflow-y: auto;
+        height: calc(100vh - 150px);
+        /* Omezení výšky pro rolování */
+        scrollbar-width: thin;
+    }
+
+    .lyrics-line-group {
+        break-inside: avoid;
+        /* Zabrání lámání slok mezi sloupci */
+    }
 }
 
-/* --- STYLY PRO TISK --- */
+/* --- Velké monitory (od 1440px) --- */
+@media (min-width: 1440px) {
+    .lyrics-container {
+        font-size: 16px;
+    }
+}
+
+/* --- Tablety na výšku a telefony (do 991px) --- */
+@media (max-width: 991px) {
+
+    /* Na menších zařízeních schováme méně důležité informace v hlavičce */
+    .song-header .right-group {
+        display: none;
+    }
+
+    .song-header {
+        justify-content: center;
+        text-align: center;
+    }
+
+    .song-header .left-group {
+        align-items: center;
+    }
+}
+
+/* === 6. STYLY PRO TISK === */
 @media print {
 
     header,
     footer,
-    #song-controls-container {
+    #song-controls-container,
+    .edit-link-header {
         display: none !important;
     }
 
@@ -306,60 +296,11 @@ body.dark-mode .edit-link-header:hover {
     .lyrics-container {
         font-size: 12pt;
         height: auto !important;
+        display: block;
+        /* Zrušíme grid pro tisk */
     }
 
     .chords-line {
         color: black !important;
-    }
-}
-
-/* ======================================================= */
-/* === FINÁLNÍ RESPONZIVNÍ STYLY PRO STRÁNKU S PÍSNÍ === */
-/* ======================================================= */
-
-/* --- Pravidla pro TABLETY a VELKÉ TELEFONY NA VÝŠKU (do 991px) --- */
-@media (max-width: 991px) {
-
-    /* Schováme meta-informace, které nejsou klíčové */
-    .song-header .right-group {
-        display: none;
-    }
-
-    /* Zajistíme, aby se hlavička správně zarovnala, i když chybí pravá část */
-    .song-header {
-        justify-content: flex-start;
-    }
-
-    /* Zrušíme vícesloupcový layout a omezení výšky */
-    #song-content {
-        height: auto;
-        column-count: 1;
-    }
-}
-
-/* --- Pravidla specificky pro TELEFONY (do 768px) --- */
-@media (max-width: 768px) {
-    .song-header {
-        display: block;
-        height: auto;
-        padding-bottom: 1rem;
-    }
-
-    .song-header .left-group {
-        display: block;
-        text-align: left;
-    }
-
-    .song-header h1 {
-        font-size: 1.5rem;
-        text-align: left;
-    }
-
-    .song-header h2 {
-        display: block;
-        width: 100%;
-        text-align: right;
-        font-size: 1.1rem;
-        margin-top: 0.5rem;
     }
 }

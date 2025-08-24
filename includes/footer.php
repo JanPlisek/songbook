@@ -40,5 +40,19 @@ if (fullscreenButton) {
 }
 </script>
 
+
+<div id="artist-songs-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-content artist-songs-modal-content">
+        <h2 id="modal-artist-name"></h2>
+        <div id="modal-song-list"></div>
+        <button id="modal-close-btn" class="btn-close-modal">Zavřít</button>
+    </div>
+</div>
+
+<script>
+    // Předání informace o stavu přihlášení z PHP do JavaScriptu
+    window.isUserLoggedIn = <?php echo json_encode(is_user_logged_in()); ?>;
+</script>
+<script src="assets/js/modal-handler.js"></script>
 </body>
 </html>

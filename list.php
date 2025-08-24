@@ -1,48 +1,45 @@
 <?php
-// === INICIALIZAČNÍ BLOK (přidat) ===
+// === INICIALIZAČNÍ BLOK (NOVÁ VERZE) ===
 if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
-include_once 'includes/functions.php';
+// Připojíme databázi a funkce
+require_once 'includes/database.php';
+require_once 'includes/functions.php';
 // === KONEC BLOKU ===
 
 $pageTitle = "Rejstřík písní";
 include 'includes/header.php';
 
-$songs_dir = 'songs/';
 $all_songs = [];
 $grouped_songs = [];
 
-// Krok 1: Načteme VŠECHNY písničky do jednoho velkého pole
-if (is_dir($songs_dir)) {
-    $files = scandir($songs_dir);
-    foreach ($files as $file) {
-        if (pathinfo($file, PATHINFO_EXTENSION) == 'json' && $file !== '_masterlist.json') {
-            $json_content = file_get_contents($songs_dir . $file);
-            $song_data = json_decode($json_content, true);
-            if ($song_data && !empty($song_data['title'])) {
-                $song_data['source_file'] = $file; // Přidáme název souboru pro ladění
-                $all_songs[] = $song_data;
-            }
-        }
-    }
-}
+// Krok 1: Načteme VŠECHNY písničky jedním SQL dotazem
+// Databáze nám je rovnou i seřadí podle českých pravidel (COLLATE utf8mb4_czech_ci)
+$sql = "SELECT 
+            s.id, 
+            s.title,
+            GROUP_CONCAT(p.name SEPARATOR ', ') as performers,
+            GROUP_CONCAT(p.id SEPARATOR ',') as performer_ids
+        FROM 
+            zp_songs s
+        LEFT JOIN 
+            zp_song_performers sp ON s.id = sp.song_id
+        LEFT JOIN 
+            zp_performers p ON sp.performer_id = p.id
+        GROUP BY 
+            s.id
+        ORDER BY 
+            s.title COLLATE utf8mb4_czech_ci";
 
-// Krok 2: Seřadíme celé pole písní pomocí třídy Collator (spolehlivá metoda)
-if (!empty($all_songs)) {
-    // Vytvoříme instanci třídy Collator pro český jazyk
-    $collator = new Collator('cs_CZ');
-    
-    // Seřadíme pole písní podle jejich názvu
-    usort($all_songs, function($a, $b) use ($collator) {
-        return $collator->compare($a['title'], $b['title']);
-    });
-}
+$stmt = $pdo->query($sql);
+$all_songs = $stmt->fetchAll();
 
 
-// Krok 3: Nyní, až po správném seřazení, seskupíme písničky podle prvního písmene
+// Krok 2: Nyní, když máme data bleskově načtená, seskupíme je podle písmene
+// Tato logika zůstává v PHP, ale pracuje s daty z databáze
 foreach ($all_songs as $song) {
-    $first_letter = get_czech_first_letter($song['title']); // POUŽITÍ NOVÉ FUNKCE
+    $first_letter = get_czech_first_letter($song['title']);
     $grouped_songs[$first_letter][] = $song;
 }
 ?>
@@ -69,17 +66,13 @@ foreach ($all_songs as $song) {
             <button class="alpha-btn active" data-letter="all">Vše</button>
             <?php
                 $letters = array_keys($grouped_songs);
-
-                // Zkontrolujeme, zda existuje rozšíření 'intl' pro správné řazení
+                // Řazení písmen v abecedním filtru (zůstává stejné)
                 if (class_exists('Collator')) {
-                    // Ideální stav: máme 'intl', použijeme pokročilé řazení
                     $collator = new Collator('cs_CZ');
                     $collator->sort($letters);
                 } else {
-                    // Záložní stav: 'intl' chybí, použijeme obyčejné řazení
                     sort($letters, SORT_STRING);
                 }
-
                 foreach ($letters as $letter):
             ?>
                 <button class="alpha-btn" data-letter="<?php echo htmlspecialchars($letter); ?>"><?php echo htmlspecialchars($letter); ?></button>
@@ -96,16 +89,28 @@ foreach ($all_songs as $song) {
                     <h2 class="letter-heading"><?php echo htmlspecialchars($letter); ?></h2>
                     <div class="song-list">
                         <?php foreach ($songs_in_group as $song): ?>
-                            <?php
-                                // Sestavíme kompletní seznam performerů pro zobrazení
-                                // Sloučíme pole 'artist' a 'band', pokud existují
-                                $performers = array_merge($song['artist'] ?? [], $song['band'] ?? []);
-                            ?>
                             <div class="song-list-item-wrapper" data-song-id="<?php echo htmlspecialchars($song['id']); ?>">
-                                <a href="song.php?id=<?php echo htmlspecialchars($song['id']); ?>" class="song-list-item" title="Zdroj: <?php echo htmlspecialchars($song['source_file']); ?>">
-                                    <span class="song-title"><?php echo htmlspecialchars($song['title']); ?></span>
-                                    <span class="song-artist"><?php echo htmlspecialchars(implode(', ', $performers)); ?></span>
-                                </a>
+    
+                                <div class="song-list-item">
+                                    <a href="song.php?id=<?php echo htmlspecialchars($song['id']); ?>" class="song-title-link">
+                                        <span class="song-title"><?php echo htmlspecialchars($song['title']); ?></span>
+                                    </a>
+                                    
+                                    <span class="song-artist">
+                                        <?php
+                                        $performer_names = explode(', ', $song['performers'] ?? '');
+                                        $performer_ids = explode(',', $song['performer_ids'] ?? '');
+
+                                        foreach ($performer_names as $index => $name) {
+                                            if (!empty(trim($name))) {
+                                                $id = $performer_ids[$index] ?? 0;
+                                                echo '<a href="#" class="performer-link js-show-performer-modal" data-performer-id="' . htmlspecialchars($id) . '" data-performer-name="' . htmlspecialchars($name) . '">' . htmlspecialchars($name) . '</a>';
+                                            }
+                                        }
+                                        ?>
+                                    </span>
+                                </div>
+
                                 <?php if (is_user_logged_in()): ?>
                                     <a href="editor.php?id=<?php echo htmlspecialchars($song['id']); ?>" class="edit-link" title="Upravit píseň">
                                         <span class="material-symbols-outlined">music_history</span>
@@ -126,6 +131,8 @@ foreach ($all_songs as $song) {
 <?php include 'includes/footer.php'; ?>
 
 <script>
+// Celý JavaScript blok pro filtrování a mazání zůstává beze změny,
+// protože pracuje s HTML strukturou, která se nezměnila.
 document.addEventListener('DOMContentLoaded', function() {
     const textFilterInput = document.getElementById('text-filter-input');
     const alphaButtons = document.querySelectorAll('.alpha-btn');
@@ -181,23 +188,20 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 
-    // --- NOVÁ LOGIKA PRO MAZÁNÍ PÍSNÍ ---
+    // --- Logika pro mazání písní (zůstává stejná) ---
     songListContainer.addEventListener('click', function(event) {
-        // Cílíme pouze na kliknutí na odkaz pro smazání nebo jeho ikonku
         const deleteLink = event.target.closest('.delete-link');
         if (!deleteLink) {
-            return; // Kliknuto mimo, nic neděláme
+            return;
         }
         
-        event.preventDefault(); // Zabráníme výchozí akci odkazu (přesměrování)
+        event.preventDefault();
 
         const songWrapper = deleteLink.closest('.song-list-item-wrapper');
         const songId = songWrapper.dataset.songId;
         const songTitle = songWrapper.querySelector('.song-title').textContent;
 
-        // Zobrazíme potvrzovací dialog
         if (confirm(`Opravdu si přejete trvale smazat píseň "${songTitle}"?`)) {
-            // Pokud uživatel potvrdí, pošleme požadavek na server
             fetch('delete_song.php', {
                 method: 'POST',
                 headers: {
@@ -208,20 +212,16 @@ document.addEventListener('DOMContentLoaded', function() {
             .then(response => response.json())
             .then(data => {
                 if (data.success) {
-                    // Pokud server odpoví úspěchem, odstraníme prvek ze stránky
                     songWrapper.style.transition = 'opacity 0.5s ease';
                     songWrapper.style.opacity = '0';
                     setTimeout(() => {
                         songWrapper.remove();
-                        // Můžeme zde případně aktualizovat i celkový počet písní
                     }, 500);
                 } else {
-                    // Pokud nastala chyba, zobrazíme ji
                     alert('Chyba při mazání: ' + data.message);
                 }
             })
             .catch(error => {
-                // Zachytíme chyby sítě atd.
                 console.error('Došlo k chybě:', error);
                 alert('Došlo k technické chybě. Zkuste to prosím později.');
             });
