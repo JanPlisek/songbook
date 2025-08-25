@@ -1,9 +1,10 @@
 <?php
-// --- DŮLEŽITÉ DOPLNĚNÍ PRO INDEX.PHP ---
+// soubor: index.php (OPRAVENÁ VERZE)
+
 // Protože tato stránka nepoužívá viditelnou hlavičku, musíme zde ručně spustit session
 // a načíst si naši pomocnou funkci pro kontrolu přihlášení.
 session_start();
-include_once 'includes/functions.php'; // Použijeme include_once pro jistotu
+include_once 'includes/functions.php';
 
 $bodyClass = "homepage-body"; 
 $pageTitle = "Vítejte";
@@ -59,10 +60,8 @@ include 'includes/header.php';
 
 <?php 
 // Patičku zde nenačítáme, abychom zachovali design
-// include 'includes/footer.php'; 
 ?>
 <script>
-// ... Tvůj stávající JavaScript pro vyhledávání zde zůstává beze změny ...
 document.addEventListener('DOMContentLoaded', function() {
     const searchInput = document.getElementById('search-input');
     const searchResults = document.getElementById('search-results');
@@ -70,24 +69,29 @@ document.addEventListener('DOMContentLoaded', function() {
 
     searchInput.addEventListener('input', function() {
         const query = this.value;
-        if (query.length < 2) { hideResults(); return; }
+        if (query.length < 2) {
+            hideResults();
+            return;
+        }
+
         fetch(`search-api.php?q=${encodeURIComponent(query)}&_=${new Date().getTime()}`)
             .then(response => response.json())
             .then(data => {
                 if (data.length > 0) {
                     let html = '<ul>';
                     data.forEach((song, index) => {
-                        const artists = song.artist || [];
-                        const bands = song.band || [];
-                        const performers = [...artists, ...bands].join(', ');
+                        // === ZMĚNA ZDE ===
+                        // Místo složitého skládání teď přímo použijeme pole 'performers' z našeho API.
+                        const performerText = song.performers ? ` - ${song.performers}` : '';
 
                         html += `<li data-index="${index}"><a href="song.php?id=${song.id}">
-                                    <strong>${song.title}</strong> - ${performers}
+                                    <strong>${song.title}</strong>${performerText}
                                  </a></li>`;
                     });
                     html += '</ul>';
                     searchResults.innerHTML = html;
                     showResults();
+                    
                     document.querySelectorAll('.search-results-dropdown li').forEach(item => {
                         item.addEventListener('mouseover', () => {
                             activeIndex = parseInt(item.dataset.index);
@@ -101,6 +105,7 @@ document.addEventListener('DOMContentLoaded', function() {
             });
     });
 
+    // Kód pro ovládání šipkami a skrývání výsledků zůstává beze změny
     searchInput.addEventListener('keydown', function(e) { const items = searchResults.querySelectorAll('li'); if (items.length === 0) return; switch (e.key) { case 'ArrowDown': e.preventDefault(); activeIndex++; if (activeIndex >= items.length) activeIndex = 0; updateActiveSuggestion(); break; case 'ArrowUp': e.preventDefault(); activeIndex--; if (activeIndex < 0) activeIndex = items.length - 1; updateActiveSuggestion(); break; case 'Enter': e.preventDefault(); if (activeIndex > -1) { window.location.href = items[activeIndex].querySelector('a').href; } break; case 'Escape': hideResults(); break; } });
     function updateActiveSuggestion() { const items = searchResults.querySelectorAll('li'); items.forEach((item, index) => { item.classList.toggle('active', index === activeIndex); }); }
     function showResults() { searchResults.style.display = 'block'; activeIndex = -1; }
