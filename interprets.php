@@ -1,3 +1,4 @@
+<?php require_once 'includes/gatekeeper.php'; ?>
 <?php
 // soubor: interprets.php (FINÁLNÍ VERZE PRO DATABÁZI)
 

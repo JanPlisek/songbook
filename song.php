@@ -1,3 +1,4 @@
+<?php require_once 'includes/gatekeeper.php'; ?>
 <?php
 // soubor: song.php (NOVÁ VERZE)
 
@@ -103,7 +104,7 @@ include 'includes/header.php';
                     <span>capo: <span class="capo"><?php echo htmlspecialchars($song_data['capo']); ?></span></span>
                 <?php endif; ?>
 
-                <?php if (is_user_logged_in()): ?>
+                <?php if (is_admin()): ?>
                 <a href="editor.php?id=<?php echo htmlspecialchars($song_data['id']); ?>" class="edit-link-header" title="Upravit tuto píseň">
                     <span class="material-symbols-outlined">music_history</span>
                 </a>

@@ -1,3 +1,4 @@
+<?php require_once 'includes/gatekeeper.php'; ?>
 <?php
 // soubor: random.php
 

@@ -1,3 +1,4 @@
+<?php require_once 'includes/gatekeeper.php'; ?>
 <?php
 // === INICIALIZAČNÍ BLOK (NOVÁ VERZE) ===
 if (session_status() === PHP_SESSION_NONE) {
@@ -51,7 +52,7 @@ foreach ($all_songs as $song) {
         </div>
         <div class="right-group">
             <span>Celkem písní: <strong><?php echo count($all_songs); ?></strong></span>
-            <?php if (is_user_logged_in()): ?>
+            <?php if (is_admin()): ?>
                 <span> | </span><a href="editor.php">Přidat novou píseň</a>
             <?php endif; ?>
         </div>   
@@ -111,7 +112,7 @@ foreach ($all_songs as $song) {
                                     </span>
                                 </div>
 
-                                <?php if (is_user_logged_in()): ?>
+                                <?php if (is_admin()): ?>
                                     <a href="editor.php?id=<?php echo htmlspecialchars($song['id']); ?>" class="edit-link" title="Upravit píseň">
                                         <span class="material-symbols-outlined">music_history</span>
                                     </a>

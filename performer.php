@@ -1,3 +1,4 @@
+<?php require_once 'includes/gatekeeper.php'; ?>
 <?php
 // soubor: performer.php
 
@@ -69,7 +70,7 @@ include 'includes/header.php';
                 ?>
             </div>
             
-            <?php if (is_user_logged_in()): ?>
+            <?php if (is_admin()): ?>
                 <a href="edit_performer.php?id=<?php echo $performer['id']; ?>" class="btn edit-performer-btn">
                     <span class="material-symbols-outlined">edit</span> Upravit profil
                 </a>
@@ -88,7 +89,7 @@ include 'includes/header.php';
                         <a href="song.php?id=<?php echo htmlspecialchars($song['id']); ?>" class="song-list-item">
                             <span class="song-title"><?php echo htmlspecialchars($song['title']); ?></span>
                         </a>
-                        <?php if (is_user_logged_in()): ?>
+                        <?php if (is_admin()): ?>
                             <a href="editor.php?id=<?php echo htmlspecialchars($song['id']); ?>" class="edit-link" title="Upravit píseň">
                                 <span class="material-symbols-outlined">music_history</span>
                             </a>

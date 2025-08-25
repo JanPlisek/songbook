@@ -38,7 +38,7 @@
                 </a>
             </li>
 
-            <?php if (is_user_logged_in()): ?>
+            <?php if (is_admin()): ?>
                 <li>
                     <a href="konverze.php">
                         <span class="material-symbols-outlined">add_link</span>
@@ -67,7 +67,7 @@
                 </a>
             </li>
             <li>
-                <?php if (is_user_logged_in()): ?>
+                <?php if (is_admin()): ?>
                     <a href="logout.php">
                         <span class="material-symbols-outlined">logout</span>
                         <span>Odhlásit</span>

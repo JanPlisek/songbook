@@ -982,3 +982,84 @@ body.dark-mode #cropper-placeholder .material-symbols-outlined { color: #555; }
     align-items: center;
     gap: 1rem;
 }
+
+/* === 8. STYLY PRO PŘIHLÁŠOVACÍ STRÁNKU (login.php) === */
+
+/* Použijeme stejné pozadí jako na homepage */
+body.login-page-body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: url('../img/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Skryjeme standardní hlavičku a patičku */
+body.login-page-body header,
+body.login-page-body footer {
+    display: none;
+}
+
+/* Hlavní kontejner, který vše vycentruje */
+.login-wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Ztmavující překryv pro lepší čitelnost */
+}
+
+/* Box pro samotný formulář */
+.login-box {
+    width: 100%;
+    max-width: 500px;
+}
+
+.login-box h1 {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.login-box p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+/* Úprava formuláře, aby byl bez ohraničení */
+.login-box .form-section {
+    border: none;
+    background: none;
+    padding: 0;
+}
+
+/* Nový styl pro pole s heslem, inspirovaný vyhledáváním */
+.login-box input[type="password"] {
+    width: 100%;
+    padding: 1rem;
+    font-size: 1.2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 50px;
+    border: 2px solid transparent;
+    outline: none;
+    transition: border-color 0.2s, background-color 0.2s;
+    color: #333;
+    text-align: center;
+}
+
+.login-box input[type="password"]:focus {
+    background-color: white;
+    border-color: var(--primary-color);
+}
+
+/* Tlačítko Vstoupit */
+.login-box button {
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 50px;
+    font-size: 1.2rem;
+}

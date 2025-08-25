@@ -2,11 +2,20 @@
 // soubor: includes/functions.php
 
 /**
- * Zkontroluje, zda je uživatel přihlášen.
+ * Zkontroluje, zda je uživatel PŘIHLÁŠEN (zadal jakékoliv platné heslo).
+ * Funkce is_user_logged_in() je teď přejmenována na tuto, aby byl název jasnější.
  * @return bool
  */
 function is_user_logged_in() {
-    return isset($_SESSION['user_logged_in']) && $_SESSION['user_logged_in'] === true;
+    return isset($_SESSION['zpevnik_heslo_ok']) && $_SESSION['zpevnik_heslo_ok'] === true;
+}
+
+/**
+ * Zkontroluje, zda je přihlášený uživatel ADMINISTRÁTOR.
+ * @return bool
+ */
+function is_admin() {
+    return isset($_SESSION['zpevnik_je_admin']) && $_SESSION['zpevnik_je_admin'] === true;
 }
 
 /**

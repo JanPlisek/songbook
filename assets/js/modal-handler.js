@@ -3,7 +3,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Modal handler script successfully started.'); // VÝPIS 1: Potvrzení, že skript běží.
 
-    const isUserLoggedIn = window.isUserLoggedIn || false; 
+    const isUserAdmin = window.isUserAdmin || false; 
 
     const modal = document.getElementById('artist-songs-modal');
     const modalArtistName = document.getElementById('modal-artist-name');
@@ -45,7 +45,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                     <a href="song.php?id=${song.id}" class="song-list-item">
                                         <span class="song-title">${song.title}</span>
                                     </a>`;
-                        if (isUserLoggedIn) {
+                        if (isUserAdmin) {
                             html += `<a href="editor.php?id=${song.id}" class="edit-link" title="Upravit píseň">
                                         <span class="material-symbols-outlined">music_history</span>
                                     </a>`;

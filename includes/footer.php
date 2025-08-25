@@ -50,8 +50,8 @@ if (fullscreenButton) {
 </div>
 
 <script>
-    // Předání informace o stavu přihlášení z PHP do JavaScriptu
-    window.isUserLoggedIn = <?php echo json_encode(is_user_logged_in()); ?>;
+    // Předání informace o STAVU ADMINA z PHP do JavaScriptu
+    window.isUserAdmin = <?php echo json_encode(is_admin()); ?>;
 </script>
 <script src="assets/js/modal-handler.js"></script>
 </body>
