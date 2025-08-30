@@ -67,7 +67,7 @@
                 </a>
             </li>
             <li>
-                <?php if (is_admin()): ?>
+                <?php if (is_user_logged_in()): ?>
                     <a href="logout.php">
                         <span class="material-symbols-outlined">logout</span>
                         <span>Odhlásit</span>

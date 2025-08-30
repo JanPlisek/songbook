@@ -12,6 +12,13 @@ require_once 'includes/functions.php';
 $pageTitle = "Rejstřík písní";
 include 'includes/header.php';
 
+// --- Načtení počtu nevyřízených požadavků (jen pro admina) ---
+$pending_requests_count = 0;
+if (is_admin()) {
+    $stmt = $pdo->query("SELECT COUNT(*) FROM zp_requests WHERE is_completed = 0");
+    $pending_requests_count = $stmt->fetchColumn();
+}
+
 $all_songs = [];
 $grouped_songs = [];
 
@@ -52,10 +59,19 @@ foreach ($all_songs as $song) {
         </div>
         <div class="right-group">
             <span>Celkem písní: <strong><?php echo count($all_songs); ?></strong></span>
+            
             <?php if (is_admin()): ?>
+                <?php if ($pending_requests_count > 0): ?>
+                    <span> | </span>
+                    <a href="requests.php" class="requests-link">
+                        Nové požadavky (<?php echo $pending_requests_count; ?>)
+                    </a>
+                <?php endif; ?>
                 <span> | </span><a href="editor.php">Přidat novou píseň</a>
+            <?php elseif (is_user_logged_in()): ?>
+                <span> | </span><a href="#" id="btn-show-request-modal">Požádat o přidání písně</a>
             <?php endif; ?>
-        </div>   
+        </div> 
     </div>    
 
     <div class="filter-box">

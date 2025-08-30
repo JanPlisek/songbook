@@ -1,29 +1,58 @@
 </main>
 
-<footer>
-    <?php echo htmlspecialchars($song_data['title']); ?> / <?php echo htmlspecialchars(implode(', ', $song_data['artist'])); ?>
-</footer>
-
 <script>
 document.addEventListener('DOMContentLoaded', function() {
+    // --- Logika pro Tmavý / Světlý režim ---
     const themeToggleButton = document.getElementById('theme-toggle-btn');
     const currentTheme = localStorage.getItem('theme');
-
-    // Při načtení stránky aplikujeme uložené téma
     if (currentTheme === 'dark') {
         document.body.classList.add('dark-mode');
     }
-
-    // Funkce pro přepnutí a uložení tématu
     themeToggleButton?.addEventListener('click', () => {
         document.body.classList.toggle('dark-mode');
-        let theme = 'light';
-        if (document.body.classList.contains('dark-mode')) {
-            theme = 'dark';
-        }
+        let theme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
         localStorage.setItem('theme', theme);
     });
+
+    // --- Logika pro Mobilní menu ---
+    const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
+    const mainNavLinks = document.getElementById('main-nav-links');
+    mobileMenuToggle?.addEventListener('click', () => {
+        mainNavLinks.classList.toggle('is-open');
+    });
 });
+
+const fullscreenButton = document.getElementById('fullscreen-btn');
+if (fullscreenButton) {
+    fullscreenButton.addEventListener('click', (event) => { // Přidali jsme "(event)"
+        event.preventDefault(); // Zabráníme výchozí akci odkazu
+
+        if (!document.fullscreenElement) {
+            document.documentElement.requestFullscreen().catch(err => {
+                alert(`Chyba při pokusu o zapnutí režimu celé obrazovky: ${err.message}`);
+            });
+        } else {
+            if (document.exitFullscreen) {
+                document.exitFullscreen();
+            }
+        }
+    });
+}
 </script>
+
+
+<div id="artist-songs-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-content artist-songs-modal-content">
+        <h2 id="modal-artist-name"></h2>
+        <div id="modal-song-list"></div>
+        <button id="modal-close-btn" class="btn-close-modal">Zavřít</button>
+    </div>
+</div>
+
+<script>
+    // Předání informace o STAVU ADMINA z PHP do JavaScriptu
+    window.isUserAdmin = <?php echo json_encode(is_admin()); ?>;
+</script>
+<script src="assets/js/modal-handler.js"></script>
 </body>
 </html>

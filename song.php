@@ -131,7 +131,7 @@ include 'includes/header.php';
         <button id="btn-close-modal" class="btn-close-modal">Zavřít</button>
     </div>
 </div>
-<?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer-song.php'; ?>
 
 <script>
 document.addEventListener('DOMContentLoaded', function() {

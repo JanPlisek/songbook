@@ -1,5 +1,9 @@
 </main>
 
+<footer>
+    <p>&copy; <?php echo date("Y"); ?> ZPĚVNÍK, Jan Plíšek</p>
+</footer>
+
 <script>
 document.addEventListener('DOMContentLoaded', function() {
     // --- Logika pro Tmavý / Světlý režim ---
@@ -49,10 +53,32 @@ if (fullscreenButton) {
     </div>
 </div>
 
+<div id="song-request-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+        <h3>Požadavek na přidání písně</h3>
+        <form id="form-song-request" class="form-section" style="border: none; padding: 0;">
+            <fieldset>
+                <label for="req-song-title">Název písně (a případně interpret):</label>
+                <input type="text" id="req-song-title" name="song_title" required>
+
+                <label for="req-requester-name">Vaše jméno nebo přezdívka:</label>
+                <input type="text" id="req-requester-name" name="requester_name">
+
+                <label for="req-note">Poznámka (např. odkaz na text):</label>
+                <textarea id="req-note" name="note" rows="3"></textarea>
+
+                <button type="submit">Odeslat požadavek</button>
+            </fieldset>
+        </form>
+        <button id="btn-close-request-modal" class="btn-close-modal">Zrušit</button>
+    </div>
+</div>
+
 <script>
     // Předání informace o STAVU ADMINA z PHP do JavaScriptu
     window.isUserAdmin = <?php echo json_encode(is_admin()); ?>;
 </script>
 <script src="assets/js/modal-handler.js"></script>
+<script src="assets/js/request-handler.js"></script>
 </body>
 </html>

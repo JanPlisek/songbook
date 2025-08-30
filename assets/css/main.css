@@ -1063,3 +1063,88 @@ body.login-page-body footer {
     border-radius: 50px;
     font-size: 1.2rem;
 }
+
+/* Styl pro notifikační odkaz na nové požadavky */
+a.requests-link {
+    font-weight: bold;
+    color: #dc3545 !important; /* Výrazná červená barva */
+}
+
+a.requests-link:hover {
+    text-decoration: underline;
+}
+
+/* === STYLY PRO STRÁNKU S POŽADAVKY (requests.php) === */
+.requests-page h1 {
+    margin-bottom: 0.5rem;
+}
+.requests-page > p {
+    margin-bottom: 2rem;
+    color: #6c757d;
+}
+
+.request-item {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1rem;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    transition: all 0.3s ease;
+}
+
+.request-checkbox input[type="checkbox"] {
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.request-details {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 1.5rem;
+}
+
+.request-main-info {
+    flex-grow: 1; /* Hlavní info zabere co nejvíce místa */
+}
+
+.request-details h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.request-note {
+    flex-shrink: 0; /* Poznámka se nebude smršťovat */
+    width: 40%; /* Poznámka zabere 40% šířky */
+}
+.requester-info {
+    font-size: 0.9rem;
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+.request-note {
+    font-size: 1rem;
+    background-color: rgba(0,0,0,0.03);
+    padding: 10px;
+    border-radius: 5px;
+}
+body.dark-mode .request-note {
+    background-color: rgba(255,255,255,0.05);
+}
+
+
+/* Styl pro již vyřízené požadavky */
+.request-item.completed {
+    opacity: 0.6;
+    background-color: rgba(0,0,0,0.02);
+}
+body.dark-mode .request-item.completed {
+    background-color: rgba(255,255,255,0.02);
+}
+
+.request-item.completed h3 {
+    text-decoration: line-through;
+}
