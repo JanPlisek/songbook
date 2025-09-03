@@ -931,7 +931,8 @@ body.dark-mode #modal-song-list .song-list-item-wrapper:hover {
 
 #cropper-container-inline {
     width: 100%;
-    height: 360px; /* Pevná výška pro ořezávací plochu */
+    height: 360px;
+    /* Pevná výška pro ořezávací plochu */
     border: 2px dashed var(--border-color);
     border-radius: 8px;
     position: relative;
@@ -953,7 +954,10 @@ body.dark-mode #modal-song-list .song-list-item-wrapper:hover {
     font-size: 4rem;
     color: #ccc;
 }
-body.dark-mode #cropper-placeholder .material-symbols-outlined { color: #555; }
+
+body.dark-mode #cropper-placeholder .material-symbols-outlined {
+    color: #555;
+}
 
 .btn-secondary {
     padding: 0.5rem 1rem;
@@ -963,17 +967,24 @@ body.dark-mode #cropper-placeholder .material-symbols-outlined { color: #555; }
     border-radius: 5px;
     cursor: pointer;
 }
-.btn-secondary:hover { background-color: #5a6268; }
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
 
 #image-to-crop-inline {
     display: block;
     max-width: 100%;
-    opacity: 0; /* Skryjeme, dokud se nenahraje obrázek */
+    opacity: 0;
+    /* Skryjeme, dokud se nenahraje obrázek */
 }
 
 #image-editor-container .cropper-container {
     position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 
 .image-editor-actions {
@@ -1011,7 +1022,8 @@ body.login-page-body footer {
     text-align: center;
     padding: 2rem;
     color: white;
-    background-color: rgba(0, 0, 0, 0.5); /* Ztmavující překryv pro lepší čitelnost */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Ztmavující překryv pro lepší čitelnost */
 }
 
 /* Box pro samotný formulář */
@@ -1067,7 +1079,8 @@ body.login-page-body footer {
 /* Styl pro notifikační odkaz na nové požadavky */
 a.requests-link {
     font-weight: bold;
-    color: #dc3545 !important; /* Výrazná červená barva */
+    color: #dc3545 !important;
+    /* Výrazná červená barva */
 }
 
 a.requests-link:hover {
@@ -1078,7 +1091,8 @@ a.requests-link:hover {
 .requests-page h1 {
     margin-bottom: 0.5rem;
 }
-.requests-page > p {
+
+.requests-page>p {
     margin-bottom: 2rem;
     color: #6c757d;
 }
@@ -1108,7 +1122,8 @@ a.requests-link:hover {
 }
 
 .request-main-info {
-    flex-grow: 1; /* Hlavní info zabere co nejvíce místa */
+    flex-grow: 1;
+    /* Hlavní info zabere co nejvíce místa */
 }
 
 .request-details h3 {
@@ -1117,34 +1132,156 @@ a.requests-link:hover {
 }
 
 .request-note {
-    flex-shrink: 0; /* Poznámka se nebude smršťovat */
-    width: 40%; /* Poznámka zabere 40% šířky */
+    flex-shrink: 0;
+    /* Poznámka se nebude smršťovat */
+    width: 40%;
+    /* Poznámka zabere 40% šířky */
 }
+
 .requester-info {
     font-size: 0.9rem;
     color: #6c757d;
     margin-bottom: 0.5rem;
 }
+
 .request-note {
     font-size: 1rem;
-    background-color: rgba(0,0,0,0.03);
+    background-color: rgba(0, 0, 0, 0.03);
     padding: 10px;
     border-radius: 5px;
 }
+
 body.dark-mode .request-note {
-    background-color: rgba(255,255,255,0.05);
+    background-color: rgba(255, 255, 255, 0.05);
 }
 
 
 /* Styl pro již vyřízené požadavky */
 .request-item.completed {
     opacity: 0.6;
-    background-color: rgba(0,0,0,0.02);
+    background-color: rgba(0, 0, 0, 0.02);
 }
+
 body.dark-mode .request-item.completed {
-    background-color: rgba(255,255,255,0.02);
+    background-color: rgba(255, 255, 255, 0.02);
 }
 
 .request-item.completed h3 {
     text-decoration: line-through;
+}
+
+/* Styl pro uživatelský odkaz na požadavek */
+a.user-request-link {
+    font-weight: normal;
+    font-size: 0.9rem;
+    color: var(--primary-color) !important;
+}
+
+/* === DODATEČNÉ STYLY PRO CODEMIRROR EDITOR === */
+
+/* Zvětšení písma a řádkování v editoru */
+.CodeMirror {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Vzhled svislého pravítka */
+.CodeMirror-ruler {
+    border-left: 2px dashed;
+    opacity: 0.9;
+}
+
+/* ================================================= */
+/* ===         STYLY PRO FUNKCI SDÍLENÍ         === */
+/* ================================================= */
+
+/* --- A. Mobilní hlavička --- */
+.mobile-actions {
+    display: none; /* Skryto na desktopu */
+    align-items: center;
+    gap: 0.5rem;
+}
+
+a.mobile-action-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    padding: 0.5rem;
+    border-radius: 50%;
+    text-decoration: none;
+}
+a.mobile-action-icon:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+
+/* --- B. Modální okno pro sdílení --- */
+#share-modal .modal-content {
+    max-width: 600px;
+    text-align: left;
+}
+
+.share-content {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+#qr-code-container {
+    padding: 10px;
+    background-color: white;
+    border-radius: 8px;
+    flex-shrink: 0;
+}
+
+.share-options .share-button {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    width: 100%;
+    padding: 0.8rem 1rem;
+    margin-bottom: 0.75rem;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    background-color: transparent;
+    color: var(--text-color);
+    text-align: left;
+}
+.share-options .share-button:hover {
+    background-color: #f0f0f0;
+}
+body.dark-mode .share-options .share-button:hover {
+    background-color: #444;
+}
+
+#copy-link-success {
+    color: green;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* --- C. Responzivita pro sdílení --- */
+@media (max-width: 768px) {
+    /* Zobrazíme kontejner s mobilními ikonami */
+    .mobile-actions {
+        display: flex;
+    }
+
+    /* Schováme text u některých položek v rozbaleném mobilním menu */
+    .main-nav ul li a span:last-child {
+        display: initial; /* Výchozí zobrazení */
+    }
+    #fullscreen-btn span:last-child, 
+    #theme-toggle-btn span:last-child {
+        display: none; /* Skryjeme texty "Celá obrazovka" a "Motiv" */
+    }
+
+    /* Úprava layoutu modálního okna na mobilu */
+    .share-content {
+        flex-direction: column;
+        text-align: center;
+    }
 }

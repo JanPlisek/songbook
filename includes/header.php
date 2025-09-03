@@ -38,52 +38,51 @@
                 </a>
             </li>
 
+            <li id="share-menu-item" class="song-only-item" style="display: none;">
+                <a href="#">
+                    <span class="material-symbols-outlined">share</span>
+                    <span>Sdílet</span>
+                </a>
+            </li>
+            
             <?php if (is_admin()): ?>
                 <li>
-                    <a href="konverze.php">
-                        <span class="material-symbols-outlined">add_link</span>
-                        <span>Přidat z URL</span>
-                    </a>
+                    <a href="requests.php"><span class="material-symbols-outlined">playlist_add_check</span><span>Požadavky</span></a>
                 </li>
                 <li>
-                    <a href="editor.php">
-                        <span class="material-symbols-outlined">edit_document</span>
-                        <span>Přidat ručně</span>
-                    </a>
+                    <a href="konverze.php"><span class="material-symbols-outlined">add_link</span><span>Přidat z URL</span></a>
+                </li>
+                <li>
+                    <a href="editor.php"><span class="material-symbols-outlined">edit_document</span><span>Přidat</span></a>
                 </li>
             <?php endif; ?>
             
             <li>
-                <a href="#" id="fullscreen-btn" title="Přepnout režim celé obrazovky">
-                    <span class="material-symbols-outlined">fullscreen</span>
-                    <span>Celá obrazovka</span>
-                </a>
+                <a href="#" id="fullscreen-btn" title="Celá obrazovka"><span class="material-symbols-outlined">fullscreen</span><span>Celá obrazovka</span></a>
             </li>
-            
             <li>
-                <a href="#" id="theme-toggle-btn" title="Přepnout motiv">
-                    <span class="material-symbols-outlined">contrast</span>
-                    <span>Motiv</span>
-                </a>
+                <a href="#" id="theme-toggle-btn" title="Přepnout motiv"><span class="material-symbols-outlined">contrast</span><span>Motiv</span></a>
             </li>
             <li>
                 <?php if (is_user_logged_in()): ?>
-                    <a href="logout.php">
-                        <span class="material-symbols-outlined">logout</span>
-                        <span>Odhlásit</span>
-                    </a>
+                    <a href="logout.php"><span class="material-symbols-outlined">logout</span><span>Odhlásit</span></a>
                 <?php else: ?>
-                    <a href="login.php">
-                        <span class="material-symbols-outlined">login</span>
-                        <span>Přihlásit</span>
-                    </a>
+                    <a href="login.php"><span class="material-symbols-outlined">login</span><span>Přihlásit</span></a>
                 <?php endif; ?>
             </li>
         </ul>
 
-        <button id="mobile-menu-toggle" class="mobile-menu-button">
-            <span class="material-symbols-outlined">menu</span>
-        </button>
+        <div class="mobile-actions">
+            <a href="#" id="share-menu-item-mobile" class="mobile-action-icon song-only-item" style="display: none;" title="Sdílet píseň">
+                <span class="material-symbols-outlined">share</span>
+            </a>
+            <a href="random.php" class="mobile-action-icon" title="Překvap mě">
+                <span class="material-symbols-outlined">shuffle</span>
+            </a>
+            <button id="mobile-menu-toggle" class="mobile-menu-button">
+                <span class="material-symbols-outlined">menu</span>
+            </button>
+        </div>
     </nav>
 </header>
 

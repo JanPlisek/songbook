@@ -131,6 +131,27 @@ include 'includes/header.php';
         <button id="btn-close-modal" class="btn-close-modal">Zavřít</button>
     </div>
 </div>
+
+<div id="share-modal" class="modal-overlay" style="display: none;">
+    <div class="modal-content">
+        <h3>Sdílet píseň</h3>
+        <div class="share-content">
+            <div id="qr-code-container">
+                </div>
+            <div class="share-options">
+                <p>Naskenujte kód nebo použijte jednu z možností:</p>
+                <button id="btn-copy-link" class="share-button">
+                    <span class="material-symbols-outlined">link</span> Zkopírovat odkaz
+                </button>
+                <button id="btn-native-share" class="share-button">
+                    <span class="material-symbols-outlined">ios_share</span> Sdílet přes...
+                </button>
+                <div id="copy-link-success" style="display: none;">Odkaz zkopírován!</div>
+            </div>
+        </div>
+        <button id="btn-close-share-modal" class="btn-close-modal">Zavřít</button>
+    </div>
+</div>
 <?php include 'includes/footer-song.php'; ?>
 
 <script>
@@ -233,10 +254,41 @@ document.addEventListener('DOMContentLoaded', function() {
     function getChordRootInfo(chord) { let n = chord; if (n.toUpperCase().startsWith('H')) { n = 'B' + n.substring(1); } const m = n.match(/^[A-G](b|#)?/); if (!m) return null; const r = m[0]; const s = n.substring(r.length); const nr = flatToSharp[r] || r; const i = scale.indexOf(nr); return { root:r, suffix:s, index:i }; }
     function transposeChord(chord, amount) { const i = getChordRootInfo(chord); if (!i || i.index === -1) return chord; const ni = (i.index + amount + 12) % 12; let nr = scale[ni]; if (chord.toUpperCase().startsWith('H') && nr === 'B') { nr = 'H'; } else if (nr === 'B') { nr = 'H'; } return nr + i.suffix; }
     function transposeLine(line, amount) { if (!line.trim()) return line; return line.split(/(\s+)/).map(p => p.trim() ? transposeChord(p, amount) : p).join(''); }
-    document.getElementById('btn-show-transpose')?.addEventListener('click', () => { if (!transposeModal) return; const iom = originalKey.includes('m'); document.querySelectorAll('.transpose-keys button').forEach(b => { const ibkm = b.dataset.key.includes('m'); b.style.display = iom === ibkm ? 'inline-block' : 'none'; }); transposeModal.style.display = 'flex'; });
-    document.getElementById('btn-close-modal')?.addEventListener('click', () => { if(transposeModal) transposeModal.style.display = 'none'; });
-    document.querySelectorAll('.transpose-keys button').forEach(b => { b.addEventListener('click', () => { const tk = b.dataset.key; const oki = getChordRootInfo(originalKey); const tki = getChordRootInfo(tk); if (!oki || !tki) return; const ta = tki.index - oki.index; const nl = songLyricsData.map(l => ({ chords: transposeLine(l.chords, ta), text: l.text })); renderSong(nl); if(currentKeySpan) currentKeySpan.textContent = tk; if(transposeModal) transposeModal.style.display = 'none'; }); });
 
+    document.getElementById('btn-show-transpose')?.addEventListener('click', () => {
+        if (!transposeModal) return;
+        // OPRAVA: Zjistíme, zda je AKTUÁLNÍ tónina mollová, ne ta původní
+        const isCurrentKeyMinor = currentKeySpan.textContent.includes('m'); 
+        
+        document.querySelectorAll('.transpose-keys button').forEach(b => {
+            const isButtonKeyMinor = b.dataset.key.includes('m');
+            // Zobrazíme pouze ta tlačítka, která odpovídají aktuálnímu "rodu" (dur/moll)
+            b.style.display = isCurrentKeyMinor === isButtonKeyMinor ? 'inline-block' : 'none';
+        });
+        transposeModal.style.display = 'flex';
+    });
+
+    document.getElementById('btn-close-modal')?.addEventListener('click', () => { if(transposeModal) transposeModal.style.display = 'none'; });
+    document.querySelectorAll('.transpose-keys button').forEach(b => { 
+        b.addEventListener('click', () => { 
+            const targetKey = b.dataset.key;
+            // OPRAVA: Pro výpočet posunu použijeme aktuální tóninu, ne původní
+            const currentKeyForCalc = currentKeySpan.textContent;
+            
+            const originalKeyInfo = getChordRootInfo(currentKeyForCalc);
+            const targetKeyInfo = getChordRootInfo(targetKey);
+            
+            if (!originalKeyInfo || !targetKeyInfo) return;
+            
+            const transposeAmount = targetKeyInfo.index - originalKeyInfo.index;
+            const newLyrics = songLyricsData.map(l => ({...l, chords: transposeLine(l.chords, transposeAmount)}));
+            
+            renderSong(newLyrics);
+            
+            if(currentKeySpan) currentKeySpan.textContent = targetKey;
+            if(transposeModal) transposeModal.style.display = 'none';
+        });
+    });
     // PRVNÍ SPUŠTĚNÍ
     renderSong(songLyricsData);
     autofitFontSize();
@@ -247,3 +299,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <?php endif; ?>
 });
 </script>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js"></script>
+<script src="assets/js/share-handler.js"></script>

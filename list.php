@@ -56,11 +56,19 @@ foreach ($all_songs as $song) {
     <div class="song-header">
         <div class="left-group">
             <h1>Seznam písní</h1>
+            
+            <?php // TATO ČÁST JE PRO BĚŽNÉ UŽIVATELE
+                // Zobrazí se vedle nadpisu a nebude se na mobilu skrývat.
+            if (!is_admin() && is_user_logged_in()): ?>
+                <a href="#" id="btn-show-request-modal" class="requests-link user-request-link">Požádat o píseň</a>
+            <?php endif; ?>
         </div>
+
         <div class="right-group">
             <span>Celkem písní: <strong><?php echo count($all_songs); ?></strong></span>
             
-            <?php if (is_admin()): ?>
+            <?php // TATO ČÁST ZŮSTÁVÁ BEZE ZMĚNY PRO ADMINA
+            if (is_admin()): ?>
                 <?php if ($pending_requests_count > 0): ?>
                     <span> | </span>
                     <a href="requests.php" class="requests-link">
@@ -68,11 +76,9 @@ foreach ($all_songs as $song) {
                     </a>
                 <?php endif; ?>
                 <span> | </span><a href="editor.php">Přidat novou píseň</a>
-            <?php elseif (is_user_logged_in()): ?>
-                <span> | </span><a href="#" id="btn-show-request-modal">Požádat o přidání písně</a>
             <?php endif; ?>
-        </div> 
-    </div>    
+        </div>
+    </div> 
 
     <div class="filter-box">
         <input type="text" id="text-filter-input" placeholder="Filtrovat podle názvu nebo interpreta...">
