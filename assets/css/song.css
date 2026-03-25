@@ -1,0 +1,496 @@
+/* ================================================= */
+/* ===         STYLY PRO STRÁNKU PÍSNĚ           === */
+/* ===         (Refaktorovaná verze)             === */
+/* ================================================= */
+
+/* === 1. ZÁKLADNÍ LAYOUT STRÁNKY === */
+.song-view-body,
+.song-view-body html {
+    overflow-x: hidden !important;
+    /* ZAMEZÍ POSUNU CELÉ STRÁNKY DO STRAN */
+    position: relative;
+    max-width: 100vw;
+}
+
+.song-view-body .container {
+    max-width: none;
+    /* OBNOVENO: Plná šířka pro PC */
+    width: 100%;
+    margin: 0;
+    padding: 0 1.5rem;
+}
+
+@media (max-width: 1200px) {
+    .song-view-body .container {
+        padding: 0 1rem;
+    }
+}
+
+.song-page {
+    width: 100%;
+    max-width: 100vw;
+    overflow: hidden;
+    /* ABSOLUTNÍ ZÁKAZ PŘETEČENÍ */
+    position: relative;
+}
+
+/* === 2. HLAVIČKA PÍSNĚ (NÁZEV, INTERPRET) === */
+.song-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1rem;
+    /* PŘIDÁNO: Odstup od horní lišty */
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.song-header .left-group {
+    display: flex;
+    flex-wrap: wrap;
+    /* Umožní zalamování na malých obrazovkách */
+    align-items: baseline;
+    /* Zarovná texty na účaří */
+    gap: 1rem;
+    /* Mezera mezi názvem a interpretem */
+}
+
+.song-header .right-group {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    white-space: nowrap;
+    /* Zabrání zalamování v pravé části */
+    margin-left: auto;
+    /* Odsadí pravou část co nejvíce doprava */
+}
+
+.song-header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    line-height: 1.2;
+}
+
+@media (max-width: 600px) {
+    .song-header h1 {
+        font-size: 1.3rem;
+        /* OBNOVENO: Menší nadpis na mobilu */
+    }
+
+    .song-view-body .container {
+        padding: 0 0.5rem;
+        /* OBNOVENO: Menší okraje na mobilu */
+    }
+}
+
+/* Styl pro tagy interpretů na stránce s detailem písně */
+.song-performers {
+    font-size: 1.25rem;
+    /* Zvětšeno pro lepší čitelnost */
+    color: #6c757d;
+}
+
+.song-header span {
+    font-size: 0.9rem;
+    color: #495057;
+}
+
+span#current-key,
+span.capo {
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.edit-link-header {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 5px 10px;
+    text-decoration: none;
+    color: #888;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    transition: all 0.2s;
+}
+
+.edit-link-header:hover {
+    color: var(--primary-color);
+    background-color: rgba(0, 0, 0, 0.05);
+    border-color: var(--primary-color);
+}
+
+body.dark-mode .edit-link-header:hover {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+/* === 3. ZOBRAZENÍ TEXTU A AKORDŮ === */
+.lyrics-container {
+    font-family: 'Martian Mono', 'Courier New', Courier, monospace;
+    font-size: 14px;
+    /* Sjednocená velikost, JS ji může měnit */
+    line-height: 1.5;
+    /* Lehce zvětšené řádkování pro čitelnost */
+    white-space: pre;
+    max-width: 100%;
+    overflow-x: auto;
+    /* Základní ochrana proti přetečení */
+}
+
+.lyrics-no-chords .chords-line {
+    display: none !important;
+}
+
+.lyrics-no-chords .text-line {
+    white-space: pre-wrap !important;
+    word-wrap: break-word;
+}
+
+.lyrics-line-group {
+    margin-bottom: .2em;
+}
+
+.stanza-start {
+    margin-top: 1.8em;
+}
+
+.chords-line {
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.stanza-label-wrapper {
+    margin-top: 1.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.stanza-label {
+    display: inline-block;
+    background-color: #f1f3f5;
+    color: #495057;
+    padding: 2px 10px;
+    border-radius: 4px;
+    font-size: 0.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: 1px solid #dee2e6;
+    user-select: none;
+}
+
+body.dark-mode .stanza-label {
+    background-color: #2b3035;
+    color: #adb5bd;
+    border-color: #495057;
+}
+
+.stanza-start {
+    margin-top: 0;
+    /* Už řešeno v label-wrapper */
+}
+
+/* Dvousloupcový layout pro široké obrazovky (GRID) */
+.lyrics-grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    /* Výchozí jednosloupcové zobrazení */
+    gap: 2rem;
+}
+
+/* === 4. OVLÁDACÍ PANEL A MODÁLNÍ OKNO === */
+#song-controls-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 2000;
+    touch-action: manipulation;
+}
+
+#btn-toggle-controls {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    background-color: var(--primary-color);
+    color: white;
+    font-size: 2rem;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s;
+    touch-action: manipulation;
+}
+
+#btn-toggle-controls:hover {
+    transform: scale(1.1);
+}
+
+#controls-popup {
+    position: absolute;
+    bottom: 80px;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: var(--header-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    visibility: hidden;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.2s ease-in-out;
+}
+
+#controls-popup.visible {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#controls-popup button {
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#controls-popup button:hover {
+    background-color: var(--primary-color);
+    color: white;
+    border-color: var(--primary-color);
+}
+
+#controls-popup hr {
+    border: none;
+    border-top: 1px solid var(--border-color);
+    margin: 5px 0;
+}
+
+/* Transpoziční modál - sdílí styly z main.css, zde jen specifika */
+.transpose-keys {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.transpose-keys button {
+    background: none;
+    border: 1px solid var(--border-color);
+    color: var(--text-color);
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.transpose-keys button:hover {
+    background-color: var(--primary-color);
+    color: white;
+}
+
+/* --- Číselník akordů (Modal Grid) --- */
+#chord-modal .modal-content {
+    width: 95%;
+    max-width: 1200px;
+    /* Increased to fit larger chords in 6 columns */
+}
+
+.chord-modal-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* 2 columns on mobile */
+    gap: 20px;
+    padding: 10px 0;
+    max-height: 75vh;
+    overflow-y: auto;
+}
+
+@media (max-width: 350px) {
+    .chord-modal-grid {
+        grid-template-columns: 1fr;
+        /* 1 column on very small phones */
+    }
+}
+
+@media (min-width: 600px) {
+    .chord-modal-grid {
+        grid-template-columns: repeat(4, 1fr);
+        /* 4 columns on tablets */
+    }
+}
+
+@media (min-width: 900px) {
+    .chord-modal-grid {
+        grid-template-columns: repeat(6, 1fr);
+        /* 6 columns on desktop */
+    }
+}
+
+.chord-item {
+    background-color: #f8f9fa;
+    border: 1px solid var(--border-color);
+    border-radius: 8px;
+    padding: 5px;
+    /* Reduced padding to maximize SVG space */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.2s, box-shadow 0.2s;
+    color: var(--text-color);
+    /* Ensure text color is inherited */
+}
+
+.chord-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-color: var(--primary-color);
+}
+
+body.dark-mode .chord-item {
+    background-color: #2b3035;
+}
+
+.chord-svg {
+    display: block;
+    /* Fix for some mobile browsers */
+    max-width: 100%;
+    height: auto;
+    color: var(--text-color, #212529);
+    /* Fallback to dark if variable missing */
+}
+
+.chord-item.unknown {
+    flex-direction: column;
+    color: #6c757d;
+    font-size: 0.8rem;
+}
+
+.chord-name-only {
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    color: var(--primary-color);
+}
+
+.chord-error {
+    font-style: italic;
+    font-size: 0.7rem;
+}
+
+/* === 5. RESPONZIVNÍ STYLY === */
+
+/* --- Tablety a větší obrazovky (od 992px) --- */
+@media (min-width: 992px) {
+    .lyrics-grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+
+    .lyrics-column {
+        flex: 1;
+        min-width: 0;
+        overflow-y: auto;
+        overflow-x: auto;
+        height: calc(100vh - 150px);
+        scrollbar-width: thin;
+        padding-right: 1rem;
+    }
+
+    .lyrics-line-group {
+        break-inside: avoid;
+    }
+}
+
+/* --- Tablety na výšku a telefony (do 1200px) --- */
+@media (max-width: 1200px) {
+    .song-header h1 {
+        font-size: 1.4rem;
+        width: 100%;
+    }
+
+    #btn-autofit-font {
+        display: none !important;
+        /* SKRÝT NA TABLETU/MOBILU - NEFUNGUJE SPOLEHLIVĚ */
+    }
+
+    .song-performers {
+        font-size: 1.1rem;
+    }
+
+    .lyrics-container {
+        font-size: 14px;
+        -webkit-overflow-scrolling: touch;
+        padding-bottom: 2rem;
+    }
+
+    .lyrics-line-group {
+        padding-left: 0;
+        /* Úplně vlevo */
+    }
+
+    .stanza-label-wrapper {
+        margin-top: 1.2rem;
+        margin-bottom: 0.4rem;
+    }
+
+    /* Když jsou akordy schované, vypneme scrollování a povolíme zalamování */
+    .lyrics-no-chords .lyrics-container {
+        overflow-x: hidden;
+    }
+}
+
+/* === 6. STYLY PRO TISK === */
+@media print {
+
+    header,
+    footer,
+    #song-controls-container,
+    .edit-link-header {
+        display: none !important;
+    }
+
+    body,
+    .song-page {
+        margin: 0;
+        padding: 0;
+        box-shadow: none;
+        border: none;
+        background-color: white !important;
+        color: black !important;
+    }
+
+    .lyrics-container {
+        font-size: 12pt;
+        height: auto !important;
+        display: block;
+        /* Zrušíme grid pro tisk */
+    }
+
+    .chords-line {
+        color: black !important;
+    }
+}
+
+.lyrics-grid-container {
+    max-width: 100% !important;
+}
+
+.lyrics-container {
+    overflow-x: auto !important;
+}
